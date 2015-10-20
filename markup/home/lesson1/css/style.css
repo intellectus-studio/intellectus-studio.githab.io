@@ -1,0 +1,21 @@
+body {
+	font-size: 14px;
+	background-color: #E8E8E8;
+ }
+.container {
+	width: 513px;
+	height: 751px;
+	border: 1px solid #E0E0E0;
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;	
+}
+.main {
+	width: 400px;
+	height: 620px;
+ 	margin: auto;
+ 	margin-top: 40px;
+}
+h1, p, ul {
+	text-align: left;
+}
