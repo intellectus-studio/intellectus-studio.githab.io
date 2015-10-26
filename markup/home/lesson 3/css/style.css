@@ -6,6 +6,10 @@ body {
 	width: 100%;
 	background-image: url(../img/bg.png) cover;
 }
+a {
+	text-decoration: none;
+
+}
 
 .container {
 	box-shadow: 2px 4px 5px 6px rgb(218, 218, 218);
@@ -32,6 +36,9 @@ body {
 	background: -ms-linear-gradient(90deg, #444343 0%, #5e5e5e 100%);
 	background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
 }
+.aHead {
+	color: #ffffff;
+}
 .headMenu {
 	margin-left: 23px;
 }
@@ -47,7 +54,7 @@ body {
 	display: inline;
 	margin-right: 47px;
 }
-.chakedNav {
+.aHead:hover {
 	background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
 	background: -moz-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
 	background: -o-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
@@ -75,7 +82,9 @@ aside {
 	height: 176px;
 	
 }
-
+.aAside {
+	color:  #656363;
+}
 .liAside {
 	font-family: OpenSans;
 	color:  #656363;
@@ -91,8 +100,8 @@ aside {
 	background-color:  #ffffff;
 	padding-left: 18px;
 }
-.chaked {
-	color:  #2c2b2b;
+.aAside:hover { 
+   color:  #2c2b2b;
 	padding-left: 32px;
 }
 article {
@@ -146,6 +155,9 @@ footer {
 	text-align: justify;
 	display: inline;
 	margin-right: 70px;
+}
+.aFooter {
+	color:  #2c2c2c;
 }
 .underLine {
 	text-decoration: underline;
