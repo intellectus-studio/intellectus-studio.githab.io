@@ -47,7 +47,7 @@ a {
 	width: 100px;
 	font-family: OpenSans;
 	color: #ffffff;
-	font-size: 14.67px; /* Approximation due to font substitution */
+	font-size: 100%; /* Approximation due to font substitution */
 	font-weight: 400;
 	line-height: 40px; /* Approximation due to font substitution */
 	text-align: justify;
@@ -97,7 +97,7 @@ aside {
 .liAside {
 	font-family: OpenSans;
 	color:  #656363;
-	font-size: 13.33px;/* Approximation due to font substitution */
+	font-size: 100%;/* Approximation due to font substitution */
 	font-weight: 400;
 	line-height: 37.333px;/* Approximation due to font substitution */
 	text-align: left;
@@ -139,11 +139,11 @@ article {
 }
 footer {
 	clear: both;
-	margin-left: 33px;
+	margin: 0 auto;
 	height: 40px;
 	background-color:  #e1e1e1;
 	margin-bottom: 43px;
-	width: 980px;
+	width: 966px;
 } 
 .ulFooter {
 	width: 377px;
@@ -151,29 +151,31 @@ footer {
 	margin-left: 18px;
 }
 .liFooter {
-	display: inline;
+	height: 40px;
+	width: 100px;
+	display: inline-block;
 	font-family: OpenSans;
 	color:  #2c2c2c;
-	font-size: 13.33px;/* Approximation due to font substitution */
+	font-size: 100%;/* Approximation due to font substitution */
 	font-weight: 400;
-	line-height: 29.333px;/* Approximation due to font substitution */
-	text-align: justify;
-	display: inline;
-	margin-right: 70px;
+	line-height: 40px;/* Approximation due to font substitution */
+	text-align: center;
+	
 }
 .aFooter {
 	color:  #2c2c2c;
 }
-.underLine {
+.liFooter:hover {
 	text-decoration: underline;
 }
 span {
 	float: right;
 	font-family: OpenSans;
 	color:  #2c2c2c;
-	font-size: 13.33px;/* Approximation due to font substitution */
+	font-size: 100%;/* Approximation due to font substitution */
 	font-weight: 400;
-	line-height: 29.333px;/* Approximation due to font substitution */
-	text-align: justify;
+	line-height: 40px;/* Approximation due to font substitution */
+	text-align: center;
+	display: inline-block;
 	margin-right: 20px;
 }
