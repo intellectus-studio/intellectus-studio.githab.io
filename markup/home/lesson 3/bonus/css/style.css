@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(../img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 960px;
+}
+header {
+	height: 153;
+}
+.logo {
+	width: 262px;
+	height: 149;
+	
+}
+
+.logoImg {
+	 position:absolute; top: 156px; left: 95px; z-index: 1;
+}
+.palmTree {
+	 position:absolute; top: 81px; left: 235px; z-index: 1;lute;	
+}
+.logoTitle {
+	font-family: Tahoma;
+	color: #e6e6e6;
+	font-size: 14px;
+	font-weight: 400;
+	position: absolute;
+	 top: 196px; 
+	 left: 160px;
+
+}

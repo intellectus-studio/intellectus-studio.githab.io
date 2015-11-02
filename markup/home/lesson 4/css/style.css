@@ -66,9 +66,10 @@ figure {
 figcaption {
 	text-align: center;
 }
-
+.slider {
+	height: 236px;
+}
 .sliderImg {
-	height: 238px;
 	width: 100%;
 }
 nav ul li a {
@@ -84,10 +85,9 @@ nav ul li a {
 }
 nav ul li {
 	display: inline-block;
-	font-family: Tahoma;
 	height: 30px;
-	display: table-cell;
-    vertical-align: middle;
+	/*display: table-cell;
+    vertical-align: middle;*/
 	
 }
 nav ul {
@@ -120,9 +120,9 @@ nav {
 	background: #303030;
 	color: white;
 	display: block;
-	padding: 5px 37px 0 7px;
+	padding: 10px 37px 0 7px;
 	height: 25px;
-	font-size:14px; 
+	font-size: 12px; 
 	width: 98px;
 }
 .menu li{
