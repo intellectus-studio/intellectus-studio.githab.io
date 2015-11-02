@@ -1,10 +1,10 @@
+
 body {
 	font-size: 14px;
 	background-color: #E8E8E8;
  }
 .container {
 	width: 513px;
-	height: 751px;
 	border: 1px solid #E0E0E0;
 	background-color: white;
 	margin: 0 auto;
@@ -12,10 +12,17 @@ body {
 }
 .main {
 	width: 400px;
-	height: 620px;
  	margin: auto;
  	margin-top: 40px;
 }
-h1, p, ul {
+h1, span, ul {
 	text-align: left;
+}
+span {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.part {
+	border-bottom: 1px solid gray;
 }
