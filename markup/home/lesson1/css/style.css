@@ -24,5 +24,12 @@ span {
 	margin-bottom: 10px;
 }
 .part {
+	margin-top: 20px;
 	border-bottom: 1px solid gray;
+}
+.contacts {
+	padding-bottom: 5px;
+}
+.footer {
+	padding-bottom: 40px;
 }
