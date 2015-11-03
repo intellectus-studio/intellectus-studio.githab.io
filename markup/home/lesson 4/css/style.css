@@ -15,6 +15,11 @@ body {
 	width: 1000px;
 	height: 1000px;
 	background-color: white;
+	border: 1px solid gray;
+  -webkit-box-shadow: 1px 1px 1px 1px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+/*  -moz-box-shadow:    3px 3px 3px 3px black;   Firefox 3.5 - 3.6 
+  box-shadow:         3px 3px 3px 3px black;  
+}*/
 }
 header {
 	margin-top: 10px;
@@ -22,7 +27,7 @@ header {
 	margin-left: 27px;
 	margin-right: 27px;
 	margin-bottom: 6px;
-	height: 169px;
+	height: 158px;
 
 }
 .headerImg {
@@ -32,19 +37,19 @@ header {
 	float: right;
 	font-family: Tahoma;
 	color:  rgba(18, 138, 167, 0.8);
-	font-size: 100%;
+	font-size: 12px;
 	font-weight: 400;
 	text-align: right;
 
 }
 .contacts {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 .bold {
 	font-weight: 600;
 }
 .countries {
-	width: 355px;
+	width: 327px;
 	height: 50px;
 }
 ul {
@@ -52,7 +57,7 @@ ul {
 }
 figure {
 	float:left;
-    margin-right:15px;
+    margin-right:10px;
     text-align:center;
     padding:0px;
     font-family: Tahoma;
@@ -65,6 +70,9 @@ figure {
 }
 figcaption {
 	text-align: center;
+}
+.last {
+	margin-right: 0;
 }
 .slider {
 	height: 236px;
@@ -97,7 +105,7 @@ nav ul {
 nav {
 	width: 100%;
 	height: 34px;
-	border-bottom: 1px solid black;
+	border-bottom: 2px solid black;
 }
 .dropdown{
 	position: relative;
@@ -136,8 +144,6 @@ nav {
 	line-height: 24px;
 	text-align: left;
 	width: 100%;
-	height: 500px;
-
 }
 h3 {
 	font-family: Tahoma;
@@ -145,6 +151,7 @@ h3 {
 	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
+	padding-bottom: 5px;
 	
 }
 .box1 {
@@ -154,6 +161,7 @@ h3 {
 	background-color: rgb(235,236,238);
 	text-align:center;
 	border-right: 1px solid rgb(212,214,215);
+	padding-top: 5px;
 }
 .box2 {
 	float:right;
@@ -162,6 +170,7 @@ h3 {
 	text-align:center;
 	height: 539px;;
 	border-left: 1px solid rgb(212,214,215);
+	padding-top: 5px;
 }
 .footer {
 	font-family: Tahoma;
@@ -169,8 +178,6 @@ h3 {
 	font-size: 100%;
 	font-weight: 400;
 	text-align: center;
-	height: 30px;
+	height: 40px;
 	line-height: 30px;
-  
-
 }
