@@ -16,10 +16,9 @@ body {
 	height: 1000px;
 	background-color: white;
 	border: 1px solid gray;
-  -webkit-box-shadow: 1px 1px 1px 1px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-/*  -moz-box-shadow:    3px 3px 3px 3px black;   Firefox 3.5 - 3.6 
-  box-shadow:         3px 3px 3px 3px black;  
-}*/
+  -webkit-box-shadow: 1px 1px 1px 1px black;  
+  -moz-box-shadow:    1px 1px 1px 1px black;  
+  box-shadow:         1px 1px 1px 1px black; 
 }
 header {
 	margin-top: 10px;
@@ -180,4 +179,5 @@ h3 {
 	text-align: center;
 	height: 40px;
 	line-height: 30px;
+	margin-top: 5px;
 }
