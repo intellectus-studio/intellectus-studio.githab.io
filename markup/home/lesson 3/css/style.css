@@ -21,9 +21,11 @@ header {
 	width: 1060px;
 	margin: 0 auto;
 	padding-bottom: 50px;
-	-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
-    -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
-    box-shadow: 0 0 5px 0 rgba(0,0,0,.3);
+	-webkit-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.3);
+    background-image: url(../img/container.png);
+    background-size: cover;
 
 }
 .headImg {
@@ -95,8 +97,7 @@ li {
      height: 0;
      }
 aside {
-	background-image: url(../img/list.png);
-	background-size: cover;
+	border:1px solid #c8c8c8;;
 	box-sizing: border-box;
 	background-color:  #ffffff;
 	width: 240px;
@@ -161,7 +162,6 @@ footer {
 .ulFooter {
 	float: left;
 	display: inline;
-	margin-left: 24px;
 }
 .liFooter {
 	display: inline-block;
@@ -171,7 +171,7 @@ footer {
 	font-weight: 400;
 	line-height: 40px;/* Approximation due to font substitution */
 	text-align: center;
-	margin-right: 90px;	
+	margin: 0 30px;	
 }
 
 .aFooter {
