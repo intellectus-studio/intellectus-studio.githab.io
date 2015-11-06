@@ -20,6 +20,9 @@ td {
 	width: 57px;
 	border: 4px solid black;
 }
+.white {
+	background-color: white;
+}
 .yellow {
 	background-color: yellow;
 }
