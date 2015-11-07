@@ -8,7 +8,7 @@
 }
 body {
 	width: 100%;
-	background-image: url(../img/bg.png);
+	background-color: rgb(249, 249,249);
 	background-size: cover;
 }
 a {
@@ -27,7 +27,6 @@ header {
     background-color: rgb(255, 255, 255);
 }
 .headImg {
-	width: 145px;
 	margin-bottom: 30px;
 	margin-left: 45px;
 
@@ -44,12 +43,10 @@ header {
 }
 .aHead {
 	color: #ffffff;
+	display: block;
+	padding: 0 30px;
 }
 .liInline {
-	padding-left: 23px;
-	padding-right: 23px;
-	margin-left: 10px;
-	margin-right: 10px;
 	font-family: OpenSans;
 	color: #ffffff;
 	font-size: 15px;
@@ -63,7 +60,7 @@ header {
 	cursor: pointer;
 	
 }
-.liInline:hover {
+.aHead:hover {
 	background: -webkit-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
 	background: -moz-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
 	background: -o-linear-gradient(90deg, #2e2e2e 0%, #4a4a4a 100%);
@@ -71,9 +68,7 @@ header {
 	background: linear-gradient(0deg, #2e2e2e 0%, #4a4a4a 100%);
 	border-left: 1px solid rgb(101, 99, 99);
 	border-right: 1px solid rgb(101, 99, 99);
-	padding-left: 22px;
-	padding-right: 22px;
-	
+	margin: 0 -1px
 }
 li {
 	list-style-type: none;
@@ -143,8 +138,8 @@ article {
 	box-sizing: border-box;
 	width: 675px;
 	display: table-cell;
-  text-align: center;
-  vertical-align: middle;	
+	text-align: center;
+	vertical-align: middle;	
 }
 
 footer {
