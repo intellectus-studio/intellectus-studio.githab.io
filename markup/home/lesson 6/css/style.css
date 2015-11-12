@@ -34,29 +34,29 @@ header {
 	background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
 	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
 	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
-	width: 496px;
 	display: inline-block;
 	height: 26px;
 	background-color: rgb(20, 72, 106);
-	border-radius: 9px 9px 9px 9px;
-	-moz-border-radius: 9px 9px 9px 9px;
-	-webkit-border-radius: 9px 9px 9px 9px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
 	border: 0px solid #000000;
 }
 form {
 	padding-left: 24px;
 	background-image: url(../img/human.png);
 	background-repeat: no-repeat;
-	background-position: center left 4px;
+	background-position: center left 5px;
 
 }
 input {
 	display: inline-block;
 	width: 113px;
 	height: 16px;
-	/*position: relative;*/
 	border: none;
 	border-radius: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 label {
 	font-family: 'Lucida Sans Unicode';
@@ -66,6 +66,7 @@ label {
 	line-height: 28px;
 	text-align: left;
 	transform: scaleY(1.0366); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+	margin-left: 2px;
 }
 button {
 	font-family: 'Lucida Sans Unicode';
@@ -78,13 +79,14 @@ button {
 	background-color: transparent;
 	height: 20px;
 	border: none;
+	margin-left: 13px;
+	margin-right: 6px;
 }
 .headerMenu {
 	width: 77px;
 	display: inline-block;
 	margin-left: 18px;
 	align-self: center;
-	width: 76px;
 	height: 20px;
 	background-image: url(../img/home.png), url(../img/links.png), url(../img/mail.png);
 	background-repeat: no-repeat, no-repeat, no-repeat;
