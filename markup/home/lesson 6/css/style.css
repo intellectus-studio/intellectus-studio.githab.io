@@ -1,0 +1,443 @@
+@font-face {
+	font-family: 'Lucida Sans Unicode';
+	scr: url(../fonts/lsansuni.ttf);
+}
+.wrapper {
+	width: 941px;
+	margin: 0 auto;
+	
+}
+header {
+	margin-top: 18px;
+	margin-left: 5px;
+}
+.phone {
+	padding-left: 14px;
+	width: 290px;
+	display: inline-block;
+	background-image: url(../img/icon.png), url(../img/Shape8.png) ;
+	background-repeat: no-repeat, no-repeat;
+	background-position: left 6px center, center right 280px;
+	font-family: Arial;
+	color:  #5e696d;
+	font-size: 17.99px;
+	font-weight: 400;
+	letter-spacing: 0.45px;
+	line-height: 28px;
+	text-align: center;
+	transform: scaleY(1.0003);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+.autorize {
+	background: -webkit-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	background: -moz-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	background: -o-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+	width: 496px;
+	display: inline-block;
+	height: 26px;
+	background-color: rgb(20, 72, 106);
+	border-radius: 9px 9px 9px 9px;
+	-moz-border-radius: 9px 9px 9px 9px;
+	-webkit-border-radius: 9px 9px 9px 9px;
+	border: 0px solid #000000;
+}
+form {
+	padding-left: 24px;
+	background-image: url(../img/human.png);
+	background-repeat: no-repeat;
+	background-position: center left 4px;
+
+}
+input {
+	display: inline-block;
+	width: 113px;
+	height: 16px;
+	/*position: relative;*/
+	border: none;
+	border-radius: 2px;
+}
+label {
+	font-family: 'Lucida Sans Unicode';
+	color: #ffffff;
+	font-size: 10.53px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+	transform: scaleY(1.0366); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+button {
+	font-family: 'Lucida Sans Unicode';
+	color:  #bfbfbf;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+	text-decoration: underline;
+	text-align: left;
+	background-color: transparent;
+	height: 20px;
+	border: none;
+}
+.headerMenu {
+	width: 77px;
+	display: inline-block;
+	margin-left: 18px;
+	align-self: center;
+	width: 76px;
+	height: 20px;
+	background-image: url(../img/home.png), url(../img/links.png), url(../img/mail.png);
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: center left 8px, center  center, center right 8px;
+	border: 1px solid rgb(193, 200, 203);
+	border-radius: 12px;
+	position: relative;
+	top: 5px;
+	right: 4px;
+}
+.slider {
+	margin-top: 8px;
+}
+.slider img {
+	width: 909px;
+}
+nav {
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #0d1642;
+	border-radius: 3px;
+	background: -webkit-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
+	background: -moz-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
+	background: -o-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
+	background: -ms-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
+	background: linear-gradient(0deg, #000000 0%, #4c535a 87%, #576068 100%);
+	box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
+	width: 910px;
+	height: 33px;
+	display: inline-block;
+}
+nav ul {
+	margin-left: 140px;
+	display: inline-block;
+}
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	font-family: 'Lucida Sans Unicode';
+	color:  #b1bcc0;;
+	font-size: 13.64px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: center;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+nav ul li:hover {
+	background-color: rgb(29, 96, 129);
+	border-radius: 12px;
+}
+.sale {
+	display: inline-block;
+	float: right; 
+
+}
+.sale ul {
+	background-image: url(../img/Layer15.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 12px;
+	margin-left: 20px;
+}
+.sale ul li {
+	display: inline-block;
+	font-family: Arial;
+	color:  #929b9f;
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 0.44px;
+	text-align: left;
+}
+.sale ul li span {
+	font-family: Arial;
+	color:  #0d5a8f;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.48px;
+	text-align: left;
+}
+.sale ul li:hover {
+	background-color: transparent;
+}
+.mainContainer {
+	margin-top: 20px;
+	overflow: hidden;
+}
+.leftMenu, .rightMenu {
+	width: 182px;
+	font-family: 'Lucida Sans Unicode';
+	color:  #465961;
+	font-size: 12.73px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+}
+.main {
+	width: 528px;
+	margin-left: 20px;
+}
+.leftMenu {
+	float: left;
+}
+.rightMenu {
+	float: right;
+}
+.main {
+	/*position: relative;
+	left: 200px;*/
+	float: left;
+}
+.imgContainer {
+	text-align: center;
+	border-radius: 9px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #a4aeb1;
+	background-color:  #ffffff;
+	background-size: 138px 128px;
+
+}
+.colTitle {
+	width: 181px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #79878d;
+	background-color:  #ffffff;
+	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+	border-radius: 15px;
+	margin-bottom: 10px;
+	background-image: url(../img/catalog_icon.png);
+	background-repeat: no-repeat;
+	background-position: center left 3px;
+	background-size: 22px 21px;
+	padding-left: 10px;
+	font-family: 'Lucida Sans Unicode';
+	color:  #114165;
+	font-size: 12.73px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: right;
+}
+.colTitle span {
+	padding-right: 17px;
+}
+h3 {
+	width: 148px;
+	transform: scaleY(1.0003);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #79878d;
+	background-color:  #ffffff;
+	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+	border-radius: 15px;
+	margin-bottom: 5px;
+	font-family: 'Lucida Sans Unicode';
+	color:  #114165;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+}
+h2 {
+	font-family: 'Lucida Sans Unicode';
+	color:  #206988;
+	font-size: 14.59px;
+	font-weight: 400;
+	line-height: 14px;
+	text-align: center;	
+	padding-top: 10px;
+}
+.subheader {
+	font-family: 'Lucida Sans Unicode';
+	color:  #1f2528;
+	font-size: 12.77px;
+	font-weight: 400;
+	line-height: 14px;
+	display:table;
+	margin:0 auto;
+}
+.price {
+	font-family: Arial;
+	color:  #114165;
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 11px;
+	display:table;
+	margin:0 auto;
+	padding-top: 5px;
+}
+ul li a {
+	font-family: 'Lucida Sans Unicode';
+	color:  #465961;
+	font-size: 12.73px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+	text-decoration: none;
+}
+ul li a:hover {
+	font-family: 'Lucida Sans Unicode';
+	color:  #114165;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+	text-decoration: underline;
+}
+.uah {
+	font-size: 12px;
+}
+.tires ul li {
+	list-style-type: circle;
+	margin-left: 20px;
+}
+.discs ul li {
+	list-style-type: circle;
+	margin-left: 20px;
+}
+.screw ul li {
+	list-style-type: circle;
+	margin-left: 20px;
+}
+.main {
+	background-color:  #ffffff;
+	background: -webkit-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	background: -moz-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	background: -o-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	background: -ms-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	background: linear-gradient(0deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	/* Layer contains multiple layer styles that cannot be represented in CSS. Use the color picker or extract the layer as an image. */
+	width: 527px;
+	height: 628px;
+}
+.goods {
+	margin: 10px;
+	width: 27%;
+	display: inline-block;
+
+}
+.goodsMain {
+	width: 475px;
+	margin: 0 auto;
+}
+.titleCol {
+	border-width: 1px;
+	border-color:  #79878d;
+	background-color:  #ffffff;
+	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+	border-radius: 15px;
+	border-style: solid;
+	margin-bottom: 5px;
+	background-image: url(../img/circ_icon.png);
+	background-repeat: no-repeat;
+	background-position: left 3px center;
+	background-size: 22px 21px;
+	padding-left: 30px;
+	/*font-family: 'Lucida Sans Unicode';
+	color:  #114165;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;*/
+}
+.mainHeader {
+	width: 120px;
+	font-family: 'Lucida Sans Unicode';
+	color:  #0c3256;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	text-align: left;
+	padding-left: 30px;
+	background-image: url(../img/catalog_icon.png);
+	background-repeat: no-repeat;
+	background-position: center left 3px;
+	background-size: 22px 21px;
+}
+.headerRight {
+	width: 120px;
+	background-image: url(../img/circ_icon.png);
+	background-repeat: no-repeat;
+	background-position: center left 3px;
+	background-size: 22px 21px;
+	padding-left: 30px;
+}
+.right ul li {
+	font-family: 'Lucida Sans Unicode';
+	color:  #465961;
+	font-size: 12.73px;
+	font-weight: 400;
+	line-height: 25px;
+	text-align: left;
+	list-style-type: none;
+	margin-left: 20px;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.prefooter {
+	margin-top: 40px;
+	text-align: center;
+}
+.prefooter img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+footer {
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #242a3c;
+	background-color:  #213a4d;
+	width: 908px;
+	height: 100px;
+	text-align: center;
+}
+.footerNav ul li {
+	display: inline-block;
+	border-right: 1px solid #68757a;
+	padding-right: 10px;
+	margin-right: 5px;
+}
+.footerNav ul li:last-child {
+	border: none;
+}
+.footerNav ul li a {
+	font-family: Arial;
+	color:  #bec6c9;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.3px;
+	line-height: 18px;
+	text-align: center;
+	transform: scaleY(1.0003);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+	text-decoration: none;
+
+}
+.footerNav ul {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.copyright {
+	margin-top: 20px;
+font-family: Arial;
+color: #7f4740;
+font-size: 10px;
+font-weight: 400;
+letter-spacing: 0.25px;
+line-height: 18px;
+}
