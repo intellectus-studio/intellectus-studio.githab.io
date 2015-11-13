@@ -5,13 +5,14 @@
 
 body {
 	background-image: url(../img/Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .container {
 	width: 1215px;
 	margin: 0 auto;
 }
 header {
-	height: 36px;
 	overflow:auto;
 	background-image: url(../img/Pattern.png), url("../img/Noise.png"), url("../img/Layer 13.png");
 }
@@ -24,7 +25,7 @@ header {
 	
 }
 .navList {
-	font-family: HelveticaNeue;
+	font-family: "HelveticaNeue";
 	color:  #60b5ed;
 	font-size: 14px;
 	font-weight: 400;
@@ -88,7 +89,6 @@ a {
 	color:  #ffffff;
 }
 .main {
-	width: 1215px;
 	height: 1028px;
 	background-image: url(../img/BackgroundСopy.png);
 
@@ -109,7 +109,6 @@ a {
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 68px;
-	height: 68px;
 	text-align: center;
 	margin-bottom: 3px;
 }
@@ -127,10 +126,9 @@ a {
 }
 .formGroup {
 	background-color: rgba(0, 0, 0, 0.7);
-	height: 560px;
+	padding-bottom: 20px;
 }
 .or {
-	width: 277px;
 	font-family: HelveticaNeue;
 	color: #999999;
 	font-size: 14px;
@@ -199,7 +197,7 @@ input[type=submit] {
 	margin-top: 23px;
 }
 .warning {
-	margin-top: 10px;
+	margin-top: 15px;
 	font-family: HelveticaNeue;
 	color: #cccccc;
 	font-size: 11px;
