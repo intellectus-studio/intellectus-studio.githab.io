@@ -100,9 +100,6 @@ button {
 .slider {
 	margin-top: 8px;
 }
-.slider img {
-	width: 909px;
-}
 nav {
 	border-style: solid;
 	border-width: 1px;
@@ -114,8 +111,6 @@ nav {
 	background: -ms-linear-gradient(90deg, #000000 0%, #4c535a 87%, #576068 100%);
 	background: linear-gradient(0deg, #000000 0%, #4c535a 87%, #576068 100%);
 	box-shadow: 1px 3px 5px 0px rgba(0, 0, 0, 0.75);
-	width: 910px;
-	height: 33px;
 	display: inline-block;
 }
 nav ul {
@@ -129,7 +124,7 @@ nav ul li {
 	color:  #b1bcc0;;
 	font-size: 13.64px;
 	font-weight: 400;
-	line-height: 28px;
+	line-height: 33px;
 	text-align: center;
 	padding-left: 12px;
 	padding-right: 12px;
@@ -149,6 +144,7 @@ nav ul li:hover {
 	background-position: left;
 	padding-left: 12px;
 	margin-left: 20px;
+	padding-right: 24px;
 }
 .sale ul li {
 	display: inline-block;
@@ -158,6 +154,7 @@ nav ul li:hover {
 	font-weight: 400;
 	letter-spacing: 0.44px;
 	text-align: left;
+	margin-right: 5px;
 }
 .sale ul li span {
 	font-family: Arial;
@@ -172,7 +169,6 @@ nav ul li:hover {
 }
 .mainContainer {
 	margin-top: 20px;
-	overflow: hidden;
 }
 .leftMenu, .rightMenu {
 	width: 182px;
@@ -184,19 +180,21 @@ nav ul li:hover {
 	text-align: left;
 }
 .main {
-	width: 528px;
 	margin-left: 20px;
+	float: left;
+	background-color:  #ffffff;
+	background: -webkit-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	background: -moz-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	background: -o-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	background: -ms-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	background: linear-gradient(0deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
+	width: 527px;
 }
 .leftMenu {
 	float: left;
 }
 .rightMenu {
 	float: right;
-}
-.main {
-	/*position: relative;
-	left: 200px;*/
-	float: left;
 }
 .imgContainer {
 	text-align: center;
@@ -209,14 +207,13 @@ nav ul li:hover {
 
 }
 .colTitle {
-	width: 181px;
 	border-style: solid;
 	border-width: 1px;
 	border-color:  #79878d;
 	background-color:  #ffffff;
 	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
 	border-radius: 15px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	background-image: url(../img/catalog_icon.png);
 	background-repeat: no-repeat;
 	background-position: center left 3px;
@@ -230,11 +227,9 @@ nav ul li:hover {
 	text-align: right;
 }
 .colTitle span {
-	padding-right: 17px;
+	padding-right: 7px;
 }
 h3 {
-	width: 148px;
-	transform: scaleY(1.0003);/* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
 	border-style: solid;
 	border-width: 1px;
 	border-color:  #79878d;
@@ -287,13 +282,16 @@ ul li a {
 	text-decoration: none;
 }
 ul li a:hover {
-	font-family: 'Lucida Sans Unicode';
-	color:  #114165;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 28px;
-	text-align: left;
-	text-decoration: underline;
+	font-family: Arial;
+color:  #0c3256;
+font-size: 14px;
+font-weight: 700;
+font-style: italic;
+line-height: 28px;
+text-decoration: underline;
+text-align: left;
+transform: scaleY(1.0003);
+	font-style: oblique;
 }
 .uah {
 	font-size: 12px;
@@ -310,17 +308,7 @@ ul li a:hover {
 	list-style-type: circle;
 	margin-left: 20px;
 }
-.main {
-	background-color:  #ffffff;
-	background: -webkit-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
-	background: -moz-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
-	background: -o-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
-	background: -ms-linear-gradient(90deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
-	background: linear-gradient(0deg, rgba(35, 75, 93, 0.49) 0%, rgba(129, 150, 159, 0.49) 57%, rgba(201, 207, 209, 0.49) 100%);
-	/* Layer contains multiple layer styles that cannot be represented in CSS. Use the color picker or extract the layer as an image. */
-	width: 527px;
-	height: 628px;
-}
+
 .goods {
 	margin: 10px;
 	width: 27%;
@@ -344,14 +332,8 @@ ul li a:hover {
 	background-position: left 3px center;
 	background-size: 22px 21px;
 	padding-left: 30px;
-	/*font-family: 'Lucida Sans Unicode';
-	color:  #114165;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 25px;*/
 }
 .mainHeader {
-	width: 120px;
 	font-family: 'Lucida Sans Unicode';
 	color:  #0c3256;
 	font-size: 14px;
@@ -363,9 +345,9 @@ ul li a:hover {
 	background-repeat: no-repeat;
 	background-position: center left 3px;
 	background-size: 22px 21px;
+	margin-bottom: 20px;
 }
 .headerRight {
-	width: 120px;
 	background-image: url(../img/circ_icon.png);
 	background-repeat: no-repeat;
 	background-position: center left 3px;
@@ -381,15 +363,37 @@ ul li a:hover {
 	text-align: left;
 	list-style-type: none;
 	margin-left: 20px;
+	margin-bottom: 3px;
 }
-.clearfix:after {
+.check {
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #a7abae;
+	border-radius: 15px;
+	background: -webkit-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	background: -moz-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	background: -o-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+	width: 80px;
+	height: 26px;
+	font-family: Arial;
+	color:  #e5e9ea;
+	font-size: 11px;
+	font-weight: 400;
+	letter-spacing: 0.44px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.clearfix {
      visibility: hidden;
      display: block;
      font-size: 0;
      content: " ";
      clear: both;
      height: 0;
-     }
+}
 .prefooter {
 	margin-top: 40px;
 	text-align: center;
@@ -436,10 +440,10 @@ footer {
 
 .copyright {
 	margin-top: 20px;
-font-family: Arial;
-color: #7f4740;
-font-size: 10px;
-font-weight: 400;
-letter-spacing: 0.25px;
-line-height: 18px;
+	font-family: Arial;
+	color: #7f4740;
+	font-size: 10px;
+	font-weight: 400;
+	letter-spacing: 0.25px;
+	line-height: 18px;
 }
