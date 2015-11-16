@@ -19,6 +19,7 @@ body {
   box-shadow:         1px 1px 1px 1px black; 
 }
 header {
+	margin-top: 10px;
 	padding-top: 48px;
 	margin-left: 27px;
 	margin-right: 27px;
