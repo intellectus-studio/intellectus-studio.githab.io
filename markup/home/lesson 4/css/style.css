@@ -129,11 +129,12 @@ nav {
 	background: #303030;
 	color: white;
 	display: block;
-	padding: 0 40px;
+	padding: 0 35px;
 	font-size: 12px; 
 }
 .menu li{
-	float: left;
+	/*float: left;*/
+	display: inline-block;
 }
 .content {
 	font-family: Tahoma;
