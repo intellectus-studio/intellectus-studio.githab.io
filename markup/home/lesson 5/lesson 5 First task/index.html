@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div class="container">
 	<header>
 		<div class="nav">
 			<ul>
@@ -17,8 +16,8 @@
 				<li><a class="navList" href="#">Contato</a></li>       
 				<li><a class="navList" href="#">Ajuda</a></li>
 			</ul>
-			<div class="headTip"><a href="#"> Minhas Ofertas</a></div>
-			<div class="button"><a href="#">Ola! Entrar ou Cadastre-se</a></div>
+			<div class="headTip">Minhas Ofertas</div>
+			<div class="button">Ola! <a href="#">Entrar</a> ou <a href="#">Cadastre-se</a></div>
 		</div>
 	</header>
 	<div class="main">
@@ -28,14 +27,17 @@
 			</div>
 			<div class="formGroup">
 				<div class="formContent">
-					<a href="#"><img src="img/Layer 3 copy.png"></a>
+					<button class="facebook">
+                            <span class="facebook_left">f</span>
+                            <span class="facebook_right">Login in <span class="thin">with</span> facebook</span>
+                        </button>
 					<div class="or">OU</div>
 					<form>
-						<input type="text" name="fname" placeholder="First Name"><br>
-						<input type="text" name="lname" placeholder="Last Name"><br>
-						<input type="text" name="email" placeholder="Email Adress"><br>
-						<input type="password" name="pass" placeholder="Choose Passsword"><br>
-						<input type="password" name="passw" placeholder="Password Confirm"><br>
+						<input type="text" class="textArea" name="fname" placeholder="First Name"><br>
+						<input type="text" class="textArea" name="lname" placeholder="Last Name"><br>
+						<input type="text"  class="textArea"name="email" placeholder="Email Adress"><br>
+						<input type="password" class="textArea" name="pass" placeholder="Choose Passsword"><br>
+						<input type="password"  class="textArea" name="passw" placeholder="Password Confirm"><br>
 						<div class="checkDiv">
 						    <label><input type="checkbox" /> <span>Send me Youbike updates and tips</span></label>
 						 </div>
@@ -49,6 +51,5 @@
 
 	</div>
 	
-</div>
 </body>
 </html>
