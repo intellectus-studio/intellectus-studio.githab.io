@@ -4,11 +4,18 @@
 }
 body {
 	font-family: "Helvetica", Arial, Tahoma, sans-serif;
+	height: 1028px;
+	background-image: url(../img/BackgroundСopy.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 header {
 	overflow:auto;
 	background-image: url(../img/Pattern.png), url("../img/Noise.png"), url("../img/Layer 13.png");
+}
+.main {
+	margin-top: 500px;
 }
 .nav {
 	float: right;
@@ -78,20 +85,11 @@ a {
 	font-weight: 400;
 	line-height: 14px;
 	text-align: left;
-}
-.button:hover {
 	background-image: url(../img/Layer16.png);
 }
 .button a {
 	color:  #ffffff;
 	text-decoration: underline;
-}
-.main {
-	height: 1028px;
-	background-image: url(../img/BackgroundСopy.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-
 }
 .formFields {
 	margin: 0 auto;
@@ -118,7 +116,6 @@ a {
     background: url(../img/facebook.jpg);
     color: #fff;
     font-weight: bold;
-    /*border-top: 1px solid #7889b7;*/
     border-radius: 5px;
     border: none;
 }
@@ -158,12 +155,13 @@ a {
 	padding-bottom: 20px;
 }
 .or {
+	margin-bottom: 30px;
+	margin-top: 30px;
 	font-family: Helvetica;
 	color: #999999;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 76px;
-	height: 76px;
+	
 	text-align: center;
 	background-image: url(../img/Layer49.png);
 	background-repeat: no-repeat;
