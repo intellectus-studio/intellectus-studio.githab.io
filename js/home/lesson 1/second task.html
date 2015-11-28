@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var array = [];
+	for (i=0; i<5; i++) {
+		array.push(prompt("Enter a name"));
+	}
+var userName = prompt("enter your name");
+var found = false;
+for (i=0; i < array.length; i++) {
+	if (array[i] == userName) {
+		found = true;
+		break;
+	}
+}
+if (found) {
+	alert(userName + " "+ "you are successfully entered your account");
+} else {
+	alert("mistake");
+}
+</script>
+</body>
+</html>
