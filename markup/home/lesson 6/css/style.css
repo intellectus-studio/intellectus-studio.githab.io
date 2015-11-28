@@ -33,14 +33,15 @@ header {
 	background: -o-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
 	background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
 	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
-	box-shadow: 1px 3px 3px 0px rgba(150, 150, 150, 0.75);
+	box-shadow: 1px 2px 2px 0px rgba(150, 150, 150, 0.75);
 	display: inline-block;
-	height: 26px;
 	background-color: rgb(20, 72, 106);
 	border-radius: 4px;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
 	border: 0px solid #000000;
+	position: relative;
+	bottom: 5px;
 }
  a {
 	text-decoration: none;
@@ -53,7 +54,7 @@ form {
 	background-position: center left 5px;
 
 }
-input {
+input[type="text"], input[type="password"] {
 	display: inline-block;
 	width: 113px;
 	height: 14px;
@@ -118,9 +119,8 @@ button {
 	text-decoration: underline;
 	text-align: left;
 	background-color: transparent;
-	height: 20px;
 	border: none;
-	margin-left: 13px;
+	margin-left: 14px;
 	margin-right: 6px;
 }
 .headerMenu {
@@ -135,11 +135,10 @@ button {
 	border: 1px solid rgb(193, 200, 203);
 	border-radius: 12px;
 	position: relative;
-	top: 5px;
-	right: 4px;
+	right: 9px;
 }
 .slider {
-	margin-top: 8px;
+	margin-top: 5px;
 }
 nav {
 	border-style: solid;
@@ -165,10 +164,10 @@ nav ul li {
 	color:  #b1bcc0;;
 	font-size: 13.64px;
 	font-weight: 400;
-	line-height: 33px;
+	line-height: 35px;
 	text-align: center;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 13px;
+	padding-right: 11px;
 }
 nav ul li:hover {
 	background-color: rgb(29, 96, 129);
@@ -184,8 +183,9 @@ nav ul li:hover {
 	background-repeat: no-repeat;
 	background-position: left;
 	padding-left: 12px;
-	margin-left: 20px;
-	padding-right: 24px;
+	margin-left: 75px;
+	padding-right: 7px;
+	padding-left: 20px;
 }
 .sale ul li {
 	display: inline-block;
@@ -196,6 +196,8 @@ nav ul li:hover {
 	letter-spacing: 0.44px;
 	text-align: left;
 	margin-right: 5px;
+	margin-left: 0px;
+	padding: 0px;
 }
 .sale ul li span {
 	font-family: Arial;
@@ -209,7 +211,7 @@ nav ul li:hover {
 	background-color: transparent;
 }
 .mainContainer {
-	margin-top: 20px;
+	margin-top: 168px;
 }
 .leftMenu, .rightMenu {
 	width: 182px;
@@ -324,16 +326,16 @@ ul li a {
 	text-align: left;
 	text-decoration: none;
 }
-ul li a:hover {
+.leftMenu ul li a:hover {
 	font-family: Arial;
-color:  #0c3256;
-font-size: 14px;
-font-weight: 700;
-font-style: italic;
-line-height: 28px;
-text-decoration: underline;
-text-align: left;
-transform: scaleY(1.0003);
+	color:  #0c3256;
+	font-size: 14px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 28px;
+	text-decoration: underline;
+	text-align: left;
+	transform: scaleY(1.0003);
 	font-style: oblique;
 }
 .uah {
@@ -341,15 +343,15 @@ transform: scaleY(1.0003);
 }
 .tires ul li {
 	list-style-type: circle;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 .discs ul li {
 	list-style-type: circle;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 .screw ul li {
 	list-style-type: circle;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 
 .goods {
@@ -421,8 +423,6 @@ transform: scaleY(1.0003);
 	background: -o-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
 	background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
 	background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
-	width: 80px;
-	height: 26px;
 	font-family: Arial;
 	color:  #e5e9ea;
 	font-size: 12px;
@@ -433,11 +433,6 @@ transform: scaleY(1.0003);
 	margin-top: 10px;
 }
 .clearfix {
-     /*display: block;
-     font-size: 0;
-     content: " ";
-     clear: both;
-     height: 0;*/
      clear: both;
 }
 .prefooter {
@@ -451,12 +446,11 @@ transform: scaleY(1.0003);
 }
 footer {
 	margin-top: 20px;
+	padding-bottom: 40px;
 	border-style: solid;
 	border-width: 1px;
 	border-color:  #242a3c;
 	background-color:  #213a4d;
-	width: 908px;
-	height: 100px;
 	text-align: center;
 }
 .footerNav ul li {
