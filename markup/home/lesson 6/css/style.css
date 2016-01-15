@@ -54,7 +54,7 @@ header {
 	text-decoration: none;
 	cursor: pointer;
 }
-form {
+.formAuto {
 	padding-left: 24px;
 	background-image: url(../img/human.png);
 	background-repeat: no-repeat;
@@ -116,6 +116,9 @@ label {
 	text-align: left;
 	transform: scaleY(1.0366); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
 	margin-left: 2px;
+}
+label a {
+	color: #ffffff;
 }
 button {
 	font-family: 'Lucida Sans Unicode';
@@ -180,7 +183,7 @@ nav ul li {
 	/*margin-left: 3px;
 	margin-right: 3px;*/
 }
-nav ul li:hover {
+nav ul li a:hover {
 	background-color: rgb(29, 96, 129);
 	border-radius: 12px;
 	line-height: 20px;
