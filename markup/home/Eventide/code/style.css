@@ -1,0 +1,670 @@
+* {
+	margin: 0;
+	padding: 0;
+
+} 
+
+@font-face {
+	font-family: Ubuntu;
+    src: url(Font/ubuntu/Ubuntu-L.ttf);
+}
+
+@font-face {
+	font-family: Montserrat;
+    src: url(Font/montserrat/Montserrat-light.oft);
+}
+
+body {
+	background-image: url(img/Background.png);
+}
+header {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/3.jpg");
+	height: 670px;
+
+}
+.logo {
+	padding-top: 10%;
+	padding-left: 30%;
+}
+.date {
+	padding-top: 20px;
+	padding-left: 50px;
+	font-family: Montserrat;
+	color: #ffffff;
+	font-size: 30px; /* Approximation due to font substitution */
+	font-weight: 700;
+	line-height: 40.312px; /* Approximation due to font substitution */
+}
+.string {
+	padding-top: 20px;
+	padding-right: 440px;
+	font-family: Ubuntu;
+	color: #ffffff;
+ 	font-size: 20px; /* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 28px; /* Approximation due to font substitution */
+	text-align: center;
+}
+.btn {
+	margin-top: 20px;
+	margin-left: 70px;
+}
+
+h3 {
+	font-family: Montserrat;
+    color:  #828689;
+	font-size: 25px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 30px;/* Approximation due to font substitution */
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+article {
+	margin-top: 100px;
+	margin-left: 170px;
+	display: block;
+	width: 350px;
+	height: 300px;
+}
+p {
+	font-family: Ubuntu;
+	color:  #828689;
+	font-size: 16px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 30px;/* Approximation due to font substitution */	
+	text-align: left;
+}
+.secondP {
+	margin-top: 5px;
+	font-size: 13px;
+}
+.imageTab {
+	position: relative;
+	float: right;
+	right: 100px;
+	bottom: 301px;
+}
+.speak {
+	text-align: center;
+   position: relative;
+   top: 90px;
+   left: 300px;
+   overflow: hidden;
+}
+.speakers {
+	text-align: center;
+	font-family: Montserrat;
+color: #6a7079;
+font-size: 30px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 29px; /* Approximation due to font substitution */
+}
+.speakPar {
+	padding-top: 10px;
+	padding-left: 240px;
+	overflow: hidden;
+}
+.circle {
+	position: relative;
+	top: 130px;
+}
+.firstCircle {
+	position: absolute;
+	left: 200px;
+	}
+.secondCircle {
+	position: absolute;
+	left: 500px;
+}
+.thirdCircle {
+	position: absolute;
+	left: 800px;
+}
+.fourthCircle {
+	position: absolute;
+	left: 1100px;
+}
+.bird {
+	position: absolute;
+	right: 50px;
+	top: 60px;
+}
+.firstText {
+	position: absolute;
+	top: 160px;
+	left: 150px;
+	width: 225px;
+	height: 91px;
+	font-family: Ubuntu;
+	color: #828282;
+	font-size: 16px; /* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 25px; /* Approximation due to font substitution */
+	text-align: center;
+}
+.secondText {
+	position: absolute;
+	top: 160px;
+	left: 450px;
+	width: 225px;
+	height: 91px;
+	font-family: Ubuntu;
+color: #828282;
+font-size: 16px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 25px; /* Approximation due to font substitution */
+text-align: center;
+}
+.thirdText {
+	position: absolute;
+	top: 160px;
+	left: 750px;
+	width: 225px;
+	height: 91px;
+	font-family: Ubuntu;
+color: #828282;
+font-size: 16px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 25px; /* Approximation due to font substitution */
+text-align: center;
+}
+.fourthText {
+	position: absolute;
+	top: 160px;
+	left: 1060px;
+	width: 225px;
+	height: 91px;
+	font-family: Ubuntu;
+color: #828282;
+font-size: 16px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 25px; /* Approximation due to font substitution */
+text-align: center;
+}
+.center {
+	text-align: center;
+}
+.centerPar {
+	width: 513px;
+	position: relative;
+	top: 600px;
+	left: 480px;
+}
+.rec {
+	margin-top: 20px;
+	margin-left: 170px;
+}
+.line {
+	position: absolute;
+	top: 1990px;
+	background-color: rgba(130, 134, 137, 0.12);
+	width: 100%;
+	height: 8px;
+}
+
+.myButton {
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 16.86px;/* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 43px;/* Approximation due to font substitution */
+	text-align: center;
+	
+
+/* Inline Style */
+font-family: FontAwesome;
+color:  #ffffff;
+font-size: 16.86px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 17px;/* Approximation due to font substitution */
+text-align: center;
+transform: scaleY(1.0084);/* width and height properties ommitted due to transform */
+	margin-top: 20px;
+	margin-left: 190px;
+	background-color:#7ea4e8;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:12px 37px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#7ea4e8;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.event {
+	position: absolute;
+	top: 2190px;
+	left: 180px;
+	width: 466px;
+}
+.eventH {
+	font-family: Montserrat;
+color: #828689;
+font-size: 30px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 30px; /* Approximation due to font substitution */
+text-align: left;
+margin-bottom: 10px;
+text-transform: uppercase;
+}
+
+.firstParag{
+	font-family: Ubuntu;
+color: #828689;
+font-size: 22px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 30px; /* Approximation due to font substitution */
+text-align: left;
+margin-bottom: 10px;
+}
+.secondParag {
+	font-family: Ubuntu;
+color: #828282;
+font-size: 16px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 25px; /* Approximation due to font substitution */
+text-align: left;
+margin-bottom: 30px;
+}
+
+.link {
+	font-family: FontAwesome;
+color: #2cc7c1;
+font-size: 17px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 17px; /* Approximation due to font substitution */
+text-align: left;
+font-family: Montserrat;
+color: #2cc7c1;
+font-size: 17px; /* Approximation due to font substitution */
+font-weight: 700;
+line-height: 17px; /* Approximation due to font substitution */
+text-align: left;
+text-decoration: none;
+text-transform: uppercase;
+padding-top: 10px;
+}
+
+.tabs {
+	border-style: solid;
+	border-width: 3px;
+	border-color:  #ececec;
+	background-color:  #ffffff;
+	width: 555px;
+	height: 327px;
+  	position: relative;   
+  	top: 780px;
+  	left: 700px;
+  	min-height: 200px; /* This part sucks */
+  	clear: both;
+  	margin: 25px 0;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #ececec; 
+  padding-top: 5px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  position: relative;
+  left: 1px; 
+  text-align: center;
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+   
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+.time {
+	border-radius: 3px;
+background-color:  #2cc7c1;
+width: 91px;
+height: 27px;
+font-family: Ubuntu;
+color:  #ffffff;
+font-size: 17px;/* Approximation due to font substitution */
+font-weight: 500;
+line-height: 25px;/* Approximation due to font substitution */
+text-align: center;
+}
+.firstHead {
+	font-family: Ubuntu;
+color:  #747a84;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 500;
+line-height: 25px;/* Approximation due to font substitution */
+text-align: left;
+	display: block;
+	position: relative;
+	left: 110px;
+	bottom: 26px;
+}
+.cont {
+	margin-bottom: 20px;
+}
+.video {
+	position: relative;
+	top: 900px;
+	left: 180px;
+	width: 500px;
+	height: 300px;
+}
+
+.next {
+	position: relative;
+	top: 600px;
+	left: 740px;
+}
+.secondNext {
+	position: relative;
+	top: 750px;
+}
+
+.css-carousel {
+	width: 501px;
+	height: 316px;
+	position: relative;
+	top: 470px;
+	left: 700px;
+	overflow: hidden;
+}
+.css-carousel .css-img {
+	max-width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-animation: css-carousel-fade 30s linear infinite;
+	-moz-animation: css-carousel-fade 30s linear infinite;
+	-ms-animation: css-carousel-fade 30s linear infinite;
+	animation: css-carousel-fade 30s linear infinite;
+}
+.css-carousel .css-img:nth-child(2) {
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	animation-delay: 5s;
+}
+.css-carousel .css-img:nth-child(3) {
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	animation-delay: 10s;
+}
+.css-carousel .css-img:nth-child(4) {
+	-webkit-animation-delay: 15s;
+	-moz-animation-delay: 15s;
+	-ms-animation-delay: 15s;
+	animation-delay: 15s;
+}
+.css-carousel .css-img:nth-child(5) {
+	-webkit-animation-delay: 20s;
+	-moz-animation-delay: 20s;
+	-ms-animation-delay: 20s;
+	animation-delay: 20s;
+}
+.css-carousel .css-img:nth-child(6) {
+	-webkit-animation-delay: 25s;
+	-moz-animation-delay: 25s;
+	-ms-animation-delay: 25s;
+	animation-delay: 25s;
+}
+@-webkit-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-moz-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-ms-keyframes css-carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@keyframes css-carousel-fade {
+	0%, 20%, 100% { opacity: 0; }
+	5%, 15% { opacity: 1;}
+}
+
+.register {
+	position: relative;
+	top: 550px;
+	background-color:  #f3f3f3;
+	width: 100%;
+	height: 612px;
+	font-family: Ubuntu;
+	color: #828689;
+	font-size: 22px; /* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 30px; /* Approximation due to font substitution */
+	text-align: center;
+	overflow: hidden;
+}
+.h {
+	display: block;
+	padding-top: 100px;
+	font-family: Montserrat;
+	color: #6a7079;
+	font-size: 30px; /* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 39px; /* Approximation due to font substitution */
+	text-align: center;
+	transform: scaleX(1.0052); /* width and height properties ommitted due to transform */
+	}
+.p {
+	display: block;
+	margin-left: 330px;
+}
+.registerForm {
+	position: relative;
+	top: 100px;
+	left: 200px;
+	border-radius: 5px;
+	background-color:  #ffffff;
+	width: 971px;
+	height: 153px;
+}
+.name {
+	background: url(img/flap.png) no-repeat scroll 210px 15px;
+padding-left:30px;
+	position: relative;
+	top: 50px;
+	right: 70px;
+	border-radius: 4px;
+	border-color: #2cc7c1;
+background-color:  #ffffff;
+width: 210px;
+height: 50px;
+font-family: Ubuntu;
+color:  #6a7079;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 39px;/* Approximation due to font substitution */
+text-align: left;
+
+/* Inline Style */
+font-family: Ubuntu;
+color:  #cacaca;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 39px;/* Approximation due to font substitution */
+text-align: left;
+}
+.email {
+	position: relative;
+	top: 50px;
+	right: 40px;
+	border: none;
+	border-radius: 4px;
+background-color: #efefef;
+width: 210px;
+height: 50px;
+font-family: Ubuntu;
+color: rgba(0, 0, 0, 0.3);
+font-size: 18px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 39px; /* Approximation due to font substitution */
+text-align: left;
+}
+.plan {
+	border-radius: 4px;
+	width: 210px;
+	height: 50px;
+}
+select {
+	position: relative;
+	top: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color:  #2cc7c1;
+	width: 150px;
+	height: 51px;
+	font-family: Ubuntu;
+color:  #ffffff;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 39px;/* Approximation due to font substitution */
+text-align: left;
+}
+.other {
+	background-color:  #525b64
+}
+.submit {
+	position: relative;
+	top: 50px;
+	left: 50px;
+	border-radius: 4px;
+	border: none;
+background-color: #7ea4e8;
+width: 157px;
+height: 50px;
+font-family: Montserrat;
+color:  #ffffff;
+font-size: 16.86px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 43px;/* Approximation due to font substitution */
+text-align: center;
+
+/* Inline Style */
+font-family: FontAwesome;
+color:  #ffffff;
+font-size: 16.86px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 17px;/* Approximation due to font substitution */
+text-align: center;
+transform: scaleY(1.0084);/* width and height properties ommitted due to transform */
+}
+.sponsors {
+	position: relative;
+	top: 620px;
+	margin-left: 80px;
+}
+img.social {
+	margin-left: 70px;
+}
+ #map {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        top: 700px;
+      }
+footer {
+	position: relative;
+	top: 700px;
+	background-color:  #525b64;
+	height: 347px;
+}
+.footerColFirst {
+	position: relative;
+	top: 100px;
+	left: 150px;
+	width: 451px;
+	font-family: Ubuntu;
+	color: #cdd0d2;
+	font-size: 16px; /* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 25px; /* Approximation due to font substitution */
+	text-align: left;
+}
+.footerHead {
+	font-family: Ubuntu;
+color: #ffffff;
+font-size: 25px; /* Approximation due to font substitution */
+font-weight: 700;
+line-height: 25px; /* Approximation due to font substitution */
+text-align: left;
+font-family: Ubuntu;
+color: #ffffff;
+font-size: 25px; /* Approximation due to font substitution */
+font-weight: 400;
+line-height: 25px; /* Approximation due to font substitution */
+text-align: left;
+
+}
+.footerColSecond { 
+	position: relative;
+	left: 660px;
+	bottom: 28px;
+	width: 274px;
+	font-family: Ubuntu;
+	color: #cdd0d2;
+	font-size: 16px; /* Approximation due to font substitution */
+	font-weight: 400;
+	line-height: 25px; /* Approximation due to font substitution */
+	text-align: left;
+	font-family: Ubuntu;
+	color: #2cc7c1;
+	font-size: 16px; /* Approximation due to font substitution */
+	font-weight: 500;
+	line-height: 25px; /* Approximation due to font substitution */
+	text-align: left;
+
+}
+
+
+span {
+	font-family: Ubuntu;
+color:  #2cc7c1;
+font-size: 16px;/* Approximation due to font substitution */
+font-weight: 500;
+line-height: 25px;/* Approximation due to font substitution */
+text-align: left;
+}
+
+.footerColThree {
+	position: relative;
+	width: 200px;
+	left: 1100px;
+	bottom: 188px;
+}
+.footerSign {
+	margin-right: 10px;
+}
