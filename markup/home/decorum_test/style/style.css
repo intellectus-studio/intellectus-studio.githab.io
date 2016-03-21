@@ -80,8 +80,11 @@ header {
 }
 .header-right-dropdown_link {
 	text-decoration: none;
-	color: #7b164b;
+	color: #494949;
 	font-size: 12px;
+}
+.header-right-dropdown_link:hover {
+	color: #7b164b;
 }
 .contacts_social {
 	margin-top: 20px;
@@ -161,7 +164,7 @@ header {
 }
 .contacts_callback_link:hover {
 	background-color: rgb(123, 22, 75);
-	color: rgba(255, 255, 255, 0.7);
+	color: #f8fafc;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
@@ -230,6 +233,9 @@ nav {
 	text-align: left;
 	position: relative;
 }
+.nav-menu__link:hover {
+	color: #f8fafc;
+}
 .content {
 	background-image: url(../img/32_menu.png);
 	background-size: cover;
@@ -263,6 +269,9 @@ main {
 	font-weight: 400;
 	line-height: 27px;
 	text-align: left;
+}
+.content-nav__link:hover {
+	color: #7b164b;
 }
 
 form {
@@ -415,7 +424,7 @@ footer {
 .footer-contacts-phone_number {
 	font-family: PoiretOne;
 	color:  rgba(255, 255, 255, 0.5);
-	font-size: 17px;/
+	font-size: 17px;
 	font-weight: 400;
 	line-height: 30px;
 	text-align: left;
