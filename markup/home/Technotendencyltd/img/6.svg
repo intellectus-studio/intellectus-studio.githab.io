@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2834.6 5669.3" enable-background="new 0 0 2834.6 5669.3" xml:space="preserve">
+<g id="Слой_1_1_">
+	<g>
+		<g>
+			<polygon fill="none" points="800.3,1229.9 800.3,1260.9 769.3,1260.9 769.3,1305.7 845,1305.7 845,1229.9 			"/>
+			<polygon fill="#2755A2" points="695.9,1232.3 740.6,1232.3 740.6,1201.3 771.6,1201.3 771.6,1156.6 695.9,1156.6 			"/>
+			<g>
+				
+					<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="788.4" y1="4470.79" x2="817.6" y2="4470.79" gradientTransform="matrix(1 0 0 -1 2.734375e-002 5669.29)">
+					<stop  offset="0" style="stop-color:#F8CC1E"/>
+					<stop  offset="1" style="stop-color:#ED9916"/>
+				</linearGradient>
+				<polygon fill="url(#SVGID_1_)" points="788.4,1201.2 800.4,1201.2 800.4,1213.1 817.6,1213.1 817.6,1183.9 788.4,1183.9 				"/>
+				
+					<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="723.2" y1="4405.4902" x2="752.4" y2="4405.4902" gradientTransform="matrix(1 0 0 -1 2.734375e-002 5669.29)">
+					<stop  offset="0" style="stop-color:#9CC436"/>
+					<stop  offset="1" style="stop-color:#64912F"/>
+				</linearGradient>
+				<polygon fill="url(#SVGID_2_)" points="752.4,1278.4 752.4,1261.2 740.5,1261.2 740.5,1249.2 723.2,1249.2 723.2,1278.4 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Слой_2">
+	<rect x="752.4" y="1212.1" fill="none" width="625.5" height="103.5"/>
+	<text transform="matrix(1 0 0 1 752.4368 1263.2051)" font-family="'MyriadPro-Regular'" font-size="72">Technodencyltd</text>
+</g>
+</svg>
