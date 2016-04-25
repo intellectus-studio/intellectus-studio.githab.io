@@ -96,6 +96,10 @@
 .nav_item_link:hover {
 	border-bottom: 2px solid #ffffff;
 }
+.nav_item_link.active {
+	border-bottom: 2px solid #ffffff;
+	font-size: 18px;
+}
 /*dropdown*/
 .dropdownMenu {
 	display: none;
@@ -232,7 +236,12 @@ padding-top: 15px;
 }
 .about_us_photo_first {
 	margin-right: 1%;
-	width: 49%;
+	width: 59%;
+	height: 142px;
+}
+.about_us_photo_first img {
+	width: 100%;
+	height: 100%;
 }
 .about_us_photo_second {
 	float: right;
@@ -290,6 +299,16 @@ text-align: left;
 	padding-top: 20px;
 	padding-bottom: 25px;
 }
+.services_head {
+	font-family: Arial;
+	color:  #024c9f;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
 /*news*/
 .news_wrapper {
 	margin: 0 auto;
@@ -331,11 +350,15 @@ width: 60%;
 	float: left;
 	width: 75%;
 	font-family: Arial;
-color:  #939393;
-font-size: 14px;
-font-weight: 400;
-line-height: 30px;
-text-align: left;
+	color:  #939393;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+}
+.news_short {
+	height: 140px;
+	overflow: hidden;
 }
 /*contacts*/
 .contacts_wrapper {
