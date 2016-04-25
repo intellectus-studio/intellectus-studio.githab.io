@@ -1,3 +1,4 @@
+/*news*/
 $(document).ready(function() {
 	$('.news_head1').click(function() {
 		$('.news_description1').toggleClass('news_short');
@@ -29,4 +30,7 @@ $(document).ready(function() {
 	$('.news_img5').click(function() {
 		$('.news_description5').toggleClass('news_short');
 	});
-})
+});
+
+
+

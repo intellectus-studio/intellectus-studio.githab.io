@@ -7,16 +7,16 @@
 	<g>
 		<g>
 			<polygon fill="none" points="170.9,190.6 170.9,235.4 126.1,235.4 126.1,300.2 235.5,300.2 235.5,190.6 			"/>
-			<polygon fill="#FDFDFD" points="19.9,194.1 84.6,194.1 84.6,149.2 129.4,149.2 129.4,84.6 19.9,84.6 			"/>
+			<polygon fill="#444444" points="19.9,194.1 84.6,194.1 84.6,149.2 129.4,149.2 129.4,84.6 19.9,84.6 			"/>
 			<g>
-				<polygon fill="#FFFFFF" points="153.7,149.1 171,149.1 171,166.3 195.9,166.3 195.9,124.1 153.7,124.1 				"/>
-				<polygon fill="#FFFFFF" points="101.6,260.7 101.6,235.8 84.4,235.8 84.4,218.5 59.4,218.5 59.4,260.7 				"/>
+				<polygon fill="#444444" points="153.7,149.1 171,149.1 171,166.3 195.9,166.3 195.9,124.1 153.7,124.1 				"/>
+				<polygon fill="#444444" points="101.6,260.7 101.6,235.8 84.4,235.8 84.4,218.5 59.4,218.5 59.4,260.7 				"/>
 			</g>
 		</g>
 	</g>
 </g>
 <g id="Слой_2">
 	<rect x="101.6" y="164.8" fill="none" width="904.4" height="149.6"/>
-	<text transform="matrix(1 0 0 1 101.751 238.7354)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="104.1015">Technotendency Ltd</text>
+	<text transform="matrix(1 0 0 1 101.751 229.7348)" fill="#444444" font-family="'ArialMT'" font-size="90">Technotendency Ltd</text>
 </g>
 </svg>
