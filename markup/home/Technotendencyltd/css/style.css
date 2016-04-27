@@ -899,3 +899,12 @@ padding-bottom: 10px;
 		display: none;
 	}
 }
+
+@media (max-width: 768px) {
+	.footer_logo_container {
+		margin-right: 40px;
+	}
+	.footer_address {
+		left: 40%;
+	}
+}
