@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax Scrolling</title>
+  <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+       $(document).ready(function(){
+          $('section[data-type="background"]').each(function(){
+          var $bgobj = $(this); // создаем объект
+          $(window).scroll(function() {
+            var yPos = -($window.scrollTop() / $bgobj.data('speed')); // вычисляем коэффициент 
+            // Присваиваем значение background-position
+            var coords = 'center '+ yPos + 'px';
+            // Создаем эффект Parallax Scrolling
+            $bgobj.css({ backgroundPosition: coords });
+        });
+    });
+});
+    </script>
+
+</head>
+<body>
+
+<section id="home" data-type="background" data-speed="10" class="pages">
+         <article><div class="text">Простая техника Parallax Scrolling</div></article>
+</section>
+<section id="about" data-type="background" data-speed="10" class="pages">
+         <article><div class="text">Простая техника Parallax Scrolling</div></article>
+</section>
+<section id="some" data-type="background" data-speed="10" class="pages">
+         <article><div class="text">Простая техника Parallax Scrolling</div></article>
+</section>
+
+</body>
+</html>
