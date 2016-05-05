@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+</head>
+<body>
+
+<div class="callback_phone animated fadeInLeft clearfix">
+	<div class="callback_full">
+		<p>+38 (067) 508 41 31 / +38 (044) 502 49 17</p>
+	</div>
+	<div class="callback_short">
+		<img class="callback_short_icon" src="img/auricular6.svg">
+	</div>
+</div>
+<form class="callback_form animated fadeInLeft clearfix">
+	<header class="callback_header">Или заказать обратный звонок</header>
+	<label for="name" class="callback_input_form">Ваше имя</label></br>
+		<input type="text" id="name" onkeyup="checkParams()" /></br>
+	<label for="number" class="callback_input_form">Телефон</label></br>
+		<input type="tel" id="number" onkeyup="checkParams()"/></br>
+	<label for="question" class="callback_input_form">Вопрос</label></br>
+		<textarea id="question"></textarea></br>
+	<input id="submit_callback" type="submit" value="ЗАКАЗАТЬ" class="callback_submit" disabled="disabled">
+</form>
+</body>
+</html>
