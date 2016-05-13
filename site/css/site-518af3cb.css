@@ -350,7 +350,7 @@ div#languageSwitch a {
   text-decoration: none;
   color: #27348b;
   font-size: 12px;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: Arial, sans-serif; }
 
 div#languageSwitch a.active {
   color: #e30613; }
@@ -415,15 +415,15 @@ ul.tabs {
 }
 
 .slideContainer p {
-  width: 100%;
+  width: 60%;
+  float: left;
   font-family: Arial;
   font-size: 13px;
   line-height: 22px;
   text-align: left;
   padding: 20px 0 40px 400px;
-  margin: 140px 0 0 0;
+  margin: 0 0 0 0;
   background-color:  #ffffff;
-box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
   position: relative;
   z-index: -1; 
 }
@@ -439,14 +439,19 @@ box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 .slideContainerHeadline {
   float: left;
   width: 100%;
-  background-color:  rgba(245,245,245, 0.8);
-box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
   z-index: 20;
-  height: 140px; }
+  height: 140px; 
+  background-color: #fff;
+}
+.slideContainerHeadline.first {
+  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
+  background-color:  rgb(245,245,245);
+  height: 144px;
+}
 
 .slideContainerHeadline h2 {
-  font-family: 'Source Sans Pro', sans-serif;
-  width: 750px;
+  font-family: Arial;
+  width: 80%;
   font-size: 18px;
   margin: 0px;
   padding: 40px 0px 27px 400px;
@@ -552,7 +557,7 @@ div#evropa {
 
 .dark h3 {
   font-size: 30px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: Arial;
   margin: 0px;
   font-weight: normal; }
 
@@ -604,30 +609,40 @@ span.kontakt {
 
 #slideOneImage {
      background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; }
+  background-size: cover;
+  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29); }
 
 #slideTwoImage {
   background: url(../img/Anatysis1.png) 0 0 no-repeat fixed;
-  background-size: cover; }
+  background-size: cover; 
+box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
+}
 
 #slideThreeImage {
   background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; }
+  background-size: cover; 
+  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
+}
 
 #slideFourImage {
   background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; }
+  background-size: cover;
+  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29); }
 
 #slideFiveImage {
    background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; }
+  background-size: cover; 
+  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
+}
 #slideSixImage {
    background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; }
+  background-size: cover; 
+box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);}
 
 #slideSevenImage {
   background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
   background-size: cover; 
+  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 } 
 /*.lang_en {
   background-image: url(../img/language_eng_22x22_Anatysis.png);
@@ -640,3 +655,5 @@ span.kontakt {
    background-repeat: no-repeat;
 }
 */
+.small_img {
+  float: right;}
