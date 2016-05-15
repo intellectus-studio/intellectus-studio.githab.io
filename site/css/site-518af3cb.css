@@ -617,45 +617,41 @@ span.kontakt {
      background: url(../img/btr_1_774x431_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 774px 431px;
   background-position: 60% 120px;
-  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29); }
+ }
 
 #slideTwoImage {
   background: url(../img/btr_1_910x351_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 910px 351px;
   background-position: 60% 120px;
-box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 }
 
 #slideThreeImage {
   background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
   background-position: 60% 120px;
-  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 }
 
 #slideFourImage {
   background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
   background-position: 60% 120px;
-  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29); }
+  }
 
 #slideFiveImage {
    background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
   background-position: 60% 120px;; 
-  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 }
 #slideSixImage {
    background: url(../img/plane_1_745x419_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
   background-position: 60% 120px;
-box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);}
+}
 
 #slideSevenImage {
  background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
   background-position: 60% 120px;
-  box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 } 
 /*.lang_en {
   background-image: url(../img/language_eng_22x22_Anatysis.png);
@@ -762,4 +758,18 @@ input {
   padding: 0 25px;
   position: relative;
   cursor: pointer;
+}
+@media (max-width: 960px) {
+  ul.navigationMenu {
+    display: none;
+  }
+  .slideContainerHeadline h2 {
+    width: 100%;
+  }
+  .small_img {
+    display: none;
+  }
+  .slideContainer p {
+    width: 100%;
+  }
 }
