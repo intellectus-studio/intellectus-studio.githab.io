@@ -425,7 +425,7 @@ ul.tabs {
   margin: 0 0 0 0;
   background-color:  #ffffff;
   position: relative;
-  z-index: -1; 
+
 }
 
 .slideContainer a {
@@ -601,47 +601,61 @@ span.kontakt {
 .slideImage {
   float: left;
   z-index: -100;
-  height: 750px;
+  height: 650px;
   width: 100%; }
 
 #cboxClose, #cboxNext, #cboxPrevious {
   border: 0px solid #fff; }
-
-#slideOneImage {
-     background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
+.cover {
+  background-image: url(../img/back_1920x710_Anatysis.png);
+  background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  max-height: 650px;
+  height: 650px;
+}
+#slideOneImage {
+     background: url(../img/btr_1_774x431_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 774px 431px;
+  background-position: 60% 120px;
   box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29); }
 
 #slideTwoImage {
-  background: url(../img/Anatysis1.png) 0 0 no-repeat fixed;
-  background-size: cover; 
+  background: url(../img/btr_1_910x351_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 910px 351px;
+  background-position: 60% 120px;
 box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 }
 
 #slideThreeImage {
-  background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; 
+  background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 866px 297px;
+  background-position: 60% 120px;
   box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 }
 
 #slideFourImage {
-  background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover;
+  background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 866px 297px;
+  background-position: 60% 120px;
   box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29); }
 
 #slideFiveImage {
-   background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; 
+   background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 866px 297px;
+  background-position: 60% 120px;; 
   box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 }
 #slideSixImage {
-   background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; 
+   background: url(../img/plane_1_745x419_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 866px 297px;
+  background-position: 60% 120px;
 box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);}
 
 #slideSevenImage {
-  background: url(../img/Anatysis.png) 0 0 no-repeat fixed;
-  background-size: cover; 
+ background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 866px 297px;
+  background-position: 60% 120px;
   box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);
 } 
 /*.lang_en {
@@ -658,4 +672,95 @@ box-shadow: 0px 1px 18.69px 2.31px rgba(50, 50, 51, 0.29);}
 .small_img {
   float: right;
 width: 30%;
+background-color: #fff;
+}
+.backWhite {
+  background-color: #fff;
+}
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.contacts_form {
+  width: 50%;
+}
+     .form_input {
+   height: 47px;
+    padding-left: 16px;
+    padding-right: 5px;
+    margin-bottom: 13px;
+    width: 100%;
+    font-family: Arial;
+  color:  #939393;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.form_input_code {
+  width: 100%;
+  height: 47px;
+  padding-left: 16px;
+    padding-right: 5px;
+    margin-bottom: 13px;
+    font-family: Arial;
+  color:  #939393;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+.form_input_message {
+  width: 100%;
+  height: 127px;
+  padding-top: 10px;
+  padding-left: 16px;
+    padding-right: 5px;
+    margin-bottom: 13px;
+    font-family: Arial;
+  color:  #939393;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  resize: none;
+}
+input {
+  border: 1px solid #b9b9b9;
+    outline: 0;
+}
+.reset {
+  float: left;
+  background-color:  #e8e8e8;
+  width: 215px;
+  height: 49px;
+  font-family: Arial;
+  color:  #9f9f9f;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  padding: 0 54px;
+  cursor: pointer;
+}
+.submit_button {
+  float: right;
+  background-color:  #00b9e5;
+  width: 215px;
+  height: 49px;
+  font-family: Arial;
+  color:  #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #00b9e5;
+  padding: 0 25px;
+  position: relative;
+  cursor: pointer;
 }
