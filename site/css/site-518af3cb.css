@@ -341,7 +341,7 @@ div#logo {
 
 div#languageSwitch {
   position: fixed;
-  top: 15px;
+  top: 35px;
   right: 25px;
   z-index: 50; }
 
@@ -411,6 +411,7 @@ ul.tabs {
   float: left;
   overflow-x: hidden;
   width: 100%; 
+
  
 }
 
@@ -457,130 +458,11 @@ ul.tabs {
   padding: 40px 0px 27px 400px;
   font-weight: bold; }
 
-.certy img {
-  height: 200px;
-  width: 141px;
-  padding: 0 20px 0 0; }
-
-div#mapa {
-  margin: 0 0 40px 280px;
-  position: relative;
-  height: 325px;
-  width: 668px;
-  background: url(/images/world_map-fa6f8d3a.jpg) no-repeat 100% 0; }
-
-img#world_map {
-  height: 325px;
-  width: 668px; }
 
 div#overlay {
   position: relative;
   z-index: 15; }
 
-div#amerika {
-  height: 325px;
-  width: 668px;
-  background: transparent url(/images/amerika-1bf4bd45.png) no-repeat 0 0;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  display: none;
-  z-index: 10; }
-
-div#asie {
-  height: 325px;
-  width: 668px;
-  background: transparent url(/images/asie-24c52ff7.png) no-repeat 0 0;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  display: none;
-  z-index: 10; }
-
-div#afrika {
-  height: 325px;
-  width: 668px;
-  background: transparent url(/images/afrika-a8df0ca1.png) no-repeat 0 0;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  display: none;
-  z-index: 10; }
-
-div#evropa {
-  height: 325px;
-  width: 668px;
-  background: transparent url(/images/evropa-4f1a78c9.png) no-repeat 0 0;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  display: none;
-  z-index: 10; }
-
-#evropaBubble {
-  top: 30px;
-  left: 180px; }
-
-#afrikaBubble {
-  top: 170px;
-  left: 325px; }
-
-#asieBubble {
-  top: 65px;
-  left: 440px; }
-
-#amerikaBubble {
-  top: 55px;
-  left: 125px; }
-
-.bubble {
-  position: absolute;
-  z-index: 11;
-  display: none; }
-
-.dark {
-  float: left;
-  background: url(/images/cloudBG-ed1beffe.png);
-  padding: 20px 0 18px 20px;
-  color: #FFF;
-  width: 175px;
-  font-family: Arial; }
-
-.dark li {
-  list-style: none;
-  font-size: 13px;
-  padding: 2px 0; }
-
-.dark ul {
-  margin: 0px;
-  padding: 0px; }
-
-.dark h3 {
-  font-size: 30px;
-  font-family: Arial;
-  margin: 0px;
-  font-weight: normal; }
-
-.mapPointer {
-  float: left;
-  background: url(/images/pointer-4e3bbded.png) no-repeat;
-  height: 71px;
-  width: 33px; }
-
-.mapPointerReverze {
-  float: left;
-  background: url(/images/pointerReverze-08b2bb89.png) no-repeat;
-  height: 71px;
-  width: 33px; }
-
-.mapPointerUp {
-  /*float:left;*/
-  background: url(/images/pointerUp-26a7831a.png) no-repeat;
-  width: 71px;
-  height: 33px; }
-
-div#slide7 {
-  background-color: #FFF; }
 
 span.kontakt {
   float: left;
@@ -616,25 +498,25 @@ span.kontakt {
 #slideOneImage {
      background: url(../img/btr_1_774x431_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 774px 431px;
-  background-position: 60% 120px;
+  background-position: 60% 170px;
  }
 
 #slideTwoImage {
   background: url(../img/btr_1_910x351_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 910px 351px;
-  background-position: 60% 120px;
+  background-position: 60% 170px;
 }
 
 #slideThreeImage {
   background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
-  background-position: 60% 120px;
+  background-position: 60% 170px;
 }
 
 #slideFourImage {
   background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
-  background-position: 60% 120px;
+  background-position: 60% 170px;
   }
 
 #slideFiveImage {
@@ -645,13 +527,13 @@ span.kontakt {
 #slideSixImage {
    background: url(../img/plane_1_745x419_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
-  background-position: 60% 120px;
+  background-position: 60% 170px;
 }
 
 #slideSevenImage {
  background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 866px 297px;
-  background-position: 60% 120px;
+  background-position: 60% 170px;
 } 
 /*.lang_en {
   background-image: url(../img/language_eng_22x22_Anatysis.png);
@@ -681,7 +563,10 @@ background-color: #fff;
      height: 0;
      }
 .contacts_form {
-  width: 50%;
+  width: 70%;
+  padding: 20px 0 40px 400px;
+  background-color: #fff;
+  background-size: cover;
 }
      .form_input {
    height: 47px;
@@ -697,7 +582,7 @@ background-color: #fff;
   text-align: left;
 }
 .form_input_code {
-  width: 100%;
+  width: 40%;
   height: 47px;
   padding-left: 16px;
     padding-right: 5px;
@@ -759,17 +644,52 @@ input {
   position: relative;
   cursor: pointer;
 }
+.name_input {
+  width: 45%;
+  float: left;
+  position: relative;
+}
+.email_input {
+  width: 45%;
+  float: right;
+  position: relative;
+}
+footer {
+  z-index: 9999px;
+  background-image: url(../img/back_1920x710_Anatysis.png);
+  background-size: cover;
+}
+.copyright {
+}
+.copyright a {
+  font-family: Arial;
+color: #505050;
+font-size: 25px;
+font-weight: 400;
+line-height: 36px;
+text-align: left;
+padding-top: 20px;
+padding-bottom: 20px;
+text-decoration: none;
+}
 @media (max-width: 960px) {
   ul.navigationMenu {
     display: none;
   }
   .slideContainerHeadline h2 {
     width: 100%;
+
   }
   .small_img {
     display: none;
   }
   .slideContainer p {
     width: 100%;
+    padding-left: 20px;
+  }
+  .contacts_form {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
