@@ -369,6 +369,64 @@ div#languageSwitch a.active {
 div#languageSwitch a:hover {
   color: #e30613; }
 
+.navigationMenu_hamburger {
+  position: static!important;
+  float: right;
+  background-color: #fff;
+}
+.hamburger{
+  display: none;
+  background:none;
+  position:fixed;
+  top:25px;
+  right:90px;
+  line-height:45px;
+  padding:0px 15px 0px 15px;
+  color:#394495;;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:0px 15px 0px 15px;
+  color:#394495;;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.menu{
+  z-index:1000000; 
+   width:100%; 
+  position:absolute; 
+  text-align:center;
+  position: fixed;
+  top: 42px;
+}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#fff; font-size: 20px;}
+.menu ul li a:hover {
+  font-size: 20px!important;
+  font-weight: normal!important;
+}
+.menu a{text-decoration:none; color:white;}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
 ul.navigationMenu {
   position: fixed;
   top: 320px;
@@ -709,7 +767,7 @@ text-decoration: none;
   }
 }
 @media all and (max-width: 960px) {
-  ul.navigationMenu {
+  .navigationMenu_main {
     display: none;
   }
   .small_menu {
@@ -775,6 +833,9 @@ text-decoration: none;
   height: 0;
 }
 @media (max-width: 720px) {
+  .hamburger {
+    display: block;
+  }
   #slideOneImage {
      background: url(../img/btr_1_774x431_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 574px 331px;
@@ -860,9 +921,10 @@ text-decoration: none;
   height: 0;
 } 
 }
-@media (max-width: 480px) {
+@media (max-width: 490px) {
   .submit_button {
     float: left;
     margin-top: 5px;
   }
 }
+
