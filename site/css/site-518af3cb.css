@@ -344,7 +344,7 @@ body {
 }
 div#logo {
   width: 20%;
-  position: relative;
+  position: fixed;
   float: left;
   top: 40px;
   z-index: 50;
@@ -525,7 +525,7 @@ ul.tabs {
     width: 60%;
   font-size: 18px;
   margin: 0px;
-  padding: 40px 0px 27px 5%;
+  padding: 40px 0px 27px 25%;
   font-weight: bold; }
 
 
@@ -774,7 +774,8 @@ text-decoration: none;
     display: block;
   }
   .slideContainerHeadline h2 {
-    width: 100%;
+    width: 80%;
+    padding-left: 41%;
   }
  div#logo {
   width: 40%;
