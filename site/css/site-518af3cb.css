@@ -334,12 +334,18 @@ body {
   background-image: url(../img/back_anaras..png);
   background-size: cover;
 }
-div#logo {
-  width: 335px;
-  height: 76px;
-  background: url(../img/logo_335x76_Anatysis.png) 0 0 no-repeat;
+.small_menu {
+  display: none;
   position: fixed;
-  left: 40px;
+  border: 2px solid blue;
+  top: 35px;
+  right: 85px;
+  z-index: 50;
+}
+div#logo {
+  width: 20%;
+  position: relative;
+  float: left;
   top: 40px;
   z-index: 50;
   cursor: pointer; }
@@ -456,11 +462,12 @@ ul.tabs {
 }
 
 .slideContainerHeadline h2 {
-  font-family: Arial;
-  width: 80%;
+  float: left;
+    font-family: Arial;
+    width: 60%;
   font-size: 18px;
   margin: 0px;
-  padding: 40px 0px 27px 400px;
+  padding: 40px 0px 27px 5%;
   font-weight: bold; }
 
 
@@ -488,8 +495,11 @@ span.kontakt {
 .slideImage {
   float: left;
   z-index: -100;
-  height: 650px;
+  height: 670px;
   width: 100%; }
+  .slideImage_first {
+     height: 650px;
+  }
 .last {
   height: 0;
 }
@@ -614,6 +624,7 @@ background-color: #fff;
   line-height: 30px;
   text-align: left;
   resize: none;
+  outline: none;
 }
 input {
   border: 1px solid #b9b9b9;
@@ -691,20 +702,25 @@ text-decoration: none;
 .cover_seventh {
   height: 1050px;
 }
-@media (max-width: 1100px) {
+@media all and (max-width: 1100px) {
    .contacts_form {
     width: 90%;
     padding-left: 200px;
   }
 }
-@media (max-width: 960px) {
+@media all and (max-width: 960px) {
   ul.navigationMenu {
     display: none;
+  }
+  .small_menu {
+    display: block;
   }
   .slideContainerHeadline h2 {
     width: 100%;
   }
- 
+ div#logo {
+  width: 40%;
+}
   .small_img {
     display: none;
   }
@@ -718,7 +734,7 @@ text-decoration: none;
     padding-right: 20px;
   }
   #slideOneImage {
-     background: url(../img/btr_1_774x431_Anatysis.png) 0 0 no-repeat fixed;
+  background: url(../img/btr_1_774x431_Anatysis.png) 0 0 no-repeat fixed;
   background-size: 674px 331px;
   background-position: 60% 170px;
  }
@@ -800,4 +816,53 @@ text-decoration: none;
   background-position: 60% 170px;
   height: 0;
 } 
+}
+@media (max-width: 520px) {
+  #slideOneImage {
+     background: url(../img/btr_1_774x431_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 374px 171px;
+  background-position: 60% 210px;
+ }
+
+#slideTwoImage {
+  background: url(../img/btr_1_910x351_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 310px 151px;
+  background-position: 60% 210px;
+}
+
+#slideThreeImage {
+  background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 366px 197px;
+  background-position: 60% 210px;
+}
+
+#slideFourImage {
+  background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 366px 197px;
+  background-position: 60% 210px;
+  }
+
+#slideFiveImage {
+   background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 366px 197px;
+  background-position: 60% 210px; 
+}
+#slideSixImage {
+   background: url(../img/plane_1_745x419_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 366px 197px;
+  background-position: 60% 210px;
+}
+
+#slideSevenImage {
+ background: url(../img/plane_1_866x297_Anatysis.png) 0 0 no-repeat fixed;
+  background-size: 366px 197px;
+  background-position: 60% 210px;
+  height: 0;
+} 
+}
+@media (max-width: 480px) {
+  .submit_button {
+    float: left;
+    margin-top: 5px;
+  }
 }

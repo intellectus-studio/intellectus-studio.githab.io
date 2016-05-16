@@ -3741,3 +3741,11 @@ jQuery(document).ready(function(e) {
         slideHeadlineGetVars()
     })
 });
+jQuery(document).ready(function() {
+    jQuery('small_menu_button').click(function() {
+        alert("jj");
+        jQuery('ul.navigationMenu').css('top', '40px');
+        jQuery('ul.navigationMenu').css('right', '40px');
+        jQuery('ul.navigationMenu').css('left', '0px');
+    });
+});
