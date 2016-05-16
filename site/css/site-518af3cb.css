@@ -929,3 +929,9 @@ text-decoration: none;
   }
 }
 
+.reset:hover {
+  background-color: #bcbaba;
+}
+.submit_button:hover {
+background-color: #02abd3;
+}
