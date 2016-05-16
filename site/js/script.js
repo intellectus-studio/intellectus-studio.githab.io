@@ -3701,13 +3701,13 @@ jQuery(document).ready(function(e) {
             scrollTop: jQuery('.slideContainer[data-slide="' + t + '"]').offset().top - 1
         }, 1e3, "easeInOutQuint")
     }
-    // var r = .2;
-    // var f = .6;
-    // jQuery("#slideOneImage").parallax(0, f), jQuery("#slideTwoImage").parallax(0, r), jQuery("#slideThreeImage").parallax(0, r), jQuery("#slideFourImage").parallax(0, r), jQuery("#slideFiveImage").parallax(0, r), jQuery("#slideSixImage").parallax(0, r), jQuery("#slideSevenImage").parallax(0, r), jQuery(".slideContainer").localScroll(800), setTimeout(function() {
-    //     slideHeadlineGetVars()
-    // }, 500), e("#logo").click(function() {
-    //     n(1)
-    // });
+    var r = .2;
+    var f = .6;
+    setTimeout(function() {
+        slideHeadlineGetVars()
+    }, 500), e("#logo").click(function() {
+        n(1)
+    });
     var i;
     e(".slideContainer").waypoint(function(t) {
         i = e(this).attr("data-slide"), "down" == t ? e('.navigationMenu li[data-slide="' + i + '"]').addClass("active").prev().removeClass("active") : e('.navigationMenu li[data-slide="' + i + '"]').addClass("active").next().removeClass("active")
