@@ -828,7 +828,7 @@ text-decoration: none!important;
     display: block;
   }
 }
-@media only screen (max-width: 960px) {
+@media  (max-width: 960px) {
   .navigationMenu_main {
     display: none;
   }
