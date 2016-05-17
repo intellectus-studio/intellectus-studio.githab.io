@@ -3778,10 +3778,10 @@ var myInterval = setInterval(function() {
    if (inde >= images.length) inde = 0;
     $('#slideOneImage').css({ "background-image":"url(" + images[inde]+ ")" });
      $('#slideTwoImage').css({ "background-image":"url(" + images[inde]+ ")" });
-      $('#slideThreeImage').css({ "background-image":"url(" + images[inde]+ ")" });
-       $('#slideFourImage').css({ "background-image":"url(" + images[inde]+ ")" });
-        $('#slideFiveImage').css({ "background-image":"url(" + images[inde]+ ")" });
-         $('#slideSixImage').css({ "background-image":"url(" + images[inde]+ ")" });
+    $('#slideThreeImage').css({ "background-image":"url(" + images[inde]+ ")" });
+    $('#slideFourImage').css({ "background-image":"url(" + images[inde]+ ")" });
+    $('#slideFiveImage').css({ "background-image":"url(" + images[inde]+ ")" });
+        $('#slideSixImage').css({ "background-image":"url(" + images[inde]+ ")" });
    inde++;
    limitCount++;
 }, interval*1200);
