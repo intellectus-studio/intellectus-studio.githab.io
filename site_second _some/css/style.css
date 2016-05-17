@@ -783,7 +783,7 @@ text-decoration: none!important;
 }
 .cross{
   background:none;
-  position:absolute;
+  position:fixed;
   top:0px;
   right:0;
   padding:0px 15px 0px 15px;
