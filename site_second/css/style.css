@@ -901,11 +901,18 @@ font-weight: bold;
   .slideContainerHeadline h2 {
     font-size: 14px;
   }
+  .address_contact Х{
+    font-size: 14px;
+  }
 }
 @media (max-width: 490px) {
   .submit_button {
     float: left;
     margin-top: 5px;
+    }
+    .bnts {
+      margin: 0 auto;
+      width: 50%;
     }
   }
   @media (max-width: 1024px) {
