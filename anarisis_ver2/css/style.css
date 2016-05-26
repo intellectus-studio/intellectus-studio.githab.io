@@ -853,9 +853,14 @@ text-decoration: none!important;
     position: relative;
     float: left;
 }
+.switch_container {
+  padding: 20px 0 40px 5%!important;
+}
 .product_container {
      padding: 0 0 40px 5%!important;
-
+}
+.btn_container {
+    padding: 30px 0 30px 5%!important;
 }
 }
 .name_input {
@@ -1212,7 +1217,7 @@ background:  url(btr_1_774x431_Anatysis.png) no-repeat 0 0 fixed;
     color: #474747;
     position: relative;
     float: left;
-    height: 600px;
+    height: 520px;
     overflow: hidden;
     -webkit-transition: background 0.6s ease;
     -moz-transition: background 0.6s ease;
@@ -1267,7 +1272,7 @@ text-align: left;
 }
 .btn_container {
   width: 100%;
-    padding: 0 0 40px 30%;
+    padding: 30px 0 30px 30%;
     display: inline-block;
 }
 .switch_container {
@@ -1295,6 +1300,7 @@ text-align: left;
 }
 .switch_link {
   font-weight: normal!important;
+  display: block;
 }
 .button_more_products_link {
   font-weight: normal!important;

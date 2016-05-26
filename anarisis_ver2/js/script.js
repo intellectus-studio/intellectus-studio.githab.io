@@ -13,7 +13,7 @@
  */
 function setHeight() {
     jQuery(".slideContainer").each(function() {
-        var e = jQuery(this).height() - 350;
+        var e = jQuery(this).height() - 450;
         e = jQuery(window).height() - e, jQuery(this).children(".slideImage").height(e)
     })
 }
@@ -3809,7 +3809,7 @@ $(document).ready(function() {
     var h = $('.product_container')[0].scrollHeight
     $(".btn_container").click(function() {
         if(toggle==1){
-             $('.product_container').css('height', '600');
+             $('.product_container').css('height', '520');
             toggle=0;
         }
         else
