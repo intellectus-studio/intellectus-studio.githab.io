@@ -1255,10 +1255,46 @@ text-align: left;
     text-transform: uppercase;
     clear: both;
     color: #fff;
-    margin: 0 auto
+    margin: 0 auto;
+    -webkit-transition: background 0.6s ease;
+    -moz-transition: background 0.6s ease;
+    -o-transition: background 0.6s ease;
+    transition: background 0.6s ease;
+}
+.button_more_products:hover {
+  background-color: #2c3165;
 }
 .btn_container {
   width: 100%;
     padding: 0 0 40px 30%;
     display: inline-block;
+}
+.switch_container {
+  width: 100%;
+    padding: 20px 0 40px 30%;
+    display: inline-block;
+}
+.switch {
+    background-color: #3e4596;
+    padding: 5px;
+     line-height: 40px; 
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #fff;
+    -webkit-transition: background 0.6s ease;
+    -moz-transition: background 0.6s ease;
+    -o-transition: background 0.6s ease;
+    transition: background 0.6s ease;
+    float: left;
+    margin: 5px;
+}
+.switch:hover {
+  background-color: #2c3165;
+}
+.switch_link {
+  font-weight: normal!important;
+}
+.button_more_products_link {
+  font-weight: normal!important;
 }

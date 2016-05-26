@@ -31,7 +31,7 @@ function slideHeadlinesFixed(e) {
     t >= projheadersTop[2] ? (jQuery("#slide3").css("position", "fixed"), jQuery("#slide3").css("top", "0px"), t >= projheadersTop[3] - projheadersHeight[2] && jQuery("#slide3").css("top", -1 * (t - (projheadersTop[3] - projheadersHeight[2])))) : jQuery("#slide3").removeAttr("style"), 
     t >= projheadersTop[3] ? (jQuery("#slide4").css("position", "fixed"), jQuery("#slide4").css("top", "0px"), t >= projheadersTop[4] - projheadersHeight[3] && jQuery("#slide4").css("top", -1 * (t - (projheadersTop[4] - projheadersHeight[3])))) : jQuery("#slide4").removeAttr("style"), 
     t >= projheadersTop[4] ? (jQuery("#slide5").css("position", "fixed"), jQuery("#slide5").css("top", "0px"), t >= projheadersTop[5] - projheadersHeight[4] && jQuery("#slide5").css("top", -1 * (t - (projheadersTop[5] - projheadersHeight[4])))) : jQuery("#slide5").removeAttr("style"), 
-    // t >= projheadersTop[5] ? (jQuery("#slide6").css("position", "fixed"), jQuery("#slide6").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[6] - projheadersHeight[5])))) : jQuery("#slide6").removeAttr("style"),
+    t >= projheadersTop[5] ? (jQuery("#slide6").css("position", "fixed"), jQuery("#slide6").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[6] - projheadersHeight[5])))) : jQuery("#slide6").removeAttr("style"),
     t >= projheadersTop[6] ? (jQuery("#slide7").css("position", "fixed"), jQuery("#slide7").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[7] - projheadersHeight[6])))) : jQuery("#slide7").removeAttr("style"),  
     t >= projheadersTop[7] ? (jQuery("#slide8").css("position", "fixed"), jQuery("#slide8").css("top", "0px"), jQuery(".contact").css("position", "fixed"), jQuery(".contact").css("top", "140px"), t >= projheadersTop[8] - projheadersHeight[7] && jQuery("#slide8").css("top", -1 * (t - (projheadersTop[8] - projheadersHeight[7])))) : (jQuery("#slide8").removeAttr("style"), jQuery(".contact").removeAttr("style"))
 }! function(e, t) {
@@ -3713,7 +3713,7 @@ jQuery(document).ready(function(e) {
     }, 500), e("#logo").click(function() {
         n(1)
     });
-    var i;
+    var i = 1;
     e(".slideContainer").waypoint(function(t) {
         i = e(this).attr("data-slide"), "down" == t ? e('.navigationMenu li[data-slide="' + i + '"]').addClass("active").prev().removeClass("active") : e('.navigationMenu li[data-slide="' + i + '"]').addClass("active").next().removeClass("active")
     }), jQuery(window).scroll(function(t) {
@@ -3721,7 +3721,7 @@ jQuery(document).ready(function(e) {
             r = "undefined" == typeof window.pageYOffset ? -1 : window.pageYOffset;
         n = n > r ? n : r, 0 == n && (e('.navigationMenu li[data-slide="1"]').addClass("active"), e('.navigationMenu li[data-slide="2"]').removeClass("active"));
         var i = e(".slideContainer").height() - 1;
-        n == i && (e('.navigationMenu li[data-slide="2"]').addClass("active"), e('.navigationMenu li[data-slide="1"]').removeClass("active")), slideHeadlinesFixed(n)
+        n == i && (e('.navigationMenu li[data-slide="3"]').addClass("active"), e('.navigationMenu li[data-slide="2"]').removeClass("active")), slideHeadlinesFixed(n)
     }), e(".amerika").mouseenter(function() {
         e("#amerika").fadeIn(400), e("#amerikaBubble").fadeIn(400)
     }), e(".amerika").mouseleave(function() {
@@ -3743,7 +3743,7 @@ jQuery(document).ready(function(e) {
         var o = e(this).attr("data-slide");
         o > i ? t(o) : n(o)
     }), e(window).resize(function() {
-        slideHeadlineGetVars()
+      
     })
 });
 $(document).ready(function() {
