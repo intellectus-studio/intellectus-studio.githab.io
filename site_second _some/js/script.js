@@ -26,7 +26,14 @@ function slideHeadlineGetVars() {
 
 function slideHeadlinesFixed(e) {
     var t = e;
-    t >= projheadersTop[0] ? (jQuery("#slide1").css("position", "fixed"), jQuery("#slide1").css("top", "0px"), t >= projheadersTop[1] - projheadersHeight[0] && jQuery("#slide1").css("top", -1 * (t - (projheadersTop[1] - projheadersHeight[0])))) : jQuery("#slide1").removeAttr("style"), t >= projheadersTop[1] ? (jQuery("#slide2").css("position", "fixed"), jQuery("#slide2").css("top", "0px"), t >= projheadersTop[2] - projheadersHeight[1] && jQuery("#slide2").css("top", -1 * (t - (projheadersTop[2] - projheadersHeight[1])))) : jQuery("#slide2").removeAttr("style"), t >= projheadersTop[2] ? (jQuery("#slide3").css("position", "fixed"), jQuery("#slide3").css("top", "0px"), t >= projheadersTop[3] - projheadersHeight[2] && jQuery("#slide3").css("top", -1 * (t - (projheadersTop[3] - projheadersHeight[2])))) : jQuery("#slide3").removeAttr("style"), t >= projheadersTop[3] ? (jQuery("#slide4").css("position", "fixed"), jQuery("#slide4").css("top", "0px"), t >= projheadersTop[4] - projheadersHeight[3] && jQuery("#slide4").css("top", -1 * (t - (projheadersTop[4] - projheadersHeight[3])))) : jQuery("#slide4").removeAttr("style"), t >= projheadersTop[4] ? (jQuery("#slide5").css("position", "fixed"), jQuery("#slide5").css("top", "0px"), t >= projheadersTop[5] - projheadersHeight[4] && jQuery("#slide5").css("top", -1 * (t - (projheadersTop[5] - projheadersHeight[4])))) : jQuery("#slide5").removeAttr("style"), t >= projheadersTop[5] ? (jQuery("#slide6").css("position", "fixed"), jQuery("#slide6").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[6] - projheadersHeight[5])))) : jQuery("#slide6").removeAttr("style"), t >= projheadersTop[6] ? (jQuery("#slide7").css("position", "fixed"), jQuery("#slide7").css("top", "0px"), jQuery(".contact").css("position", "fixed"), jQuery(".contact").css("top", "140px"), t >= projheadersTop[7] - projheadersHeight[6] && jQuery("#slide7").css("top", -1 * (t - (projheadersTop[7] - projheadersHeight[6])))) : (jQuery("#slide7").removeAttr("style"), jQuery(".contact").removeAttr("style"))
+    t >= projheadersTop[0] ? (jQuery("#slide1").css("position", "fixed"), jQuery("#slide1").css("top", "0px"), t >= projheadersTop[1] - projheadersHeight[0] && jQuery("#slide1").css("top", -1 * (t - (projheadersTop[1] - projheadersHeight[0])))) : jQuery("#slide1").removeAttr("style"), 
+    t >= projheadersTop[1] ? (jQuery("#slide2").css("position", "fixed"), jQuery("#slide2").css("top", "0px"), t >= projheadersTop[2] - projheadersHeight[1] && jQuery("#slide2").css("top", -1 * (t - (projheadersTop[2] - projheadersHeight[1])))) : jQuery("#slide2").removeAttr("style"), 
+    t >= projheadersTop[2] ? (jQuery("#slide3").css("position", "fixed"), jQuery("#slide3").css("top", "0px"), t >= projheadersTop[3] - projheadersHeight[2] && jQuery("#slide3").css("top", -1 * (t - (projheadersTop[3] - projheadersHeight[2])))) : jQuery("#slide3").removeAttr("style"), 
+    t >= projheadersTop[3] ? (jQuery("#slide4").css("position", "fixed"), jQuery("#slide4").css("top", "0px"), t >= projheadersTop[4] - projheadersHeight[3] && jQuery("#slide4").css("top", -1 * (t - (projheadersTop[4] - projheadersHeight[3])))) : jQuery("#slide4").removeAttr("style"), 
+    t >= projheadersTop[4] ? (jQuery("#slide5").css("position", "fixed"), jQuery("#slide5").css("top", "0px"), t >= projheadersTop[5] - projheadersHeight[4] && jQuery("#slide5").css("top", -1 * (t - (projheadersTop[5] - projheadersHeight[4])))) : jQuery("#slide5").removeAttr("style"), 
+    t >= projheadersTop[5] ? (jQuery("#slide6").css("position", "fixed"), jQuery("#slide6").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[6] - projheadersHeight[5])))) : jQuery("#slide6").removeAttr("style"),
+    t >= projheadersTop[6] ? (jQuery("#slide7").css("position", "fixed"), jQuery("#slide7").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[7] - projheadersHeight[6])))) : jQuery("#slide7").removeAttr("style"),  
+    t >= projheadersTop[7] ? (jQuery("#slide8").css("position", "fixed"), jQuery("#slide8").css("top", "0px"), jQuery(".contact").css("position", "fixed"), jQuery(".contact").css("top", "140px"), t >= projheadersTop[8] - projheadersHeight[7] && jQuery("#slide8").css("top", -1 * (t - (projheadersTop[8] - projheadersHeight[7])))) : (jQuery("#slide8").removeAttr("style"), jQuery(".contact").removeAttr("style"))
 }! function(e, t) {
     "object" == typeof module && "object" == typeof module.exports ? module.exports = e.document ? t(e, !0) : function(e) {
         if (!e.document) throw new Error("jQuery requires a window with a document");
@@ -3786,4 +3793,44 @@ var myInterval = setInterval(function() {
    limitCount++;
 }, interval*1200);
 
+});
+
+// $(document).ready(function() {
+//     var toggle=0;
+//     var h = $('.product_container')[0].scrollHeight;
+//     $(".btn_container").click(function() {
+//         if(toggle==1){
+//              $('.product_container').animate({height:660},400);
+//             toggle=0;
+//         }
+//         else
+//         {
+//             $('.product_container').animate({height: h},500);
+//             toggle=1;
+//         }
+//     });
+// });
+
+// $(document).ready(function() {
+//     $('.btn_container').click(function() {
+//         $('.product_container').css('overflow', 'visible');
+//         $('.product_container').css('height', 'auto');
+//     })
+// })
+
+
+$(document).ready(function() {
+    var toggle=0;
+    var h = $('.product_container')[0].scrollHeight
+    $(".btn_container").click(function() {
+        if(toggle==1){
+             $('.product_container').animate({height:600},400);
+            toggle=0;
+        }
+        else
+        {
+            $('.product_container').animate({height: h},500);
+            toggle=1;
+        }
+    });
 });

@@ -403,7 +403,7 @@ div#languageSwitch a:hover {
   top: 42px;
 }
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#fff; font-size: 20px;}
+.menu ul li a { text-decoration:none;  margin: 0px; color: #474747;; font-size: 20px;}
 .menu ul li a:hover {
   font-size: 20px!important;
   font-weight: normal!important;
@@ -506,7 +506,7 @@ ul.tabs {
 .slideContainerHeadline {
   float: left;
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 1);
   z-index: 20;
   height: 140px; }
 
@@ -805,7 +805,6 @@ text-decoration: none!important;
   top: 42px;
 }
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:#fff; font-size: 20px;}
 .menu ul li a:hover {
   font-size: 20px!important;
   font-weight: normal!important;
@@ -839,7 +838,7 @@ text-decoration: none!important;
 .main_logo {
   width: 100%;
 }
-@media only screen (max-width: 890px) {
+@media  (max-width: 890px) {
   .small_img {
     display: none;
   }
@@ -853,6 +852,10 @@ text-decoration: none!important;
     color: #474747;
     position: relative;
     float: left;
+}
+.product_container {
+     padding: 0 0 40px 5%!important;
+
 }
 }
 .name_input {
@@ -1196,4 +1199,66 @@ background:  url(btr_1_774x431_Anatysis.png) no-repeat 0 0 fixed;
   form {
     padding-left: 2%;
   }
+}
+/*products*/
+.product {
+  float: left;
+  width: 140px;
+  margin: 2%;
+}
+.product_container {
+  width: 100%;
+    padding: 0 0 40px 30%;
+    color: #474747;
+    position: relative;
+    float: left;
+    height: 600px;
+    overflow: hidden;
+    -webkit-transition: background 0.6s ease;
+    -moz-transition: background 0.6s ease;
+    -o-transition: background 0.6s ease;
+    transition: background 0.6s ease;
+}
+.product_img img {
+  width: 100%;
+}
+.product_description_container h5 {
+  font-family: Arial;
+color:  #3e4596;
+font-size: 14px;
+font-weight: 700;
+text-align: left;
+margin-top: 11px;
+margin-bottom: 5px;
+}
+.product_description {
+  font-family: Arial;
+color:  #5e5e5e;
+font-size: 14px;
+font-weight: 400;
+text-align: left;
+}
+.anchor_product {
+  display: block;
+}
+.button_more_products_link {
+  display: block;
+  outline: none;
+}
+.button_more_products {
+      background-color: #3e4596;
+    width: 35%;
+    min-width: 250px;
+     line-height: 40px; 
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    clear: both;
+    color: #fff;
+    margin: 0 auto
+}
+.btn_container {
+  width: 100%;
+    padding: 0 0 40px 30%;
+    display: inline-block;
 }
