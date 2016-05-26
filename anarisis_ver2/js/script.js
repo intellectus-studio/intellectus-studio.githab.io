@@ -3814,7 +3814,7 @@ $(document).ready(function() {
         }
         else
         {
-            $('.product_container').animate({height: h},500);
+            $('.product_container').animate({height: 1000},500);
             toggle=1;
         }
     });
