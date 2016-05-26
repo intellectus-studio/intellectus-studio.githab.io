@@ -13,7 +13,7 @@
  */
 function setHeight() {
     jQuery(".slideContainer").each(function() {
-        var e = jQuery(this).height() - 450;
+        var e = jQuery(this).height() - 350;
         e = jQuery(window).height() - e, jQuery(this).children(".slideImage").height(e)
     })
 }
@@ -31,8 +31,8 @@ function slideHeadlinesFixed(e) {
     t >= projheadersTop[2] ? (jQuery("#slide3").css("position", "fixed"), jQuery("#slide3").css("top", "0px"), t >= projheadersTop[3] - projheadersHeight[2] && jQuery("#slide3").css("top", -1 * (t - (projheadersTop[3] - projheadersHeight[2])))) : jQuery("#slide3").removeAttr("style"), 
     t >= projheadersTop[3] ? (jQuery("#slide4").css("position", "fixed"), jQuery("#slide4").css("top", "0px"), t >= projheadersTop[4] - projheadersHeight[3] && jQuery("#slide4").css("top", -1 * (t - (projheadersTop[4] - projheadersHeight[3])))) : jQuery("#slide4").removeAttr("style"), 
     t >= projheadersTop[4] ? (jQuery("#slide5").css("position", "fixed"), jQuery("#slide5").css("top", "0px"), t >= projheadersTop[5] - projheadersHeight[4] && jQuery("#slide5").css("top", -1 * (t - (projheadersTop[5] - projheadersHeight[4])))) : jQuery("#slide5").removeAttr("style"), 
-    // t >= projheadersTop[5] ? (jQuery("#slide6").css("position", "fixed"), jQuery("#slide6").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[6] - projheadersHeight[5])))) : jQuery("#slide6").removeAttr("style"),
-    t >= projheadersTop[6] ? (jQuery("#slide7").css("position", "fixed"), jQuery("#slide7").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[7] - projheadersHeight[6])))) : jQuery("#slide7").removeAttr("style"),  
+    t >= projheadersTop[5] ? (jQuery("#slide6").css("position", "fixed"), jQuery("#slide6").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[6] - projheadersHeight[5])))) : jQuery("#slide6").removeAttr("style"),
+    // t >= projheadersTop[6] ? (jQuery("#slide7").css("position", "fixed"), jQuery("#slide7").css("top", "0px"), t >= projheadersTop[6] - projheadersHeight[5] && jQuery("#slide6").css("top", -1 * (t - (projheadersTop[7] - projheadersHeight[6])))) : jQuery("#slide7").removeAttr("style"),  
     t >= projheadersTop[7] ? (jQuery("#slide8").css("position", "fixed"), jQuery("#slide8").css("top", "0px"), jQuery(".contact").css("position", "fixed"), jQuery(".contact").css("top", "140px"), t >= projheadersTop[8] - projheadersHeight[7] && jQuery("#slide8").css("top", -1 * (t - (projheadersTop[8] - projheadersHeight[7])))) : (jQuery("#slide8").removeAttr("style"), jQuery(".contact").removeAttr("style"))
 }! function(e, t) {
     "object" == typeof module && "object" == typeof module.exports ? module.exports = e.document ? t(e, !0) : function(e) {
@@ -3719,10 +3719,25 @@ jQuery(document).ready(function(e) {
     }), jQuery(window).scroll(function(t) {
         var n = document.documentElement ? document.documentElement.scrollTop : document.body.scrollTop,
             r = "undefined" == typeof window.pageYOffset ? -1 : window.pageYOffset;
-        n = n > r ? n : r, 0 == n && (e('.navigationMenu li[data-slide="1"]').addClass("active"), e('.navigationMenu li[data-slide="1"]').removeClass("active"));
+        n = n > r ? n : r, 0 == n && (e('.navigationMenu li[data-slide="1"]').addClass("active"), e('.navigationMenu li[data-slide="2"]').removeClass("active"));
         var i = e(".slideContainer").height() - 1;
-        n == i && (e('.navigationMenu li[data-slide="2"]').addClass("active"), e('.navigationMenu li[data-slide="1"]').removeClass("active")), slideHeadlinesFixed(n)
-    
+        n == i && (e('.navigationMenu li[data-slide="3"]').addClass("active"), e('.navigationMenu li[data-slide="2"]').removeClass("active")), slideHeadlinesFixed(n)
+    }), e(".amerika").mouseenter(function() {
+        e("#amerika").fadeIn(400), e("#amerikaBubble").fadeIn(400)
+    }), e(".amerika").mouseleave(function() {
+        e("#amerika").fadeOut(400), e("#amerikaBubble").fadeOut(400)
+    }), e(".afrika").mouseenter(function() {
+        e("#afrika").fadeIn(400), e("#afrikaBubble").fadeIn(400)
+    }), e(".afrika").mouseleave(function() {
+        e("#afrika").fadeOut(400), e("#afrikaBubble").fadeOut(400)
+    }), e(".asie").mouseenter(function() {
+        e("#asie").fadeIn(400), e("#asieBubble").fadeIn(400)
+    }), e(".asie").mouseleave(function() {
+        e("#asie").fadeOut(400), e("#asieBubble").fadeOut(400)
+    }), e(".evropa").mouseenter(function() {
+        e("#evropa").fadeIn(400), e("#evropaBubble").fadeIn(400)
+    }), e(".evropa").mouseleave(function() {
+        e("#evropa").fadeOut(400), e("#evropaBubble").fadeOut(400)
     }), jQuery("ul.navigationMenu > li > a").click(function(r) {
         r.preventDefault();
         var o = e(this).attr("data-slide");
@@ -3819,4 +3834,3 @@ $(document).ready(function() {
         }
     });
 });
-

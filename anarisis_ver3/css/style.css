@@ -783,7 +783,7 @@ text-decoration: none!important;
 }
 .cross{
   background:none;
-  position:absolute;
+  position:fixed;
   top:0px;
   right:0;
   padding:0px 15px 0px 15px;
@@ -822,12 +822,12 @@ text-decoration: none!important;
   background-color:  rgb(245,245,245);
   height: 140px;
 }
-@media (max-width: 720px) {
+@media all and (max-width: 720px) {
   .hamburger {
     display: block;
   }
 }
-@media  (max-width: 960px) {
+@media all and (max-width: 960px) {
   .navigationMenu_main {
     display: none;
   }
@@ -838,7 +838,7 @@ text-decoration: none!important;
 .main_logo {
   width: 100%;
 }
-@media  (max-width: 890px) {
+@media all and (max-width: 890px) {
   .small_img {
     display: none;
   }
@@ -1061,7 +1061,7 @@ background:  url(btr_1_774x431_Anatysis.png) no-repeat 0 0 fixed;
 
   .input_container {
     margin: 0 auto;
-    width: 50%;
+    width: 215px;
   }
   .submit_button {
     float: none;
@@ -1213,7 +1213,7 @@ background:  url(btr_1_774x431_Anatysis.png) no-repeat 0 0 fixed;
 }
 .product_container {
   width: 100%;
-    padding: 0 0 40px 30%;
+    padding: 0 0 40px 29%;
     color: #474747;
     position: relative;
     float: left;
@@ -1308,4 +1308,19 @@ text-align: left;
 }
 .button_more_products_link {
   font-weight: normal!important;
+}
+.switch {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+   }
+.switch:hover::after { 
+ content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 40%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.6); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 9px; /* Размер текста подсказки */
+    padding: 5px 5px; /* Поля */
+    color: #3e4596;
 }
