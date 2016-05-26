@@ -3809,12 +3809,12 @@ $(document).ready(function() {
     var h = $('.product_container')[0].scrollHeight
     $(".btn_container").click(function() {
         if(toggle==1){
-             $('.product_container').animate({height:600},400);
+             $('.product_container').css('height', '600');
             toggle=0;
         }
         else
         {
-            $('.product_container').animate({height: 1000},500);
+           $('.product_container').css('height', 'auto');
             toggle=1;
         }
     });
