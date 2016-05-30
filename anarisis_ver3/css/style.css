@@ -454,21 +454,6 @@ ul.navigationMenu li.active a {
   font-size: 20px;
   text-shadow: #fff 0px 0px; }
 
-ul.navigationMenu li.active1 a {
-  color:#3e4495;
-  text-decoration: underline;
-  text-decoration-color: #3e4495;
-  font-weight: bold;
-  font-size: 20px;
-  text-shadow: #fff 0px 0px; }
-
-/*ul.navigationMenu li.active_second a {
-  color:#3e4495;
-  text-decoration: underline;
-  text-decoration-color: #3e4495;
-  font-weight: bold;
-  font-size: 20px;
-  text-shadow: #fff 0px 0px; }*/
 
 
 ul.navigationMenu li a:hover {
@@ -1298,6 +1283,12 @@ text-align: left;
     color: #3e4596;
 }
 ul.navigationMenu li.active1 a {
+  text-decoration: none!important;
+  color: #474747!important;
+  font-size: 18px!important;
+  font-weight: 400!important;
+}
+ul.navigationMenu li.active.active1 a {
   text-decoration: none!important;
   color: #474747!important;
   font-size: 18px!important;

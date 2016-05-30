@@ -3890,28 +3890,4 @@ $(document).ready(function() {
         $('.six').addClass('active1')
     })
     
-})
-// $(document).ready(function() {
-//     $('.nocufon').click(function() {
-//         $(this).addClass('active_second').prevAll().removeClass('active_second');
-//         $('.nocufon.active_second').siblings().removeClass('active_second');
-//     })
-// })
-
-// $(document).ready(function() {
-//     if ($('.active_second').hasClass('active')) {
-//         $('.active_second').removeClass('active');
-//     }
-// });
-
-
-// $(document).ready(function() {
-// $('.nocufon').click( function(){
-//     if ( $(this).hasClass('active_second') ) {
-//         $(this).removeClass('active_second');
-//     } else {
-//         $('.nocufon.active_second').removeClass('current');
-//         $(this).addClass('active_second');    
-//     }
-// });
-// })
+});
