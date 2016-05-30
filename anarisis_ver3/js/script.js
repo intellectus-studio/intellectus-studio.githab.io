@@ -3748,11 +3748,11 @@ jQuery(document).ready(function(e) {
 });
 $(document).ready(function() {
     $( ".cross" ).hide();
-$( ".menu" ).hide();
-$( ".hamburger" ).click(function() {
-$( ".menu" ).slideToggle( "slow", function() {
-$( ".hamburger" ).hide();
-$( ".cross" ).show();
+    $( ".menu" ).hide();
+    $( ".hamburger" ).click(function() {
+    $( ".menu" ).slideToggle( "slow", function() {
+    $( ".hamburger" ).hide();
+    $( ".cross" ).show();
 });
 });
 
@@ -3760,9 +3760,36 @@ $( ".cross" ).click(function() {
 $( ".menu" ).slideToggle( "slow", function() {
 $( ".cross" ).hide();
 $( ".hamburger" ).show();
+$( ".menu" ).hide();
 });
 });
 });
+$(window).resize(function(){     
+
+       if ($('html').width() >= 620 ){
+            if($(".hamburger").is(":visible")) {
+                $( ".hamburger" ).hide();
+                $( ".menu" ).hide();
+            }
+              // is mobile device
+              
+
+       }
+
+});
+$(window).resize(function(){     
+
+       if ($('html').width() >= 323 ){
+            if($(".hamburger").is(":visible")) {
+                $( ".menu" ).hide();
+            }
+              // is mobile device
+              
+
+       }
+
+});
+
 
 
 
@@ -3834,3 +3861,39 @@ $(document).ready(function() {
         }
     });
 });
+ $('.nocufon').removeClass('active');
+$(document).ready(function() {
+    if ($('.nocufon', this).hasClass('active')) {
+        $('.nocufon').removeClass('active');
+    };
+     $('.nocufon', this).click(function() {
+        $('.nocufon', this).removeClass('active');
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+});
+
+
+// $(document).ready(function() {
+//     $('.nocufon').click(function() {
+//         $(this).addClass('active_second').prevAll().removeClass('active_second');
+//         $('.nocufon.active_second').siblings().removeClass('active_second');
+//     })
+// })
+
+// $(document).ready(function() {
+//     if ($('.active_second').hasClass('active')) {
+//         $('.active_second').removeClass('active');
+//     }
+// });
+
+
+// $(document).ready(function() {
+// $('.nocufon').click( function(){
+//     if ( $(this).hasClass('active_second') ) {
+//         $(this).removeClass('active_second');
+//     } else {
+//         $('.nocufon.active_second').removeClass('current');
+//         $(this).addClass('active_second');    
+//     }
+// });
+// })
