@@ -71,7 +71,7 @@ background-size: cover;}
  * Addresses `outline` inconsistency between Chrome and other browsers.
  */
 a:focus {
-  outline: thin dotted; }
+  outline: 0; }
 
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
@@ -470,7 +470,7 @@ ul.navigationMenu li.active1 a {
   font-size: 20px;
   text-shadow: #fff 0px 0px; }*/
 
-  
+
 ul.navigationMenu li a:hover {
   color:#3e4495;
   text-decoration: underline;
@@ -1296,4 +1296,10 @@ text-align: left;
     font-size: 9px; /* Размер текста подсказки */
     padding: 5px 5px; /* Поля */
     color: #3e4596;
+}
+ul.navigationMenu li.active1 a {
+  text-decoration: none!important;
+  color: #474747!important;
+  font-size: 18px!important;
+  font-weight: 400!important;
 }

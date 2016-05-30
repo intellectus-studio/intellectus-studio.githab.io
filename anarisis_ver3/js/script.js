@@ -3861,18 +3861,36 @@ $(document).ready(function() {
         }
     });
 });
- $('.nocufon').removeClass('active');
+ // $('.nocufon').removeClass('active');
 $(document).ready(function() {
-    if ($('.nocufon', this).hasClass('active')) {
-        $('.nocufon').removeClass('active');
-    };
+    // if ($('.nocufon', this).hasClass('active')) {
+    //     $('.nocufon').removeClass('active');
+    // };
      $('.nocufon', this).click(function() {
-        $('.nocufon', this).removeClass('active');
+        $('.nocufon').removeClass('active');
         $(this).addClass('active').siblings().removeClass('active');
     });
 });
-
-
+$('.seven').removeClass('active1');
+$('.six').removeClass('active1');
+$(document).ready(function() {
+    $('.nocufon').click(function() {
+        $('.seven').removeClass('active1')
+    })
+    $('.eight').click(function() {
+        $('.seven').addClass('active1')
+    })
+    
+})
+$(document).ready(function() {
+    $('.nocufon').click(function() {
+        $('.six').removeClass('active1')
+    })
+    $('.seven').click(function() {
+        $('.six').addClass('active1')
+    })
+    
+})
 // $(document).ready(function() {
 //     $('.nocufon').click(function() {
 //         $(this).addClass('active_second').prevAll().removeClass('active_second');
