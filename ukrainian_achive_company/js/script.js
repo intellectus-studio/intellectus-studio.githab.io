@@ -67,8 +67,8 @@ jQuery(function() {
 	 		}
 
 	 		controls.removeClass('active').eq(nextSlider).addClass('active');
-	 		items.panels.eq(currentSlider).fadeOut('slow');
-	 		items.panels.eq(nextSlider).fadeIn('slow');
+	 		items.panels.eq(currentSlider).fadeOut(3000);
+	 		items.panels.eq(nextSlider).fadeIn(1000);
 
 	 		// Actualizamos los datos del slider
 	 		currentSlider = nextSlider;
@@ -101,7 +101,7 @@ jQuery(function() {
 		return pb;
 	 }());
 
-	 SliderModule.init({duration: 4000});
+	 SliderModule.init({duration: 5000});
 
 });
 
@@ -216,7 +216,7 @@ jQuery(document).ready(function () {
         if (jQuery(this).scrollTop() > 100) {
             jQuery('.scrollup').fadeIn();
         } else {
-            $('.scrollup').fadeOut();
+            jQuery('.scrollup').fadeOut();
         }
     });
 

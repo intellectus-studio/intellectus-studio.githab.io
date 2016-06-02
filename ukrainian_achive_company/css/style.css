@@ -26,7 +26,7 @@ img {
 	max-width: 100%;
 }
 .wrapper {
-	max-width: 960px;
+	max-width: 1260px;
 	margin: 0 auto;
 }
 
@@ -468,6 +468,8 @@ footer {
 .col_one, .col_two, .col_three {
 	float: left;
 	margin: 25px;
+	margin-left: 75px;
+	margin-right: 75px;
 }
 .col_one {
 	width: 251px;
@@ -517,7 +519,7 @@ footer {
 .soc_icon_link:hover {
 	display: block;
     background: #fff;
-    height: 40px;
+    height: 38px;
     border-radius: 4px;
 }
 textarea:focus, input:focus{
@@ -589,13 +591,18 @@ box-shadow: 4px 5px 5px 0px rgba(0,91,170,1);
 .visible{
      opacity:1;
 }
+.card_container {
+	max-width: 1155px;
+    margin: 0 auto;
+}
 .card_item {
 	list-style: none;
 	float: left;
 	padding: 5px;
 	transition: all .2s ease-in-out;
 	z-index: 9999;
-}	
+}
+
 .card_item:hover {
 transform: scale(1.1);
 }
