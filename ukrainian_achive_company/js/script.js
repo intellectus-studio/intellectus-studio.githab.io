@@ -228,3 +228,13 @@ jQuery(document).ready(function () {
     });
 
 });
+
+
+jQuery(document).ready(function() {
+	
+	setTimeout(function(){
+		jQuery('body').addClass('loaded');
+		jQuery('h1').css('color','#222222');
+	}, 3000);
+	
+});
