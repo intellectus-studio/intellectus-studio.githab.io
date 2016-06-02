@@ -104,7 +104,14 @@ font-weight: 700;
 letter-spacing: 0.18px;
 text-align: left;
 }
-
+.lang_item_link:focus {
+	font-family: Arial;
+color:  #335aa7;
+font-size: 17.98px;
+font-weight: 700;
+letter-spacing: 0.18px;
+text-align: left;
+}
 .container {
 	width: 100%;
 	position: relative;
@@ -235,8 +242,11 @@ border-color:  #5c636e;
 	border-width: 34px 33.5px 0 33.5px;
 	border-color: #3359a6 transparent transparent transparent;
     position: absolute;
+    margin: auto
     top: 0;
-    left: 45%;
+    left: 50%;
+    margin-left: -15px;*/
+
 }
  .main_content_text {
 	display: table-cell;
@@ -251,33 +261,10 @@ border-color:  #5c636e;
 	line-height: 30px;/* Приближение из-за подстановки шрифтов */
 	text-align: center;
 }
-/* carousel */
 .carousel_container {
-	max-width: 960px;
-	margin: 0 auto;
-	display: table-cell;
-    vertical-align: middle;
-    position: relative;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
-.carousel_container_list  {
-	max-width: 960px;
-	margin: 0 auto;
-	margin-top: 20px;
-}
-.carousel_container_item {
-	list-style: none;
-	float: left;
-	padding-left: 17%;
-}
-.carousel_container_item:last-child {
-	padding-right: 0;
-	float: right;
-}
-.carousel_container_item:first-child {
-	padding-left: 0;
-	float: left;
-}
-
 .block_one {
 	background-image: url(../img/banner.png);
 	background-color: #3359a6;
@@ -533,6 +520,7 @@ textarea:focus, input:focus{
 	padding-left: 20px;
 	margin-bottom: 12px;
 	transition: all 0.3s ease;
+	border:none;
 }
 textarea {
 	padding-left: 20px;
@@ -564,7 +552,7 @@ textarea {
 	line-height: 24px;
 	text-align: center;
 	padding: 7px 30px;
-	margin-left: 60px;
+	margin-left: 70px;
 	transition: all 0.3s ease 0s;
 }
 .submit_button:hover {
@@ -593,4 +581,84 @@ box-shadow: 4px 5px 5px 0px rgba(0,91,170,1);
 }
 .block_eight_container {
 	padding: 100px 0;
+}
+.block_seven_container {
+	padding-top: 77px;
+}
+.block_seven_icon {
+	border-radius: 50%;
+background-color:  #005aa8;
+width: 150px;
+height: 150px;
+border: 6px solid #e9e7e0;
+transition: all .2s ease-in-out;
+}
+.block_seven_icon:hover {
+	transform: scale(1.1);
+}
+.block_seven_client, .block_seven_task , .block_seven_solution {
+	float: left;
+	padding: 20px 60px;
+	width: 33%;
+}
+.block_seven_icon {
+	margin: 0 auto;
+}
+.block_seven_head {
+	font-family: 'Open Sans', sans-serif;
+color:  #005baa;
+font-size: 30px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 24px;/* Approximation due to font substitution */
+text-align: center;
+text-transform: uppercase;
+padding: 20px 0;
+}
+.block_seven_text {
+	font-family: 'Open Sans', sans-serif;
+color:  #949699;
+font-size: 18px;/* Approximation due to font substitution */
+font-weight: 400;
+line-height: 20px;/* Approximation due to font substitution */
+text-align: left;
+}
+.line {
+	width: 70%;
+	height: 1px;
+	background-color: #e9e7e0;
+	margin: 0 auto;
+}
+.block_six_container {
+	padding-top: 78px;
+	padding-bottom: 98px;
+
+}
+.download_file {
+	float: left;
+	width: 20%;
+
+}
+.video_container {
+	float: left;
+	width: 70%;
+}
+.video {
+	background-color:  #ebe9e2;
+	height: 453px;
+}
+.download_file_item {
+	list-style: none;
+	padding: 10px 0;
+}
+.download_file_item a {
+	display: block;
+}
+.block_six_head {
+	font-family: Arial;
+color:  #335aa7;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+padding-bottom: 14px;
 }

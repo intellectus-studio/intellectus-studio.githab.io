@@ -149,3 +149,13 @@ jQuery(document).ready(function() {
         offset: 100
        });
 });
+
+/*carousel*/
+jQuery(document).ready(function(){
+  jQuery('.slider1').bxSlider({
+    slideWidth: 210,
+    minSlides: 3,
+    maxSlides: 3,
+    slideMargin: 150
+  });
+});
