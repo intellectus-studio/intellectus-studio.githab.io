@@ -169,41 +169,62 @@ jQuery(document).ready(function ($) {
     }, 5000);
   
   
-	var slideCount = $('.slider ul li').length;
-	var slideWidth = $('.slider ul li').width();
-	var slideHeight = $('.slider ul li').height();
+	var slideCount = jQuery('.slider ul li').length;
+	var slideWidth = jQuery('.slider ul li').width();
+	var slideHeight = jQuery('.slider ul li').height();
 	var sliderUlWidth = slideCount * slideWidth;
 	
-	$('.slider').css({ width: slideWidth, height: slideHeight });
+	jQuery('.slider').css({ width: slideWidth, height: slideHeight });
 	
-	$('.slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+	jQuery('.slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
 	
-    $('.slider ul li:last-child').prependTo('.slider ul');
+    jQuery('.slider ul li:last-child').prependTo('.slider ul');
 
     function moveLeft() {
-        $('.slider ul').animate({
+        jQuery('.slider ul').animate({
             left: + slideWidth
         }, 200, function () {
-            $('.slider ul li:last-child').prependTo('.slider ul');
-            $('.slider ul').css('left', '');
+            jQuery('.slider ul li:last-child').prependTo('.slider ul');
+            jQuery('.slider ul').css('left', '');
         });
     };
 
     function moveRight() {
-        $('.slider ul').animate({
+        jQuery('.slider ul').animate({
             left: - slideWidth
         }, 200, function () {
-            $('.slider ul li:first-child').appendTo('.slider ul');
-            $('.slider ul').css('left', '');
+            jQuery('.slider ul li:first-child').appendTo('.slider ul');
+            jQuery('.slider ul').css('left', '');
         });
     };
 
-    $('a.control_prev').click(function () {
+    jQuery('a.control_prev').click(function () {
         moveLeft();
     });
 
-    $('a.control_next').click(function () {
+    jQuery('a.control_next').click(function () {
         moveRight();
     });
 
 });    
+
+
+/*scroll top*/
+jQuery(document).ready(function () {
+
+    jQuery(window).scroll(function () {
+        if (jQuery(this).scrollTop() > 100) {
+            jQuery('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+
+    jQuery('.scrollup').click(function () {
+        jQuery("html, body").animate({
+            scrollTop: 0
+        }, 1200);
+        return false;
+    });
+
+});
