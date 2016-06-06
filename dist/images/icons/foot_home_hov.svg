@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="footerIcon"   viewBox="-1 -1 76.5 76.5" enable-background="new -1 -1 76.5 76.5" xml:space="preserve">
+   <style>
+    .footerIcon_outside {
+        stroke: #70747f; 
+        stroke-widht: 1;
+        fill: none;
+        transition: .3s;
+    }
+    
+    .footerIcon_inside {
+        fill: #70747f;
+        transition: .3s;
+    }
+    
+    .footerIcon:hover .footerIcon_outside {
+        fill: #434753;
+        stroke: #434753;
+    }
+    
+    .footerIcon:hover .footerIcon_inside {
+        fill: #FFFFFF
+    }
+    </style>
+    <switch>
+    <foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1"/>
+    <g>
+      <path class="footerIcon_outside" d="M36.8 0C16.5 0 0 16.5 0 36.7 0 57 16.5 73.5 36.8 73.5c20.3 0 36.8-16.5 36.8-36.7C73.5 16.5 57 0 36.8 0z"/>
+      <g>
+        <path class="footerIcon_inside" d="M18 40.7v12.6c0 0.7 0.8 1 1.5 1h12.4c0.7 0 1.1-0.3 1.1-1v-8.2c0 0 0.2-0.8 0.9-0.8h6.2c0.8 0 0.9 0.8 0.9 0.8v8.2c0 0.7 0.5 1 1.2 1h11.7c0.7 0 1.1-0.3 1.1-1V40.8L36.7 23.7 18 40.7zM41 37.6c0 0.4-0.3 0.8-0.8 0.8h-6.5c-0.4 0-0.8-0.3-0.8-0.8v-6.5c0-0.4 0.3-0.8 0.8-0.8h6.5c0.4 0 0.8 0.3 0.8 0.8V37.6zM38.6 17.5c-0.9-0.8-2.6-0.8-3.5 0L28 23.5v-0.2c0-0.7 0.2-1-0.5-1h-4c-0.7 0-1.5 0.3-1.5 1v6.2l-7.9 7.3 3.2 3.4 19.7-17.9 19.1 17.9 3.2-3.4L38.6 17.5z"/>
+      </g>
+    </g>
+  </switch>
+</svg>

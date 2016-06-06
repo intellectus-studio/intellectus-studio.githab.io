@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f4f6f7">
+    <title>Document</title> 
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header class="header_background">
+        <div class="container">
+            <!-- open -->
+            <div class="header_top">
+                <div class="header_logoBox">
+                    <a href="index.html">
+                        <img src="images/icons/0_LOGO.png" class="header_logo">
+                    </a>
+                </div>
+                <div class="header_phones">
+                    <button class="header_callback">Заказать звонок</button>
+                    <a href="tel:+38 (044) 384 20 22" class="header_phone">+38 (044) 384 20 22</a>
+                    <a href="tel:+38 (067) 102 33 44" class="header_phone">+38 (067) 102 33 44</a>
+                </div>
+                <div class="menu">
+                    <div class="menu_circle">
+                        <img src="images/icons/adapt_sandwich_icon.svg" class="menu_img">
+                    </div>
+                </div>
+                <div class="header_search active">
+                    <div>
+                        <button class="lang active">рус</button>
+                        <button class="lang">укр</button>
+                    </div>
+                    <div class="search">
+                        <input type="text" class="search_input" placeholder="Умный поиск">
+                        <input type="submit" class="search_submit" value="">
+                    </div>
+                </div>
+            </div>
+            <!-- add class "active" -->
+            <div class="navigation active">
+                <a href="purсhase.html" class="navigation_item">
+                    <img src="images/icons/4_deliv_black.svg" class="navigation_img">
+                    <div class="navigation_comment">Доставка/оплата</div>
+                </a>
+                <a href="blog.html" class="navigation_item">
+                    <img src="images/icons/4_blog_black.svg" class="navigation_img">
+                    <div class="navigation_comment">Блог</div>
+                </a>
+                <a href="contacts.html" class="navigation_item">
+                    <img src="images/icons/4_location_black.svg" class="navigation_img navigation_location">
+                    <div class="navigation_comment">Контакты</div>
+                </a>
+                <a href="#openModal2" class="navigation_item">
+                    <img src="images/icons/4_user_black.svg" class="navigation_img">
+                    <div class="navigation_comment">Мой аккаунт</div>
+                </a>
+                <a href="#openModal" class="navigation_item">
+                    <img src="images/icons/4_basket_black.svg" class="navigation_img navigation_location">
+                    <div class="navigation_comment">Корзина</div>
+                </a>
+            </div>
+        </div>
+        <div class="mobile_menu" style="display: none">
+            <div class="container">
+                <ul class="nav">
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Ручной инструмент</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Заточка инструмента</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Материалы для мастеров</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Электроинструмент <br>и бензопилы</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Станки дерево-<br>обрабатывающие</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Книги</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Рабочее место</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Отделка древисины</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Фурнитура</a>
+                        </div>
+                    </li>
+                    <li class="nav_item nav_item_bold">
+                        <div class="nav_text">
+                            <a href="#" class="nav_link ">Наше производство</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+         <!-- add class "active" --> 
+         <nav class="active">
+                <div class="container"> 
+                    <ul class="nav">
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Ручной инструмент</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul>
+                                    </li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul>
+                                    </li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Заточка инструмента</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Материалы для мастеров</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Электроинструмент и бензопилы</a>
+                            </div>
+                            <div class="dropdownMenu ">
+                                <ul class="container">
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Станки дерево-обрабатывающие</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <div class="dropdownMenu_row">
+                                        5
+                                    </div>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Книги</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <div class="dropdownMenu_row">
+                                        6
+                                    </div>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Рабочее место</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <div class="dropdownMenu_row">
+                                        7
+                                    </div>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Отделка древисины</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <div class="dropdownMenu_row">
+                                        8
+                                    </div>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link">Фурнитура</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <div class="dropdownMenu_row">
+                                        9
+                                    </div>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav_item nav_item_bold">
+                            <div class="nav_text">
+                                <a href="#" class="nav_link"><p>Наше производство</a>
+                            </div>
+                            <div class="dropdownMenu">
+                                <ul class="container">
+                                    <div class="dropdownMenu_row">
+                                        10
+                                    </div>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                    <li><ul class="dropdownMenu_row">
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                        <li><a href="#" class="dropdownMenu_item">Ссылка на другую страницу</a></li>
+                                    </ul></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        <div id="openModal" class="modalDialog_bucket">
+        <div class="hide_scroll">
+            <div class="bucket_container"><a href="#close" title="Close" class="close_bucket"></a>
+                <div class="bucket">
+                <h2 class="popup_header_bucket">Корзина</h2>
+                    <div class="bucket_header">
+                        <div class="bucket_name">Название</div>
+                        <div class="bucket_number">Кол-во</div>
+                        <div class="bucket_price">Стоимость</div>
+                    </div>
+                        <div class="bucket_item bucket_item1 clear">
+                            <div class="bucket_img clear"><img class="bucket_pic"src="images/exemple-2.jpg"></div>
+                            <div class="line clear">
+                                <div class="bucket_item_name">№78п Рецез плоский прямой</div>
+                                <div class="bucket_item_number">
+                                <a href="#" class="button_arrow_top"><img src="images/icons/purchase_value1.svg"></a>
+                                <input class="number_form" type="number" min="1" max="100" value="1" >
+                                <a href="#" class="button_arrow_bottom"><img src="images/icons/purchase_value2.svg"></a>
+                            </div>
+                            <div class="bucket_item_price">160грн</div>
+                                <a href="#"><img class="bucket_close bucket_close_item" src="images/icons/close_delivery.svg"></a>
+                            </div>
+                        </div>
+                         <div class="bucket_item clear">
+                            <div class="bucket_img clear"><img class="bucket_pic" src="images/exemple-2.jpg"></div>
+                            <div class="line clear">
+                                <div class="bucket_item_name">№78п Рецез плоский прямой</div>
+                                <div class="bucket_item_number">
+                                <a href="#" class="button_arrow_top"><img src="images/icons/purchase_value1.svg"></a>
+                                <input  class="number_form" type="number" min="1" max="100" value="1">
+                                <a href="#" class="button_arrow_bottom"><img src="images/icons/purchase_value2.svg"></a>
+                                </div>
+                                <div class="bucket_item_price">160грн</div>
+                                    <a href="#"><img class="bucket_close bucket_close_item" src="images/icons/close_delivery.svg"></a>
+                            </div>
+                        </div>
+        
+                        <div class="bucket_buy">
+                            <div class="bucket_continue">
+                                <button class="cart_change bucket_continue_button">Продолжить покупки</button>
+                            </div>
+                            <div class="bucket_summary">Всего к оплате:</div>
+                            <div class="bucket_summary_price">480грн</div>
+                            <button class="product_buy_bucket">Оформить заказ</button> 
+                        </div>
+                </div>
+        
+                <div class="interestings">
+                <h3 class="interestings_header">Вам будет интересно</h3>
+                <div class="interesting_container">
+                <div class="interesting_item">
+                    <div class="cart_item_popup">
+                        <div class="cart_photo">
+                            <img src="images/sidebar.jpg" class="cart_img">
+                        </div>
+                        <div class="cart_description cart_description_no_border">
+                            <div class="cart_title">Lorem ipsum dolor sit amet.</div>
+                            <strong>1 шт</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="interesting_item">
+                    <div class="cart_item_popup">
+                        <div class="cart_photo">
+                            <img src="images/sidebar.jpg" class="cart_img">
+                        </div>
+                        <div class="cart_description cart_description_no_border">
+                            <div class="cart_title">Lorem ipsum dolor sit amet.</div>
+                            <strong>1 шт</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="interesting_item">
+                    <div class="cart_item_popup">
+                        <div class="cart_photo">
+                            <img src="images/sidebar.jpg" class="cart_img">
+                        </div>
+                        <div class="cart_description cart_description_no_border">
+                            <div class="cart_title">Lorem ipsum dolor sit amet.</div>
+                            <strong>1 шт</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="interesting_item">
+                    <div class="cart_item_popup">
+                        <div class="cart_photo">
+                            <img src="images/sidebar.jpg" class="cart_img">
+                        </div>
+                        <div class="cart_description cart_description_no_border">
+                            <div class="cart_title">Lorem ipsum dolor sit amet.</div>
+                            <strong>1 шт</strong>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        </div>
+            </div>
+        <div id="openModal2" class="modalDialog_contacts">
+            <div class="contacts_container"><a href="#close" title="Close" class="close_contacts"></a>
+                <div class="contacts_container purchase">
+                <main class="purchase_main_popup">
+                    <div class="purchase_item">
+                        <div class="purchase_info purchase_info_popup">
+                            <div class="tabs tabs_popup_block">
+                                <div class="tabs_item tabs_popup active" data-tab="#popup_signin">
+                                    Я постоянный покупатель
+                                </div>
+                                <div class="tabs_item tabs_popup" data-tab="#popup_signup">
+                                    Я новый покупатель
+                                </div>
+                            </div>
+                            <div class="purchase_box purchase_box_popup" id="popup_signin">
+                                <form action="">
+                                    <div class="purchase_form ">
+                                        <div class="purchase_rows">
+                                            <div class="purchase_row_popup">
+                                                <div class="form">
+                                                    <div class="purchase_help purchase_help_left_popup_enter">Войти через почту:</div>
+                                                    <span class="form_label">Эл. Почта</span>
+                                                    <input type="email" id="input6" onkeyup="checkParams_third()" class="form_input" required>
+                                                    <label for="input6"></label>
+                                                </div>
+                                                <div class="form">
+                                                    <span class="form_label">Пароль</span>
+                                                    <input type="password" id="input7"  onkeyup="checkParams_third()" class="form_input" required>
+                                                    <label for="input7"></label>
+                                                    <div class="purchase_help purchase_help_left_popup">
+                                                        <button class="form_help">Напомнить пароль</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="purchase_row purchase_middle">
+                                                <strong>или</strong>
+                                            </div>
+                                            <div class="purchase_row purchase_padding">
+                                                <div class="purchase_help">Через аккаунт соц.сетей:</div>
+                                                <div class="purchase_caption">Мы не прередаем социальным сетям никаких данных и не постим ничего у вас на стенах!</div>
+                                            </div>
+                                        </div>
+                                        <input type="submit" id="submit2" disabled="" class="form_button" value="Войти" disabled="disabled" >
+                                        <label>
+                                        <input type="checkbox" name="remember" value="Запомнить меня">
+                                        <span></span>
+                                        Запомнить меня</label>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="purchase_box" id="popup_signup">
+                                <form action="">
+                                    <div class="purchase_form">
+                                        <div class="form">
+                                            <span class="form_label">Имя и фамилия</span>
+                                            <input type="text" id="input8" onkeyup="checkParams_fourth()" class="form_input" required>
+                                            <label for="input8"></label>
+                                        </div>
+                                        <div class="form">
+                                            <span class="form_label">Город</span>
+                                            <select class="form_select">
+                                                <option>Киев</option>
+                                                <option>Львов</option>
+                                            </select>
+                                        </div>
+                                        <div class="form">
+                                            <span class="form_label">Мобильный телефон</span>
+                                            <input type="text" id="input9" onkeyup="checkParams_fourth()" class="form_input" required>
+                                            <label for="input9"></label>
+                                        </div>
+                                        <div class="form">
+                                            <span class="form_label">Эл. почта</span>
+                                            <input type="text" id="input10" onkeyup="checkParams_fourth()" class="form_input" required>
+                                            <label for="input10"></label>
+                                        </div>
+                                        <input type="submit" id="submit3" disabled="disabled" class="form_button" onkeyup="checkParams_fourth()" value="Регистрация">
+                                    </div>
+                                </form>
+                            </div>
+                    </div>
+            </div>
+                    </main>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <div class="container">
+        <asside class="sidebar_filter">
+            <form action="">
+                <input type="checkbox" id="filter_title-1" class="filter_title">
+                <label for="filter_title-1">Бренды</label>
+                <div class="filter_block">
+                    <input type="checkbox" id="sidebar_filter-1" class="filter_item">
+                    <label for="sidebar_filter-1">Stanley</label>
+                    <input type="checkbox" id="sidebar_filter-2" class="filter_item">
+                    <label for="sidebar_filter-2">Interpool</label>
+                    <input type="checkbox" id="sidebar_filter-3" class="filter_item">
+                    <label for="sidebar_filter-3">Makita</label>
+                    <input type="checkbox" id="sidebar_filter-4" class="filter_item">
+                    <label for="sidebar_filter-4">Stanley</label>
+                </div>
+                <hr class="filter_hr">
+                <input type="checkbox" id="filter_title-2" class="filter_title">
+                <label for="filter_title-2">Свойства</label>
+                <div class="filter_block">
+                    <input type="checkbox" id="sidebar_filter-5" class="filter_item">
+                    <label for="sidebar_filter-5">Stanley</label>
+                    <input type="checkbox" id="sidebar_filter-6" class="filter_item">
+                    <label for="sidebar_filter-6">Interpool</label>
+                    <input type="checkbox" id="sidebar_filter-7" class="filter_item">
+                    <label for="sidebar_filter-7">Makita</label>
+                    <input type="checkbox" id="sidebar_filter-8" class="filter_item">
+                    <label for="sidebar_filter-8">Stanley</label>
+                    <input type="checkbox" id="sidebar_filter-9" class="filter_item">
+                    <label for="sidebar_filter-9">Makita</label>
+                </div>
+                <hr class="filter_hr">
+                <input type="checkbox" id="filter_title-3" class="filter_title">
+                <label for="filter_title-3">Цена</label>
+                <div class="col-xs-10 col-xs-offset-1 bx-ui-slider-track-container dis_none">
+                                        <div class="bx-ui-slider-track gray_main" id="drag_track_c4ca4238a0b923820dcc509a6f75849b">
+                                            <div class="bx-ui-slider-part p1"><span>2999</span></div>
+                                            <div class="bx-ui-slider-part p2 "><span>3499</span></div>
+                                            <div class="bx-ui-slider-part p3 "><span>3999</span></div>
+                                            <div class="bx-ui-slider-part p4 "><span>4499</span></div>
+                                            <div class="bx-ui-slider-part p5 "><span>4999</span></div>
+
+                                            <div class="bx-ui-slider-pricebar-vd gray" style="left: 0;right: 0;" id="colorUnavailableActive_c4ca4238a0b923820dcc509a6f75849b"></div>
+                                            <div class="bx-ui-slider-pricebar-vn gray" style="left: 0;right: 0;" id="colorAvailableInactive_c4ca4238a0b923820dcc509a6f75849b"></div>
+                                            <div class="bx-ui-slider-pricebar-v gray" style="left: 0;right: 0;" id="colorAvailableActive_c4ca4238a0b923820dcc509a6f75849b"></div>
+                                            <div class="bx-ui-slider-range gray" id="drag_tracker_c4ca4238a0b923820dcc509a6f75849b" style="left: 0%; right: 0%;">
+                                                <a class="bx-ui-slider-handle left bg_left_gray" style="left:0;" href="javascript:void(0)" id="left_slider_c4ca4238a0b923820dcc509a6f75849b"></a>
+                                                <a class="bx-ui-slider-handle right bg_right_gray" style="right:0;" href="javascript:void(0)" id="right_slider_c4ca4238a0b923820dcc509a6f75849b"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+            </form>
+        </asside>
+        <main class="main_col">
+            <div class="clearfix">
+                <h2 class="title_catalog">Ручной инстремент</h2>
+                <div class="switch">
+                    <input type="radio" name="switch" value="line" id="switch_box-1" class="switch_box" >
+                    <label for="switch_box-1">
+                        <img src="images/icons/filter2_products.svg" class="switch_icon">
+                    </label>
+                    <input type="radio" name="switch" value="box" id="switch_box-2" class="switch_box" checked>
+                    <label for="switch_box-2">
+                    	<img src="images/icons/filter1_products.svg" class="switch_icon">
+                    </label>
+                </div>
+            </div>
+            <div class="catalog">
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                            <div class="category category-light">
+                                Распродажа
+                            </div>
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/yes.svg" class="product_availabilityImg"> Есть в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                    <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_buy">Купить</button>
+                               <button class="product_buy-fast">
+                                    <div class="product_buy-container"><img src="images/icons/1click_icon.svg" class="product_availabilityImg"> Купить в один клик</div></button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article class="catalog_box">
+                    <div class="product_border">
+                        <div class="product_imageBox">
+                           <!--  <div class="category category-light">
+                                Распродажа
+                            </div> -->
+                            <img src="images/sidebar.jpg" class="product_img">
+                        </div>
+                        <div class="product_description">
+                            <div class="product_col">
+                                <p class="product_title">Стамески прямые плоские, Стрый</p>
+                                <div class="product_characteristic">
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                    <p>Lorem ipsum.</p>
+                                </div>
+                            </div>
+                            <div class="product_col">
+                                <div class="product_availability">
+                                    <img src="images/icons/no.svg" class="product_availabilityImg"> Нет в наличии
+                                </div>
+                                <div class="price price24">
+                                    160 грн
+                                     <span class="price-old"><span class="underline">210 грн</span></span>
+                                </div>
+                                <button class="product_empty">Сообщить о появлении</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+
+            </div>
+        </main>
+    </div>
+    <div class="container">
+        <div class="footer_container footer_out">
+            <hr class="footer_hr">
+            <h3 class="footer_header">Интернет-магазин Stameski.com.ua</h3>
+            <p class="footer_description ">Профессиональные резчики, выполняющие масштабные индивидуальные работы, будут приятно удивлены широким выбором профилей стамесок и ножей для резьбы по дереву, которые позволят выполнять сложные задачи, и при этом прослужат очень долго, не доставляя своему хозяину никаких хлопот. Среди представленных брендов Вы найдете стамески Татьянка, Pfeil, Kirschen, Stubai, Narex, Flexcut, Franko, Mora Frost и др. Те же, кто только собирается приступить к знакомству с этим древним видом искусства, найдут у нас всё необходимое: учебные дощечки, резцы для начинающих, а также самоучители по резьбе с подробным описанием и фотографиями, как правильно держать стамески для резьбы по дереву, каким должно быть рабочее место, какой материал лучше всего использовать для резьбы, как правильно править инструмент, и конечно пошаговые уроки резьбы с иллюстрациями, выполнив которые можно не только научиться владеть инструментом, но и освоить различные техники резьбы и в дальнейшем использовать их для украшения интерьеров и различных деревянных изделий.</p>
+           
+        </div>
+    </div>
+    <footer> 
+        <div class="container">
+            <div class="footer_rows">
+                <div class="footer_row  footer_row-1">
+                    <h3 class="footer_title ">О нас</h3>
+                    <p class="footer_place">ул.Магнитогорская, 1, 3 этаж
+                        <br>Киев
+                        <br>Украина</p>
+                    <p class="footer_time ">
+                        <strong>Пн-Пт с 10.00 до 19.00</strong>
+                    </p>
+                    <p class="footer_phone">
+                        +38 (044) 384 20 22
+                        <br> +38 (067) 102 33 44
+                    </p>
+                </div>
+                <div class="footer_row footer_row-2">
+                    <h3 class="footer_title ">Способы оплаты</h3>
+                    <object type="image/svg+xml" data="images/icons/3_purse.svg" class="footer_icon"></object>
+                    <object type="image/svg+xml" data="images/icons/foot_naloj_hov.svg" class="footer_icon"></object>
+                    <br>
+                    <object type="image/svg+xml" data="images/icons/foot_visa_hov.svg" class="footer_icon"></object>
+                </div>
+                <div class="footer_row footer_row-3">
+                    <h3 class="footer_title ">Способы доставки</h3>
+                    <object type="image/svg+xml" data="images/icons/foot_nova_hov.svg" class="footer_icon"></object>
+                    <object type="image/svg+xml" data="images/icons/foot_cour_hov.svg" class="footer_icon"></object>
+                    <br>
+                    <object type="image/svg+xml" data="images/icons/foot_samo_hov.svg" class="footer_icon"></object>
+                    <object type="image/svg+xml" data="images/icons/foot_home_hov.svg" class="footer_icon"></object>
+                </div>
+                <div class="footer_row footer_row-4">
+                    <a href="#"><div class="footer_iconvk footer_socIcon"></div></a>
+                    <a href="#"><div class="footer_iconfb footer_socIcon"></div></a>
+                    <a href="#"><div class="footer_iconyoutube footer_socIcon"></div></a>
+                </div>
+            </div>
+            <hr class="footer_hr">
+            <div class="footer_container">
+                <p class="footer_copyright">Copyright © 2009–2015</p>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
