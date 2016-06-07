@@ -25,7 +25,7 @@
 
 		</div> -->
 <header>
-	<div class="wrapper clearfix">
+	<div class="header_main wrapper clearfix">
 		<div class="logo">
 			<img src="img/logo.png">
 		</div>
@@ -45,7 +45,7 @@
 </header>
 <main>
 	<section id="slider" class="container">
-		<ul class="slider-wrapper animate slideInRight">
+		<ul class="slider-wrapper animate slideInRight fade">
 		<li class="slide current-slide">
 			<img src="img/banner.png" title="" alt="">
 			<div class="slide_text_container"></div><div class="slide_text animated slideInRight">Сокращение затрат и оптимизации процесса! 7 лет в обработке данных программ лояльностей! Собственная программа ввода и обработки данных!</div>
@@ -59,7 +59,10 @@
 		<ul id="control-buttons" class="control-buttons"></ul>
 	</section>
 	<div class="sub_slider">
-		<div class="sub_slider_item">Обработка Программы Лояльности Вашей сети!</div>
+		<ul class="sub_slider-wrapper fadeslider">
+			<li class="slide sub_slider_item animated slideInDown">Обработка Программы Лояльности Вашей сети!</li>
+			<li class="slide sub_slider_item animated slideInDown">Обработка Программы Лояльности Вашей сети!1</li>
+		</ul>
 	</div>	
 	<div class="main_content">
 		<div class="wrapper main_container">
@@ -264,18 +267,17 @@
 		</div>
 	</div>
 	<div class="block_nine">
-		<div class="wrapper">
+		<div class="wrapper block_nine_wrapper">
 			<h3 class="reviews_head">Отзывы наших клиентов</h3>
-			<div class="client_icon"></div>
-			<div class="slider">
-  <!-- <a href="#" class="control_next">>></a>
-  <a href="#" class="control_prev"><</a> -->
-	  			<ul>
-				    <li><blockquote>Содержит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)</blockquote></li>
-				    <li><blockquote>Содержит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)</blockquote></li>
-				    <li><blockquote>Содержит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)</blockquote></li>
-				    <li><blockquote>Содержит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)</blockquote></li>
-	  			</ul>  
+			
+	  		<div class="slider_text_bottom">
+				<ul class="clearfix">
+					<li><div class="client_icon"></div>
+					<blockquote>Содержит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)</blockquote></li></li>
+					<li><div class="client_icon"></div><blockquote> blabla2ержит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)222 blabla2222 blabla2222 blabla2222 blabla2222 blabla2222</blockquote></li>
+					<li><div class="client_icon"></div><blockquote>blabla33ержит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)3 blabla333 blabla33 blabla33 blabla33 blabla33</blockquote></li>
+					<li><div class="client_icon"></div><blockquote>Содержержит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)ит слайдер с отзывами клиентов. Переключение слайдов автоматически каждые 5 секунд(время не утверждено заказчиком окончательно)</blockquote></li>
+				</ul>
 			</div>
 		</div>
 	</div>
@@ -283,14 +285,14 @@
 <footer>
 	<div class="wrapper footer_container clearfix">
 		<div class="col_one">
-			<img src="img/logo.png">
+			<img src="img/Logo_UAC_white.png">
 			<div class="col_one_text">Ваш бизнес и Ваши потребносВаш бизнес и Ваши потребности это всегда больше чем готовые «коробочные» решения! Позвольте нам разработать для Вас персонифицированное предложение по обработке данных Вашей программы лояльности! Мы гарантируем, что это будет <span>ДЕШЕВЛЕ</span> и <span>КАЧЕСТВЕННЕЕ</span>, чем то, с чем Вы сталкиваетесь сейчас!</div>
 		</div>
 		<div class="col_two">
 			<ul class="contacts clearfix">
-				<li class="contacts_item"><img class="contacts_item_icon" src="img/map.png">Киев, ул. Ленина 16</li>
-				<li class="contacts_item"><img class="contacts_item_icon" src="img/phone_blue.png">044 207 43 32</li>
-				<li class="contacts_item"><img class="contacts_item_icon" src="img/mail.png">info@uac-archive.com.ua</li>
+				<li class="contacts_item"><img class="contacts_item_icon" src="img/map_white.png">Киев, ул. Ленина 16</li>
+				<li class="contacts_item"><img class="contacts_item_icon" src="img/phone_white.png">044 207 43 32</li>
+				<li class="contacts_item"><img class="contacts_item_icon" src="img/mail_white.png">info@uac-archive.com.ua</li>
 			</ul>
 			<ul class="soc_icon">
 				<li class="soc_icon_item"><a class="soc_icon_link "href="#"><img src="img/fb.png"></a></li>
@@ -305,6 +307,7 @@
           		<textarea name="comment" class="form_input_message" placeholder="Введите ваше сообщение"></textarea></br>
           		<input type="submit" class="submit_button" value="Отправить"></div>
       </form>
+      <div class="copyright">Создание и разработка сайта <a href="#">Intellectus-studio 2016</a></div>
 		</div>
 	</div>
 	<a href="#" class="scrollup">Scroll</a>

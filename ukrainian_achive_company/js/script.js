@@ -67,8 +67,8 @@ jQuery(function() {
 	 		}
 
 	 		controls.removeClass('active').eq(nextSlider).addClass('active');
-	 		items.panels.eq(currentSlider).fadeOut(3000);
-	 		items.panels.eq(nextSlider).fadeIn(1000);
+	 		items.panels.eq(currentSlider).fadeOut('slow');
+	 		items.panels.eq(nextSlider).fadeIn('slow');
 
 	 		// Actualizamos los datos del slider
 	 		currentSlider = nextSlider;
@@ -89,7 +89,7 @@ jQuery(function() {
 
 	 		controls.removeClass('active').eq(id).addClass('active');
 	 		items.panels.eq(currentSlider).fadeOut('slow');
-	 		items.panels.eq(id).fadeIn('slow');
+	 		items.panels.eq(id).fadeIn('slow');;
 
 	 		// Volvemos a actualizar los datos del slider
 	 		currentSlider = id;
@@ -105,50 +105,52 @@ jQuery(function() {
 
 });
 
-// carousel
+//slider
 
-jQuery(document).ready(function() {
-    jQuery('.sub_slider_item').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated bounceInDown',
-        offset: 100
-       });
-});
-jQuery(document).ready(function() {
-    jQuery('.main_content_text').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated bounceInDown',
-        offset: 100
-       });
-});
-jQuery(document).ready(function() {
-    jQuery('.carousel_container').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInDown',
-        offset: 100
-       });
-});
-jQuery(document).ready(function() {
-    jQuery('.skills_item').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated zoomInDown',
-        offset: 100
-       });
-});
-jQuery(document).ready(function() {
-    jQuery('.block_four_sub_img').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInLeft',
-        offset: 100
-       });
-});
-jQuery(document).ready(function() {
-    jQuery('.block_four_sub_container').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated fadeInRight',
-        offset: 100
-       });
-});
-jQuery(document).ready(function() {
-    jQuery('.block_five_list_item').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated bounceInDown',
-        offset: 100
-       });
-});
+//animation
+
+// jQuery(document).ready(function() {
+//     jQuery('.sub_slider_item').addClass("hidden").viewportChecker({
+//         classToAdd: 'visible animated bounceInDown',
+//         offset: 100
+//        });
+// });
+// jQuery(document).ready(function() {
+//     jQuery('.main_content_text').addClass("hidden").viewportChecker({
+//         classToAdd: 'visible animated bounceInDown',
+//         offset: 100
+//        });
+// });
+// jQuery(document).ready(function() {
+//     jQuery('.carousel_container').addClass("hidden").viewportChecker({
+//         classToAdd: 'visible animated fadeInDown',
+//         offset: 100
+//        });
+// });
+// jQuery(document).ready(function() {
+//     jQuery('.skills_item').addClass("hidden").viewportChecker({
+//         classToAdd: 'visible animated zoomInDown',
+//         offset: 100
+//        });
+// });
+// jQuery(document).ready(function() {
+//     jQuery('.block_four_sub_img').addClass("hidden").viewportChecker({
+//         classToAdd: 'visible animated fadeInLeft',
+//         offset: 100
+//        });
+// });
+// jQuery(document).ready(function() {
+//     jQuery('.block_four_sub_container').addClass("hidden").viewportChecker({
+//         classToAdd: 'visible animated fadeInRight',
+//         offset: 100
+//        });
+// });
+// jQuery(document).ready(function() {
+//     jQuery('.block_five_list_item').addClass("hidden").viewportChecker({
+//         classToAdd: 'visible animated bounceInDown',
+//         offset: 100
+//        });
+// });
 
 /*carousel*/
 jQuery(document).ready(function(){
@@ -160,53 +162,7 @@ jQuery(document).ready(function(){
   });
 });
 
-/*text_slider*/
-jQuery(document).ready(function ($) {
 
-  
-    setInterval(function () {
-        moveRight();
-    }, 5000);
-  
-  
-	var slideCount = jQuery('.slider ul li').length;
-	var slideWidth = jQuery('.slider ul li').width();
-	var slideHeight = jQuery('.slider ul li').height();
-	var sliderUlWidth = slideCount * slideWidth;
-	
-	jQuery('.slider').css({ width: slideWidth, height: slideHeight });
-	
-	jQuery('.slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
-	
-    jQuery('.slider ul li:last-child').prependTo('.slider ul');
-
-    function moveLeft() {
-        jQuery('.slider ul').animate({
-            left: + slideWidth
-        }, 200, function () {
-            jQuery('.slider ul li:last-child').prependTo('.slider ul');
-            jQuery('.slider ul').css('left', '');
-        });
-    };
-
-    function moveRight() {
-        jQuery('.slider ul').animate({
-            left: - slideWidth
-        }, 200, function () {
-            jQuery('.slider ul li:first-child').appendTo('.slider ul');
-            jQuery('.slider ul').css('left', '');
-        });
-    };
-
-    jQuery('a.control_prev').click(function () {
-        moveLeft();
-    });
-
-    jQuery('a.control_next').click(function () {
-        moveRight();
-    });
-
-});    
 
 
 /*scroll top*/
@@ -234,7 +190,80 @@ jQuery(document).ready(function() {
 	
 	setTimeout(function(){
 		jQuery('body').addClass('loaded');
-		jQuery('h1').css('color','#222222');
 	}, 3000);
 	
+});
+
+
+//text slider
+jQuery(function(){
+    var i=1;
+  
+ 	 
+    function slider(){
+      var l = jQuery(".fadeslider .slide").length;
+      if(i==l){i=0;}
+      jQuery(".fadeslider .slide").hide();
+      i++;
+      jQuery(".fadeslider .slide:nth-child("+i+")").show();
+
+      if(i >= l){i = 0;}
+    }
+  
+    function sliderback(){
+      var l = $(".fadeslider .slide").length;
+      if(i==0){i=l+1;}
+      jQuery(".fadeslider .slide").hide();
+      i--;
+      if(i <= 0){i = l;}
+      jQuery(".fadeslider .slide:nth-child("+i+")").show();
+      jQuery(".slidelist div:nth-child("+i+")").addClass("active");
+
+
+    }
+  	
+    jQuery(".slidenext").click(function(){
+      slider();
+    });
+
+    jQuery(".slideback").click(function(){
+      sliderback();
+    });
+   
+    var timer = setInterval(slider, 5000);
+    jQuery('.slideback,.slidenext').hover(function(ev){
+        clearInterval(timer);
+    }, function(ev){
+        timer = setInterval( slider, 5000);
+    });
+  
+})
+
+// slider_text_bottom
+
+jQuery(document).ready(function() {
+ jQuery(".slider_text_bottom").each(function () { // обрабатываем каждый слайдер
+  var obj = jQuery(this);
+  jQuery(obj).append("<div class='nav clearfix'></div>");
+  jQuery(obj).find("li").each(function () {
+   jQuery(obj).find(".nav").append("<span rel='"+jQuery(this).index()+"'></span>"); // добавляем блок навигации
+   jQuery(this).addClass("slider_text_bottom"+jQuery(this).index());
+  });
+  jQuery(obj).find("span").first().addClass("on"); // делаем активным первый элемент меню
+ });
+});
+function sliderJS (obj, sl) { // slider function
+ var ul = jQuery(sl).find("ul"); // находим блок
+ var bl = jQuery(sl).find("li.slider_text_bottom"+obj); // находим любой из элементов блока
+ var step = jQuery(bl).width(); // ширина объекта
+ jQuery(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
+}
+jQuery(document).on("click", ".slider_text_bottom .nav span", function() { // slider click navigate
+ var sl = jQuery(this).closest(".slider_text_bottom"); // находим, в каком блоке был клик
+ jQuery(sl).find("span").removeClass("on"); // убираем активный элемент
+ jQuery(this).addClass("on"); // делаем активным текущий
+ var obj = jQuery(this).attr("rel"); // узнаем его номер
+ sliderJS(obj, sl); // слайдим
+ return false;
+
 });
