@@ -438,7 +438,9 @@ text-align: center;
 	clear: both;
 }
 .wrapper.block_five_container {
-	max-width: 888px;
+	max-width: 928px;
+    padding-left: 60px;
+    padding-right: 30px;
 	margin: 0 auto;
 }
 .block_five_list_item {
@@ -670,6 +672,8 @@ text-align: left;
 .wrapper.block_six_container {
 	max-width: 960px;
 	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .block_six_container {
 	padding-top: 78px;
@@ -710,7 +714,6 @@ padding-bottom: 14px;
 	background-image: url(../img/block_nine.png);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	height: 507px;
 	width: 100%;
 	overflow: hidden;
 }
@@ -1074,7 +1077,7 @@ text-align: left;
 
 
 /*main_slider*/
- @media screen (max-width: 960px) {
+ @media all and (max-width: 960px) {
  	#slider.container, .block_one {
  		height: 425px;
  	}
@@ -1084,8 +1087,22 @@ text-align: left;
  	.slide_text {
  		font-size: 16px;
  	}
+ 	.slide_text_container, .slide_text {
+ 		display: none;
+ 	}
+ 	.col_one, .col_two, .col_three {
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.form_input, textarea {
+	width: 100%;
+}
+
  }
- @media screen (max-width: 720px) {
+ @media all and (max-width: 720px) {
  	#slider.container, .block_one {
  		height: 325px;
  	}
@@ -1096,6 +1113,16 @@ text-align: left;
  		float: none;
  		width: 100%;
  	}
+ 	.download_file {
+    float: none;
+    width: 30%;
+    margin: 0 auto;
+}
+.video_container {
+	float: none;
+	width: 90%;
+	margin: 0 auto;
+}
 
  }
  @media screen (max-width: 520px) {
@@ -1107,8 +1134,23 @@ text-align: left;
  	}
  }
 
-@media (max-width: 420px) {
+@media all and (max-width: 420px) {
 	.skills_container {
 		width: 800px;
 	}
+}
+@media all and (max-width: 760px) {
+	.block_seven_client, .block_seven_task , .block_seven_solution {
+		float: none;
+		width: 90%;
+		margin: 0 auto
+	}
+	.block_four_sub {
+		width: 100%;
+	}
+}
+@media all and (max-width: 480px) {
+    #slider {
+        display:none;
+    }
 }
