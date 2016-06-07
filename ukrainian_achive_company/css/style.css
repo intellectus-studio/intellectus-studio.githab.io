@@ -184,11 +184,8 @@ border-color:  #5c636e;
 	position: relative;
 }
 .slide_text_container {
-	-webkit-transform: skew(-20deg);
-	   -moz-transform: skew(-20deg);
-	     -o-transform: skew(-20deg);
-	     transform: skew(-20deg);
-	     background-color: rgba(33,58,104, 0.5);
+	border-bottom: 160px solid rgba(33,58,104, 0.5);
+    border-left: 100px solid transparent;
 	     position: absolute;
 	bottom: 8%;
 	height: 160px;
@@ -402,8 +399,10 @@ text-align: center;
 	margin: 0 auto;
 }
 .skills_item {
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     width: 305px;
+    overflow: hidden;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 40px;
@@ -596,12 +595,13 @@ box-shadow: 4px 5px 5px 0px rgba(0,91,170,1);
      opacity:1;
 }
 .card_container {
-	max-width: 1155px;
+	max-width: 980px;
     margin: 0 auto;
 }
 .card_item {
 	list-style: none;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
 	padding: 5px;
 	transition: all .2s ease-in-out;
 	z-index: 9999;
@@ -1074,7 +1074,7 @@ text-align: left;
 
 
 /*main_slider*/
- @media (max-width: 960px) {
+ @media screen (max-width: 960px) {
  	#slider.container, .block_one {
  		height: 425px;
  	}
@@ -1085,7 +1085,7 @@ text-align: left;
  		font-size: 16px;
  	}
  }
- @media (max-width: 720px) {
+ @media screen (max-width: 720px) {
  	#slider.container, .block_one {
  		height: 325px;
  	}
@@ -1096,8 +1096,9 @@ text-align: left;
  		float: none;
  		width: 100%;
  	}
+
  }
- @media (max-width: 520px) {
+ @media screen (max-width: 520px) {
  	#slider.container, .block_one {
  		height: 225px;
  	}
@@ -1105,3 +1106,9 @@ text-align: left;
  		height: 225px;
  	}
  }
+
+@media (max-width: 420px) {
+	.skills_container {
+		width: 800px;
+	}
+}

@@ -163,8 +163,6 @@ jQuery(document).ready(function(){
 });
 
 
-
-
 /*scroll top*/
 jQuery(document).ready(function () {
 
@@ -239,7 +237,7 @@ jQuery(function(){
   
 })
 
-// slider_text_bottom
+//slider_text_bottom
 
 jQuery(document).ready(function() {
  jQuery(".slider_text_bottom").each(function () { // обрабатываем каждый слайдер
@@ -265,5 +263,4 @@ jQuery(document).on("click", ".slider_text_bottom .nav span", function() { // sl
  var obj = jQuery(this).attr("rel"); // узнаем его номер
  sliderJS(obj, sl); // слайдим
  return false;
-
 });
