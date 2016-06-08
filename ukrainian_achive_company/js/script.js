@@ -152,15 +152,7 @@ jQuery(function() {
 //        });
 // });
 
-/*carousel*/
-jQuery(document).ready(function(){
-  jQuery('.slider1').bxSlider({
-    slideWidth: 210,
-    minSlides: 3,
-    maxSlides: 3,
-    slideMargin: 150
-  });
-});
+
 
 
 /*scroll top*/
@@ -239,28 +231,28 @@ jQuery(function(){
 
 //slider_text_bottom
 
-// jQuery(document).ready(function() {
-//  jQuery(".slider_text_bottom").each(function () { // обрабатываем каждый слайдер
-//   var obj = jQuery(this);
-//   jQuery(obj).append("<div class='nav clearfix'></div>");
-//   jQuery(obj).find("li").each(function () {
-//    jQuery(obj).find(".nav").append("<span rel='"+jQuery(this).index()+"'></span>"); // добавляем блок навигации
-//    jQuery(this).addClass("slider_text_bottom"+jQuery(this).index());
-//   });
-//   jQuery(obj).find("span").first().addClass("on"); // делаем активным первый элемент меню
-//  });
-// });
-// function sliderJS (obj, sl) { // slider function
-//  var ul = jQuery(sl).find("ul"); // находим блок
-//  var bl = jQuery(sl).find("li.slider_text_bottom"+obj); // находим любой из элементов блока
-//  var step = jQuery(bl).width(); // ширина объекта
-//  jQuery(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
-// }
-// jQuery(document).on("click", ".slider_text_bottom .nav span", function() { // slider click navigate
-//  var sl = jQuery(this).closest(".slider_text_bottom"); // находим, в каком блоке был клик
-//  jQuery(sl).find("span").removeClass("on"); // убираем активный элемент
-//  jQuery(this).addClass("on"); // делаем активным текущий
-//  var obj = jQuery(this).attr("rel"); // узнаем его номер
-//  sliderJS(obj, sl); // слайдим
-//  return false;
-// });
+jQuery(document).ready(function() {
+ jQuery(".slider_text_bottom").each(function () { // обрабатываем каждый слайдер
+  var obj = jQuery(this);
+  jQuery(obj).append("<div class='nav clearfix'></div>");
+  jQuery(obj).find("li").each(function () {
+   jQuery(obj).find(".nav").append("<span rel='"+jQuery(this).index()+"'></span>"); // добавляем блок навигации
+   jQuery(this).addClass("slider_text_bottom"+jQuery(this).index());
+  });
+  jQuery(obj).find("span").first().addClass("on"); // делаем активным первый элемент меню
+ });
+});
+function sliderJS (obj, sl) { // slider function
+ var ul = jQuery(sl).find("ul"); // находим блок
+ var bl = jQuery(sl).find("li.slider_text_bottom"+obj); // находим любой из элементов блока
+ var step = jQuery(bl).width(); // ширина объекта
+ jQuery(ul).animate({marginLeft: "-"+step*obj}, 500); // 500 это скорость перемотки
+}
+jQuery(document).on("click", ".slider_text_bottom .nav span", function() { // slider click navigate
+ var sl = jQuery(this).closest(".slider_text_bottom"); // находим, в каком блоке был клик
+ jQuery(sl).find("span").removeClass("on"); // убираем активный элемент
+ jQuery(this).addClass("on"); // делаем активным текущий
+ var obj = jQuery(this).attr("rel"); // узнаем его номер
+ sliderJS(obj, sl); // слайдим
+ return false;
+});
