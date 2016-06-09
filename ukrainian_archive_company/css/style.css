@@ -772,7 +772,7 @@ padding-bottom: 14px;
 }
 .block_nine {
 	background-image: url(../img/block_nine.png);
-	background-size: 100% 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	overflow: hidden;
@@ -1112,7 +1112,9 @@ text-align: left;
  .header_main.wrapper {
     padding: 0 10px;
 }
-
+.slider_text_bottom ul li:first-child {
+	width: 100%;
+}
 }
 
 
