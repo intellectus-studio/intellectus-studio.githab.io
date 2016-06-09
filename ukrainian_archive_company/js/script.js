@@ -145,12 +145,12 @@ jQuery(function() {
 //         offset: 100
 //        });
 // });
-// jQuery(document).ready(function() {
-//     jQuery('.block_five_list_item').addClass("hidden").viewportChecker({
-//         classToAdd: 'visible animated bounceInDown',
-//         offset: 100
-//        });
-// });
+jQuery(document).ready(function() {
+    jQuery('.block_five_list_item').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated bounceInDown',
+        offset: 80
+       });
+});
 
 
 
@@ -258,13 +258,13 @@ jQuery(function(){
 // });
 
 	jQuery(document).ready(function(){
-  jQuery('.bxslider').bxSlider({
-  speed: 2000,
-  responsive: true,
-  auto: true
-  
+    jQuery('.bxslider').bxSlider({
+     speed: 1000,
+     responsive: true,
+     auto: true
 });
 });
+	
 jQuery(document).ready(function() {
 	jQuery(window).resize(function(){
   if( jQuery(this).width() <= 768 ) {
@@ -310,4 +310,13 @@ jQuery(document).ready(function(){
 
     });
 
+});
+//anchor
+jQuery(document).ready(function() {
+jQuery("a.block_three_btn_link").click(function () {
+var elementClick = jQuery(this).attr("href")
+var destination = jQuery(elementClick).offset().top;
+jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
+return false;
+});
 });
