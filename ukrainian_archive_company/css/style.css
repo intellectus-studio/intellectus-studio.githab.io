@@ -406,7 +406,7 @@ text-align: center;
 
 .skills_container {
 	padding-top: 50px;
-	padding-bottom: 120px;
+	padding-bottom: 60px;
 	max-width: 1090px;
 	margin: 0 auto;
 }
@@ -1132,6 +1132,9 @@ text-align: left;
 	}
 	 .wrapper.block_five_container {
 	 	padding-left: 80px; 
+	 }
+	 .main_content_item, .block_one_text, .main_content_item, .block_four_sub_text, .block_five_list_item, .text  {
+	 	font-size: 16px;
 	 }
 }
 /*@media all and (max-width: 480px) {

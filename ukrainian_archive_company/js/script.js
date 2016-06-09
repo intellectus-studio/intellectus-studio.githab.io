@@ -148,7 +148,7 @@ jQuery(function() {
 jQuery(document).ready(function() {
     jQuery('.block_five_list_item').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated bounceInDown',
-        offset: 80
+        offset: 100
        });
 });
 
