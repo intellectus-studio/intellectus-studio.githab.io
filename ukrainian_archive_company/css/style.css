@@ -918,7 +918,7 @@ blockquote p {
 /*slider_text_bottom*/
 .slider_text_bottom {
  z-index: 9;
- width: 960px;
+ /*width: 960px;*/
  overflow: hidden;
 margin: 0 auto;
  position: relative;
@@ -940,7 +940,7 @@ text-align: center;
  .slider_text_bottom ul li {
  list-style-type: none;
  float: left;
- width: 980px;
+ /*width: 980px;*/
  }
  .slider_text_bottom .nav {
     width: 14%;
@@ -1084,9 +1084,7 @@ text-align: left;
 	.card_container {
     max-width: 200px;
 }
-.slider_text_bottom ul li {
-	display: none;
- }
+
  .languages {
 	float: left;
 	padding-left: 10px;
@@ -1096,13 +1094,13 @@ text-align: left;
 	padding-left: 5px;
 }
 
- .slider_text_bottom ul li:first-child {
+/* .slider_text_bottom ul li:first-child {
  	display: block;
  	width: 6%!important;
  	padding-bottom: 40px;
  	padding-left: 5px;
  	padding-right: 5px;
- }
+ }*/
  blockquote {
  	padding: 0;
  }
@@ -1112,9 +1110,9 @@ text-align: left;
  .header_main.wrapper {
     padding: 0 10px;
 }
-.slider_text_bottom ul li:first-child {
+/*.slider_text_bottom ul li:first-child {
 	width: 100%;
-}
+}*/
 }
 
 
