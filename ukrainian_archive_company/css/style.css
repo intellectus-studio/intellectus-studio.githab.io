@@ -638,6 +638,7 @@ box-shadow: 4px 5px 5px 0px rgba(0,91,170,1);
 .card_container {
 	max-width: 1266px;
     margin: 0 auto;
+    text-align: justify;
 }
 .card_item {
 	list-style: none;
