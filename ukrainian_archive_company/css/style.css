@@ -364,6 +364,7 @@ text-align: center;
 }
 .block_four_sub {
 	padding-top: 10px;
+	padding-bottom: 10px;
 	float: left;
 	text-align: center;
 	vertical-align: middle;
