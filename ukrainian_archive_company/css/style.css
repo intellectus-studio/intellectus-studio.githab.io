@@ -186,10 +186,10 @@ border-color:  #5c636e;
 .slide_text_container {
 	border-bottom: 160px solid rgba(33,58,104, 0.5);
     border-left: 100px solid transparent;
-	     position: absolute;
+	  position: absolute;
 	bottom: 8%;
-	height: 160px;
-	width: 50%;
+	/*height: 160px;*/
+	width: 700px;
 	right: -25px;
 }
 .slide_text {
@@ -892,6 +892,7 @@ blockquote p {
     text-indent: -9999px;
     background: url('../img/up.png') no-repeat;
     transition: all 0.3s ease 0s;
+    z-index: 9999;
 
 }
 .scrollup:hover {
@@ -1010,8 +1011,15 @@ text-align: left;
  	.slide_text, .block_one_text {
  		font-size: 16px;
  	}
- 	.slide_text_container, .slide_text {
- 		display: none;
+ 	 .slide_text {
+ 	 	font-size: 12px;
+ 	 }
+ 	.slide_text_container {
+	border-bottom: 100px solid rgba(33,58,104, 0.5);
+ 	}
+ 	.slide_text_container {
+ 		width: 500px;
+ 		height: 50px!important;
  	}
  	.col_one, .col_two, .col_three {
     float: none;
@@ -1069,6 +1077,9 @@ text-align: left;
 }
 .main_content_item {
 	font-size: 20px;
+}
+.slide_text {
+	width: 300px;
 }
 
  }
