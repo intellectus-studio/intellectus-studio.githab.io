@@ -110,7 +110,9 @@ body {
 .nav:hover {
     background-color:  #fe5f53;
 }
-
+.nav:focus {
+    background-color:  #fe5f53;
+}
 .nav_a {
     color: #fff;
     text-transform: uppercase;
@@ -576,7 +578,7 @@ body {
  }
 
 .object_read_more, .object_read_less {
-    z-index: 15;
+    z-index: 5;
     text-transform: uppercase;
     border: 2px solid  #ffffff;
     border-radius: 10px;
@@ -641,7 +643,7 @@ body {
 .video {
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.4);
     top: 80px;
-    z-index: 14;
+    z-index: 4;
     width: 785px;
     position: absolute;
     height: 440px;
@@ -770,7 +772,7 @@ footer {
     float: left;
 }
 .bottom_contacts, .container_footer {
-    width: 33%;
+    width: 330px;
     float: left;
     position: relative;
 }
@@ -811,15 +813,16 @@ form {
 form {
     padding: 3px;
     box-shadow: 1px 2px 13px 0px rgba(0, 0, 0, 0.2);
-    padding-top: 10px;
     z-index: 1;
-    position: relative;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
     position: relative;
     bottom: 15px;
     padding-top: 20px;
+    width: 310px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 form input, textarea {
     border-style: solid;
@@ -885,8 +888,9 @@ textarea:-moz-placeholder {
     border-style: solid;
     border-width: 2px;
     border-color:  #ffffff;
-    background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #ccc), color-stop(100%, #efefef));
-    background: -moz-linear-gradient(top, #ccc, #efefef);
+    /*background: -webkit-gradient(linear, center top, center bottom, color-stop(0%, #ccc), color-stop(100%, #efefef));
+    background: -moz-linear-gradient(top, #ccc, #efefef);*/
+    background: transparent;
     width: 199px;
     height: 49px;
     font-family: Arial;
@@ -899,9 +903,7 @@ textarea:-moz-placeholder {
 .bottom_contacts {
     padding-top: 50px;
 }
-.submit_button {
-    margin-top: 20px;
-}
+
 .copyright {
     color:  #fdfdfb;
     font-size: 12px;/* Приближение из-за подстановки шрифтов */
@@ -922,7 +924,7 @@ textarea:-moz-placeholder {
     background: #9bba49;
     position: absolute;
     width: 1100px;
-    height: 60px;
+    height: 47px;
     border-radius: 200%/12em 12em 0 0;
     z-index: 1;
 }
@@ -942,3 +944,23 @@ textarea:-moz-placeholder {
     z-index: 99;
 }
 
+.fixed {
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    height: 80px;
+}
+.submit_container {
+    background: -webkit-linear-gradient(90deg, #8baa3c 0%, #d0e55e 100%);
+    background: -moz-linear-gradient(90deg, #8baa3c 0%, #d0e55e 100%);
+    background: -o-linear-gradient(90deg, #8baa3c 0%, #d0e55e 100%);
+    background: -ms-linear-gradient(90deg, #8baa3c 0%, #d0e55e 100%);
+    background: linear-gradient(0deg, #8baa3c 0%, #d0e55e 100%);
+    width: 199px;
+    height: 49px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.form_input_message {
+    margin-bottom: 2px;
+}

@@ -123,9 +123,9 @@ jQuery(document).ready(function(){
         jQuery(".color_box").removeClass('active_box');
         jQuery(this).toggleClass('active_box');
         $('.display_house').fadeOut().removeClass('display_house');
-        $('.paint_house').hide().removeClass('display_house animated fadeInLeftBig');
+        $('.paint_house').hide().removeClass('display_house animated fadeIn');
         var blatest = $(this).attr("id");
-        $(".paint_house_wrapper").find('#'+blatest).fadeIn().addClass('display_house animated fadeInLeftBig');
+        $(".paint_house_wrapper").find('#'+blatest).fadeIn().addClass('display_house animated fadeIn');
     });
 
                                                                 /*переключение меню*/
@@ -137,3 +137,61 @@ jQuery(document).ready(function(){
 
 
 
+//anchor 
+jQuery(document).ready(function() {
+ jQuery(".nav_first").click(function() {
+    jQuery('html, body').animate({
+        scrollTop: $(".item_slider").offset().top
+    }, 2000);
+});
+ jQuery(".nav_second").click(function() {
+    jQuery('html, body').animate({
+        scrollTop: $(".garden").offset().top
+    }, 2000);
+});
+ jQuery(".nav_third").click(function() {
+    jQuery('html, body').animate({
+        scrollTop: $(".item_slider").offset().top
+    }, 2000);
+});
+  jQuery(".nav_fourth").click(function() {
+    jQuery('html, body').animate({
+        scrollTop: $(".house_color_block").offset().top
+    }, 2000);
+});
+  jQuery(".nav_fifth").click(function() {
+    jQuery('html, body').animate({
+        scrollTop: $("footer").offset().top
+    }, 2000);
+});
+})
+
+//fixed on scroll
+$(document).ready(function() {
+    jQuery(window).scroll(function(){
+  var sticky = jQuery('.menu'),
+      scroll = jQuery(window).scrollTop();
+
+  if (scroll >= 100) sticky.addClass('fixed');
+  else sticky.removeClass('fixed');
+});
+})
+/*lift*/
+jQuery(document).ready(function () {
+
+    jQuery(window).scroll(function () {
+        if (jQuery(this).scrollTop() > 100) {
+            jQuery('.scrollup').fadeIn();
+        } else {
+            jQuery('.scrollup').fadeOut();
+        }
+    });
+
+    jQuery('.scrollup').click(function () {
+        jQuery("html, body").animate({
+            scrollTop: 0
+        }, 1200);
+        return false;
+    });
+
+});
