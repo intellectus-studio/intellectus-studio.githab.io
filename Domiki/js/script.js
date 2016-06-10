@@ -151,7 +151,7 @@ jQuery(document).ready(function() {
 });
  jQuery(".nav_third").click(function() {
     jQuery('html, body').animate({
-        scrollTop: $(".item_slider").offset().top
+        scrollTop: $(".realised_object").offset().top
     }, 1000);
 });
   jQuery(".nav_fourth").click(function() {
@@ -194,4 +194,15 @@ jQuery(document).ready(function () {
         return false;
     });
 
+});
+
+
+$(document).ready(function() {
+    // if ($('.nocufon', this).hasClass('active')) {
+    //     $('.nocufon').removeClass('active');
+    // };
+     $('.nav', this).click(function() {
+        $('.nav').removeClass('active_bg');
+        $(this).addClass('active_bg').siblings().removeClass('active_bg');
+    });
 });
