@@ -142,27 +142,27 @@ jQuery(document).ready(function() {
  jQuery(".nav_first").click(function() {
     jQuery('html, body').animate({
         scrollTop: $(".item_slider").offset().top
-    }, 2000);
+    }, 1000);
 });
  jQuery(".nav_second").click(function() {
     jQuery('html, body').animate({
         scrollTop: $(".garden").offset().top
-    }, 2000);
+    }, 1000);
 });
  jQuery(".nav_third").click(function() {
     jQuery('html, body').animate({
         scrollTop: $(".item_slider").offset().top
-    }, 2000);
+    }, 1000);
 });
   jQuery(".nav_fourth").click(function() {
     jQuery('html, body').animate({
         scrollTop: $(".house_color_block").offset().top
-    }, 2000);
+    }, 1000);
 });
   jQuery(".nav_fifth").click(function() {
     jQuery('html, body').animate({
         scrollTop: $("footer").offset().top
-    }, 2000);
+    }, 1000);
 });
 })
 
