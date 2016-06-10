@@ -311,3 +311,14 @@ jQuery(document).ready(function(){
     });
 
 });
+
+
+jQuery(document).ready(function() {
+    jQuery(window).scroll(function(){
+  var sticky = jQuery('.fixed_header'),
+      scroll = jQuery(window).scrollTop();
+
+  if (scroll >= 5) sticky.addClass('fixed');
+  else sticky.removeClass('fixed');
+});
+})

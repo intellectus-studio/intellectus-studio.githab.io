@@ -32,6 +32,10 @@ img {
 	max-width: 1366px;
 	margin: 0 auto;
 }
+.fixed_header {
+	background-color: #fff;
+	width: 100%;
+}
 .header_main.wrapper {
 	padding: 0 30px;
 } 
@@ -1150,8 +1154,11 @@ text-align: left;
 	 	font-size: 16px;
 	 }
 }
-/*@media all and (max-width: 480px) {
-    #slider {
-        display:none;
-    }
-}*/
+
+
+.fixed {
+	position: fixed;
+	top:0;
+	z-index: 9999;
+    height: auto;
+}
