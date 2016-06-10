@@ -39,6 +39,7 @@ jQuery(document).ready(function(){
                                                     /*переключение верхнего слайдера*/
 
 
+
     jQuery(".dot").on("click", function(){
         jQuery(".dot").removeClass('active_dot');
         jQuery(this).toggleClass('active_dot');
@@ -47,6 +48,8 @@ jQuery(document).ready(function(){
         var blatest = $(this).attr("id");
         $(".top_slider_with_dot").find('#'+blatest).fadeIn().addClass('display animated fadeInDown');
     });
+
+
 
                                                             /*Переключение товаров*/
 
@@ -169,32 +172,35 @@ jQuery(document).ready(function() {
 //fixed on scroll
 $(document).ready(function() {
     jQuery(window).scroll(function(){
-  var sticky = jQuery('header'),
+  var sticky = jQuery('.menu'),
       scroll = jQuery(window).scrollTop();
 
   if (scroll >= 100) sticky.addClass('fixed');
   else sticky.removeClass('fixed');
 });
-})
-/*lift*/
-jQuery(document).ready(function () {
 
-    jQuery(window).scroll(function () {
-        if (jQuery(this).scrollTop() > 100) {
-            jQuery('.lift_up').fadeIn();
-        } else {
-            jQuery('.lift_up').fadeOut();
+                                                                            /*лифт*/
+
+
+    jQuery('#scrollup').click(function(){
+        jQuery('body,html').animate({
+            scrollTop: 0
+        }, 400);
+    });
+
+    jQuery(window).scroll(function(){
+        if (jQuery(document).scrollTop()>0) {
+            jQuery('#scrollup').fadeIn('slow');
+        }else{
+            jQuery('#scrollup').fadeOut('slow');
         }
     });
 
-    jQuery('.lift_up').click(function () {
-        jQuery("html, body").animate({
-            scrollTop: 0
-        }, 1200);
-        return false;
-    });
+
+
 
 });
+
 
 
 $(document).ready(function() {
@@ -206,3 +212,105 @@ $(document).ready(function() {
         $(this).addClass('active_bg').siblings().removeClass('active_bg');
     });
 });
+
+
+/*olya_slider*/
+
+/*jQuery(function() {
+
+    var SliderModule = (function() {
+        var pb = {};
+        pb.el = jQuery('#slider');
+        pb.items = {
+            panels: pb.el.find('.slider-wrapper > li'),
+        }
+
+        // Interval del Slider
+        var SliderInterval,
+            currentSlider = 0,
+            nextSlider = 1,
+            lengthSlider = pb.items.panels.length;
+
+        // Constructor del Slider
+        pb.init = function(settings) {
+            this.settings = settings || {duration: 8000};
+            var items = this.items,
+                lengthPanels = items.panels.length,
+                output = '';
+
+            // Insertamos nuestros botones
+            for(var i = 0; i < lengthPanels; i++) {
+                if(i == 0) {
+                    output += '<li class="active"></li>';
+                } else {
+                    output += '<li></li>';
+                }
+            }
+
+            jQuery('#control-buttons').html(output);
+
+            // Activamos nuestro Slider
+            activateSlider();
+            // Eventos para los controles
+            jQuery('#control-buttons').on('click', 'li', function(e) {
+                var $this = jQuery(this);
+                if(!(currentSlider === $this.index())) {
+                    changePanel($this.index());
+                }
+            });
+
+        }
+
+        // Funcion para activar el Slider
+        var activateSlider = function() {
+            SliderInterval = setInterval(pb.startSlider, pb.settings.duration);
+        }
+
+        // Funcion para la Animacion
+        pb.startSlider = function() {
+            var items = pb.items,
+                controls = jQuery('#control-buttons li');
+            // Comprobamos si es el ultimo panel para reiniciar el conteo
+            if(nextSlider >= lengthSlider) {
+                nextSlider = 0;
+                currentSlider = lengthSlider-1;
+            }
+
+            controls.removeClass('active').eq(nextSlider).addClass('active');
+            items.panels.eq(currentSlider).fadeOut('slow');
+            items.panels.eq(nextSlider).fadeIn('slow');
+
+            // Actualizamos los datos del slider
+            currentSlider = nextSlider;
+            nextSlider += 1;
+        }
+
+        // Funcion para Cambiar de Panel con Los Controles
+        var changePanel = function(id) {
+            clearInterval(SliderInterval);
+            var items = pb.items,
+                controls = jQuery('#control-buttons li');
+            // Comprobamos si el ID esta disponible entre los paneles
+            if(id >= lengthSlider) {
+                id = 0;
+            } else if(id < 0) {
+                id = lengthSlider-1;
+            }
+
+            controls.removeClass('active').eq(id).addClass('active');
+            items.panels.eq(currentSlider).fadeOut('slow');
+            items.panels.eq(id).fadeIn('slow');;
+
+            // Volvemos a actualizar los datos del slider
+            currentSlider = id;
+            nextSlider = id+1;
+            // Reactivamos nuestro slider
+            activateSlider();
+        }
+
+        return pb;
+    }());
+
+    SliderModule.init({duration: 5000});
+
+});*/
