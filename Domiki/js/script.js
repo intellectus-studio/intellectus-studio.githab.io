@@ -169,7 +169,7 @@ jQuery(document).ready(function() {
 //fixed on scroll
 $(document).ready(function() {
     jQuery(window).scroll(function(){
-  var sticky = jQuery('.menu'),
+  var sticky = jQuery('header'),
       scroll = jQuery(window).scrollTop();
 
   if (scroll >= 100) sticky.addClass('fixed');
