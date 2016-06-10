@@ -363,11 +363,12 @@ text-align: center;
 	transition: all 0.3s ease 0s;
 }
 .block_four_sub {
+	padding-top: 10px;
 	float: left;
+	text-align: center;
+	vertical-align: middle;
 }
-.block_four_sub img {
-	width: 100%;
-}
+
 .block_four {
 	width: 100%;
 }
@@ -389,7 +390,7 @@ text-align: center;
 	text-indent: 24px;
 }
 .block_four_sub_text {
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
 	 text-align: left;
 	font-family: 'Open Sans', sans-serif;

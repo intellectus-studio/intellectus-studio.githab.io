@@ -155,7 +155,7 @@ jQuery(document).ready(function() {
 
 
 
-/*scroll top*/
+/*lift*/
 jQuery(document).ready(function () {
 
     jQuery(window).scroll(function () {
@@ -310,13 +310,4 @@ jQuery(document).ready(function(){
 
     });
 
-});
-//anchor
-jQuery(document).ready(function() {
-jQuery("a.block_three_btn_link").click(function () {
-var elementClick = jQuery(this).attr("href")
-var destination = jQuery(elementClick).offset().top;
-jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 800);
-return false;
-});
 });
