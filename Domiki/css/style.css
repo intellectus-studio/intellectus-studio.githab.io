@@ -972,3 +972,26 @@ textarea:-moz-placeholder {
 .form_input_message {
     margin-bottom: 2px;
 }
+/*.lift_up {
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    bottom: 0;
+    right: 20px;
+    text-indent: -9999px;
+    transition: all 0.3s ease 0s;
+}*/
+.lift_up {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    transition: all .2s ease-in-out;
+}
+.lift_up img {
+    width: 100%;
+}
+.lift_up:hover {
+    transform: scale(1.1);
+}

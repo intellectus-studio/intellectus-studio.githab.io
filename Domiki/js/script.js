@@ -181,13 +181,13 @@ jQuery(document).ready(function () {
 
     jQuery(window).scroll(function () {
         if (jQuery(this).scrollTop() > 100) {
-            jQuery('.scrollup').fadeIn();
+            jQuery('.lift_up').fadeIn();
         } else {
-            jQuery('.scrollup').fadeOut();
+            jQuery('.lift_up').fadeOut();
         }
     });
 
-    jQuery('.scrollup').click(function () {
+    jQuery('.lift_up').click(function () {
         jQuery("html, body").animate({
             scrollTop: 0
         }, 1200);
