@@ -14,7 +14,7 @@ jQuery(function() {
 	 	var pb = {};
 	 	pb.el = jQuery('#slider');
 	 	pb.items = {
-	 		panels: pb.el.find('.slider-wrapper > li'),
+	 		panels: pb.el.find('.slider-wrapper > .slide'),
 	 	}
 
 	 	// Interval del Slider
@@ -147,14 +147,21 @@ jQuery(function() {
 //         offset: 100
 //        });
 // });
-jQuery(document).ready(function() {
+// jQuery(document).ready(function() {
+//     jQuery('.block_five_list_item').addClass("hidden").viewportChecker({
+//         classToAdd: 'visible animated bounceInDown',
+//         offset: 100
+//        });
+// });
+
+if (jQuery(window).width()>568){
+    jQuery(document).ready(function() {
     jQuery('.block_five_list_item').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated bounceInDown',
         offset: 100
        });
 });
-
-
+}
 
 
 /*lift*/
