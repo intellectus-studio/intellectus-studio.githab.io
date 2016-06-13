@@ -103,56 +103,12 @@ jQuery(function() {
 		return pb;
 	 }());
 
-	 SliderModule.init({duration: 5000});
+	 SliderModule.init({duration: 10000});
 
 });
 
-//slider
-
 //animation
 
-// jQuery(document).ready(function() {
-//     jQuery('.sub_slider_item').addClass("hidden").viewportChecker({
-//         classToAdd: 'visible animated bounceInDown',
-//         offset: 100
-//        });
-// });
-// jQuery(document).ready(function() {
-//     jQuery('.main_content_text').addClass("hidden").viewportChecker({
-//         classToAdd: 'visible animated bounceInDown',
-//         offset: 100
-//        });
-// });
-// jQuery(document).ready(function() {
-//     jQuery('.carousel_container').addClass("hidden").viewportChecker({
-//         classToAdd: 'visible animated fadeInDown',
-//         offset: 100
-//        });
-// });
-// jQuery(document).ready(function() {
-//     jQuery('.skills_item').addClass("hidden").viewportChecker({
-//         classToAdd: 'visible animated zoomInDown',
-//         offset: 100
-//        });
-// });
-// jQuery(document).ready(function() {
-//     jQuery('.block_four_sub_img').addClass("hidden").viewportChecker({
-//         classToAdd: 'visible animated fadeInLeft',
-//         offset: 100
-//        });
-// });
-// jQuery(document).ready(function() {
-//     jQuery('.block_four_sub_container').addClass("hidden").viewportChecker({
-//         classToAdd: 'visible animated fadeInRight',
-//         offset: 100
-//        });
-// });
-// jQuery(document).ready(function() {
-//     jQuery('.block_five_list_item').addClass("hidden").viewportChecker({
-//         classToAdd: 'visible animated bounceInDown',
-//         offset: 100
-//        });
-// });
 
 if (jQuery(window).width()>568){
     jQuery(document).ready(function() {
@@ -184,14 +140,6 @@ jQuery(document).ready(function () {
 
 });
 
-
-jQuery(document).ready(function() {
-	
-	setTimeout(function(){
-		jQuery('body').addClass('loaded');
-	}, 3000);
-	
-});
 
 
 //text slider
@@ -274,15 +222,6 @@ jQuery(function(){
 });
 });
 	
-jQuery(document).ready(function() {
-	jQuery(window).resize(function(){
-  if( jQuery(this).width() <= 768 ) {
-    jQuery('script[src="js/jquery.bxslider.js"]').remove();
-  } 
-});
-})
-
-
 //validate
 jQuery(document).ready(function(){
 
@@ -321,7 +260,7 @@ jQuery(document).ready(function(){
 
 });
 
-
+/*fixed_header*/
 jQuery(document).ready(function() {
     jQuery(window).scroll(function(){
   var sticky = jQuery('.fixed_header'),
