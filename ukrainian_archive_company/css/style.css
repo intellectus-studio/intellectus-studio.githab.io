@@ -1124,10 +1124,9 @@ text-align: left;
     padding-bottom: 5px;
     padding-top: 5px;
     padding-right: 0;
+    width: 45%;
 }
-.card_item img {
-	width: 90%;
-}
+
 
 /* .slider_text_bottom ul li:first-child {
  	display: block;
