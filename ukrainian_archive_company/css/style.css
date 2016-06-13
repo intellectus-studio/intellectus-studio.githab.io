@@ -37,7 +37,7 @@ img {
 	width: 100%;
 }
 .header_main.wrapper {
-	padding: 0 30px;
+	padding: 0 10px;
 } 
 .logo {
 	padding-top: 12px;
@@ -1111,6 +1111,7 @@ text-align: left;
 	padding-left: 5px;
 }
 
+
 /* .slider_text_bottom ul li:first-child {
  	display: block;
  	width: 6%!important;
@@ -1127,9 +1128,28 @@ text-align: left;
  .header_main.wrapper {
     padding: 0 10px;
 }
-/*.slider_text_bottom ul li:first-child {
-	width: 100%;
-}*/
+.logo {
+	width: 20%;
+}
+.contacts_lang {
+	float: right;
+	padding-top: 10px;
+}
+.number_icon {
+	width: 20%;
+}
+.number {
+	font-size: 18px;
+}
+.lang_item_link {
+	padding: 0 2px 0 2px;
+}
+.languages_count {
+	padding-left: 5px;
+}
+.languages {
+	padding-left: 0;
+}
 }
 
 
