@@ -131,11 +131,13 @@ text-align: left;
 .first_slide {
 	background-image: url(../img/Банер3.0.jpg);
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 .second_slide {
 	background-image: url(../img/Банер2.0.jpg);
 	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 }
 .slider-wrapper li {
@@ -1025,16 +1027,19 @@ text-align: left;
 	font-size: 16px;
 }
 }
- @media all and (max-width: 960px) {
- 	#slider.container, .block_one {
- 		height: 425px;
- 	}
- 	#slider {
+@media (max-width: 960px) {
+	#slider {
  		display: none;
  	}
  	.banner_static {
  		display: block;
  	}
+}
+ @media all and (max-width: 960px) {
+ 	#slider.container, .block_one {
+ 		height: 425px;
+ 	}
+ 	
  	.slider-wrapper {
  		height: 425px;
  	}
