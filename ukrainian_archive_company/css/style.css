@@ -415,7 +415,6 @@ text-align: center;
 	font-size: 24.14px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 300;
 	line-height: 32px;/* Приближение из-за подстановки шрифтов */
-	text-indent: 24px;
 }
 .block_four_sub_text span {
 	color: #3359a6;
@@ -779,7 +778,7 @@ text-align: left;
 }
 .download_file_item {
 	list-style: none;
-	padding-bottom: 20px;
+	padding-bottom: 43px;
 }
 .download_file_item a {
 	display: block;
