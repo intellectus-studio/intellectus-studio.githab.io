@@ -4,6 +4,8 @@
  * @Autor: Creaticode
  * @URL: http://creaticode.com 
  */
+
+
 jQuery(function() {
 	/** -----------------------------------------
 	 * Modulo del Slider 
