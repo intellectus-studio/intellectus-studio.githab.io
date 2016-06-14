@@ -771,6 +771,8 @@ text-align: left;
 .download_file {
 	float: left;
 	width: 20%;
+	padding-left: 20px;
+    padding-right: 20px;
 
 }
 .video_container {
@@ -1225,6 +1227,9 @@ text-align: left;
 }
 .block_six_container {
 	padding-top: 48px;
+}
+.skills_item {
+	width: 310px;
 }
 }
 
