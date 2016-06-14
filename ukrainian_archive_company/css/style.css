@@ -1134,6 +1134,9 @@ text-align: left;
 
  }
  @media  (max-width: 520px) {
+ 	.main_content_head {
+ 		font-size: 18px;
+ 	}
  	#slider.container, .block_one {
  		height: 225px;
  	}
