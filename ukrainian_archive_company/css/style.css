@@ -224,13 +224,16 @@ border-color:  #5c636e;
 	background-color: #cdcdcd;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
-	color:  #ffffff;
+	color:  #0e0e0e;
 	font-size: 30px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 400;
 	text-align: center;
 	width: 100%;
     padding: 20px 0;
     text-align: center;
+}
+.sub_slider span {
+	font-weight: bold;
 }
 .sub_slider_item {
 	display: none;
@@ -283,8 +286,12 @@ border-color:  #5c636e;
  .main_content_text {
     position: relative;
     padding-top: 70px;
+    padding-bottom: 70px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.main_content_text.main_content_container {
+	padding-bottom: 20px;
 }
 .main_content_item {
 	font-family: 'Open Sans', sans-serif;
@@ -294,8 +301,11 @@ border-color:  #5c636e;
 	line-height: 1.4;/* Приближение из-за подстановки шрифтов */
 	text-align: center;
 }
+.main_content_item span {
+	font-weight: bold;
+}
 .carousel_container {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 .carousel_container_item {
 	display: inline-block;
@@ -327,7 +337,6 @@ border-color:  #5c636e;
 	padding-right: 5px;
 }
 .block_three {
-	background-color: #eeeeeb;
 	width: 100%;
 	display: table;
     text-align: center;
@@ -419,7 +428,9 @@ text-align: center;
 	color: #3359a6;
 	font-weight: 300;
 }
-
+.skills {
+	background-color: #eeeeeb;
+}
 .skills_container {
 	padding-top: 50px;
 	padding-bottom: 60px;
@@ -525,6 +536,9 @@ footer {
 }
 .col_one_text {
 	padding-top: 30px;
+}
+.col_one_text span {
+	font-weight: bold;
 }
 .contacts_item {
 	list-style: none;
@@ -689,8 +703,7 @@ transform: scale(1.1);
 }
 .block_seven_icon {
 	border-radius: 50%;
-background-color:  #005aa8;
-border: 6px solid #e9e7e0;
+border: 2px solid #005baa;
 transition: all .2s ease-in-out;
 text-align: center;
  padding-right: 0px;
@@ -702,9 +715,9 @@ text-align: center;
 .block_seven_icon img{
 	text-align: center;
 }
-.block_seven_icon:hover {
+/*.block_seven_icon:hover {
 	transform: scale(1.1);
-}
+}*/
 .block_seven_client, .block_seven_task , .block_seven_solution {
 	float: left;
 	margin: 20px 5%;
@@ -791,7 +804,6 @@ text-align: center;
 padding-bottom: 14px;
 }
 .block_nine {
-	background-image: url(../img/block_nine.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -1132,7 +1144,9 @@ text-align: left;
 .number_icon {
 	display: none;
 }
-
+.main_content_text {
+	padding-top: 20px;
+}
  .languages {
 	float: left;
 	padding-left: 10px;
