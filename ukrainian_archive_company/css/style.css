@@ -1147,7 +1147,10 @@ text-align: left;
  	.contacts_lang {
  		float: left;
  	}
- 	
+ 	.skills_item_text {
+ 		width: 80%;
+    float: right;
+ 	}
 	.card_container {
     max-width: 450px;
     padding-left: 8px;
