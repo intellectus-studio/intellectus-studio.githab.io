@@ -124,7 +124,7 @@ if (jQuery(window).width()>568){
 jQuery(document).ready(function () {
 
     jQuery(window).scroll(function () {
-        if (jQuery(this).scrollTop() > 100) {
+        if (jQuery(this).scrollTop() > 500) {
             jQuery('.scrollup').fadeIn();
         } else {
             jQuery('.scrollup').fadeOut();
