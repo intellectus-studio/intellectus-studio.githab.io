@@ -127,18 +127,18 @@ text-align: left;
 	height: 570px;
 	overflow: hidden;
 }
-/*.first_slide {
+.first_slide {
 	background-image: url(../img/Банер3.0.jpg);
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
 .second_slide {
 	background-image: url(../img/Банер2.0.jpg);
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-}*/
+}
 .slider-wrapper .slide {
 	display: none;
 	height: inherit;
