@@ -147,7 +147,6 @@ text-transform: uppercase;
   position: relative;
   overflow: hidden;
   margin: 0 auto 0 auto;
-  padding-top: 20px;
   border-radius: 4px;
 }
 
@@ -168,26 +167,34 @@ text-transform: uppercase;
   padding: 0;
   width: 960px;
   height: 245px;
-  background-image: url(img/banner.png);;
+  background-image: url(img/banner.png);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   line-height: 300px;
 }
-
+.cnt {
+	border: 5px solid #fff;
+	border-radius: 4px;
+	overflow: hidden;
+	z-index: 9999;
+}
+.wrapper_slider {
+	padding-top: 20px;
+}
 a.control_prev, a.control_next {
   position: absolute;
   top: 50%;
   z-index: 999;
   display: block;
   padding: 3px 10px;
+  padding-top: 4px;
   width: auto;
   height: auto;
   border-radius: 4px;
 background-color: #000000;
   color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
   cursor: pointer;
 }
 .control_next img {
@@ -197,7 +204,7 @@ background-color: #000000;
 }
 
 a.control_next {
-  right: 0;
+  right: 24px;
   z-index: 9999;
 }
 /*services*/
@@ -468,6 +475,19 @@ transition: all  0.5s ease;
 	border: none;
 }
 }
+@media (max-width: 960px) {
+	#slider ul li {
+    width: 400px;
+    height: 245px;
+}
+.cnt {
+	border:none;
+}
+a.control_next {
+  right: 0;
+  z-index: 9999;
+}
+}
 @media (max-width: 920px) {
 	.services_item, .payment_item {
 		width: 50%;
@@ -501,6 +521,7 @@ transition: all  0.5s ease;
 	.callback_footer_btn {
 		width: 100%;
 	}
+
 }
 @media (max-width: 560px) {
 	.logo {
@@ -514,6 +535,10 @@ transition: all  0.5s ease;
 }
 .callback_btn {
 	float: right;
+}
+#slider ul li {
+    width: 250px;
+    height: 145px;
 }
 }
 @media (max-width: 560px) {
