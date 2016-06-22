@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Завод элитных жалюзей и ролетов</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link href="css/lightbox.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link href="css/jquery.bxslider.css" rel="stylesheet">
+	
 </head>
 <body>
 <header>
@@ -27,10 +29,10 @@
 <nav>
 	<div class="wrapper">
 		<ul class="main_menu clearfix">
-			<li class="main_menu_item"><a class="main_menu_link" href="">Наша продукция</a></li>
-			<li class="main_menu_item"><a class="main_menu_link" href="">Наши преимущества</a></li>
-			<li class="main_menu_item"><a class="main_menu_link" href="">Отзывы</a></li>
-			<li class="main_menu_item"><a class="main_menu_link" href="">Установка и оплата</a></li>
+			<li class="main_menu_item"><a class="main_menu_link first" href="">Наша продукция</a></li>
+			<li class="main_menu_item"><a class="main_menu_link second" href="">Наши преимущества</a></li>
+			<li class="main_menu_item"><a class="main_menu_link third" href="">Отзывы</a></li>
+			<li class="main_menu_item"><a class="main_menu_link fourth" href="">Установка и оплата</a></li>
 		</ul>
 	</div>
 </nav>
@@ -44,8 +46,8 @@
            <li style="background-image: url(img/banner.png);"></li>
             <li style="background-image: url(img/banner.png);"></li>
            </ul>
-		  <a href="javascript:void(0);" class="control_next"><img src='img/arrow_white.png' onmouseover="this.src='img/arrow-green.png';" onmouseout="this.src='img/arrow_white.png';"></a>
-		  <a href="javascript:void(0);" class="control_prev"><img src='img/arrow_white.png' onmouseover="this.src='img/arrow-green.png';" onmouseout="this.src='img/arrow_white.png';"></a>   
+		  <a href="javascript:void(0);" class="control_next"></a>
+		  <a href="javascript:void(0);" class="control_prev"></a>   
         </div>
         </div>
 	</div>
@@ -125,6 +127,46 @@
 </div>
 <div class="review">
 	<div class="wrapper">
+	<h2 class="review_head">Отзывы наших клиентов</h2>
+		<div class="item_slider">
+		    <div class="arrow_left"></div>
+		    <div class="arrow_right"></div>
+		    <div class="carusel_hider">
+		        <ul class="item_slider_list">
+		            <li class="carusel_item">
+		               <img src="img/review.png">
+		               <h3 class="carusel_item_head">Дарина</h3>
+		               <p class="carusel_item_text">Мы работаем по государственной программе «Кредит на утепление»</p>
+		            </li>
+		            <li class="carusel_item">
+		                <img src="img/review.png">
+		                <h3 class="carusel_item_head">Дарина</h3>
+		               <p class="carusel_item_text">Мы работаем по государственной программе «Кредит на утепление»</p
+		            </li>
+		            <li class="carusel_item">
+		               <img src="img/review.png"> 
+		               <h3 class="carusel_item_head">Дарина</h3>
+		               <p class="carusel_item_text">Мы работаем по государственной программе «Кредит на утепление»</p
+		            </li>
+		            <li class="carusel_item">
+		                <img src="img/review.png">
+		                <h3 class="carusel_item_head">Дарина</h3>
+		               <p class="carusel_item_text">Мы работаем по государственной программе «Кредит на утепление»</p
+		            </li>
+		            <li class="carusel_item">
+		                <img src="img/review.png">
+		                <h3 class="carusel_item_head">Дарина</h3>
+		               <p class="carusel_item_text">Мы работаем по государственной программе «Кредит на утепление»</p
+		            </li>
+		            <li class="carusel_item">
+		                <img src="img/review.png">
+		                <h3 class="carusel_item_head">Дарина</h3>
+		               <p class="carusel_item_text">Мы работаем по государственной программе «Кредит на утепление»</p
+		            </li>
+		        </ul>
+		    </div>
+
+</div>
 	</div>
 </div>
 <div class="payment">
@@ -170,20 +212,40 @@
 	</div>
 <div class="copyright_container"><div class="wrapper copyright clearfix">Создание и разработка сайта <a href="http://web-intellectus.com/" target="_blank">© Intellectus-studio 2016</a></div></div>
 </footer>
+<!-- modal1 -->
+	<div id="modal_form"> 
+      <span id="modal_close"><i class="fa fa-times-circle" aria-hidden="true"></i></span> <!-- Кнoпкa зaкрыть --> 
+      <form>
+      	<label for="name">Введите Ваше имя</label><br><input id="name" type="text"></input>
+      	<label for="phone">Введите Ваш телефон</label><br><input id="phone" type="tel"></input>
+      	<input type="submit" id="submit" value="Заказать"></input>
+      </form>
+</div>
+<div id="overlay"></div><!-- Пoдлoжкa -->
 
-
-
-
-
+<!-- modal2 -->
+<div id="modal_form1"> 
+      <span id="modal_close1"></i></span> <!-- Кнoпкa зaкрыть --> 
+      <div class="product_card">
+      	<div class="product_card_img">
+      		<a href="img/product_card.png" data-lightbox="image-1"><img src="img/product_card.png"></a>
+      		<a href="img/product_card.png" data-lightbox="image-1"><img src="img/product_card.png"></a>
+      	</div>
+      	<div class="product_card_text">
+      		<h3>Название блока</h3>
+      		<p>Благодаря жалюзи вы сможете: приобрести уникальные солнцезащитные системы по лучшей цене; регулировать количество света в помещении; создать гармоничный и стильный интерьер; больше не прятать монитор компьютера от солнечных бликов; отдыхать с семьей и гостями в комфорте. Благодаря такому выбору, каждый сможет подобрать оптимальные модели, изысканно сочетать их с интерьером любого помещения.</p>
+      	</div>
+      </div>
+</div>
+<div id="overlay1"></div><!-- Пoдлoжкa -->
 
 
 
 
 
 <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
-<script type="text/javascript" scr="js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="js/owl.carousel.js"></script>
 <script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
