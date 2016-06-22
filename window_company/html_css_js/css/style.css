@@ -128,9 +128,7 @@ text-transform: uppercase;
 .main_menu_link:hover {
 	color:  #a2bd30;
 }
-.main_menu_link:focus {
-    color: #a2bd30;
-}
+
 .main_menu_item:first-child {
 	padding-left: 0;
 }
@@ -1013,7 +1011,8 @@ text-align: center;
 	}
 	.product_card_img a {
 		float: left;    
-		width: 200px;
+		width: 45%;
+		margin-left: 5px;
 	}
 	.product_card_img {
      width: 100%;
@@ -1027,11 +1026,5 @@ text-align: center;
     float: none;
     margin-left: 25px;
     padding-right: 20px;
-}
-@media (max-width: 570px) {
-	.product_card_img a {
-		float: none;
-		margin: 0 auto;
-	}
 }
 }
