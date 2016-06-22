@@ -105,6 +105,10 @@ cursor: pointer;
 	background-color: #cae360;
 	box-shadow: 0px 2px 0px 0px #cae360;
 }
+.btn_container {
+	position: relative;
+	float: left;
+}
 /*nav*/
 nav {
 	background-color: #000000;
@@ -423,7 +427,7 @@ padding: 20px 0;
 color:  #b9babc;
 font-size: 24px;
 line-height: 30px;
-text-align: left;
+text-align: center;
 font-weight: 300;
 }
 footer {
@@ -643,6 +647,23 @@ a.control_next {
 	left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+#modal_form2 {
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #b0b1b3;
+	box-sizing: border-box;
+	background-color:  #fbfbfb;
+	width: 221px;
+	height: 203px;
+	background: #fff;
+	position: fixed; /* чтoбы oкнo былo в видимoй зoне в любoм месте */
+	display: none; /* в oбычнoм сoстoянии oкнa не дoлжнo быть */
+	opacity: 0; /* пoлнoстью прoзрaчнo для aнимирoвaния */
+	z-index: 5; /* oкнo дoлжнo быть нaибoлее бoльшем слoе */
+	padding: 20px 10px;
+	z-index: 9999;
     
 }
 /* Кнoпкa зaкрыть для тех ктo в тaнке) */
@@ -745,7 +766,7 @@ padding-top: 20px;
 }
 .product_card_text {
 	width: 60%;
-	float: left;
+	float: right;
 	margin-left: 25px;
 
 }
@@ -943,14 +964,7 @@ text-align: center;
 }
 
 .arrow_left:hover {
-    cursor: pointer;
     background: url(../img/arrow-green.png) no-repeat;
-    width: 49px;
-    height: 49px;
-    position: absolute;
-    top: 50%;
-    margin-top: -24.5px;
-    right: 50px;
 }
 
 .arrow_right {
@@ -967,14 +981,7 @@ text-align: center;
 }
 
 .arrow_right:hover {
-    cursor: pointer;
     background: url(../img/arrow_green_left.png) no-repeat;
-    width: 49px;
-    height: 49px;
-    position: absolute;
-    top: 50%;
-    margin-top: -24.5px;
-    right: 50px;
 }
 
 .item_slider_bottom_circle {
@@ -997,4 +1004,34 @@ text-align: center;
 	}
 	.carusel_item {
     width: 300px;
+}
+}
+@media (max-width: 770px) {
+	#modal_form1 {
+		width: 100%;
+		height: 100vh;
+	}
+	.product_card_img a {
+		float: left;    
+		width: 200px;
+	}
+	.product_card_img {
+     width: 100%;
+    float: none; 
+    margin-left: 25px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.product_card_text {
+    width: 100%;
+    float: none;
+    margin-left: 25px;
+    padding-right: 20px;
+}
+@media (max-width: 570px) {
+	.product_card_img a {
+		float: none;
+		margin: 0 auto;
+	}
+}
 }

@@ -167,3 +167,17 @@ lightbox.option({
             jQuery('.item_slider_list').animate({ left : currentLeftValue + "px"}, 300);
         }
     });
+
+    // $(document).ready(function() {
+    //     $('.callback_btn').mouseover(function() {
+    //         $('#modal_form2').css('display', 'block');
+    //         $('#modal_form2').css('opacity', '1');
+    //     })
+    // });
+    //    $(document).ready(function() {
+    //     $('.callback_btn').mouseleave(function() {
+    //         $('#modal_form2').css('display', 'none');
+    //         $('#modal_form2').css('opacity', '0');
+    //     })
+        
+    // })
