@@ -485,6 +485,7 @@ text-align: left;
 .contacts_item {
 	list-style: none;
 	padding-bottom: 20px;
+	color: #666867;
 }
 .contacts_item:hover {
 	color: #a2bd30;
