@@ -585,12 +585,12 @@ text-align: center;
 
 .carusel_hider {
     margin: 0 auto 50px;
-    width: 700px;
+    width: 720px;
     overflow: hidden;
 }
 
 .carusel_item {
-    width: 350px;
+    width: 360px;
     text-align: left;
     float: left;
     padding: 20px 20px;
