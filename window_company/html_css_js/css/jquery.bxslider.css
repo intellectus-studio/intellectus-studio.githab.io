@@ -55,7 +55,7 @@
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(../img/bx_loader.gif) center center no-repeat #fff;
+	background: url(../img/loading.gif) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -110,35 +110,40 @@ border-color:  #5c636e;
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: -100px;
-	background: url(../img/arrow_black.png) no-repeat;
-}
-
-.bx-wrapper .bx-next {
-	right: -100px;
-	background: url(../img/arrow_black.png) no-repeat;
+	left: 0;
+	background: url(../img/arrow_back_white.png) no-repeat;
+	z-index: 9999;
 	-ms-transform: rotate(180deg); /* IE 9 */
     -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
     transform: rotate(180deg);
 }
 
-.bx-wrapper .bx-prev:hover {
-	background-position: 0 0;
+.bx-wrapper .bx-next {
+	right: 0;
+	background: url(../img/arrow_back_white.png) no-repeat;
 }
-
 .bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
+	background: url(../img/arrow_bg_green.png) no-repeat;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+.bx-wrapper .bx-prev:hover {
+    background: url(../img/arrow_bg_green.png) no-repeat;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
 }
 
 .bx-wrapper .bx-controls-direction a {
+	color: transparent;
 	position: absolute;
 	top: 50%;
 	margin-top: -16px;
 	outline: 0;
-	width: 32px;
-	height: 32px;
-	text-indent: -9999px;
-	z-index: 9999;
+	width: 38px;
+	height: 38px;
+	z-index: 999;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
