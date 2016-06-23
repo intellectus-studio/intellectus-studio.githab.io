@@ -59,7 +59,6 @@ ul li span {
 }
 img {
 	max-width: 100%;
-	height: 100%;
 }
 header {
 	padding-top: 21px;
@@ -282,13 +281,14 @@ a.control_next {
 }
 
 .production_head {
-	font-family: 'Myriad Pro';
+	font-family: 'Myriad Pro Condensed';
 color:  #b0b1b3;
 font-size: 30px;
 line-height: 24px;
 text-align: center;
 padding-top: 70px;
 padding-bottom: 42px;
+font-weight: 300;
 }
 .production_item {
 	text-align: center;
@@ -342,6 +342,7 @@ line-height: 24px;
 text-align: center;
 padding-top: 30px;
 padding-bottom: 30px;
+font-weight: 300;
 }
 .made_works_container {
 	text-align: center;
@@ -366,6 +367,7 @@ line-height: 24px;
 text-align: center;
 padding-top: 70px;
 padding-bottom: 40px;
+font-weight: 300;
 }
 .how_we_work_container {
 	text-align: center;
@@ -549,6 +551,7 @@ color:  #000000;
 font-size: 29px;
 line-height: 39px;
 text-align: center;
+font-weight: 300;
 }
 .item_slider {
     text-align: center;
