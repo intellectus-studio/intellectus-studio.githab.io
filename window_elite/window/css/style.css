@@ -1255,3 +1255,13 @@ padding: 50px 0;
 
 }
 }
+@media (max-width: 850px) and (min-width: 700px) {
+	#modal_form1, #modal_form4, #modal_form5 {
+		width: 75%;
+	}
+}
+@media (max-width: 1200px) and (min-width: 800px) {
+	#modal_form1, #modal_form4, #modal_form5 {
+		width: 69%;
+	}
+}
