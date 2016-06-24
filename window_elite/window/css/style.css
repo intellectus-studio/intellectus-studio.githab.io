@@ -852,6 +852,9 @@ a.control_next {
 .arrow_right {
 	right: 0;
 }
+.arrow_left {
+	left: 10px;
+}
 .window_row {
 	padding: 10px 10px;
 }
@@ -872,8 +875,8 @@ a.control_next {
     margin-right: 5px;
 }
 .header_number_item {
-	word-spacing: 2px;
-	font-size: 12px;
+	word-spacing: 1px;
+	font-size: 10px;
 }
 
 .main_slider {
