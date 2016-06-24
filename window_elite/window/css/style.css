@@ -1253,11 +1253,12 @@ padding: 50px 0;
 @media (max-width: 320px) {
 	.wrapper_slider {
     width: 320px;
-    height: 200px
 }
 .bx-wrapper .bx-viewport {
 	left: 0!important;
-
+}
+.bx-controls-direction {
+	display: none!important;
 }
 }
 @media (max-width: 850px) and (min-width: 700px) {
