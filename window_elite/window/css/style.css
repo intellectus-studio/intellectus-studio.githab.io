@@ -590,7 +590,7 @@ font-weight: 300;
 
 .carusel_hider {
     margin: 0 auto 50px;
-    width: 720px;
+    width: 790px;
     overflow: hidden;
 }
 
@@ -1270,7 +1270,7 @@ padding: 50px 0;
 }
 @media (max-width: 960px) and (min-width: 600px) {
 	.wrapper_slider {
-    width: 600px;
+    width: 580px;
 }
 }
 @media (max-width: 320px) {
