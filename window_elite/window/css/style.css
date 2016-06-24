@@ -175,7 +175,7 @@ text-transform: uppercase;
   border-radius: 4px;
 }
 .wrapper_slider {
-	width: 935px;
+	width: 925px;
 }
 #slider ul {
   position: relative;
@@ -184,7 +184,7 @@ text-transform: uppercase;
   height: 245px;
   list-style: none;
   overflow: hidden;
-  width: 935px;
+  width: 925px;
 }
 
 #slider ul li {
@@ -193,7 +193,7 @@ text-transform: uppercase;
   float: left;
   margin: 0;
   padding: 0;
-  width: 935px;
+  width: 925px;
   height: 245px;
   background-image: url(img/banner.png);
   background-size: 100% 100%;
@@ -875,14 +875,16 @@ a.control_next {
 	word-spacing: 2px;
 	font-size: 12px;
 }
-.how_we_work_item {
-	width: 45%;
-}
+
 .main_slider {
 	padding-bottom: 0;
 }
 }
-
+@media (max-width: 640px) {
+	.how_we_work_item {
+	width: 45%;
+}
+}
 #modal_form {
 	border-radius: 4px;
 	border-style: solid;
@@ -1128,6 +1130,13 @@ font-size: 14px;
 line-height: 24px;
 text-align: left;
 }
+label[for=name_footer] {
+	font-family: 'Myriad Pro Condensed';
+color:  #b0b1b3;
+font-size: 14px;
+line-height: 24px;
+text-align: left;
+}
 label[for=phone] {
 	font-family: 'Myriad Pro Condensed';
 color:  #b0b1b3;
@@ -1135,7 +1144,14 @@ font-size: 14px;
 line-height: 24px;
 text-align: left;
 }
-#name, #phone {
+label[for=phone_footer] {
+	font-family: 'Myriad Pro Condensed';
+color:  #b0b1b3;
+font-size: 14px;
+line-height: 24px;
+text-align: left;
+}
+#name, #phone, #name_footer, #phone_footer{
 	border-radius: 2px;
 border-style: solid;
 border-width: 1px;
@@ -1145,7 +1161,7 @@ background-color:  #ffffff;
 width: 195px;
 height: 30px;
 }
-#submit {
+#submit, #submit_footer {
 	border-radius: 2px;
 background-color:  #a2bd30;
 box-shadow: 0px 2px 0px 0px #6d8213;
@@ -1162,6 +1178,10 @@ margin-top: 20px;
 transition: all 0.5s ease;
 }
 #submit:hover {
+	background-color: #cae360;
+    box-shadow: 0px 2px 0px 0px #cae360;
+}
+#submit_footer:hover {
 	background-color: #cae360;
     box-shadow: 0px 2px 0px 0px #cae360;
 }
