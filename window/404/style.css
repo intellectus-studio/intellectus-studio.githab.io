@@ -1,0 +1,73 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: Panton;
+    src: url(Panton_Light_Italic.otf);
+}
+body {
+	position: relative; /* or absolute */
+    margin: 0;
+    padding: 0;
+    /* unnecessary styling properties */
+    width: 100%;
+    height: 100vh;
+}
+.page_not_found {
+	margin: 0 auto;
+	height: 290px;
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.page_not_found_text {
+	font-family: Panton;
+color:  #a2bd30;
+font-size: 42px;
+font-weight: 300;
+font-style: italic;
+text-align: center;
+	padding: 20px 0;
+	padding-bottom: 50px;
+}
+
+.turn_back {
+	background-color:  #c5c5c5;
+	box-shadow: 0px 2px 0px 0px #919191;
+	width: 220px;
+	height: 58px;
+	margin: 0 auto;
+	transition: all .2s ease-in-out;
+}
+.turn_back:hover {
+	transform: scale(1.1);
+}
+.turn_back_link {
+    display: block;
+    width: 100%;
+    font-family: Panton;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    line-height: 58px;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+}
+.fourty_four {
+	font-family: Panton;
+	color:  #a2bd30;
+	font-size: 72px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+	line-height: 30.529px;
+	text-align: center;
+	padding: 10px 0;
+}
+.fourty_four_img {
+	padding: 0 10px;
+}
