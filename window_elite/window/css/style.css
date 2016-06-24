@@ -11,10 +11,7 @@
     font-family: 'Myriad Pro';
     src: url(../fonts/Myriad-Pro_31655.ttf);
 }
-@font-face {
-    font-family: 'Myriad Pro Light';
-    src: url(../fonts/Myriad-Pro-Light-SemiCondensed_31639.ttf);
-}
+
 @font-face {
     font-family: 'OpenSans';
     src: url(../fonts/OpenSans-Light.ttf);
@@ -442,7 +439,7 @@ text-align: center;
 }
 
 .payment_item_head {
-	font-family: 'Myriad Pro Condensed';
+font-family: 'Myriad Pro Condensed';
 color:  #292c2b;
 font-size: 29px;
 line-height: 30px;
