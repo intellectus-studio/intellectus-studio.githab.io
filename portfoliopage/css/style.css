@@ -2348,7 +2348,7 @@ a.about-icon {
 }
 .carousel-control {
     position: absolute!important;
-    top: 70%!important;
+    top: 50%!important;
     bottom: 0!important;
     width: 5%!important;
     height: 40px!important;
@@ -2535,9 +2535,6 @@ a.about-icon {
 }
 .padding_header {
 	padding: 20px 0;
-}
-.padding_footer {
-	padding: 30px 0;
 }
 .callback_result {
 	padding: 20px 0;
