@@ -2536,6 +2536,9 @@ a.about-icon {
 .padding_header {
 	padding: 20px 0;
 }
+.padding_footer {
+	padding: 30px 0;
+}
 .callback_result {
 	padding: 20px 0;
 }
