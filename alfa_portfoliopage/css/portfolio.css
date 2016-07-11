@@ -1,0 +1,237 @@
+/***************** */
+/* PORTFOLIO */
+/***************** */
+
+/*Portfolio Filter*/
+.filter-v1 .filter-category {
+	list-style: none;
+	margin:0 0 15px -8px;
+}
+
+.filter-v1 .filter-category li {
+	position:relative;
+	color: #161616;
+	cursor: pointer;
+	padding: 6px 21px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	border:1px solid #565656;
+	display: inline-block;
+    transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -ms-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+	font-size:16px;
+	font-weight:600;
+	text-transform:uppercase;
+	transform: skew(-15deg);
+    -o-transform: skew(-15deg);
+    -moz-transform: skew(-15deg);
+    -webkit-transform: skew(-15deg);
+}
+
+.filter-v1 .filter-category li:hover{
+	color:#fff;
+}
+
+.filter-v1 .filter-category li:after {
+    background: #161616;
+    content: "";
+	width: 0;
+    height: 102%;
+    left: 0;
+    position: absolute;
+    top: 0;
+	transform: skew(180deg);
+    -o-transform: skew(180deg);
+    -moz-transform: skew(180deg);
+    -webkit-transform: skew(180deg);
+    transition: all 0.3s ease 0s;    
+	z-index:-1;
+}
+
+.filter-v1 .filter-category li:hover:after {
+    width: 100%;
+	background:#161616;
+}
+
+.filter-v1 .filter-category li span{
+	display: inline-block;
+	transform: skew(15deg);
+    -o-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    -webkit-transform: skew(15deg);	
+}
+
+.grid-v1 .mix {
+	opacity: 0;
+	display: none;
+}
+
+/*Portfolio Hover*/
+.grid-v1 li {
+	position: relative;
+	overflow: hidden;
+	padding:0;
+	border:2px solid #fff;
+}
+
+.grid-v1 li img{
+	transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+}
+
+.grid-v1 li:hover img{
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+     transform:scale(1.05);	
+}
+
+.grid-v1 li .hover-portfolio {
+	color: #fff;
+	width: 100%;
+	height: 50%;
+	opacity:0;
+	bottom:0;
+	text-align: center;
+	position: absolute;
+	background: #0da3e2;
+	background-color: rgba(255, 255, 255, 0.9);
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;	
+}
+
+.grid-v1 li .hover-portfolio.hover-portfolio-small,
+.grid-v1 li .hover-portfolio.hover-portfolio-medium {
+	height: 100%;
+}
+
+.hover-portfolio-content{
+    margin-top: -80px;
+    max-height: 160px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.hover-portfolio-content h3{
+	font-size:30px;
+	font-weight: 300;
+	margin:2px 0 15px;
+}
+
+.hover-portfolio-content a.btn{
+	margin:0;
+	padding:7px 16px;
+	font-size:16px;
+}
+
+span.portfolio-title{
+	color:#8ac245;
+	font-size:14px;
+	font-weight:400;
+}
+
+.grid-v1 li:hover .hover-portfolio {
+	opacity:1;
+}
+
+.grid-v1 li .hover-portfolio h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.grid-v1 li .hover-portfolio p {
+    height: 42px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 0 30px;
+}
+
+.grid-v1 li .hover-portfolio i {
+	color: #fff;
+	font-size: 30px;
+	transition: all 0.25s ease;
+	-o-transition: all 0.25s ease;
+	-ms-transition: all 0.25s ease;
+	-moz-transition: all 0.25s ease;
+	-webkit-transition: all 0.25s ease;
+}
+
+.grid-v1 li .hover-portfolio i:hover {
+	color:#8ac245;
+}
+
+.grid-v1 li a.hover-portfolio-lft:hover,
+.grid-v1 li a.hover-portfolio-rgt:hover {
+	text-decoration: none;
+}
+
+/* Safari double content fix */
+.mfp-content {
+    -webkit-overflow-scrolling: touch;
+}
+
+.mfp-wrap .inner-content p {
+    clear: both;
+}
+
+.mfp-wrap .mfp-arrow,
+.mfp-wrap .mfp-close {
+    -webkit-transform: translateZ(0);
+}
+
+ /* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+	.grid-v1 li .hover-portfolio.hover-portfolio-medium h2 {
+		font-size: 16px;
+	}		
+
+	.grid-v1 li .hover-portfolio.hover-portfolio-small h2,
+	.grid-v1 li .hover-portfolio.hover-portfolio-medium p {
+		display: none;
+	}
+
+	.grid-v1 li .hover-portfolio.hover-portfolio-small a {
+		top: 50%;
+		margin-top: -1.2em;
+	}
+}
+
+ /* Portrait tablet to landscape and desktop */
+@media (min-width: 240px) and (max-width: 1170px) { 
+	.grid-v1 li .hover-portfolio {
+		top: 100%;
+		height: 100%;
+	}
+
+	.grid-v1 li:hover .hover-portfolio {
+		top: 0;
+	}		
+}
+
+ /* Desktop to tablet */
+@media (min-width: 980px) and (max-width: 1170px) { 
+	/*BEGIN PORTFOLIO*/
+	.grid-v1 li .hover-portfolio.hover-portfolio-medium p {
+		display: none;
+	}
+}
+
+ /* Portrait tablet to phone */
+@media (max-width: 350px) { 
+	.grid-v1 li .hover-portfolio.hover-portfolio-medium p {
+		display: none;
+	}
+}
