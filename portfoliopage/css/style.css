@@ -397,7 +397,8 @@ h3 small{
 }
 
 .btn:hover{
-	color: #fff;
+	color: #000;
+	background: #ffffff;
 }
 
 .btn:after {
