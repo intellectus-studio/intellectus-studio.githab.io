@@ -211,7 +211,9 @@ h1, h2, h3, h4, h5, h6{
 	color:#161616;
         word-break: break-word;
 }
-
+p {
+	color: #272727;
+}
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-family: "Raleway", sans-serif;
 	color: #121212;
