@@ -2809,11 +2809,17 @@ h3.box_header span{
 	position: absolute;
 	left: 70px;
 }
+.rightside img {
+	float: right;
+}
 @media (max-width: 700px) {
 	.positioned {
 		display: none;
 	}
 	.positioned_left {
 		display: none;
+	}
+	.rightside img {
+		float: none;
 	}
 }
