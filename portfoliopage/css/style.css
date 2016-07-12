@@ -2479,7 +2479,7 @@ a.about-icon {
     position: absolute!important;
     top: 70%!important;
     bottom: 0!important;
-    width: 5%!important;
+    width: 30px!important;
     height: 40px!important;
     margin-bottom: -40px!important;
     font-size: 20px;
@@ -2800,4 +2800,20 @@ h3.box_header span{
 	-o-transform: skew(15deg);
 	-moz-transform: skew(15deg);
 	-webkit-transform: skew(15deg);
+}
+.positioned {
+	position: absolute;
+	right: 70px;
+}
+.positioned_left {
+	position: absolute;
+	left: 70px;
+}
+@media (max-width: 700px) {
+	.positioned {
+		display: none;
+	}
+	.positioned_left {
+		display: none;
+	}
 }
