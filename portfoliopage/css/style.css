@@ -2464,8 +2464,8 @@ a.about-icon {
 }
 .portfolio_site_img {
 	position: relative;
-	top: 21px;
-	left: 71px;
+    top: 39px;
+    left: 92px;
 }
 .portfolio_main {
 	background-color: #f1f1f1;
@@ -2663,7 +2663,7 @@ a.about-icon {
     padding: 0 70px;
 }
 .portfolio_padding {
-	padding: 70px 0;
+	padding: 40px 0;
 }
 .padding_header {
 	padding: 20px 0;
@@ -2739,12 +2739,13 @@ scrollbar[orient="vertical"] {
 	background-size: contain;
 	width: 282px;
 	height: 206px;
+	margin: 0 auto;
 }
 .portfolio_site_img {
        position: relative;
-    top: 11px;
-    left: 40px;
-    width: 74%;
+    top: 20px;
+    left: 47px;
+    width: 67%;
 }
 }
 /*making h1 h3 - magic part*/
@@ -2825,4 +2826,7 @@ h3.box_header span{
 	.rightside img {
 		float: none;
 	}
+}
+#forms input.send, #comment-form input.send, footer .social ul li a:hover, .pagination > li > span.current, .btn.read-post, .pagination > li > a:hover, .pagination > li > span:hover {
+	color: #DE3927;
 }
