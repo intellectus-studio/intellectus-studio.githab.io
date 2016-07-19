@@ -178,7 +178,7 @@ img {
 height: 0;
 border-style: solid;
 border-width: 0 9px 8px 9px;
-border-color: transparent transparent #94aa3c transparent;
+border-color: transparent transparent rgb( 142, 190, 64 ) transparent;
     position: absolute;
     top: -8px;
     left: 50%;
@@ -190,7 +190,7 @@ border-color: transparent transparent #94aa3c transparent;
     text-decoration: none;
     display: block;
     border-radius: 4px;
-    background-color: rgb( 142, 190, 64 );;
+    background-color: rgb( 142, 190, 64 );
 }
 .dropdown-content a:hover {
 	border: 1px solid #fff;
