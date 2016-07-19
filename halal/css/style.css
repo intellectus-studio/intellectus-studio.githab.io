@@ -468,7 +468,6 @@ footer {
   font-family: "OpenSans";
   color: rgb( 60, 97, 0 );
   line-height: 25px;
-  text-align: center;
   -moz-transform: scale(0.999, 1);
   -webkit-transform: scale(0.999, 1);
   -ms-transform: scale(0.999, 1); 
@@ -599,5 +598,14 @@ label[for=name] {
 }
 .activity_text {
 	width: 100%;
+}
+.bxslider {
+	height: 300px!important;
+}
+.bxslider li {
+	height: 300px!important;
+}
+.bxslider li img{
+	height: 300px!important;
 }
 }
