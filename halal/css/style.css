@@ -5,7 +5,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body{
-   font-family: 'Open Sans',serif;
+   font-family: "OpenSans", sans-serif;
 }
 .clearfix:after {
      visibility: hidden;
@@ -319,7 +319,7 @@ background-color: #fff;
 	font-size: 24px;
 	text-transform: uppercase;
 	color: #9c9f93;
-	font-family: "OpenSans";
+	font-family: "OpenSans", sans-serif;
 	font-weight: lighter;
 	text-align: center;
 }
@@ -342,7 +342,7 @@ background-color: #fff;
 	background: url(../img/bg3.png);
 }
 .slogan_text {
-	font-family: "OpenSans";
+	font-family: "OpenSans", sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	color: #727472;
@@ -386,13 +386,23 @@ background-color: #fff;
 	overflow: hidden;
 }
  .footer_text {
-	color: #fff;
 	padding: 0 10px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: "OpenSans", sans-serif;
+  color: rgb( 255, 255, 255 );
+  text-align: left;
+ 
+
 }
 .footer_header {
-	color: #fff;
+	    font-weight: lighter;
 	padding: 0 10px;
+	 font-size: 20px;
+  font-family: "OpenSans", sans-serif;
+  color: rgb( 255, 255, 255 );
 }
+
 .footer_cont {
 	padding: 30px 0;
 }
