@@ -61,9 +61,7 @@ img {
 }
 
 .first_layer {
-  background-image: -moz-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
+  background-color: rgb(36, 59, 0);
 }
 
 .number {
@@ -379,9 +377,7 @@ background-color: #fff;
 	width: 39%;
 	float: left;
 	padding-left: 10%;
-  background-image: -moz-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
+  background-color: rgb(36, 59, 0);
       padding-top: 50px;
 
 }
@@ -574,9 +570,7 @@ label[for=name] {
 
 #submit {
     border-radius: 2px;
-  background-image: -moz-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(36,59,0) 0%, rgb(60,97,0) 100%);
+  background-color: rgb(36, 59, 0);
     box-shadow: 0px 2px 0px 0px #2c4700;
     width: 195px;
     height: 37px;
