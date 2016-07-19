@@ -339,15 +339,15 @@ background-color: #fff;
 	
 }
 .activity_text {
-	width: 480px;
-	text-align: center;
-	float: right;
-	font-size: 24px;
-	text-transform: uppercase;
-	color: #9c9f93;
-	font-family: "OpenSans", sans-serif;
-	font-weight: lighter;
-	text-align: center;
+	    width: 480px;
+    text-align: center;
+    float: right;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #9c9f93;
+    font-family: "OpenSans", sans-serif;
+    font-weight: lighter;
+    text-align: left;
 }
 
 
@@ -357,8 +357,9 @@ background-color: #fff;
     width: 50%;
     margin: 0 auto;
     word-break: break-word;
-  border-radius: 50%;
-  background-color: rgba( 148, 170, 60, 0.102 );
+    border-radius: 50%;
+    background-color: #d2e3b5;
+    height: 150px;
 
 }
 
