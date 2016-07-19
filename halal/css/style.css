@@ -67,7 +67,7 @@ img {
 .number {
 	color: rgb( 148, 170, 60);;
 	float: left;
-	padding: 10px  10px 10px 5px;
+	padding: 15px  10px 15px 5px;
 }
 .number_item {
 	padding-left: 10px;
@@ -77,7 +77,7 @@ img {
 }
 
 .callback {
-	padding: 5px  0px 5px 5px;
+	padding: 10px  0px 10px 10px;
 	font-size: 18px;
 	float: right;
 	position: relative;
@@ -307,6 +307,9 @@ background-color: #fff;
   text-transform: uppercase;
   line-height: 1.5;
   text-align: center;
+}
+.prerogatives_item img {
+	    opacity: 0.8;
 }
 .activity_item {
 	display: table;
