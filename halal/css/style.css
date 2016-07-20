@@ -21,7 +21,7 @@ body{
 .clearfix { display: block; }
 /* close commented backslash hack */
 .wrapper {
-	max-width: 960px;
+	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -122,19 +122,18 @@ img {
     color: #243b00;
     border: 0 solid #243b00;
     border-width: 0px 1px 0 0;
-    margin: 7px 0;
+    margin: 7px auto;
+    width: 130px;
+    text-align: center;
 }
 .nav_item_link {
     color: #243b00;
     text-decoration: none;
-    padding: 8px 15px;
     transition: 0.3s ease;
-    /* margin: 10px 0; */
 }
 .nav_item_link:hover {
-	background-color: rgb(117,191,46);
-    border-radius: 6px;
-    color: #fff;
+    color: rgb(36, 59, 0);
+    font-weight: bold;
 }
 .nav_item:last-child {
 	border:none;
@@ -148,11 +147,11 @@ img {
 	text-decoration: none;
 }
 .lang_item_link:focus {
-	color:#243b00;
+	color:#fff;
 	text-decoration: none;
 }
 .col_container {
-	width: 80%;
+	width: 85%;
 }
 /*dropdown*/
 
@@ -178,7 +177,7 @@ img {
 height: 0;
 border-style: solid;
 border-width: 0 9px 8px 9px;
-border-color: transparent transparent rgb(117,191,46) transparent;
+border-color: transparent transparent rgb(36, 59, 0) transparent;
     position: absolute;
     top: -8px;
     left: 50%;
@@ -189,13 +188,12 @@ border-color: transparent transparent rgb(117,191,46) transparent;
     padding: 6px 16px;
     text-decoration: none;
     display: block;
-    border-radius: 4px;
-    background-color: rgb(117,191,46);
+    background-color: rgb(36, 59, 0);
+    border: 1px solid rgb(36, 59, 0);
 }
 .dropdown-content a:hover {
+	padding: 6px 16px;
 	border: 1px solid #fff;
-	border-radius: 4px;
-	padding: 5px 14px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -300,7 +298,7 @@ background-color: #fff;
 .prerogatives_item {
 	text-align: center;
 	float: left;
-	width: 320px;
+	width: 400px;
   font-size: 16px;
   font-family: "OpenSans";
   color: rgb( 114, 116, 114 );
@@ -329,7 +327,7 @@ background-color: #fff;
     float: right;
 }
 .activity_img {
-	width: 480px;
+	width: 590px;
 	display: table-cell;
 	vertical-align: middle;
 	float: left;
@@ -339,7 +337,7 @@ background-color: #fff;
 	
 }
 .activity_text {
-	    width: 480px;
+	    width: 590px;
     text-align: center;
     float: right;
     font-size: 24px;
@@ -378,9 +376,9 @@ background-color: #fff;
 	line-height: 30px;
 }
 .column-2 {
-	width: 39%;
+	width: 41%;
 	float: left;
-	padding-left: 10%;
+	padding-left: 8%;
   background-color: rgb(36, 59, 0);
       padding-top: 50px;
 
@@ -454,9 +452,12 @@ background-color: #fff;
 .footer_contacts {
 	background-color: #fff;
 	color: #617c44;
+	width: 90%;
+	margin: 0 auto;
 	padding-top: 80px;
 	padding-left: 10px;
 	padding-right: 10px;
+	text-align: center;
 }
 .footer_contacts tr {
 	    line-height: 20px;
@@ -470,6 +471,7 @@ footer {
 }
 .copyright {
 	padding-top: 5px;
+	padding-left: 125px;
   font-size: 12px;
   font-family: "OpenSans";
   color: rgb( 60, 97, 0 );
@@ -547,7 +549,6 @@ footer {
 }
 
 label[for=name] {
-    font-family: "OpenSans";
     color: #2c4700;
     font-size: 14px;
     line-height: 24px;
@@ -565,7 +566,6 @@ label[for=name] {
     }
 
     label[for=phone] {
-    font-family: "OpenSans";
     color: #2c4700;
     font-size: 14px;
     line-height: 26px;
@@ -578,21 +578,27 @@ label[for=name] {
     box-shadow: 0px 2px 0px 0px #2c4700;
     width: 195px;
     height: 37px;
-    font-family: "OpenSans";
     color: #ffffff;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 18px;
+    text-transform: uppercase;
     text-align: center;
     outline: none;
     border: none;
     margin-top: 20px;
     transition: all 0.5s ease;
 }
+#submit:hover {
+	background-color: rgb(117,191,46);
+	 box-shadow: 0px 2px 0px 0px rgb(117,191,46);
+}
 .recall_toggle {
 	display: block!important;
 	opacity: 1!important;
 }
-
+.hamburger_menu {
+	color: rgb(36, 59, 0);
+	display: none;
+}
 @media (max-width: 700px) {
 	.prerogatives_item {
 	width: 100%
@@ -612,5 +618,11 @@ label[for=name] {
 }
 .bxslider li img{
 	height: 300px!important;
+}
+.hamburger_menu {
+	display: block;
+}
+.nav {
+	display: none;
 }
 }

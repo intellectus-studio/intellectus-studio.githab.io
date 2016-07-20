@@ -40,52 +40,60 @@ jQuery(document).ready(function () {
      }
  });
 
- jQuery(document).ready(function() {
-    function initialize()
-{
-    var latlng = new google.maps.LatLng(50.465668, 30.499538);
-    var latlng2 = new google.maps.LatLng(50.465668, 30.499538);
-    var imagePath = 'http://m.schuepfen.ch/icons/helveticons/black/60/Pin-location.png'
-    var myOptions =
-    {
-        zoom: 15,
-        center: latlng,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
+//  jQuery(document).ready(function() {
+//     function initialize()
+// {
+//     var latlng = new google.maps.LatLng(50.465668, 30.499538);
+//     var latlng2 = new google.maps.LatLng(50.465668, 30.499538);
+//     var imagePath = 'http://m.schuepfen.ch/icons/helveticons/black/60/Pin-location.png'
+//     var myOptions =
+//     {
+//         zoom: 17,
+//          scrollwheel: false,
+//         center: latlng,
+//         mapTypeId: google.maps.MapTypeId.ROADMAP
+//     };
 
-    var myOptions2 =
-    {
-        zoom: 15,
-        center: latlng2,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
+//     var myOptions2 =
+//     {
+//         zoom: 17,
+//          scrollwheel: false,
+//         center: latlng2,
+//         mapTypeId: google.maps.MapTypeId.ROADMAP
+//     };
 
-    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+//     var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
     
-    var map2 = new google.maps.Map(document.getElementById("map_canvas_2"), myOptions2);
-var goldStar = {
-    path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
-    fillColor: 'yellow',
-    fillOpacity: 0.8,
-    scale: 1,
-    strokeColor: 'gold',
-    strokeWeight: 14
-  };
+//     var map2 = new google.maps.Map(document.getElementById("map_canvas_2"), myOptions2);
+// var goldStar = {
+//     path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
+//     fillColor: 'yellow',
+//     fillOpacity: 0.8,
+//     scale: 1,
+//     strokeColor: 'gold',
+//     strokeWeight: 14
+//   };
 
-    var myMarker = new google.maps.Marker(
-    {
-        position: latlng,
-        map: map,
-        title:"Pune",
-        icon: imagePath
-   });
+//     var myMarker = new google.maps.Marker(
+//     {
+//         position: latlng,
+//         map: map,
+//         title:'ул. Лукьяновская, 46'
+//    });
 
-    var myMarker2 = new google.maps.Marker(
-    {
-        position: latlng2,
-        map: map2,
-        icon: imagePath
-    });
-}
-initialize();
+//     var myMarker2 = new google.maps.Marker(
+//     {
+//         position: latlng2,
+//         map: map2,
+//         title:'ул. Лукьяновская, 46'
+//     });
+// }
+// initialize();
+//  })
+
+ /*lang_click*/
+ jQuery(document).ready(function() {
+    jQuery('.lang_item').click(function() {
+        jQuery(this).css('backgroundColor', "rgb(117,191,46)").siblings().css('backgroundColor', '#243b00');
+    })
  })
