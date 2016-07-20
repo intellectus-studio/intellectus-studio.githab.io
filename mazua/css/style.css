@@ -151,6 +151,7 @@ font-size: 30px;
 	background-image: url('../img/bg_arrow.png');
 	background-repeat: no-repeat;
 	background-position: right;
+  padding-bottom: 60px;
 }
 .additional_container li {
 	list-style: none;
