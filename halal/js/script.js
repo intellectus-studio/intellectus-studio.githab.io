@@ -97,3 +97,13 @@ jQuery(document).ready(function () {
         jQuery(this).css('backgroundColor', "rgb(117,191,46)").siblings().css('backgroundColor', '#243b00');
     })
  })
+ /*dropdown hover*/
+ jQuery(document).ready(function() {
+    jQuery('.dropdown').click(function() {
+        jQuery(this).find('.dropdown-content').toggleClass('active');
+        jQuery(this).siblings().find('.dropdown-content').removeClass('active');
+    });
+    jQuery('.dropdown-content').mouseleave(function() {
+        jQuery(this).removeClass('active');
+    })
+ })
