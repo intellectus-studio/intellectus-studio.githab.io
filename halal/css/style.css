@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
@@ -50,7 +51,8 @@ img {
 .cont {
 	position: relative;
 }
-.logo {
+
+a.logo {
 	position: absolute;
 	top: 5px;
 	z-index: 3;
@@ -333,10 +335,25 @@ background-color: #fff;
 }
 .activity_img img {
 	border-radius: 40px;
-	width: 436px;
-  height: 290px;
+      -webkit-transition: all 1s ease-out;
 }
+.activity_img img:hover {
+	border-radius: 40px;
+	-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.activity_img_container:hover {
+	border-radius: 40px;
+}
+.activity_img_container {
+border-radius: 40px;
+    overflow: hidden;
+    width: 436px;
+    height: 290px;
+    margin: 0 auto;
 
+}
 
 .activity_item:nth-child(even) .activity_text{
     float: left;
@@ -373,6 +390,11 @@ background-color: #fff;
     width: 50%;
     margin: 0 auto;
     word-break: break-word;
+     white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        white-space: pre-wrap;       /* css-3 */
+    overflow-wrap: break-word!important;
+
     border-radius: 50%;
     background-color: #d2e3b5;
     height: 150px;
@@ -634,8 +656,10 @@ label[for=name] {
 	width: 100%
 }
 .activity_img {
-	width: 100%
-	
+	width: 100%	
+}
+.activity_img_container {
+	width: 100%;
 }
 .activity_text {
 	width: 100%;
@@ -744,5 +768,8 @@ border:none;
 	.number {
 		float: none;
 		padding-right: 0;
+	}
+	.logo {
+		width: 25%;
 	}
 }
