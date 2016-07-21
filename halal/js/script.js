@@ -107,3 +107,21 @@ jQuery(document).ready(function () {
         jQuery(this).removeClass('active');
     })
  })
+ /*hamburger menu*/
+ jQuery(document).ready(function() {
+    jQuery('.hamburger_menu').click(function() {
+        jQuery('.nav').toggleClass('active');
+        jQuery('.nav_item').toggleClass('active');
+    })
+ })
+
+ /*fixed_head*/
+ jQuery(document).ready(function() {
+    jQuery(window).scroll(function(){
+  var sticky = jQuery('.fixed_header'),
+      scroll = jQuery(window).scrollTop();
+
+  if (scroll >= 50) sticky.addClass('fixed');
+  else sticky.removeClass('fixed');
+});
+});

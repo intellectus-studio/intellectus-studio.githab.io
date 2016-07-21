@@ -28,13 +28,18 @@ body{
 li {
 	list-style: none;
 }
-header {
-	color: #fff;
-    position: fixed;
+.fixed_head {
+	width: 100%
+}
+.fixed {
+	position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 9999;
+}
+header {
+	color: #fff;
 }
 .second_layer {
 	background: #fff;
@@ -461,6 +466,10 @@ background-color: #fff;
 	color: #fff;
 	text-decoration: none;
 	padding: 5px 0;
+	transition: 0.3s ease;
+}
+.footer_nav_item_link:hover {
+	color: rgb(117,191,46);
 }
 .footer_contacts {
 	background-color: #fff;
@@ -611,7 +620,14 @@ label[for=name] {
 }
 .hamburger_menu {
 	color: rgb(36, 59, 0);
+	float: right;
+	font-size: 24px;
 	display: none;
+}
+@media (min-width: 700px) {
+	.hamburger_menu {
+	display: none;
+}
 }
 @media (max-width: 700px) {
 	.prerogatives_item {
@@ -636,7 +652,97 @@ label[for=name] {
 .hamburger_menu {
 	display: block;
 }
+.lang {
+	float: right;
+}
+.active {
+	display: block;
+}
+.nav_item.active{
+	border-width: 0;
+    margin: 7px auto;
+    width: 100%;
+}
 .nav {
 	display: none;
+	width: 100%;
 }
+.col_container {
+    width: 100%;
+}
+.dropdown-content {
+    display: none;
+    position: static!important;
+    z-index: 4;
+    margin-left: 0!important;
+    text-align: center;
+    z-index: 4;
+}
+.dropdown-content.wide {
+    display: none;
+    position: static!important;
+    z-index: 4;
+    text-align: center;
+    margin-left: 0!important
+}
+.dropdown-content:after {
+	content: "";
+    display: block;
+    width: 0;
+height: 0;
+border:none;
+    position: static;
+}
+.dropdown-content_item {
+	padding-left: 0;
+	padding-right: 0;
+}
+..dropdown-content a {
+	padding-left: 0;
+	padding-right: 0;
+}
+.number_item {
+	float: none;
+	text-align: right;
+}
+.column-2  {
+	width: 90%;
+	float: none;
+}
+.footer_summary {
+	width: 100%;
+}
+.column-4 {
+	width: 100%;
+	float: none;
+}
+.column-5 {
+	width: 100%;
+	float: none;
+}
+.footer_item {
+	overflow: visible;
+	width: 100%;
+}
+.column-3 {
+	display: none;
+}
+.container_header {
+	font-size: 30px;
+}
+.slogan_header {
+	font-size: 30px;
+}
+.prerogatives {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #fff;
+     padding-bottom: 20px; 
+}
+}
+@media (max-width: 500px) {
+	.number {
+		float: none;
+		padding-right: 0;
+	}
 }
