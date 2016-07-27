@@ -24,10 +24,10 @@ body {
 }
 .main_carousel {
   position: relative;
-  height: 538px
+  height: 738px
 }
 .main_carousel .owl-slide {
-  height: 538px
+  height: 738px
 }
 .main_carousel .owl-slide {
   background-repeat: no-repeat;
@@ -806,4 +806,10 @@ border-color: transparent transparent #3e6b40 transparent;
 }
 .contact_address li {
   list-style: none;
+}
+.container_goods {
+  border-bottom: 2px dotted rgb( 152, 152, 152 );
+}
+.pagination_container  {
+  padding-bottom: 100px;
 }
