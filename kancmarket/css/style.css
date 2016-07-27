@@ -49,6 +49,18 @@ body {
     line-height: 1.5;
     text-align: left;
 }
+.main_carousel .owl-controls .owl-buttons .owl-prev {
+  left: 40px;
+}
+.main_carousel .owl-controls .owl-buttons .owl-next {
+  right: 40px;
+}
+#banner_carousel .owl-controls .owl-buttons .owl-prev {
+  left: 40px;
+}
+#banner_carousel .owl-controls .owl-buttons .owl-next {
+  right: 40px;
+}
 .owl-wrapper-outer .owl--text h2 {
   font-weight: bold;
   font-size: 36px;

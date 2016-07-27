@@ -86,10 +86,10 @@
      }
  });
  
-$(document).ready(function() {
-  $('#owl-example').find('.owl-controls').addClass('container');
-  $('#banner_carousel').find('.owl-controls').addClass('container');
+// $(document).ready(function() {
+//   $('#owl-example').find('.owl-controls').addClass('container');
+//   $('#banner_carousel').find('.owl-controls').addClass('container');
 
-})
+// })
 
 })(jQuery);
