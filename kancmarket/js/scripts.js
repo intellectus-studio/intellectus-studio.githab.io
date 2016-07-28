@@ -17,19 +17,13 @@
 });
 
 	$(document).ready(function() {
-		jQuery("#popular").owlCarousel({
-            autoPlay: 10000,
-            stopOnHover: true,
-            navigation: true,
-            paginationSpeed: 1000,
-            goToFirstSpeed: 3500,
-            singleItem: false,
-            autoHeight: false,
-            transitionStyle: "fade"
-                   
-        });	
+		$('#popular').slick({
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 1
+});
 
-	})
+	});
 	$(document).ready(function() {
 		jQuery("#banner_carousel").owlCarousel({
             navigation : true, 
@@ -58,7 +52,8 @@
         $(document).ready(function() {
         	$('.dropdown_btn').click(function(event) {
         		event.preventDefault();
-        		$(this).find('.dropdown-menu').addClass('active');
+        		$(this).find('.dropdown-menu').toggleClass('active');
+                $(this).siblings().find('.dropdown-menu').removeClass('active')
         	})
         })
 
