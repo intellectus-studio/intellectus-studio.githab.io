@@ -8,7 +8,7 @@
 src: url("OpenSans-Light.woff") format("woff"),}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body{
-   font-family: "OpenSans", sans-serif;
+   font-family: "Open Sans";
 }
 ::-moz-selection { /* Code for Firefox */
     background: rgb(117,191,46);
