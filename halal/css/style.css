@@ -787,7 +787,7 @@ font-size: 18px;
     border-radius: 0;
     outline: none;
     font-family: "Open Sans";
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 .contact_form input[type="submit"] {
 	width: 25%;
@@ -1326,7 +1326,10 @@ ol ol li:last-child {margin-bottom:0;}
 }
 }
 
-
+.error {
+    color: red!important;
+    float: left;
+}
 
 @media (min-width: 720px) {
 	.hamburger_menu {

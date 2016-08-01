@@ -139,4 +139,41 @@ jQuery(document).ready(function() {
     });
   });
 
-/*main_map*/
+/*validate*/
+//validate
+jQuery(document).ready(function(){
+
+    jQuery(".contact_form").validate({
+
+       rules:{
+
+            name:{
+                required: true,
+            },
+
+            email:{
+                required: true,
+            },
+            phone:{
+                required: true,
+            },
+       },
+
+       messages:{
+
+            name:{
+                required: "Это поле обязательно для заполнения",
+            },
+
+            email:{
+                required: "Это поле обязательно для заполнения",
+            },
+            phone:{
+                required: "Это поле обязательно для заполнения",
+            },
+
+       }
+
+    });
+
+});

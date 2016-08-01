@@ -136,9 +136,9 @@
 			</div>
 		<div class="col-2">
 			<form class="contact_form">
-				<input type="text" placeholder="Введите Ваше имя*" required=""><br>
-				<input type="phone" placeholder="Введите Ваш телефон*" required=""><br>
-				<input type="email" placeholder="Введите Ваше email*" required=""><br>
+				<input type="text" placeholder="Введите Ваше имя*"  name="name"required="" minlength="2"><br>
+				<input type="phone" placeholder="Введите Ваш телефон*" name="phone" required=""><br>
+				<input type="email" placeholder="Введите Ваше email*" name="email" required="" pattern="[^ @]*@[^ @]*"><br>
 				<textarea placeholder="Введите Ваше сообщение"></textarea>
 				<div class="required_field">*-Поля обязательные для заполнения</div><br>
 				<input type="submit">
@@ -202,6 +202,7 @@
 
 
 <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.validate.min.js"></script>
 <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/jquery.bxslider.js"></script>
