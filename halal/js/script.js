@@ -177,3 +177,17 @@ jQuery(document).ready(function(){
     });
 
 });
+/*lift*/
+ jQuery('.scroll_to_top').click(function(){
+        jQuery('body,html').animate({
+            scrollTop: 0
+        }, 600);
+    });
+
+    jQuery(window).scroll(function(){
+        if (jQuery(document).scrollTop()>0) {
+            jQuery('.scroll_to_top').fadeIn('slow');
+        }else{
+            jQuery('.scroll_to_top').fadeOut('slow');
+        }
+    });
