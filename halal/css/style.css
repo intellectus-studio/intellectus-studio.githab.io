@@ -123,7 +123,7 @@ a.logo img {
     float: left;
     list-style: none;
     margin: 5px 4px;
-    border-radius: 45%;
+    border-radius: 50%;
     background-color: #243b00;
     border: 1px solid transparent;
     transition: 0.3s ease;
@@ -170,8 +170,11 @@ a.logo img {
 }
 .lang_item_link {
 	color: #fff;
-	padding: 0px 5px;
+	padding: 5px;
 	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	font-size: 10px;
 }
 .lang_item_link:hover {
 	text-decoration: none;
@@ -703,7 +706,7 @@ label[for=name] {
 }
 .breadcrumbs_link {
   font-size: 12px;
-
+font-family: 'OpenSans', sans-serif;
   color: rgba( 36, 59, 0, 0.6 );
   /*line-height: 2.25;*/
   text-align: center;
@@ -760,7 +763,7 @@ label[for=name] {
 }
 .side_contact_container {
 	padding-top: 90px;
-	padding-bottom: 150px;
+	padding-bottom: 250px;
 }
 .contact_form {
 	padding-top: 90px;
@@ -1486,6 +1489,7 @@ border:none;
 .column-5 {
 	width: 100%;
 	float: none;
+	height: 300px;
 }
 .footer_item {
 	overflow: visible;

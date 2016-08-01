@@ -1,8 +1,7 @@
 jQuery('.bxslider').bxSlider({
   auto: true,
   pause: 10000,
-  autoControls: true,
-  controls: true
+  autoControls: true
 });
 
 jQuery(document).ready(function () {
