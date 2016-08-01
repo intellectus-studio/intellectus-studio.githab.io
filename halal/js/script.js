@@ -13,6 +13,8 @@ jQuery(document).ready(function () {
             paginationSpeed: 1000,
             goToFirstSpeed: 3500,
             singleItem: false,
+            slideBy: 1,
+            items: 5,
             transitionStyle: "fade",
                     navigationText: [
                     "<i class='fa fa-angle-left'></i>",
@@ -40,56 +42,6 @@ jQuery(document).ready(function () {
      }
  });
 
-//  jQuery(document).ready(function() {
-//     function initialize()
-// {
-//     var latlng = new google.maps.LatLng(50.465668, 30.499538);
-//     var latlng2 = new google.maps.LatLng(50.465668, 30.499538);
-//     var imagePath = 'http://m.schuepfen.ch/icons/helveticons/black/60/Pin-location.png'
-//     var myOptions =
-//     {
-//         zoom: 17,
-//          scrollwheel: false,
-//         center: latlng,
-//         mapTypeId: google.maps.MapTypeId.ROADMAP
-//     };
-
-//     var myOptions2 =
-//     {
-//         zoom: 17,
-//          scrollwheel: false,
-//         center: latlng2,
-//         mapTypeId: google.maps.MapTypeId.ROADMAP
-//     };
-
-//     var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
-    
-//     var map2 = new google.maps.Map(document.getElementById("map_canvas_2"), myOptions2);
-// var goldStar = {
-//     path: 'M 125,5 155,90 245,90 175,145 200,230 125,180 50,230 75,145 5,90 95,90 z',
-//     fillColor: 'yellow',
-//     fillOpacity: 0.8,
-//     scale: 1,
-//     strokeColor: 'gold',
-//     strokeWeight: 14
-//   };
-
-//     var myMarker = new google.maps.Marker(
-//     {
-//         position: latlng,
-//         map: map,
-//         title:'ул. Лукьяновская, 46'
-//    });
-
-//     var myMarker2 = new google.maps.Marker(
-//     {
-//         position: latlng2,
-//         map: map2,
-//         title:'ул. Лукьяновская, 46'
-//     });
-// }
-// initialize();
-//  })
 
  /*lang_click*/
  jQuery(document).ready(function() {
@@ -125,3 +77,66 @@ jQuery(document).ready(function () {
   else sticky.removeClass('fixed');
 });
 });
+
+ /*slider_manufacture*/
+  jQuery('.slider__controls-button').on('click', function(e){
+      e.preventDefault();
+      var
+      $this = jQuery(this),
+      container = $this.closest('.slider');
+      list = container.find('.slider__list'),
+      items = container.find('.slider__item'),
+      activeSlide = items.filter('.active'),
+      nextSlide = activeSlide.next(),
+      prevSlide = activeSlide.prev(),
+      firstSlide = items.first(),
+      lastSlide = items.last(),
+      sliderOffset = container.offset().left,
+      reqPos = 0,
+    $slide = ($this.hasClass('slider__controls-button_next')) ? ((nextSlide.length) ? nextSlide : firstSlide) : ((prevSlide.length) ? prevSlide : lastSlide);
+        
+      slideImg($slide);
+
+    list.css('left', '-=' + reqPos + 'px');
+    function removeActiveClass (reqSLide) {
+      reqSLide.addClass('active').siblings().removeClass('active');
+    }
+    function findReqPos (slide) {
+      reqPos = slide.offset().left - sliderOffset;
+    }
+        function slideImg(slide){
+            findReqPos(slide);
+            removeActiveClass(slide);
+        }
+        
+  });
+/*fancybox*/
+jQuery(document).ready(function() {
+  jQuery("a.veres").fancybox();
+  jQuery("a.oleyna").fancybox();
+  jQuery("a.rolton").fancybox();
+  jQuery("a.shchedro").fancybox();
+  jQuery("a.arroz").fancybox();
+})
+/*tabs*/
+jQuery(document).ready(function() {
+    jQuery('.tabs_controls_item').on('click', function() {
+
+      var item = jQuery(this).closest('.tabs_controls_item'),
+        contentItem = jQuery('.tabs_item'),
+        itemPosition = item.index();
+        console.log(itemPosition);
+
+
+        contentItem.eq(itemPosition)
+          .addClass('active')
+          .siblings()
+          .removeClass('active');
+
+          item.addClass('active')
+          .siblings()
+          .removeClass('active');
+    });
+  });
+
+/*main_map*/
