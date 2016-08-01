@@ -470,7 +470,7 @@ background-color: #fff;
 	padding: 0 10px;
   font-size: 16px;
   font-weight: lighter;
-  font-family: "OpenSans", sans-serif;
+  font-family: "Open Sans";
   color: rgb( 255, 255, 255 );
   text-align: left;
   overflow: hidden;
@@ -736,7 +736,7 @@ label[for=name] {
   color: #8ebe40;
   line-height: 1.667;
   text-align: left;
-  font-family: "OpenSans";
+  font-family: "Open Sans";
 }
 .certif_wrapper {
 	max-width: 780px;
@@ -751,8 +751,7 @@ label[for=name] {
 .certif_block_text {
 	color: #243b00;
 	 font-size: 18px;
-	 font-family: "OpenSans";
-	 font-weight: lighter;
+	 font-family: "Open Sans";
 	 text-align: justify;
 }
 .certif_block_text p {
@@ -956,7 +955,7 @@ font-size: 18px;
 }
 .manufacturers_item_text {
 	font-size: 16px;
-	font-family: OpenSans, sans-serif;
+	font-family: Open Sans;
 	overflow: hidden;
 }
 /*pager*/
@@ -1140,7 +1139,12 @@ display: inline-block;
 .certificaion_infografic_item {
 	padding-bottom: 50px;
 	padding-top: 20px;
+	font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb( 36, 59, 0 );
+  text-align: left;
 }
+
 ol {
 	counter-reset:li; /* Initiate a counter */
 	margin-left:0; /* Remove the default left margin */
@@ -1508,7 +1512,11 @@ border:none;
 	.number {
 		float: none;
 		padding-right: 0;
+		padding-bottom: 0;
 	}
+	.callback_btn {
+    border: 2px solid #fff;
+}
 	.logo {
 		width: 25%;
 	}
@@ -1516,6 +1524,7 @@ border:none;
 @media (max-width: 720px) {
 	.tab_info {
 	margin-top: 20px;
+	width: 120%;
 }
 	.contact_form input[type="submit"] {
 		width: 100%;
