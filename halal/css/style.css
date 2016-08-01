@@ -10,6 +10,15 @@ src: url("OpenSans-Light.woff") format("woff"),}
 body{
    font-family: "OpenSans", sans-serif;
 }
+::-moz-selection { /* Code for Firefox */
+    background: rgb(117,191,46);
+    color: #fff;
+}
+
+::selection {
+    background: rgb(117,191,46);
+    color: #fff;
+}
 .clearfix:after {
      visibility: hidden;
      display: block;
@@ -683,7 +692,7 @@ label[for=name] {
 }
 .breadcrumbs {
 	width: 85%;
-	padding: 0 10px;
+	padding: 0;
 	float: right;
 }
 .breadcrumbs_item {
@@ -733,6 +742,8 @@ label[for=name] {
 	max-width: 780px;
 	margin: 0 auto;
 	padding: 10px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
 }
 .certif_block {
 	padding-bottom: 40px;
@@ -1128,6 +1139,7 @@ display: inline-block;
 /*certification_infografic*/
 .certificaion_infografic_item {
 	padding-bottom: 50px;
+	padding-top: 20px;
 }
 ol {
 	counter-reset:li; /* Initiate a counter */
@@ -1142,6 +1154,7 @@ ol > li {
 
 }
 ol > li:before {
+	transition: 0.3s ease;
 	content:counter(li); /* Use the counter as content */
 	counter-increment:li; /* Increment the counter by 1 */
 	/* Position and style the number */
@@ -1228,6 +1241,7 @@ ol ol li:last-child {margin-bottom:0;}
     border-right: 1px solid rgb(210, 227, 181);
     border-collapse: collapse;
     top: -20px;
+    left: 0;
 }
 
 .tabs_content {
@@ -1500,6 +1514,9 @@ border:none;
 	}
 }
 @media (max-width: 720px) {
+	.tab_info {
+	margin-top: 20px;
+}
 	.contact_form input[type="submit"] {
 		width: 100%;
 	}
@@ -1592,7 +1609,7 @@ border:none;
 }
 .breadcrumbs {
 	width: 100%;
-	padding: 0;
+	padding: 0 10px;
 }
 .breadcrumbs_container {
 	padding-left: 10px;
