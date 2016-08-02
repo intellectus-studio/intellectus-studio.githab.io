@@ -332,7 +332,6 @@ background-color: #fff;
 }
 .slogan_header {
 	text-align: center;
-	padding-top: 80px;
 	padding-bottom: 30px;
   font-size: 36px;
   font-family: "Georgia";
@@ -440,7 +439,7 @@ background-color: #fff;
 
 .slogan {
 	position: relative;
-	padding-bottom: 80px;
+	padding: 3% 0;
 	background: url(../img/bg3.png);
 }
 .slogan_text {
@@ -790,13 +789,16 @@ font-family: 'OpenSans', sans-serif;
 }
 .side_contact_container {
 	padding-top: 90px;
-	padding-bottom: 250px;
 }
 .contact_form {
 	padding-top: 90px;
 }
 .contacts_container_item {
   position: relative;
+}
+.contacts_container {
+  position: relative;
+  overflow: hidden;
 }
 .col-1 {
 	background-color: #d2e3b5;
@@ -812,7 +814,7 @@ font-size: 18px;
 .bg_col-1 {
   position:absolute;
   background-color: #d2e3b5;
-  height: 200%;
+  height: 100%;
   width: 50%;
   left: 0;
   overflow-x:hidden;
