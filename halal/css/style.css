@@ -442,7 +442,7 @@ background-color: #fff;
 
 .slogan {
 	position: relative;
-	padding: 3% 0;
+	padding: 5% 0;
 	background: url(../img/bg3.png);
 }
 .slogan_text {
@@ -1532,6 +1532,9 @@ border:none;
 }
 }
 @media (max-width: 720px) {
+  .bg_col-1 {
+    display: none;
+  }
 
 	.slider__list--wrap {
     width: 150px;
