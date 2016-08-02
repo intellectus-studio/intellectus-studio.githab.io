@@ -806,6 +806,7 @@ font-family: 'OpenSans', sans-serif;
 .col-1 {
 	background-color: #d2e3b5;
 	width: 40%;
+  padding-bottom: 8%;
 	float: left;
 	text-align: center;
 font-size: 18px;
@@ -875,7 +876,6 @@ font-size: 18px;
     background-color: #fff;
     width: 60%;
     float: left;
-    padding-bottom: 90px;
 }
 .side_contact_container {
     background-color: #d2e3b5;
