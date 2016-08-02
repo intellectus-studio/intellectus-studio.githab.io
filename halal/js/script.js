@@ -21,6 +21,21 @@ jQuery(document).ready(function () {
                     "<i class='fa fa-angle-right'></i>"
             ]
         });	
+     jQuery("#partners_client").owlCarousel({
+            autoPlay: 3000,
+            stopOnHover: true,
+            navigation: true,
+            paginationSpeed: 1000,
+            goToFirstSpeed: 3500,
+            singleItem: false,
+            slideBy: 1,
+            items: 4,
+            transitionStyle: "fade",
+                    navigationText: [
+                    "<i class='fa fa-angle-left'></i>",
+                    "<i class='fa fa-angle-right'></i>"
+            ]
+        }); 
   
 });
 
