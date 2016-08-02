@@ -795,6 +795,9 @@ font-family: 'OpenSans', sans-serif;
 .contact_form {
 	padding-top: 90px;
 }
+.contacts_container_item {
+  position: relative;
+}
 .col-1 {
 	background-color: #d2e3b5;
 	width: 40%;
@@ -805,7 +808,14 @@ font-size: 18px;
   color: rgb( 36, 59, 0 );
   line-height: 1.333;
   text-align: center;
-  position: relative;
+}
+.bg_col-1 {
+  position:absolute;
+  background-color: #d2e3b5;
+  height: 200%;
+  width: 50%;
+  left: 0;
+  overflow-x:hidden;
 }
 .col-1 .fa {
 	font-size: 24px;
@@ -860,15 +870,10 @@ font-size: 18px;
     background-color: #fff;
     width: 60%;
     float: left;
-    position: relative;
-    left: 40%;
     padding-bottom: 90px;
 }
 .side_contact_container {
-    position: absolute;
     background-color: #d2e3b5;
-    width: 40%;
-    right: 60%;
     float: left;
     text-align: center;
     font-size: 18px;
@@ -1364,7 +1369,6 @@ ol ol li:last-child {margin-bottom:0;}
 }
 	.certificaion_infografic_item {
     margin-left: 70px;
-}
 }
 	.tabs_content {
 		margin-left: 20px;
