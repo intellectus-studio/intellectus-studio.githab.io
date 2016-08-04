@@ -1196,7 +1196,7 @@ ol > li:before {
 	/* Some space between the number and the content in browsers that support
 	   generated content but not positioning it (Camino 2 is one example) */
 	margin-right:8px;
-	padding:4px 2px;
+	padding:10px 2px;
 	margin-bottom: 20px;
 	border-top:2px solid #666;
 	font-weight:bold;
