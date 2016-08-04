@@ -435,7 +435,6 @@ background-color: #fff;
 	background: url(../img/bg3.png);
 }
 .slogan_text {
-	font-family: "OpenSans", sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	color: #727472;
@@ -822,7 +821,6 @@ font-size: 18px;
     border-radius: 0;
     outline: none;
     margin-bottom: 15px;
-    font-family: "OpenSans", sans-serif!important;
 }
 .contact_form input[type="submit"] {
 	width: 30%;
@@ -835,7 +833,6 @@ font-size: 18px;
 	padding: 10px 20px;
 	border: 1px solid #8ebe40;
 	transition: 0.3s ease;
-  font-family: "OpenSans", sans-serif!important;
 }
 .contact_form input[type="submit"]:hover {
 	background-color: #fff;
@@ -884,7 +881,6 @@ font-size: 18px;
     left: 0;
     right: 0;
     font-size: 30px;
-    font-family: Georgia;
     font-weight: bold;
     padding: 30px 0;
     background-color: rgba( 255, 255, 255, 0.6 );
@@ -967,7 +963,6 @@ font-size: 18px;
 	width: 65%;
 }
 .manufacturers_item_head {
-	font-family: Georgia;
 	font-weight: bold;
 	font-size: 20px;
 	color: #243b00;
@@ -1013,7 +1008,6 @@ display: inline-block;
 	padding: 20px;
 }
 .news_item_item_head {
-	font-family: Georgia;
 	font-weight: bold;
 	font-size: 20px;
 	color: #243b00;
@@ -1423,7 +1417,6 @@ padding-top: 30px;
 	font-weight: bold;
 }
 .about_items h3 {
-	font-family: Georgia;
 	font-weight: 24px;
 	font-size: 24px;
 	text-align: center;
@@ -1648,7 +1641,6 @@ border:none;
     float: none;
     text-align: center;
     font-size: 18px;
-    font-family: "Open Sans";
     color: rgb( 36, 59, 0 );
     line-height: 1.333;
     text-align: center;
@@ -1661,7 +1653,6 @@ border:none;
     float: none;
     text-align: center;
     font-size: 18px;
-    font-family: "Open Sans";
     color: rgb( 36, 59, 0 );
     line-height: 1.333;
     text-align: center;
@@ -1693,7 +1684,6 @@ border:none;
 	padding: 20px;
 }
 .news_item_item_head {
-	font-family: Georgia;
 	font-weight: bold;
 	font-size: 20px;
 	color: #243b00;
