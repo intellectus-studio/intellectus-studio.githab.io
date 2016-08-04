@@ -1313,10 +1313,9 @@ ol ol li:last-child {margin-bottom:0;}
 	color: #fff;
 }
 .about_post_head {
-	font-family: Georgia,sans-serif;
+  color: #243b00;
 	text-align: justify;
 	font-weight: bold;
-	font-style: italic;
 	font-size: 18px;
 }
 .certif3_block_head {
