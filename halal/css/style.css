@@ -4,17 +4,14 @@
 	
 }
 
-@font-face {
-	font-family:"Open-Sans-Light";
-src: url("../font/OpenSans-Light.woff") format("woff");
-}
+
 @font-face {
   font-family:"OpenSans";
 src: url("../font/OpenSans-Regular.ttf") format("ttf");
 }
 
 body{
-   font-family: "OpenSans", sans-serif;
+   font-family: "OpenSans", sans-serif!important;
 }
 ::-moz-selection { /* Code for Firefox */
     background: rgb(117,191,46);
@@ -331,7 +328,6 @@ background-color: #fff;
 	text-align: center;
 	padding: 80px 0;
   font-size: 36px;
-  font-family: "Georgia";
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -339,7 +335,6 @@ background-color: #fff;
 	text-align: center;
 	padding-bottom: 30px;
   font-size: 36px;
-  font-family: "Georgia";
   color: #2c4700;
   font-weight: bold;
   text-transform: uppercase;
@@ -419,8 +414,7 @@ background-color: #fff;
     font-size: 24px;
     text-transform: uppercase;
     color: #9c9f93;
-    font-family: "OpenSans", sans-serif;
-    font-weight: lighter;
+    
     text-align: left;
     display: table-cell;
 	vertical-align: middle;
@@ -502,7 +496,6 @@ background-color: #fff;
 	padding: 0 10px;
   font-size: 16px;
   font-weight: lighter;
-  font-family: "OpenSans";
   color: rgb( 255, 255, 255 );
   text-align: left;
   overflow: hidden;
@@ -513,7 +506,6 @@ background-color: #fff;
 	    font-weight: lighter;
 	padding: 0 10px;
 	 font-size: 20px;
-  font-family: "OpenSans", sans-serif;
   color: rgb( 255, 255, 255 );
   line-height: 30px;
   overflow: hidden;
@@ -569,7 +561,7 @@ footer {
 	padding-top: 5px;
 	padding-left: 125px;
   font-size: 12px;
-  font-family: "OpenSans";
+ 
   color: rgb( 60, 97, 0 );
   line-height: 25px;
   -moz-transform: scale(0.999, 1);
@@ -673,7 +665,7 @@ label[for=name] {
   background-color: rgb(36, 59, 0);
     box-shadow: 0px 2px 0px 0px #2c4700;
     width: 195px;
-    font-family: "OpenSans", sans-serif;
+   
     height: 37px;
     color: #ffffff;
     font-size: 18px;
@@ -713,7 +705,6 @@ label[for=name] {
 	float: right;
 	padding: 20px 0;
   font-size: 20px;
-  font-family: "Open-Sans-Light", sans-serif;
   color: rgb( 36, 59, 0 );
   text-transform: uppercase;
   text-align: left;
@@ -732,7 +723,6 @@ label[for=name] {
 }
 .breadcrumbs_link {
   font-size: 12px;
-font-family: 'OpenSans', sans-serif;
   color: rgba( 36, 59, 0, 0.6 );
   /*line-height: 2.25;*/
   text-align: center;
@@ -753,7 +743,6 @@ font-family: 'OpenSans', sans-serif;
 }*/
 .inside_header {
 	 font-size: 20px;
-  font-family: "Georgia";
   color: rgb( 36, 59, 0 );
   font-weight: bold;
   text-transform: uppercase;
@@ -766,7 +755,6 @@ font-family: 'OpenSans', sans-serif;
   color: #8ebe40;
   line-height: 1.667;
   text-align: left;
-  font-family: "OpenSans";
 }
 .certif_wrapper {
 	max-width: 780px;
@@ -781,7 +769,6 @@ font-family: 'OpenSans', sans-serif;
 .certif_block_text {
 	color: #243b00;
 	 font-size: 18px;
-	 font-family: "OpenSans";
 	 text-align: justify;
    padding-top: 20px;
 }
@@ -812,7 +799,6 @@ font-family: 'OpenSans', sans-serif;
 	float: left;
 	text-align: center;
 font-size: 18px;
-  font-family: "OpenSans";
   color: rgb( 36, 59, 0 );
   line-height: 1.333;
   text-align: center;
@@ -842,7 +828,6 @@ font-size: 18px;
     border: 1px solid #3b683d;
     border-radius: 0;
     outline: none;
-    font-family: "OpenSans";
     margin-bottom: 15px;
 }
 .contact_form input[type="submit"] {
@@ -883,7 +868,6 @@ font-size: 18px;
     background-color: #d2e3b5;
     text-align: center;
     font-size: 18px;
-    font-family: "OpenSans";
     color: rgb( 36, 59, 0 );
     line-height: 1.333;
     text-align: center;
@@ -952,7 +936,6 @@ font-size: 18px;
 	text-align: left;
 	color: #243b00;
     font-size: 18px;
-    font-family: "OpenSans";
     font-weight: lighter;
 
 }
@@ -997,7 +980,6 @@ font-size: 18px;
 }
 .manufacturers_item_text {
 	font-size: 16px;
-	font-family: "OpenSans";
 	overflow: hidden;
 }
 /*pager*/
@@ -1012,7 +994,6 @@ font-size: 18px;
 	text-decoration: none;
 	padding: 2px 10px;
 	font-size: 20px;
-  font-family: "OpenSans";
   color: rgb(142, 190, 64);
   line-height: 1.2;
 }
@@ -1217,7 +1198,6 @@ ol > li:before {
 	margin-bottom: 20px;
 	border-top:2px solid #666;
 	font-weight:bold;
-	font-family: "OpenSans";
 	text-align:center;
 	font-size: 40px;
 	color: rgb(210, 227, 181);
@@ -1242,7 +1222,6 @@ ol ol li:last-child {margin-bottom:0;}
   border-style: solid;
   border-radius: 5px;
   font-size: 14px;
-  font-family: "OpenSans", sans-serif;
   color: rgb(142, 190, 64);
   line-height: 2.143;
   text-align: center;
@@ -1260,7 +1239,6 @@ ol ol li:last-child {margin-bottom:0;}
 	margin-bottom: 10px;
 	display: none;
 	transition: 0.3s ease;
-  font-family: "OpenSans", sans-serif;
 }
 .tabs {
 	float: left;
@@ -1273,7 +1251,6 @@ ol ol li:last-child {margin-bottom:0;}
 	border-top: 1px solid rgb(210, 227, 181);
 	border-bottom: 1px solid rgb(210, 227, 181);
 	margin-top: 60px;
-	font-family: "OpenSans";
 	padding-top: 20px;
 	position: relative;
     left: -42px;
@@ -1291,7 +1268,6 @@ ol ol li:last-child {margin-bottom:0;}
 
 .tabs_content {
 	overflow: hidden;
-	font-family: "OpenSans";
 	font-size: 16px;
 }
 .tabs_controls_item.active {
@@ -1415,7 +1391,6 @@ padding-top: 30px;
     font-size: 24px;
     text-transform: uppercase;
     color: #9c9f93;
-    font-family: "OpenSans", sans-serif;
     font-weight: lighter;
     text-align: left;
     display: block;
@@ -1444,7 +1419,6 @@ padding-top: 30px;
 }
 .about_prefooter_head {
 	font-size: 24px;
-  font-family: "Georgia";
   color: rgb( 36, 59, 0 );
   font-weight: bold;
 	text-align: center;
@@ -1453,7 +1427,6 @@ padding-top: 30px;
 }
 .about_us_block_text span {
 	font-weight: bold;
-	font-family: "OpenSans", sans-serif;
 }
 .about_items h3 {
 	font-family: Georgia;
@@ -1468,7 +1441,6 @@ padding-top: 30px;
 	padding: 20px 0;
 }
 .single_page .manufacturers_item_head {
-	font-family: "OpenSans", sans-serif;
 	font-weight: bold;
 	font-size: 18px;
 	text-transform: capitalize;
