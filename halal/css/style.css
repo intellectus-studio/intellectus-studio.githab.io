@@ -1248,16 +1248,16 @@ ol ol li:last-child {margin-bottom:0;}
 	margin-top: 60px;
 	padding-top: 20px;
 	position: relative;
-    left: -42px;
+    left: -55px;
 }
 .tab_info:before {
 	    content: '';
     width: 0;
-    height: 20px;
+    height: 18px;
     position: absolute;
     border-right: 1px solid rgb(210, 227, 181);
     border-collapse: collapse;
-    top: -20px;
+    top: -18px;
     left: 0;
 }
 
