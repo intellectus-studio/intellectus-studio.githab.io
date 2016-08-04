@@ -829,6 +829,7 @@ font-size: 18px;
     border-radius: 0;
     outline: none;
     margin-bottom: 15px;
+    font-family: "OpenSans", sans-serif!important;
 }
 .contact_form input[type="submit"] {
 	width: 30%;
@@ -841,6 +842,7 @@ font-size: 18px;
 	padding: 10px 20px;
 	border: 1px solid #8ebe40;
 	transition: 0.3s ease;
+  font-family: "OpenSans", sans-serif!important;
 }
 .contact_form input[type="submit"]:hover {
 	background-color: #fff;
