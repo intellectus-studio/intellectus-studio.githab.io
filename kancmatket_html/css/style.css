@@ -2654,6 +2654,16 @@ background-color: #a7ca5e;
 .dropdown-menu li a {
   color: #fff;
 }
+.dropdown-menu li {
+  color: #fff!important;
+}
+.nav>li {
+  text-align: center;
+  padding: 10px 0;
+}
+.nav>li>a {
+  display: inline;
+}
 .sub_nav_container .dropdown-menu li:hover {
   background-color: #9dc44d;
 }
