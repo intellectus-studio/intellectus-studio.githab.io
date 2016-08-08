@@ -44,7 +44,7 @@ body {
   position: relative;
 }
 .main_carousel .owl-slide {
-  height: 738px
+  height: 560px
 }
 .main_carousel .owl-slide {
   background-repeat: no-repeat;
@@ -748,6 +748,13 @@ padding: 11px 10px;
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+  display: block;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+
 }
 .sub_nav_container li:hover {
   background-color: #9dc44d;
@@ -1113,6 +1120,10 @@ footer {
 .dropdown-menu li {
   float: none;
 }
+.creator .dropdown-menu_third {
+  right: 100%;
+  left: initial;
+}
 .dropdown-menu_third {
   display: none;
     position: absolute;
@@ -1139,11 +1150,16 @@ footer {
 }
 .dropdown_btn_third {
   position: relative;
+  font-size: 14px!important;
+  text-transform: initial!important;
+      color: #333!important;
 }
 .dropdown-menu_third>li>a {
     display: block;
     padding: 3px 20px;
     clear: both;
+    font-size: 14px;
+    text-transform: initial;
     font-weight: normal;
     line-height: 1.428571429;
     color: #333;
@@ -1196,6 +1212,7 @@ font-size: 24px;
     z-index: 5;
     z-index: 9999;
    position: absolute;
+   width: 280px;
     right: 0;
     background-color: #fff;
     z-index: 9999;
@@ -1235,7 +1252,6 @@ font-size: 24px;
      display: none;
     opacity: 0;
     z-index: 5;
-    padding: 20px 10px;
     z-index: 9999;
 }
 #modal_form_recall:before {
@@ -1697,9 +1713,7 @@ overflow: hidden;
 .card_product_parametrs .product_buy_btn.product_buy_btn_card {
   width: 100%;
 }
-.products_details .products_details .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
-  font-size: 14px;
-}
+
 .products_details .nav-tabs>li>a {
   font-size: 14px;
 }
@@ -2471,11 +2485,23 @@ background-color: #a7ca5e;
     background: #9dc44d;
     font-size: 18px;
     float: left;
+    opacity: 0.2;
 }
 .tabs_item.active form  {
   opacity: 0.3;
 }
 @media (max-width: 960px) {
+  .tabs_list {
+    width: 100%;
+    float: none;
+}
+.tab_info .tabs {
+  float: none;
+  overflow: visible;
+}
+.tabs_content {
+    /overflow: visible;
+}
   .order_details_main_header h4 {
     width: 60%;
   }
@@ -2721,9 +2747,9 @@ background-color: #a7ca5e;
   position: relative;
 }
 @media (min-width: 1500px) {
-  .main_carousel .owl-slide {
+  /*.main_carousel .owl-slide {
     height: 1200px;
-  }
+  }*/
   .banner_carousel .owl-slide {
   height: 1200px;
 }

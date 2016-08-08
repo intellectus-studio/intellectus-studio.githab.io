@@ -3232,12 +3232,14 @@ box-shadow:         2px 2px 2px 0px rgba(0, 0, 0, 0.3);
 
 .dropdown-menu>li>a {
     display: block;
-    padding: 3px 20px;
+    padding: 3px;
     clear: both;
+    font-size: 14px;
     font-weight: normal;
     line-height: 1.428571429;
     color: #333;
-    white-space: nowrap
+    white-space: nowrap;
+    text-transform: initial;
 }
 
 .dropdown-menu>li>a:hover,
@@ -3860,6 +3862,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav-tabs>li.active {
     border-radius: 4px 4px 0 0;
 }
+
 .nav-tabs>li.active>a,
 .nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
@@ -3868,7 +3871,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     background-color: #a7ca5e;
     border: 1px solid #a7ca5e;
     border-bottom-color: transparent;
-    font-size: 18px;
   font-family: "Verdana";
   color: rgb( 255, 255, 255 );
   font-weight: bold;

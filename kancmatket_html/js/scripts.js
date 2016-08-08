@@ -124,8 +124,7 @@
 });
 	});
   $(document).ready(function() {
-          $('.dropdown_btn').on('click',function(event) {
-            event.preventDefault();
+          $('.dropdown_btn').on('click',function() {
             $(this).find('.dropdown-menu').toggleClass('active');
                 $(this).siblings().find('.dropdown-menu').removeClass('active');
           })
@@ -372,11 +371,6 @@ $(document).ready(function() {
 $('.order_item_close').click(function() {
   $(this).parent().fadeOut();
 })
-/*fancybox*/
-// $(document).ready(function() {
-//   $(".slideshow__item").fancybox();
-  
-// })
 
 // BY KAREN GRIGORYAN
 
@@ -450,8 +444,11 @@ jQuery(document).ready(function() {
   });
 $('.edit_history a').click(function(e) {
     e.preventDefault();
+    $(this).css('opacity', '1');
     $('.tabs_item form').css('opacity', '1');
   })
+
+
 })(jQuery);
 /*year_picker*/
 for (i = new Date().getFullYear(); i > 1900; i--)

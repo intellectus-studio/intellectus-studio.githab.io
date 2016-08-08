@@ -13,6 +13,7 @@
   <link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
 </head>
 <body>
 <nav class="navbar navbar-fixed-top">
@@ -23,7 +24,7 @@
               <a href="" class="callback_btn2"><i class="fa fa-user" aria-hidden="true"></i>Вход в личный кабинет</a>
               <div id="modal_form_recall2" class="login_item animated"> 
                   <ul class="login_popup_tabs clearfix">
-  <li class="active"><a data-toggle="tab" href="#home">Авторизация</a></li>
+  <li class="active"><a data-toggle="tab" href="#home">Войти</a></li>
   <li class="noactive"><a data-toggle="tab" href="#menu1">Регистрация</a></li>
 </ul>
 
@@ -33,9 +34,9 @@
       <input type="text" placeholder="Введите Ваш логин"></br>
       <input type="text" placeholder="Введите Ваш пароль">
     </form>
-    <span class="no_authorize">Продолжить без авторизации</span>
-    <a class="product_buy_btn product_buy_btn_card" href="" style="margin-top: 10px;">
-            <span>Авторизороваться</span>
+    <span class="no_authorize">Забыли пароль?</span>
+    <a class="product_buy_btn product_buy_btn_card" href="contact_history.html" style="margin-top: 10px;">
+            <span>Войти</span>
         </a>
   </div>
   <div id="menu1" class="tab-pane fade register">
@@ -45,7 +46,7 @@
       <input type="text" placeholder="Введите Ваш Email">
       </form>
       <span class="no_authorize">Продолжить без регистрации</span>
-    <a class="product_buy_btn product_buy_btn_card" href="" style="margin-top: 10px;">
+    <a class="product_buy_btn product_buy_btn_card" href="order_authorization.html" style="margin-top: 10px;">
             <span>Зарегистрироваться</span>
         </a>
   </div>
@@ -66,7 +67,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li> <a data-scroll="" href="about.html">О нас</a> </li>
         <li> <a data-scroll="" href="news_main.html">Новости</a> </li>
-        <li> <a data-scroll="" href="loyalty.html">Акции</a> </li>
+        <li> <a data-scroll="" href="catalogue.html">Акции</a> </li>
         <li> <a data-scroll="" href="catalogue.html">Новинки</a> </li>
         <li> <a data-scroll="" href="shipping_and_payment.html">Доставка и оплата</a> </li>
         <li> <a data-scroll="" href="loyalty.html">Программа лояльности</a> </li>
@@ -124,7 +125,7 @@
   
   <div class="order_list_total">
         <div class="order_list_total_item">Итого:<span class="order_list_total_value">480<span>грн</span></span></div>
-        <a href="" class="edit_order">Редактировать заказ</a>
+        <a href="backet.html" class="edit_order">В корзину</a>
       </div>
         </div>
             </div>
@@ -151,18 +152,17 @@
 <div class="sub_nav clearfix">
   <div class="wrapper">
     <ul class="sub_nav_container">
-      <li class="col-md-4 col-xs-12 dropdown_btn"><a class="sub_nav_link" href="">Товары для школы</a>
+      <li class="col-md-4 col-xs-12 dropdown_btn">Товары для школы
           <ul class="dropdown-menu">
-            <li><a href="catalogue.html">Альбомы и тетради</a></li>
-            <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
-            <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
-             <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
-          </ul>
-      </li>
-      <li class="col-md-4 col-xs-12 dropdown_btn" ><a class="sub_nav_link" href="">Товары для офиса</a>
-      <ul class="dropdown-menu">
-            <li><a href="#">Альбомы и тетради</a></li>
-            <li class="third_level dropdown_btn_third"><a href="#">Рюкзаки и пеналы</a>
+           <li class="third_level dropdown_btn_third"><a href="catalogue.html">Альбомы и тетради</a>
+                <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul>
+          </li>
+            <li class="third_level dropdown_btn_third"><a href="catalogue.html">Рюкзаки и пеналы</a>
                 <ul class="dropdown-menu_third">
                   <li><a href="catalogue.html">Альбомы и тетради</a></li>
                   <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
@@ -171,21 +171,92 @@
                 </ul>
           </li>
             </li>
-            <li><a class="third_level dropdown_btn_third" href="#">Канцелярские принадлежности</a>
+            <li class="third_level dropdown_btn_third">Канцелярские принадлежности
              <ul class="dropdown-menu_third">
                   <li><a href="catalogue.html">Альбомы и тетради</a></li>
                   <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
                   <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
                    <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
                 </ul></li>
-             <li><a href="#">Папки, файлы и архивы</a></li>
-          </ul></li>
-      <li class="col-md-4 col-xs-12 dropdown_btn"><a class="sub_nav_link" href="">Товары для творчества</a>
+             <li class="third_level dropdown_btn_third">Папки, файлы и архивы
+             <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul></li>
+             </li>
+          </ul>
+      </li>
+      <li class="col-md-4 col-xs-12 dropdown_btn" >Товары для офиса
       <ul class="dropdown-menu">
-            <li><a href="catalogue.html">Альбомы и тетради</a></li>
-            <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
-            <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
-             <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+           <li class="third_level dropdown_btn_third"><a href="catalogue.html">Альбомы и тетради</a>
+                <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul>
+          </li>
+            <li class="third_level dropdown_btn_third"><a href="catalogue.html">Рюкзаки и пеналы</a>
+                <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul>
+          </li>
+            </li>
+            <li class="third_level dropdown_btn_third">Канцелярские принадлежности
+             <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul></li>
+             <li class="third_level dropdown_btn_third">Папки, файлы и архивы
+             <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul></li>
+             </li>
+          </ul></li>
+      <li class="col-md-4 col-xs-12 dropdown_btn creator">Товары для творчества
+       <ul class="dropdown-menu">
+           <li class="third_level dropdown_btn_third"><a href="catalogue.html">Альбомы и тетради</a>
+                <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul>
+          </li>
+            <li class="third_level dropdown_btn_third"><a href="catalogue.html">Рюкзаки и пеналы</a>
+                <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul>
+          </li>
+            </li>
+            <li class="third_level dropdown_btn_third">Канцелярские принадлежности
+             <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul></li>
+             <li class="third_level dropdown_btn_third">Папки, файлы и архивы
+             <ul class="dropdown-menu_third">
+                  <li><a href="catalogue.html">Альбомы и тетради</a></li>
+                  <li><a href="catalogue.html">Рюкзаки и пеналы</a></li>
+                  <li><a href="catalogue.html">Канцелярские принадлежности</a></li>
+                   <li><a href="catalogue.html">Папки, файлы и архивы</a></li>
+                </ul></li>
+             </li>
           </ul></li>
     </ul>
   </div>
@@ -203,44 +274,44 @@
         </a>
         <a href="">
         <div class="popular_item">
-          <h3>Ежедневник</h3>
+          <h3>Ежедневники</h3>
           <img src="img/book_hover.png" alt="">
         </div>
         </a>
         <a href="">
         <div class="popular_item">
-          <h3>Рюкзак</h3>
+          <h3>Рюкзаки и пеналы</h3>
           <img src="img/backpack_hover.png" alt="">
         </div>
         </a>
         <a href="">
         <div class="popular_item">
-        <h3>Краски</h3>
+        <h3>Художественные материалы</h3>
           <img src="img/paint_hover.png" alt="">
         </div>
         </a>
         <a href="">
         <div class="popular_item">
-          <h3>Подарки</h3>
+          <h3>Подарки и сувенирная продукция</h3>
           <img src="img/gift_hover.png" alt="">
         </div>
         </a>
         <a href="">
         <div class="popular_item">
-          <h3>Офисная бумага</h3>
+          <h3>Делопроизводство</h3>
           <img src="img/documents_hover.png" alt="">
         </div>
         </a>
         <a href="">
         <div class="popular_item">
-          <h3>Ручки</h3>
+          <h3>Письменные принадлежности</h3>
           <img src="img/pen_hover.png" alt="">
         </div>
         </a>
         <a href="">
         <div class="popular_item">
-        <h3>Краски</h3>
-          <img src="img/paint_hover.png" alt="">
+        <h3>Блокноты и альбомы</h3>
+          <img src="img/albums_hoverr.png" alt="">
         </div>
         </a>
         </div>
@@ -689,7 +760,7 @@
       <ul class="footer_contacts_list">
         <li class="footer_contacts_list_item"><a class="footer_contacts_list_link" href="about.html">О нас</a></li>
         <li class="footer_contacts_list_item"><a class="footer_contacts_list_link" href="news_main.html">Новости</a></li>
-        <li class="footer_contacts_list_item"><a class="footer_contacts_list_link" href="loyalty.html">Акции</a></li>
+        <li class="footer_contacts_list_item"><a class="footer_contacts_list_link" href="catalogue.html">Акции</a></li>
         <li class="footer_contacts_list_item"><a class="footer_contacts_list_link" href="catalogue.html">Новинки</a></li>
         <li class="footer_contacts_list_item"><a class="footer_contacts_list_link" href="shipping_and_payment.html">Доставка и оплата</a></li>
         <li class="footer_contacts_list_item"><a class="footer_contacts_list_link" href="loyalty.html">Программа лояльности</a></li>
