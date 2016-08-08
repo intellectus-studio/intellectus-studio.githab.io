@@ -11,17 +11,20 @@
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
 </head>
 <body>
 <nav class="navbar">
   <div class="container clearfix top_nav">
    <a class="navbar-brand page-scroll" href="index.html"><img src="img/logo_new.png"  id="logo" alt="logo top"></a> 
     
-<div class="login"><i class="fa fa-user" aria-hidden="true"></i><span>Вход в личный кабинет</span>
-  <div class="login_item animated slideInDown clearfix">
-  <ul class="login_popup_tabs clearfix">
+        <div class="login">
+              <a href="" class="callback_btn2"><i class="fa fa-user" aria-hidden="true"></i>Вход в личный кабинет</a>
+              <div id="modal_form_recall2" class="login_item animated"> 
+                  <ul class="login_popup_tabs clearfix">
   <li class="active"><a data-toggle="tab" href="#home">Авторизация</a></li>
   <li class="noactive"><a data-toggle="tab" href="#menu1">Регистрация</a></li>
 </ul>
@@ -48,6 +51,7 @@
             <span>Зарегистрироваться</span>
         </a>
   </div>
+          
 </div>
   </div>
 </div>
@@ -96,10 +100,11 @@
         </div>
             </div>
           </div>
-         <div class="clearfix cart">
-          <a class="shopping_cart" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-          <div class="bucket animated slideInDown clearfix">
-   <div class="order_list_item">
+        <div class=" clearfix">
+            <div class="callback1">
+              <a href="" class="callback_btn1"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+              <div id="modal_form_recall1" class="animated"> 
+                  <div class="order_list_item">
       <span class="order_item_close"><i class="fa fa-times" aria-hidden="true"></i></span>
         <img src="img/order_list.png">
           <div class="order_list_description">
@@ -123,8 +128,8 @@
         <div class="order_list_total_item">Итого:<span class="order_list_total_value">480<span>грн</span></span></div>
         <a href="" class="edit_order">Редактировать заказ</a>
       </div>
-  </div>
-</div>
+        </div>
+            </div>
         </div>
       </div>
     </div>
@@ -184,59 +189,51 @@
   <div class="container">
     <h3>Ручки</h3>
     <div class="all_product clearfix">
-    <div class="col-md-3"></div>
+    <div class="col-md-3">
+    <div class="filter_item">
+      <h4>Цена</h4>
+        <input type="text" id="amount" readonly style="border:0; color:#3b683d;; font-weight:bold; padding-bottom: 20px;">
+        <div id="slider_filter" style="width: 98%;"></div>
+    </div>
+    <div class="filter_item">
+      <h4>Бренд</h4>
+      <form>
+          <input class="checkbox" type="checkbox" id="brend1" /><label for="brend1">BIG</label></br>
+          <input class="checkbox" type="checkbox" id="brend2" /><label for="brend2">Dalsey</label></br>
+          <input class="checkbox" type="checkbox" id="brend3" /><label for="brend3">Dalsey</label></br>
+        </form>
+    </div>
+    <div class="filter_item">
+      <h4>Пол</h4>
+      <form>
+          <input class="checkbox" type="checkbox" id="brend4" /><label for="brend4">Для девочек</label></br>
+          <input class="checkbox" type="checkbox" id="brend5" /><label for="brend5">Для мальчиков</label></br>
+          <input class="checkbox" type="checkbox" id="brend6" /><label for="brend6">Унисекс</label></br>
+        </form>
+    </div>
+    <div class="filter_item">
+      <h4>Тип</h4>
+      <form>
+          <input class="checkbox" type="checkbox" id="brend7" /><label for="brend7">Для девочек</label></br>
+          <input class="checkbox" type="checkbox" id="brend8" /><label for="brend8">Для мальчиков</label></br>
+          <input class="checkbox" type="checkbox" id="brend9" /><label for="brend9">Унисекс</label></br>
+        </form>
+    </div>
+    <div class="filter_item">
+      <h4>Вид</h4>
+      <form>
+          <input class="checkbox" type="checkbox" id="brend7" /><label for="brend7">Для девочек</label></br>
+          <input class="checkbox" type="checkbox" id="brend8" /><label for="brend8">Для мальчиков</label></br>
+          <input class="checkbox" type="checkbox" id="brend9" /><label for="brend9">Унисекс</label></br>
+        </form>
+    </div>
+    <div class="filter_show"><a href="">Показать</a></div>
+    <div class="filter_reset"><a href="">Сбросить</a></div>
+    </div>
     <div class="col-md-9 clearfix">
       <div class="col-md-4 col-sm-6 product_card">
       <a href="card.html">
         <div class="product_card_item clearfix">
-          <img src="img/img1.png">
-          <div class="product_card_side">
-              <div class="cart_description">
-                <div class="marks">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                </div>
-                <h4 class="product_card_head">Заголовок маркеровка</h4>
-                <div class="product_price">200 <span>грн</span></div>
-                </div>
-                <a class="product_buy_btn" href="">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><br>
-                    <span>Купить</span>
-                </a>
-              </div>
-              </a>
-        </div>
-      <div class="col-md-4 col-sm-6 product_card">
-          <a href="card.html">
-        <div class="product_card_item clearfix">
-          <img src="img/img1.png">
-          <div class="product_card_side">
-              <div class="cart_description">
-                <div class="marks">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                </div>
-                <h4 class="product_card_head">Заголовок маркеровка</h4>
-                <div class="product_price">200 <span>грн</span></div>
-                </div>
-                <a class="product_buy_btn" href="">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><br>
-                    <span>Купить</span>
-                </a>
-              </div>
-              </a>
-        </div>
-      <div class="col-md-4 col-sm-6 product_card">
-         <a href="card.html">
-        <div class="product_card_item clearfix">
           <img src="img/img2.png">
           <div class="product_card_side">
               <div class="cart_description">
@@ -258,7 +255,7 @@
               </div>
               </a>
         </div>
-        <div class="col-md-4 col-sm-6 product_card">
+      <div class="col-md-4 col-sm-6 product_card">
           <a href="card.html">
         <div class="product_card_item clearfix">
           <img src="img/img3.png">
@@ -282,8 +279,8 @@
               </div>
               </a>
         </div>
-        <div class="col-md-4 col-sm-6 product_card">
-          <a href="card.html">
+      <div class="col-md-4 col-sm-6 product_card">
+         <a href="card.html">
         <div class="product_card_item clearfix">
           <img src="img/img4.png">
           <div class="product_card_side">
@@ -307,7 +304,7 @@
               </a>
         </div>
         <div class="col-md-4 col-sm-6 product_card">
-         <a href="card.html">
+          <a href="card.html">
         <div class="product_card_item clearfix">
           <img src="img/img1.png">
           <div class="product_card_side">
@@ -355,6 +352,102 @@
               </a>
         </div>
         <div class="col-md-4 col-sm-6 product_card">
+         <a href="card.html">
+        <div class="product_card_item clearfix">
+          <img src="img/img3.png">
+          <div class="product_card_side">
+              <div class="cart_description">
+                <div class="marks">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                </div>
+                <h4 class="product_card_head">Заголовок маркеровка</h4>
+                <div class="product_price">200 <span>грн</span></div>
+                </div>
+                <a class="product_buy_btn" href="">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><br>
+                    <span>Купить</span>
+                </a>
+              </div>
+              </a>
+        </div>
+        <div class="col-md-4 col-sm-6 product_card">
+          <a href="card.html">
+        <div class="product_card_item clearfix">
+          <img src="img/img4.png">
+          <div class="product_card_side">
+              <div class="cart_description">
+                <div class="marks">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                </div>
+                <h4 class="product_card_head">Заголовок маркеровка</h4>
+                <div class="product_price">200 <span>грн</span></div>
+                </div>
+                <a class="product_buy_btn" href="">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><br>
+                    <span>Купить</span>
+                </a>
+              </div>
+              </a>
+        </div>
+        <div class="col-md-4 col-sm-6 product_card">
+          <a href="card.html">
+        <div class="product_card_item clearfix">
+          <img src="img/img1.png">
+          <div class="product_card_side">
+              <div class="cart_description">
+                <div class="marks">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                </div>
+                <h4 class="product_card_head">Заголовок маркеровка</h4>
+                <div class="product_price">200 <span>грн</span></div>
+                </div>
+                <a class="product_buy_btn" href="">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><br>
+                    <span>Купить</span>
+                </a>
+              </div>
+              </a>
+        </div>
+         <div class="col-md-4 col-sm-6 product_card">
+          <a href="card.html">
+        <div class="product_card_item clearfix">
+          <img src="img/img2.png">
+          <div class="product_card_side">
+              <div class="cart_description">
+                <div class="marks">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                  <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                </div>
+                <h4 class="product_card_head">Заголовок маркеровка</h4>
+                <div class="product_price">200 <span>грн</span></div>
+                </div>
+                <a class="product_buy_btn" href="">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><br>
+                    <span>Купить</span>
+                </a>
+              </div>
+              </a>
+        </div>
+         <div class="col-md-4 col-sm-6 product_card">
           <a href="card.html">
         <div class="product_card_item clearfix">
           <img src="img/img3.png">
@@ -379,57 +472,9 @@
               </a>
         </div>
          <div class="col-md-4 col-sm-6 product_card">
-          <a href="card.html">
-        <div class="product_card_item clearfix">
-          <img src="img/img4.png">
-          <div class="product_card_side">
-              <div class="cart_description">
-                <div class="marks">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                </div>
-                <h4 class="product_card_head">Заголовок маркеровка</h4>
-                <div class="product_price">200 <span>грн</span></div>
-                </div>
-                <a class="product_buy_btn" href="">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><br>
-                    <span>Купить</span>
-                </a>
-              </div>
-              </a>
-        </div>
-         <div class="col-md-4 col-sm-6 product_card">
-          <a href="card.html">
-        <div class="product_card_item clearfix">
-          <img src="img/img1.png">
-          <div class="product_card_side">
-              <div class="cart_description">
-                <div class="marks">
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                </div>
-                </div>
-                <h4 class="product_card_head">Заголовок маркеровка</h4>
-                <div class="product_price">200 <span>грн</span></div>
-                </div>
-                <a class="product_buy_btn" href="">
-                    <i class="fa fa-shopping-cart" aria-hidden="true"></i><br>
-                    <span>Купить</span>
-                </a>
-              </div>
-              </a>
-        </div>
-         <div class="col-md-4 col-sm-6 product_card">
          <a href="card.html">
         <div class="product_card_item clearfix">
-          <img src="img/img1.png">
+          <img src="img/img4.png">
           <div class="product_card_side">
               <div class="cart_description">
                 <div class="marks">

@@ -127,14 +127,9 @@
           $('.dropdown_btn').on('click',function(event) {
             event.preventDefault();
             $(this).find('.dropdown-menu').toggleClass('active');
-                $(this).siblings().find('.dropdown-menu').removeClass('active')
+                $(this).siblings().find('.dropdown-menu').removeClass('active');
           })
-          // $('.dropdown_btn_third').on('click',function(e) {
-          //   e.preventDefault();
-          //   $(this).find('.dropdown-menu_third').toggleClass('active1');
-          //       $(this).siblings().find('.dropdown-menu_third').removeClass('active1')
-          // })
-        })
+        });
 
 
 	 $(document).ready(function () {
@@ -155,24 +150,42 @@
  });
 
 
-/*login_popup*/
-
-
-   $(document).ready(function () {
-     $('.login_item').removeClass('recall_toggle')
+ $(document).ready(function () {
+     $('#modal_form_recall1').removeClass('recall_toggle1')
  });
 
- $('.login').on('click', function () {
-     $('.login_item').addClass('recall_toggle')
-         $('.login_item').addClass('slideInDown');
+ $('.callback_btn1').on('click', function (event) {
+  event.preventDefault();
+     $('#modal_form_recall1').toggleClass('recall_toggle1')
+         $('#modal_form_recall1').addClass('slideInDown');
  });
 
  $(document).mouseup(function (e) {
-     var popup = $(".login_item");
-     if (!$('.login_item').is(e.target) && !popup.is(e.target) && popup.has(e.target).length == 0) {
-         popup.removeClass('recall_toggle');
+     var popup = $("#modal_form_recall1");
+     if (!$('.callback_btn1').is(e.target) && !popup.is(e.target) && popup.has(e.target).length == 0) {
+         popup.removeClass('recall_toggle1');
      }
  });
+
+/*login_popup*/
+ $(document).ready(function () {
+     $('#modal_form_recall2').removeClass('recall_toggle2')
+ });
+
+ $('.callback_btn2').on('click', function (event) {
+  event.preventDefault();
+     $('#modal_form_recall2').toggleClass('recall_toggle2')
+         $('#modal_form_recall2').addClass('slideInDown');
+ });
+
+ $(document).mouseup(function (e) {
+     var popup = $("#modal_form_recall2");
+     if (!$('.callback_btn2').is(e.target) && !popup.is(e.target) && popup.has(e.target).length == 0) {
+         popup.removeClass('recall_toggle2');
+     }
+ });
+
+
 /*readmore_btn*/
   
 $(function(){
@@ -343,12 +356,12 @@ function removeItem(removeButton)
 }
 
 
-jQuery(document).ready(function() {
-    jQuery(".shopping_cart").click(function(e) {
-     e.preventDefault();
-        jQuery(".bucket").toggleClass("dispBlock");
-    });
-});
+// jQuery(document).ready(function() {
+//     jQuery(".shopping_cart").click(function(e) {
+//      e.preventDefault();
+//         jQuery(".bucket").toggleClass("dispBlock");
+//     });
+// });
 
 $(document).ready(function() {
   $('.bucket_close'). click(function() {
@@ -364,4 +377,84 @@ $('.order_item_close').click(function() {
 //   $(".slideshow__item").fancybox();
   
 // })
+
+// BY KAREN GRIGORYAN
+
+$(document).ready(function() {
+  /******************************
+      BOTTOM SCROLL TOP BUTTON
+   ******************************/
+  
+  // declare variable
+  var scrollTop = $(".scrollTop");
+  
+  $(window).scroll(function(){
+        // declare variable
+    var topPos = $(this).scrollTop();
+    
+    // if user scrolls down - show scroll to top button
+    if(topPos > 100){
+      $(scrollTop).css("opacity", "1");
+      
+    }else{
+        $(scrollTop).css("opacity", "0");
+    }
+    
+  }); // scroll END
+  
+  //Click event to scroll to top
+  $(scrollTop).click(function(){
+    $('html, body').animate({scrollTop : 0},800);
+    return false;
+    
+  }); // click() scroll top EMD
+  
+  
+  
+}); // ready() END
+/*slider_filter*/
+$( function() {
+    $( "#slider_filter" ).slider({
+      min: 0,
+    max: 3000,
+    values: [0,3000],
+    range: true,
+    slide: function( event, ui ) {
+        $( "#amount" ).val( ui.values[ 0 ] +" грн"  + " -" + ui.values[ 1 ] + " грн" );
+      }
+    });
+    $( "#amount" ).val($( "#slider_filter" ).slider( "values", 0 ) + " грн"  +
+      " -" + $( "#slider_filter" ).slider( "values", 1 ) + " грн" );
+
+  } );
+/*tabs_history*/
+/*tabs*/
+jQuery(document).ready(function() {
+    jQuery('.tabs_controls_item').on('click', function() {
+
+      var item = jQuery(this).closest('.tabs_controls_item'),
+        contentItem = jQuery('.tabs_item'),
+        itemPosition = item.index();
+        console.log(itemPosition);
+
+
+        contentItem.eq(itemPosition)
+          .addClass('active')
+          .siblings()
+          .removeClass('active');
+
+          item.addClass('active')
+          .siblings()
+          .removeClass('active');
+    });
+  });
+$('.edit_history a').click(function(e) {
+    e.preventDefault();
+    $('.tabs_item form').css('opacity', '1');
+  })
 })(jQuery);
+/*year_picker*/
+for (i = new Date().getFullYear(); i > 1900; i--)
+{
+    $('#yearpicker').append($('<option />').val(i).html(i));
+}
