@@ -444,8 +444,10 @@ jQuery(document).ready(function() {
   });
 $('.edit_history a').click(function(e) {
     e.preventDefault();
-    $(this).css('opacity', '1');
+    $('.save a').css('opacity', '1');
     $('.tabs_item form').css('opacity', '1');
+    $('.tabs_item form input').removeAttr('disabled');
+
   })
 
 

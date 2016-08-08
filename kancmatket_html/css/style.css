@@ -911,6 +911,21 @@ padding: 11px 10px;
 .product_card .fa {
   vertical-align: top;
 }
+.enter_btn {
+   color: #fff;
+    background-color: #a7ca5e;
+    padding: 10px 5px;
+    display: block;
+    float: right;
+    text-align: center;
+    border-radius: 4px;
+    height: 80px;
+    border: 1px solid #a7ca5e;
+    -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
 .product_buy_btn {
     color: #fff;
     background-color: #a7ca5e;
@@ -2385,6 +2400,7 @@ input[type=checkbox]:checked + label:before {
   background: #3b683d;
   padding: 7px 20px;
   border-radius: 5px;
+  display: block;
 }
 .filter_reset a:hover,.filter_show a:hover {
 background-color: #a7ca5e;
@@ -2478,6 +2494,7 @@ background-color: #a7ca5e;
       font-size: 18px;
       float: left;
       margin-right: 20px;
+      opacity: 0.2;
 }
 .edit_history a{
   border-radius: 5px;
@@ -2491,7 +2508,6 @@ background-color: #a7ca5e;
     background: #9dc44d;
     font-size: 18px;
     float: left;
-    opacity: 0.2;
 }
 .tabs_item.active form  {
   opacity: 0.3;
@@ -2606,6 +2622,9 @@ background-color: #a7ca5e;
   }
   .product_buy_btn.product_buy_btn_card {
   width: 100%;
+}
+.enter_btn.product_buy_btn_card {
+
 }
   .nav-tabs>li>a {
     border-top-right-radius: 15px;
@@ -2734,10 +2753,10 @@ background-color: #a7ca5e;
 .shipping {
   margin-bottom: 50px;
 }
-.authorization .product_buy_btn {
+.authorization {
   width: 100%;
 }
-.register .product_buy_btn {
+.register {
   width: 100%;
 }
 #modal_form {
