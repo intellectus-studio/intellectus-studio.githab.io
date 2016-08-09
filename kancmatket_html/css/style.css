@@ -850,6 +850,7 @@ padding: 11px 10px;
   border: 1px solid #9dc44d;
 }
 .readmore_btn {
+  cursor: pointer;
   border-radius: 5px;
   background-color: #9dc44d;
   font-size: 18px;
@@ -2922,13 +2923,11 @@ text-align: left;
   padding: 0 30px;
 }
 .payment h3 {
-  border-bottom: 2px dashed rgb( 152, 152, 152 );
   padding-bottom: 50px;
     margin-bottom: 50px;
   }
 .payment {
   padding-bottom: 30px;
-   border-bottom: 2px dashed rgb( 152, 152, 152 );
 }
 .shipping {
   margin-bottom: 50px;
