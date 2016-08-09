@@ -2689,6 +2689,9 @@ background-color: #a7ca5e;
   text-align: center;
   padding: 10px 0;
 }
+.authorization_tabs li a {
+  padding-left: 10px!important;
+}
 .nav>li>a {
   display: inline;
   padding-left: 0;
@@ -2944,6 +2947,7 @@ text-align: left;
 @media (max-width: 960px) { 
   .changed_order {
   float: none;
+  padding-bottom: 20px;
 }
   .aprove {
   
