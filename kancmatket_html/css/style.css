@@ -2648,6 +2648,27 @@ background-color: #a7ca5e;
 }
 }
 @media (max-width: 960px) {
+   .phones_recall .callback{
+    display: none;
+  }
+   .search_container:hover .search_main {
+    width: 180px;
+    display: block;
+    position: absolute;
+    left: 40px;
+  }
+  .cart {
+    width: auto;
+    float: right;
+  }
+  .search_main {
+    width: 0;
+    display: none;
+    -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  }
 .product-quantity {
   width: 25%;
 }
@@ -2805,32 +2826,11 @@ text-align: left;
       width: 70%;
     margin: 0 auto;
 }
-  .phones_recall .callback{
-    display: none;
-  }
   .search_container {
     position: relative;
   }
   .navbar-fixed-top {
     padding-bottom: 0;
-  }
-  .search_container:hover .search_main {
-    width: 180px;
-    display: block;
-    position: absolute;
-    left: 40px;
-  }
-  .cart {
-    width: auto;
-    float: right;
-  }
-  .search_main {
-    width: 0;
-    display: none;
-    -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
   }
 }
 
@@ -3023,7 +3023,7 @@ text-align: left;
   position: relative;
 }
 .phones_recall {
-  width: 50%;
+  width: 70%;
 }
 .search_container {
   margin-left: 0; 
