@@ -159,7 +159,6 @@ left: 0;
 .navbar-fixed-top {
     background-color: transparent !important;
     border-color: transparent !important;
-    padding: 20px 0;
     padding-top: 0;
 }
 .navbar-fixed-top {
@@ -167,7 +166,7 @@ left: 0;
     border-width: 0 0 1px;
 }
 .navbar-fixed-bottom, .navbar-fixed-top {
-    position: absolute;
+    position: fixed;
     right: 0;
     left: 0;
     z-index: 1030;
@@ -445,6 +444,11 @@ label {
 }
 .navbar-scroll {
     background-color: #fff !important;
+    -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+position: fixed;
+width: 100%;
 }
 .navbar-fixed-top .nav li a.active {
   color: #9dc44d;
@@ -2086,7 +2090,6 @@ font-size: 20px;
   border-bottom: 1px solid #a7ca5e;
 }
 .order_details_main {
-  margin-top: 150px;
 }
 
 .order_details_main_header h4 {
@@ -2111,6 +2114,17 @@ font-size: 20px;
     width: 100%;
     margin: 10px 0;
 }
+.order_details_delivery textarea {
+  padding: 10px 20px;
+    color: #777;
+    margin: 0 -4px 0 0;
+    border: 1px solid #3b683d;
+    border-radius: 0;
+    width: 100%;
+    margin: 10px 0;
+    height: 200px;
+    resize: none;
+}
 .order_details_delivery_tabs li {
   list-style: none;
   display: inline-block;
@@ -2118,6 +2132,21 @@ font-size: 20px;
   float: right;
    margin-left: 5px;
 }
+.aprove {
+  color: #fff;
+    border: 1px solid rgb( 255, 102, 153 );
+    background-color: rgb( 255, 102, 153 );
+    text-decoration: none;
+    text-align: left;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+  }
 .order_details_delivery_tabs {
   margin: 20px 0;
 }
@@ -2174,6 +2203,7 @@ font-size: 20px;
   text-decoration: underline;
   line-height: 2.057;
   text-align: center;
+  cursor: pointer;
 }
 .login_item {
   display: none;

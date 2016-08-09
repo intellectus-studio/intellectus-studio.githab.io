@@ -198,15 +198,15 @@ $(function(){
     });
 });
 
-// $(document).on('scroll',function(e){
-//       var scrollTop = $(document).scrollTop();
-//       if(scrollTop > $('nav').height()){
-//         $('nav').addClass('navbar-scroll');
-//       }
-//       else {
-//         $('nav').removeClass('navbar-scroll');
-//       }
-//     });
+$(document).on('scroll',function(e){
+      var scrollTop = $(document).scrollTop();
+      if(scrollTop > $('nav').height()){
+        $('nav').addClass('navbar-scroll');
+      }
+      else {
+        $('nav').removeClass('navbar-scroll');
+      }
+    });
 
 $(document).ready(function(){
 
@@ -372,7 +372,6 @@ $('.order_item_close').click(function() {
   $(this).parent().fadeOut();
 })
 
-// BY KAREN GRIGORYAN
 
 $(document).ready(function() {
   /******************************
@@ -473,6 +472,10 @@ $(document).ready(function() { // вся мaгия пoсле зaгрузки с�
       );
   });
 });
+$('.no_authorize').click(function(e) {
+  e.preventDefault();
+  $('.authorize_tab').css('display', 'none');
+})
 
 })(jQuery);
 /*year_picker*/
