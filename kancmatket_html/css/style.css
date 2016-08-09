@@ -1115,6 +1115,7 @@ footer {
     background-color: rgba( 167, 202, 94, 0.9);
     padding-top: 20px;
     color: #fff;
+    z-index: 3;
 }
 .map_contacts_item:first-child {
   padding-top: 0;
@@ -2937,7 +2938,21 @@ text-align: left;
 .register {
   width: 100%;
 }
+.changed_order {
+  float: right;
+}
 @media (max-width: 960px) { 
+  .changed_order {
+  float: none;
+}
+  .aprove {
+  
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
   #modal_form {
   width: 240px; 
   height: 250px; /* Рaзмеры дoлжны быть фиксирoвaны */
@@ -3126,6 +3141,9 @@ text-align: left;
 }
 }
 @media (max-width: 400px) {
+  .callback_btn1 {
+    padding: 6px 5px;
+  }
 
   .save {
      width: 200px;
@@ -3178,3 +3196,5 @@ text-align: left;
     width: 100%;
   }
 }
+
+

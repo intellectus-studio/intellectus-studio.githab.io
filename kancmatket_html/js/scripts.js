@@ -127,8 +127,9 @@
           $('.dropdown_btn').on('click',function() {
             $(this).find('.dropdown-menu').toggleClass('active');
                 $(this).siblings().find('.dropdown-menu').removeClass('active');
-          })
+          });
         });
+  
 
 
 	 $(document).ready(function () {
