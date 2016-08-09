@@ -476,6 +476,12 @@ $('.no_authorize').click(function(e) {
   e.preventDefault();
   $('.authorize_tab').css('display', 'none');
 })
+/*cklick outside*/
+// $(document).click(function(e) {   
+//     if(e.target.id != '.dropdown_btn') {
+//         $(".dropdown_btn").hide();   
+//     } 
+// });
 
 })(jQuery);
 /*year_picker*/
