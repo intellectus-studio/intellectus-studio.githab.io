@@ -72,12 +72,7 @@ body {
 .main_carousel .owl-controls .owl-buttons .owl-next {
   right: 40px;
 }
-#banner_carousel .owl-controls .owl-buttons .owl-prev {
-  left: 40px;
-}
-#banner_carousel .owl-controls .owl-buttons .owl-next {
-  right: 40px;
-}
+
 .owl-wrapper-outer .owl--text h2 {
   font-weight: bold;
   font-size: 36px;
@@ -454,7 +449,7 @@ label {
 .navbar-fixed-top .nav li a.active {
   color: #9dc44d;
 }
-    @media (min-width: 768px)  {
+    @media (min-width: 960px)  {
 .navbar-nav>li {
     float: left;
 }
@@ -496,7 +491,7 @@ label {
   width: 100%;
 }*/
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
 .navbar-nav {
     float: left;
     margin: 0;
@@ -510,7 +505,7 @@ label {
     margin-bottom: 0;
     list-style: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 960px) {
 .navbar-nav>li {
     float: left;
 }
@@ -524,7 +519,7 @@ label {
     background: #fff;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .phones_recall {
     padding-left: 40px;
   }
@@ -804,11 +799,10 @@ padding: 11px 10px;
   position: relative;
 }
 .banner_carousel .owl-slide {
-  height: 638px
+  min-height: 638px
 }
 .banner_carousel .owl-slide {
   background-repeat: no-repeat;
-  background-size: 100%;
   background-position: center;
   position: relative;
 }
@@ -2524,7 +2518,7 @@ background-color: #a7ca5e;
   padding-left: 5px;
   padding-right: 5px;
 }
-@media (max-width: 600px) {
+@media (max-width: 960px) {
   .comments_icon {
     display: none;
   }
@@ -2648,6 +2642,19 @@ background-color: #a7ca5e;
 }
 }
 @media (max-width: 960px) {
+  .nav-tabs>li>a {
+    border-top-right-radius: 15px;
+    padding: 10px;
+    font-size: 90%;
+  }
+  .nav>li {
+  text-align: center;
+  padding: 10px 0;
+}
+.nav>li>a {
+  display: inline;
+  padding-left: 0;
+}
    .phones_recall .callback{
     display: none;
   }
@@ -2680,7 +2687,7 @@ background-color: #a7ca5e;
     padding: 0;
 }
 }
-@media (max-width: 500px) {
+@media (max-width: 960px) {
   .product-image {
     border: none;
   }
@@ -2738,7 +2745,7 @@ text-align: left;
   overflow: visible;
 }
 .tabs_content {
-    /overflow: visible;
+    overflow: visible;
 }
   .order_details_main_header h4 {
     width: 60%;
@@ -2752,11 +2759,6 @@ text-align: left;
 .enter_btn.product_buy_btn_card {
 
 }
-  .nav-tabs>li>a {
-    border-top-right-radius: 15px;
-    padding: 10px;
-    font-size: 90%;
-  }
   .submit_btn {
     border-radius: 6px;
   }
@@ -2802,14 +2804,6 @@ text-align: left;
 .dropdown-menu li {
   color: #fff!important;
 }
-.nav>li {
-  text-align: center;
-  padding: 10px 0;
-}
-.nav>li>a {
-  display: inline;
-  padding-left: 0;
-}
 .sub_nav_container .dropdown-menu li:hover {
   background-color: #9dc44d;
 }
@@ -2832,37 +2826,6 @@ text-align: left;
   .navbar-fixed-top {
     padding-bottom: 0;
   }
-}
-
-.shipping h3 {
-  border-bottom: 2px dashed rgb( 152, 152, 152 );
-  padding-bottom: 50px;
-    margin-bottom: 50px;
-
-}
-.payment_item {
-  padding: 0 30px;
-}
-.shipping_item {
-  padding: 0 30px;
-}
-.payment h3 {
-  border-bottom: 2px dashed rgb( 152, 152, 152 );
-  padding-bottom: 50px;
-    margin-bottom: 50px;
-  }
-.payment {
-  padding-bottom: 30px;
-   border-bottom: 2px dashed rgb( 152, 152, 152 );
-}
-.shipping {
-  margin-bottom: 50px;
-}
-.authorization {
-  width: 100%;
-}
-.register {
-  width: 100%;
 }
 #modal_form {
   width: 400px; 
@@ -2909,6 +2872,37 @@ text-align: left;
 .modal_form h3 {
   margin: 10px 0;
 }
+
+.shipping h3 {
+  border-bottom: 2px dashed rgb( 152, 152, 152 );
+  padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+.payment_item {
+  padding: 0 30px;
+}
+.shipping_item {
+  padding: 0 30px;
+}
+.payment h3 {
+  border-bottom: 2px dashed rgb( 152, 152, 152 );
+  padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+.payment {
+  padding-bottom: 30px;
+   border-bottom: 2px dashed rgb( 152, 152, 152 );
+}
+.shipping {
+  margin-bottom: 50px;
+}
+.authorization {
+  width: 100%;
+}
+.register {
+  width: 100%;
+}
 @media (max-width: 960px) { 
   #modal_form {
   width: 240px; 
@@ -2947,9 +2941,9 @@ text-align: left;
    #banner_carousel .owl-controls .owl-buttons .owl-prev {
     left: 0;
   }
-  .banner_carousel .owl-slide {
+  /*.banner_carousel .owl-slide {
     height: 338px;
-  }
+  }*/
   .banner_carousel div.owl--text {
     width: 90%;
   }
