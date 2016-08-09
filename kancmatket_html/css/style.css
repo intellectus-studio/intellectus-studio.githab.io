@@ -161,6 +161,9 @@ left: 0;
     border-color: transparent !important;
     padding-top: 0;
 }
+.helper_nav {
+      min-height: 180px;
+}
 .navbar-fixed-top {
     top: 0;
     border-width: 0 0 1px;
@@ -2637,6 +2640,9 @@ background-color: #a7ca5e;
 }
 
 @media (max-width: 1000px) {
+  .helper_nav {
+    display: none;
+  }
   .product {
     display: block;
     position: relative;
