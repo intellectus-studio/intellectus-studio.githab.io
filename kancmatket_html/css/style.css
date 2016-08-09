@@ -2999,6 +2999,9 @@ text-align: left;
   .shipping img {
     padding-right: 20px;
   }
+  .payment_item img{
+   padding-right: 20px;
+}
   .payment_description {
     overflow: visible;
   }
