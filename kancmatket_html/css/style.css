@@ -812,6 +812,7 @@ padding: 11px 10px;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  background-size: 100%;
 }
 .banner_carousel div.owl--text {
      position: absolute;
