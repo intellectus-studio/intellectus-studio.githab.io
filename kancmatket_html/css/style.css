@@ -812,7 +812,6 @@ padding: 11px 10px;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  background-size: 100%;
 }
 .banner_carousel div.owl--text {
      position: absolute;
@@ -1116,7 +1115,6 @@ footer {
     background-color: rgba( 167, 202, 94, 0.9);
     padding-top: 20px;
     color: #fff;
-    z-index: 3;
 }
 .map_contacts_item:first-child {
   padding-top: 0;
@@ -2554,6 +2552,26 @@ background-color: #a7ca5e;
   padding-left: 5px;
   padding-right: 5px;
 }
+.exit {
+  color: #fff;
+    border-color: #9dc44d;
+    background: #9dc44d;
+    padding: 2px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Verdana";
+    text-align: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    border: 1px solid #9dc44d;
+}
+.exit:hover {
+  border-color: rgb( 59, 104, 61 );
+    border-radius: 5px;
+   background-color: #fff; 
+    color: rgb( 59, 104, 61 );
+}
 @media (max-width: 960px) {
   .comments_icon {
     display: none;
@@ -2689,9 +2707,6 @@ background-color: #a7ca5e;
   .nav>li {
   text-align: center;
   padding: 10px 0;
-}
-.authorization_tabs li a {
-  padding-left: 10px!important;
 }
 .nav>li>a {
   display: inline;
@@ -2942,22 +2957,7 @@ text-align: left;
 .register {
   width: 100%;
 }
-.changed_order {
-  float: right;
-}
 @media (max-width: 960px) { 
-  .changed_order {
-  float: none;
-  padding-bottom: 20px;
-}
-  .aprove {
-  
-    width: 100%;
-    float: none;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-  }
   #modal_form {
   width: 240px; 
   height: 250px; /* Рaзмеры дoлжны быть фиксирoвaны */
@@ -3004,9 +3004,6 @@ text-align: left;
   .shipping img {
     padding-right: 20px;
   }
-  .payment_item img{
-   padding-right: 20px;
-}
   .payment_description {
     overflow: visible;
   }
@@ -3149,9 +3146,6 @@ text-align: left;
 }
 }
 @media (max-width: 400px) {
-  .callback_btn1 {
-    padding: 6px 5px;
-  }
 
   .save {
      width: 200px;
@@ -3204,5 +3198,3 @@ text-align: left;
     width: 100%;
   }
 }
-
-
