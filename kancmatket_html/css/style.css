@@ -44,7 +44,7 @@ body {
   position: relative;
 }
 .main_carousel .owl-slide {
-  height: 760px
+  height: 560px
 }
 .main_carousel .owl-slide {
     background-repeat: no-repeat;
@@ -53,16 +53,16 @@ body {
     background-color: #f6f6f6;
 }
 .main_carousel div.owl--text {
-   position: absolute;
+      position: absolute;
     left: 70%;
-    top: 60%;
-    transform: translate(-50%, -50%);
-    padding: 70px;
-    background: transparent;
+    bottom: 0;
+    transform: translate(-50%,0);
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 4px;
     width: 550px;
     font-size: 24px;
-    color: rgb( 102, 102, 102 );
+    color: #333;
     line-height: 1.5;
     text-align: left;
 }
@@ -453,6 +453,12 @@ box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.4);
 position: fixed;
 width: 100%;
 }
+.navbar-scroll_subnav {
+position: fixed;
+width: 100%;
+top: 180px;
+z-index: 9999;
+}
 .navbar-fixed-top .nav li a.active {
   color: #9dc44d;
 }
@@ -761,6 +767,9 @@ padding: 11px 10px;
 .sub_nav_container li:hover {
   background-color: #9dc44d;
 }
+.dropdown_btn:hover .dropdown-menu {
+  display: block;
+}
 .sub_nav_container .dropdown-menu li:hover {
   background-color: #fff;
   border: 1px solid  #9dc44d;
@@ -791,9 +800,10 @@ padding: 11px 10px;
 #popular {
     padding: 70px;
     padding-top: 50px;
+    padding-bottom: 20px;
    /* border-top: 2px dashed rgb( 152, 152, 152 );
     border-bottom: 2px dashed rgb( 152, 152, 152 );*/
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 #popular .owl-item {
     text-align: center;
@@ -1141,13 +1151,15 @@ footer {
   right: 100%;
   left: initial;
 }
+.dropdown_btn_third:hover .dropdown-menu_third {
+  display: block;
+}
 .dropdown-menu_third {
   display: none;
     position: absolute;
     top: 0;
     left: 100%;
     z-index: 1000;
-    display: none;
     float: left;
     min-width: 285px;
     padding: 5px 0;
@@ -1171,6 +1183,7 @@ footer {
   text-transform: initial!important;
       color: #333!important;
 }
+
 .dropdown-menu_third>li>a {
     display: block;
     padding: 3px 20px;
@@ -1182,7 +1195,7 @@ footer {
     color: #333;
     white-space: nowrap;
 }
-.dropdown_btn_third:hover .dropdown-menu_third {
+.dropdown_btn_third:hover .dropdown-menu_third:hover {
   display: block;
 }
 .popular_goods h3 {
@@ -1324,7 +1337,7 @@ border-color: transparent transparent #3e6b40 transparent;
 .popular_item {
   text-align: center;
 }
-#popular .popular_item:hover img{
+/*#popular .popular_item:hover img{
   -webkit-filter: grayscale(0%);
   -webkit-transition: .5s ease-in-out;
   -moz-filter: grayscale(0%);
@@ -1332,17 +1345,17 @@ border-color: transparent transparent #3e6b40 transparent;
   -o-filter: grayscale(0%);
   -o-transition: .5s ease-in-out;
 } 
-
-#popular .popular_item img {
+*/
+/*#popular .popular_item img {
   -webkit-filter: grayscale(100%);
   -webkit-transition: .5s ease-in-out;
   -moz-filter: grayscale(100%); 
   -moz-transition: .5s ease-in-out;
   -o-filter: grayscale(100%); 
   -o-transition: .5s ease-in-out;
-}
+}*/
 #popular h3 {
-  color: #fff;
+  color: rgb( 255, 153, 51 );
   -webkit-transition: .5s ease-in-out;
   -moz-transition: .5s ease-in-out;
   -o-transition: .5s ease-in-out;
@@ -1352,8 +1365,13 @@ border-color: transparent transparent #3e6b40 transparent;
   text-transform: uppercase;
   padding-bottom: 5px;
 }
-#popular .popular_item:hover h3 {
-   color: rgb( 255, 153, 51 );
+.popular_item img:hover {
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .5s ease-in-out;
 }
 
 .contact_address {
@@ -2660,6 +2678,8 @@ background-color: #a7ca5e;
   border: none;
 }
 
+
+
 @media (max-width: 1000px) {
   .helper_nav {
     display: none;
@@ -2744,6 +2764,7 @@ background-color: #a7ca5e;
     padding: 0;
 }
 }
+
 @media (max-width: 960px) {
   .product-image {
     border: none;
@@ -2841,10 +2862,11 @@ text-align: left;
     left: 0;
     z-index: 1000;
     display: none;
+    border-radius: 6px;
     float: left;
     min-width: 100%;
     padding: 5px 0;
-    margin: 5px 0 0;
+    margin: 0px 0 0;
     font-size: 14px;
     list-style: none;
     background-color: #3b683d;

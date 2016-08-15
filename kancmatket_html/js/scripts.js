@@ -117,18 +117,17 @@
         slidesToScroll: 1
      }
     }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
+    
   ]
 });
 	});
-  $(document).ready(function() {
-          $('.dropdown_btn').on('click',function() {
-            $(this).find('.dropdown-menu').toggleClass('active');
-                $(this).siblings().find('.dropdown-menu').removeClass('active');
-          })
-        });
+  // $(document).ready(function() {
+  //         $('.dropdown_btn').on('mouseenter',function() {
+  //           $(this).find('.dropdown-menu').addClass('active');
+  //               $(this).siblings().find('.dropdown-menu').removeClass('active');
+  //         })
+          
+  //       });
 
 
 	 $(document).ready(function () {
@@ -202,9 +201,11 @@ $(document).on('scroll',function(e){
       var scrollTop = $(document).scrollTop();
       if(scrollTop > $('nav').height()){
         $('nav').addClass('navbar-scroll');
+        $('.sub_nav').addClass('navbar-scroll_subnav');
       }
       else {
         $('nav').removeClass('navbar-scroll');
+        $('.sub_nav').removeClass('navbar-scroll_subnav');
       }
     });
 
