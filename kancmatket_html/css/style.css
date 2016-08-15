@@ -614,15 +614,18 @@ padding: 11px 10px;
   background-color: #9dc44d;
 }
 .number {
-  font-size: 24px;
+  font-size: 18px;
   float: left;
-  padding-top: 5px;
+  
   float: left;
   padding-left: 70px;
 }
 .number .fa {
   color: #3b683d;
   padding-right: 5px;
+  padding-top: 15px;
+  float: left;
+    overflow: hidden;
 }
 .fa {
       vertical-align: middle;
@@ -757,7 +760,7 @@ padding: 11px 10px;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   display: block;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
