@@ -19,7 +19,7 @@
 	$(document).ready(function() {
 		$('#popular').slick({
           infinite: true,
-          slidesToShow: 4,
+          slidesToShow: 5,
           slidesToScroll: 1,
            responsive: [
            {
