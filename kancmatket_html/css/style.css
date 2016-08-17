@@ -162,7 +162,7 @@ left: 0;
     padding-top: 0;
 }
 .helper_nav {
-      min-height: 180px;
+      min-height: 190px;
 }
 .navbar-fixed-top {
     top: 0;
@@ -1127,6 +1127,7 @@ footer {
     position: absolute;
     left: 0;
     height: 100%;
+    z-index: 9;
     background-color: rgba( 167, 202, 94, 0.9);
     padding-top: 20px;
     color: #fff;
