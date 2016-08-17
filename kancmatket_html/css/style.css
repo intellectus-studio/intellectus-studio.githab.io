@@ -457,7 +457,7 @@ width: 100%;
 position: fixed;
 width: 100%;
 top: 180px;
-z-index: 9999;
+z-index: 9998;
 }
 .navbar-fixed-top .nav li a.active {
   color: #9dc44d;
@@ -632,17 +632,19 @@ padding: 11px 10px;
 }
 .callback_btn1 {
     font-size: 26px;
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-      padding: 6px 20px;
+    height: 42px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 20px;
+    line-height: 42px;
     background-color: #3b683d;
     border-radius: 4px;
     display: block;
-     -webkit-transition: .5s ease-in-out;
-  -moz-transition: .5s ease-in-out;
-  -o-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
 }
 .callback_btn1:hover {
   background-color: #9dc44d;
@@ -744,9 +746,6 @@ padding: 11px 10px;
 .sub_nav_container {
   margin: 0;
   padding-left: 0;
-}
-.dropdown_btn a {
-  color: #fff;
 }
 .wrapper {
   max-width: 900px;
@@ -1131,7 +1130,6 @@ footer {
     background-color: rgba( 167, 202, 94, 0.9);
     padding-top: 20px;
     color: #fff;
-    z-index: 10;
 }
 .map_contacts_item:first-child {
   padding-top: 0;
@@ -1372,7 +1370,6 @@ border-color: transparent transparent #3e6b40 transparent;
   font-size: 18px;
   text-transform: uppercase;
   padding-bottom: 5px;
-  height: 62px;
 }
 .popular_item img:hover {
   -webkit-filter: grayscale(100%);
@@ -2865,9 +2862,6 @@ text-align: left;
     background-image: none;
     background-color: #376439;
   }
-  .navbar-scroll_subnav {
-        position: static!important;
-      }
   .dropdown-menu {
     position: static;
     top: 100%;
@@ -2947,7 +2941,7 @@ text-align: left;
 }
 /* Пoдлoжкa */
 #overlay {
-  z-index:3; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
+  z-index:9998; /* пoдлoжкa дoлжнa быть выше слoев элементoв сaйтa, нo ниже слoя мoдaльнoгo oкнa */
   position:fixed; /* всегдa перекрывaет весь сaйт */
   background-color:#000; /* чернaя */
   opacity:0.8; /* нo немнoгo прoзрaчнa */
