@@ -68,13 +68,14 @@ jQuery(document).ready(function () {
 $('.ourUsers').click(function(e){
     "use strict";
     var target = event.target;
-
+    if(target.tagName != 'IMG') return;
     var currentImg = $('.activeUser');
     var n = target.getAttribute('val');
     var nextImg = $('.user').eq(n);
 
     var currText = $('.activeText');
     var nextText = $('.text').eq(n);
+    
 
 
     currText.removeClass('activeText');
