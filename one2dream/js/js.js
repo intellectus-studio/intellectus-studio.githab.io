@@ -57,7 +57,7 @@ jQuery(document).ready(function () {
         nextSlide.fadeIn(700).addClass('active-slider');
     }
 
-    var timer = setInterval(nSlide, 3000);
+    var timer = setInterval(nSlide, 10000);
     if (screen.width <= 620) {
         clearInterval(timer);
     }
