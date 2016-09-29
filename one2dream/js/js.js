@@ -9,10 +9,19 @@ jQuery(document).ready(function () {
         $('header').css('height', scrollH);
     })
 
+    if($('.nav')){
+        $('.nav').click(function () {
+            if ($('.mainMenu').css('display') == 'none') {
+                $('.mainMenu').fadeIn( 500);
+            } else {
+                $('.mainMenu').fadeOut(500);
+            }
+        })
+    }
 
     /*PoP CallBack*/
 
-    $('.call').on('click', function (e) {
+    $('.call, .coll').on('click', function (e) {
         e.preventDefault();
         $('#overlay').fadeIn(400,
             function () {
@@ -66,7 +75,6 @@ jQuery(document).ready(function () {
     var Users = $('.ourUsers').find('.user');
 
 $('.ourUsers').click(function(e){
-    "use strict";
     var target = event.target;
     if(target.tagName != 'IMG') return;
     var currentImg = $('.activeUser');
@@ -86,6 +94,26 @@ $('.ourUsers').click(function(e){
 
 })
 
+    if($('.offer')){
+        $('.offer').click(function () {
+
+            var eq = $(this).index();
+
+            var currentOffer = $('.active-offer');
+            var nextOffer = $('.offer').eq(eq);
+
+            if (eq == currentOffer.index()) return;
+
+            var currentDescription = $('.active-description');
+            var nextDescription = $('.description').eq(eq);
+
+            currentOffer.removeClass('active-offer');
+            nextOffer.addClass('active-offer');
+
+            currentDescription.fadeOut('fast').removeClass('active-description');
+            nextDescription.fadeIn('fast').addClass('active-description');
+        });
+    }
 
 
 
