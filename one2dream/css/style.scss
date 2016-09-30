@@ -108,7 +108,7 @@ header, .scroll {
     background: #ffffff;
     border-radius: 20px;
     margin: 0 24px;
-    font-size: 13px;
+    font-size: 14px;
     color: #00baf7;
     line-height: 40px;
     box-shadow: 0 0 20px rgba(0, 30, 43, 0.05);
@@ -132,15 +132,20 @@ ul.mainMenu {
     line-height: 100px;
     display: inline-block;
     float: left;
-    margin-right: 25px;
+    padding-right: 25px;
   }
 
   li:hover {
     .subMenu {
       display: block;
       @include transition(0.5s, display);
-
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
+    .fa-chevron-down {
+      @include transform(rotate(90deg));
+      @include transition(0.5s, all);
+    }
+
   }
 
   a {
@@ -912,9 +917,199 @@ footer {
   float: right;
 }
 
+.cont {
+  width: $width;
+  margin: 0 auto;
+  overflow: hidden;
+
+  div {
+    margin-bottom: 10px;
+    width: 30%;
+    margin-left: 5%;
+    float: left;
+    text-align: center;
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+    @include transition(0.5s, all);
+    height: 320px;
+    margin-bottom: 30px;
+    img {
+      margin-bottom: 20px;
+    }
+    a {
+      display: none;
+      @include transition(0.5s, all);
+      font-size: 13px;
+      color: white;
+      background: #00baf7;
+      font-weight: 500;
+      text-align: center;
+      line-height: 45px;
+      width: 150px;
+      height: 45px;
+      border-radius: 20px;
+      box-shadow: 0 0 5px #e7e8ea;
+      position: relative;
+      top: 22px;
+    }
+  }
+  div:hover {
+    box-shadow: 0 0 30px rgba(0, 30, 43, 0.1);
+    @include transition(0.5s, all);
+    a {
+      display: inline-block;
+      @include transition(0.5s, all);
+    }
+  }
+  div:first-child {
+    margin-left: 0;
+  }
+  div:nth-child(4n) {
+    margin-left: 0;
+  }
+}
+
+.map {
+  width: $width;
+  margin: 0 auto 50px auto;
+  display: block;
+}
+
+#f, #vk {
+  width: 35px !important;
+  height: 35px !important;
+  display: inline-block;
+  float: none !important;
+  a {
+    width: 35px !important;
+    height: 35px !important;
+    background: #23599b;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    border: none !important;
+    line-height: 35px !important;
+
+  }
+
+  a:hover {
+    background: #23599b !important;
+    color: white;
+  }
+  i {
+    font-size: 16px;
+    color: white;
+  }
+}
+
+#f {
+  margin-right: 10px !important;
+}
+
+.fa-chevron-down {
+  margin-right: 5px;
+  @include transition(0.5s, all);
+}
+
+.doctors {
+  div {
+    width: 30%;
+    margin-left: 5%;
+    text-align: center;
+    color: #bfbfbf;
+    float: left;
+    margin-bottom: 20px;
+    span {
+      color: #2c2c2c;
+      font-size: 18px;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  img {
+    margin: 0 auto 30px auto;
+    box-shadow: 0 37px 40px rgba(92, 95, 101, 0.15);
+    border-radius: 50%;
+    display: block;
+  }
+  div:first-child {
+    margin-left: 0;
+  }
+  div:nth-child(3n+1) {
+    margin-left: 0;
+  }
+}
+
+.hospitals {
+  overflow: hidden;
+  img{
+    float: left;
+    max-width: 35%;
+  }
+  a{
+    display: block;
+    font-size: 13px;
+    color: #00baf7;
+    font-weight: 500;
+    text-align: center;
+    line-height: 45px;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px #e7e8ea;
+    margin: 20px auto 0 auto;
+    cursor: pointer;
+    @include transition(0.5s,all);
+
+  }
+
+  a:hover{
+    @include transition(0.5s,all);
+      background: #00baf7;
+      color: white;
+  }
+
+}
+
+.contentHosp{
+  width: 60%;
+  float: left;
+  margin-left: 5%;
+  text-align: justify;
+  line-height: 22px;
+
+}
+.Hcontent{
+  margin-bottom: 20px;
+}
+.height, .Hcontent {
+overflow: hidden;
+}
+
 /*adaptive*/
 
 @media screen and(min-width: 769px) and(max-width: 1024px) {
+
+  .hospitals{
+    width: 90%;
+  }
+
+  .doctors {
+    width: 90%;
+  }
+
+  .map {
+    width: 90%;
+  }
+
+  .cont {
+    width: 90%;
+    div {
+      height: 282px;
+      margin-bottom: 30px;
+    }
+  }
 
   .descriptions {
     width: 90%;
@@ -1017,6 +1212,49 @@ footer {
 }
 
 @media screen and(min-width: 426px) and(max-width: 768px) {
+  .fa-chevron-down {
+    font-size: 12px !important;
+  }
+
+  .hospitals{
+    width: 90%;
+  }
+  .height{
+    line-height: 20px;
+  }
+
+  .doctors {
+    width: 90%;
+    img {
+      max-width: 150px;
+    }
+  }
+
+  ul.mainMenu > li {
+    padding-right: 15px;
+  }
+
+  .map {
+    width: 90%;
+  }
+
+  .cont {
+    width: 90%;
+    div {
+      height: 260px;
+      margin-bottom: 30px;
+
+    }
+    div:hover a {
+      display: block;
+      left: 50%;
+      @include transform(translateX(-50%));
+    }
+  }
+  h1 {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
 
   .offerWorks {
     width: 90%;
@@ -1176,7 +1414,7 @@ footer {
     }
   }
   .form input[type='text'], .form input[type='tel'], .form input[type='email'] {
-    width: 200px;
+    width: 175px;
   }
 
   footer {
@@ -1188,7 +1426,64 @@ footer {
 }
 
 @media screen and(min-width: 320px) and(max-width: 425px) {
+  .map {
+    width: 95%;
+  }
 
+  .hospitals{
+    img{
+      max-width: 100%;
+      float: none;
+    }
+    width: 90%;
+  }
+
+  .contentHosp{
+    width: 100%;
+    float: none;
+  }
+  .height{
+    margin-top: 20px;
+    line-height: 20px;
+    width: 100%;
+  }
+
+
+  .doctors {
+    width: 90%;
+    div {
+      margin-left: 0;
+      width: 100%;
+    }
+    img {
+      max-width: 150px;
+    }
+  }
+
+  .fa-chevron-down {
+    font-size: 12px !important;
+  }
+
+  .cont {
+    width: 90%;
+    div {
+      width: 260px !important;
+      margin: 0 auto 40px auto;
+      height: 270px;
+      float: none;
+      width: 90%;
+
+    }
+    div:hover a {
+      display: block;
+      left: 50%;
+      @include transform(translateX(-50%));
+    }
+  }
+  h1 {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
   .offerWorks {
     width: 90%;
   }
@@ -1429,12 +1724,12 @@ footer {
   }
   .form {
     textarea {
-      width: 158px;
+      width: 94%;
       height: 110px;
     }
   }
   .form input[type='text'], .form input[type='tel'], .form input[type='email'] {
-    width: 200px;
+    width: 94%;
   }
 
   footer {
