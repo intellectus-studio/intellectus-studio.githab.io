@@ -1508,5 +1508,11 @@ footer {
 
   .mBline {
     width: 90%; } }
+@media screen and (min-width: 1600px) {
+  .bunner {
+    height: 600px; } }
+@media screen and (min-width: 1900px) {
+  .bunner {
+    height: 700px; } }
 
 /*# sourceMappingURL=style.css.map */

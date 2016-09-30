@@ -1764,3 +1764,15 @@ overflow: hidden;
   }
 
 }
+
+@media screen and(min-width: 1600px) {
+  .bunner{
+    height: 600px;
+  }
+}
+
+@media screen and(min-width: 1900px) {
+  .bunner{
+    height: 700px;
+  }
+}
