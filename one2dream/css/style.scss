@@ -460,7 +460,6 @@ ul.whyUSA {
       display: inline-block;
     }
     a {
-      margin: 40px auto 0 auto;
       line-height: 46px;
       display: block;
       width: 170px;
@@ -997,7 +996,7 @@ footer {
   }
 
   a:hover {
-    background: #23599b !important;
+    opacity: 0.8;
     color: white;
   }
   i {
