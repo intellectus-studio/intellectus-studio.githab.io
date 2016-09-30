@@ -62,11 +62,11 @@
             <div class="form1">
               <form >
                 <div>
-                  <label for="name">ИМЯ:</label><input id="name" type="text" value=""/>
+                  <label for="name">ИМЯ:</label><input id="name" type="text" required value=""/>
                 </div>
 
                 <div>
-                  <label for="phone">ТЕЛЕФОН:</label><input id="phone" type="tel" value=""/>
+                  <label for="phone">ТЕЛЕФОН:</label><input id="phone" type="tel" required value=""/>
                 </div>
                 <input type="submit" value="отправить"/>
               </form>
@@ -82,14 +82,28 @@
 
 <div class="bunner">
   <div class="sliders">
-    <div class="slider active-slider">
+    <div class="slider ">
       <img src="img/slid2.jpg">
+      <div class="sText">
+        <h5>Лучший уровень медицины</h5>
+        <a href="doctors.html">ПОДРОБНЕЕ</a>
+      </div>
     </div>
     <div class="slider">
       <img src="img/slide2.jpg">
+      <div class="sText">
+        <h5>Роды в Сша</h5>
+        <span>это комфортно и не страшно</span>
+        <a href="visaAplication.html">ПОДРОБНЕЕ</a>
+      </div>
     </div>
-    <div class="slider">
+    <div class="slider active-slider">
       <img src="img/slid3.jpg">
+      <div class="sText black">
+        <h5>Гражданство США для вашего ребенка</h5>
+        <span>первый важный шаг для его будущего</span>
+        <a href="visaAplication.html">ПОДРОБНЕЕ</a>
+      </div>
     </div>
   </div>
   <div>
@@ -266,13 +280,13 @@
   <div class="form">
     <form >
       <div>
-        <label for="name1">ИМЯ:</label><input id="name1" type="text" value=""/>
+        <label for="name1">ИМЯ:</label><input id="name1" type="text" required value=""/>
       </div>
       <div>
-        <label for="mail">E-MAIL:</label><input id="mail" type="email" value=""/>
+        <label for="mail">E-MAIL:</label><input id="mail" type="email" required value=""/>
       </div>
       <div>
-        <label for="phone1">ТЕЛЕФОН:</label><input id="phone1" type="tel" value=""/>
+        <label for="phone1">ТЕЛЕФОН:</label><input id="phone1" type="tel" required value=""/>
       </div>
       <div>
         <label for="textarea">СООБЩЕНИЕ: </label><textarea id="textarea"></textarea>
