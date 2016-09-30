@@ -21,12 +21,6 @@ jQuery(document).ready(function () {
 
     /*PoP CallBack*/
 
-    $( function() {
-        $('form').submit(function() {
-            return false;
-        });
-    });
-
 
     $('.call, .coll').on('click', function (e) {
         e.preventDefault();
