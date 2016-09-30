@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e82b12-8327-47e7-97e4-ce27a4444953" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/img/slid2.jpg" afterPath="$PROJECT_DIR$/one2dream/img/slid2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/img/slid3.jpg" afterPath="$PROJECT_DIR$/one2dream/img/slid3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/img/slide2.jpg" afterPath="$PROJECT_DIR$/one2dream/img/slide2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/FAQ.html" afterPath="$PROJECT_DIR$/one2dream/FAQ.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/News.html" afterPath="$PROJECT_DIR$/one2dream/News.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/contact.html" afterPath="$PROJECT_DIR$/one2dream/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/css/style.css" afterPath="$PROJECT_DIR$/one2dream/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/css/style.css.map" afterPath="$PROJECT_DIR$/one2dream/css/style.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/css/style.scss" afterPath="$PROJECT_DIR$/one2dream/css/style.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/doctors.html" afterPath="$PROJECT_DIR$/one2dream/doctors.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/hospitals.html" afterPath="$PROJECT_DIR$/one2dream/hospitals.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/index.html" afterPath="$PROJECT_DIR$/one2dream/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/js/js.js" afterPath="$PROJECT_DIR$/one2dream/js/js.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/package.html" afterPath="$PROJECT_DIR$/one2dream/package.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/rentCar.html" afterPath="$PROJECT_DIR$/one2dream/rentCar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/service.html" afterPath="$PROJECT_DIR$/one2dream/service.html" />
@@ -33,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FAQ.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/one2dream/FAQ.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/one2dream/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33925685">
-              <caret line="60" column="68" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
+            <state vertical-scroll-proportion="5.730769">
+              <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -46,12 +50,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/one2dream/js/js.js">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/one2dream/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.59289175">
+              <caret line="1505" column="18" selection-start-line="1505" selection-start-column="18" selection-end-line="1505" selection-end-column="18" />
+              <folding>
+                <element signature="e#2093#2342#0" expanded="false" />
+                <element signature="e#2108#2229#0" expanded="false" />
+                <element signature="e#18681#20520#0" expanded="false" />
+                <element signature="e#20580#23933#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,18 +93,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/one2dream/css/style.scss" />
         <option value="$PROJECT_DIR$/one2dream/contact.html" />
-        <option value="$PROJECT_DIR$/one2dream/visaAplication.html" />
-        <option value="$PROJECT_DIR$/one2dream/rentCar.html" />
-        <option value="$PROJECT_DIR$/one2dream/service.html" />
-        <option value="$PROJECT_DIR$/one2dream/doctors.html" />
-        <option value="$PROJECT_DIR$/one2dream/hospitals.html" />
-        <option value="$PROJECT_DIR$/one2dream/index.html" />
-        <option value="$PROJECT_DIR$/one2dream/News.html" />
-        <option value="$PROJECT_DIR$/one2dream/package.html" />
-        <option value="$PROJECT_DIR$/one2dream/FAQ.html" />
         <option value="$PROJECT_DIR$/one2dream/js/js.js" />
+        <option value="$PROJECT_DIR$/one2dream/rentCar.html" />
+        <option value="$PROJECT_DIR$/one2dream/package.html" />
+        <option value="$PROJECT_DIR$/one2dream/doctors.html" />
+        <option value="$PROJECT_DIR$/one2dream/News.html" />
+        <option value="$PROJECT_DIR$/one2dream/hospitals.html" />
+        <option value="$PROJECT_DIR$/one2dream/FAQ.html" />
+        <option value="$PROJECT_DIR$/one2dream/service.html" />
+        <option value="$PROJECT_DIR$/one2dream/visaAplication.html" />
+        <option value="$PROJECT_DIR$/one2dream/index.html" />
+        <option value="$PROJECT_DIR$/one2dream/css/style.scss" />
       </list>
     </option>
   </component>
@@ -325,15 +334,15 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -341,26 +350,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32986626" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3268945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.215478" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -442,7 +431,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#19532#22782#0" expanded="false" />
+            <element signature="e#18681#20520#0" expanded="false" />
+            <element signature="e#20580#23933#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -487,7 +477,6 @@
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -499,7 +488,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#19532#22782#0" expanded="false" />
+            <element signature="e#18681#20520#0" expanded="false" />
+            <element signature="e#20580#23933#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,7 +520,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#19532#22782#0" expanded="false" />
+            <element signature="e#18681#20520#0" expanded="false" />
+            <element signature="e#20580#23933#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -542,7 +533,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#19532#22782#0" expanded="false" />
+            <element signature="e#18681#20520#0" expanded="false" />
+            <element signature="e#20580#23933#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -565,7 +557,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#19532#22782#0" expanded="false" />
+            <element signature="e#18681#20520#0" expanded="false" />
+            <element signature="e#20580#23933#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,99 +600,18 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/css/style.scss">
+    <entry file="file://$PROJECT_DIR$/one2dream/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.269231">
-          <caret line="997" column="11" selection-start-line="997" selection-start-column="11" selection-end-line="997" selection-end-column="11" />
-          <folding>
-            <element signature="e#2093#2342#0" expanded="false" />
-            <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#19532#22782#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/one2dream/rentCar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.253012">
-          <caret line="131" column="10" selection-start-line="131" selection-start-column="10" selection-end-line="131" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/service.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.253012">
-          <caret line="134" column="10" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/visaAplication.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6626506">
-          <caret line="149" column="11" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6144578">
-          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/doctors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.253012">
-          <caret line="134" column="10" selection-start-line="134" selection-start-column="10" selection-end-line="134" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/hospitals.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.325302">
-          <caret line="160" column="11" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.4578314">
-          <caret line="267" column="11" selection-start-line="267" selection-start-column="11" selection-end-line="267" selection-end-column="11" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/News.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.337349">
-          <caret line="121" column="11" selection-start-line="121" selection-start-column="11" selection-end-line="121" selection-end-column="11" />
+        <state vertical-scroll-proportion="-2.9454546">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -709,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/one2dream/package.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-27.445784">
-          <caret line="185" column="11" selection-start-line="185" selection-start-column="11" selection-end-line="185" selection-end-column="11" />
+        <state vertical-scroll-proportion="-2.6363637">
+          <caret line="67" column="21" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="21" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -718,21 +630,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/js/js.js">
+    <entry file="file://$PROJECT_DIR$/one2dream/doctors.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-3.5636363">
+          <caret line="64" column="84" selection-start-line="64" selection-start-column="84" selection-end-line="64" selection-end-column="84" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/News.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8727272">
+          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.5636363">
+          <caret line="68" column="90" selection-start-line="68" selection-start-column="82" selection-end-line="68" selection-end-column="90" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/hospitals.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8">
+          <caret line="68" column="90" selection-start-line="68" selection-start-column="90" selection-end-line="68" selection-end-column="90" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/one2dream/FAQ.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33925685">
-          <caret line="60" column="68" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
+        <state vertical-scroll-proportion="-5.418182">
+          <caret line="153" column="77" selection-start-line="153" selection-start-column="77" selection-end-line="153" selection-end-column="77" />
+          <caret line="156" column="79" selection-start-line="156" selection-start-column="79" selection-end-line="156" selection-end-column="79" />
+          <caret line="159" column="82" selection-start-line="159" selection-start-column="82" selection-end-line="159" selection-end-column="82" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8">
+          <caret line="64" column="85" selection-start-line="64" selection-start-column="85" selection-end-line="64" selection-end-column="85" />
+          <caret line="68" column="90" selection-start-line="68" selection-start-column="90" selection-end-line="68" selection-end-column="90" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/visaAplication.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.181818">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/img/slid2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.730769">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59289175">
+          <caret line="1505" column="18" selection-start-line="1505" selection-start-column="18" selection-end-line="1505" selection-end-column="18" />
+          <folding>
+            <element signature="e#2093#2342#0" expanded="false" />
+            <element signature="e#2108#2229#0" expanded="false" />
+            <element signature="e#18681#20520#0" expanded="false" />
+            <element signature="e#20580#23933#0" expanded="false" />
           </folding>
         </state>
       </provider>
