@@ -149,6 +149,7 @@ ul.mainMenu {
   }
 
   a {
+    cursor: pointer;
     @include transition(0.5s, color);
     color: #343434;
     font-weight: bold;
@@ -958,8 +959,10 @@ footer {
     box-shadow: 0 0 30px rgba(0, 30, 43, 0.1);
     @include transition(0.5s, all);
     a {
-      display: inline-block;
+      display: block;
       @include transition(0.5s, all);
+      margin-left: 50%;
+      @include transform(translateX(-50%));
     }
   }
   div:first-child {
@@ -1760,4 +1763,16 @@ overflow: hidden;
     width: 90%;
   }
 
+}
+
+@media screen and(min-width: 1600px) {
+  .bunner{
+    height: 600px;
+  }
+}
+
+@media screen and(min-width: 1900px) {
+  .bunner{
+    height: 700px;
+  }
 }

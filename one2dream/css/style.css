@@ -101,6 +101,7 @@ ul.mainMenu {
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all; }
   ul.mainMenu a {
+    cursor: pointer;
     transition: 0.5s color;
     -webkit-transition: 0.5s color;
     -o-transition: 0.5s color;
@@ -843,10 +844,16 @@ footer {
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all; }
     .cont div:hover a {
-      display: inline-block;
+      display: block;
       transition: 0.5s all;
       -webkit-transition: 0.5s all;
-      -o-transition: 0.5s all; }
+      -o-transition: 0.5s all;
+      margin-left: 50%;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
   .cont div:first-child {
     margin-left: 0; }
   .cont div:nth-child(4n) {
@@ -1501,5 +1508,11 @@ footer {
 
   .mBline {
     width: 90%; } }
+@media screen and (min-width: 1600px) {
+  .bunner {
+    height: 600px; } }
+@media screen and (min-width: 1900px) {
+  .bunner {
+    height: 700px; } }
 
 /*# sourceMappingURL=style.css.map */
