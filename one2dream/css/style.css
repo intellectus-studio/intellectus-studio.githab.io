@@ -397,6 +397,7 @@ ul.whyUSA {
       font-size: 13px;
       font-weight: 500;
       color: #00baf7;
+      margin: 0 auto;
       transition: 0.5s all;
       -webkit-transition: 0.5s all;
       -o-transition: 0.5s all; }
