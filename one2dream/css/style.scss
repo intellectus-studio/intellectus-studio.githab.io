@@ -394,7 +394,7 @@ ul.whyUSA {
     color: #86878b;
     line-height: 1.4;
     margin: 0 20px;
-    text-align: center;
+    text-align: justify;
   }
   a {
     @include transition(0.5s, all);
@@ -639,7 +639,7 @@ footer {
   display: none;
   color: #86878b;
   line-height: 20px;
-  text-align: center;
+  text-align: justify;
 }
 
 .activeText {
@@ -1736,6 +1736,7 @@ overflow: hidden;
     }
     p {
       font-size: 12px;
+      text-align: justify;
     }
   }
 
@@ -1806,7 +1807,7 @@ overflow: hidden;
   }
   .form {
     textarea {
-      width: 94%;
+      width: 93%;
       height: 110px;
     }
   }

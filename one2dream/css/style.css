@@ -327,7 +327,7 @@ ul.whyUSA {
     color: #86878b;
     line-height: 1.4;
     margin: 0 20px;
-    text-align: center; }
+    text-align: justify; }
   .blogText a {
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
@@ -555,7 +555,7 @@ footer {
   display: none;
   color: #86878b;
   line-height: 20px;
-  text-align: center; }
+  text-align: justify; }
 
 .activeText {
   display: block; }
@@ -964,7 +964,7 @@ footer {
   width: 560px;
   height: 155px;
   text-align: left;
-  z-index: 28; }
+  z-index: 30; }
   .sText h5 {
     font-size: 45px;
     color: #fefefe;
@@ -1485,7 +1485,8 @@ footer {
       font-size: 30px;
       margin-bottom: 60px; }
     .aboutUsText p {
-      font-size: 12px; }
+      font-size: 12px;
+      text-align: justify; }
 
   .coments h3 {
     text-align: center;
@@ -1548,7 +1549,7 @@ footer {
       top: 27px; }
 
   .form textarea {
-    width: 94%;
+    width: 93%;
     height: 110px; }
 
   .form input[type='text'], .form input[type='tel'], .form input[type='email'] {
