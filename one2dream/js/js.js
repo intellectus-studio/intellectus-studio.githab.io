@@ -53,6 +53,26 @@ jQuery(document).ready(function () {
         })
     });
 
+    if($('#phone, #phone1')) {
+        $('#phone, #phone1').blur(function(){
+            if (!$.isNumeric($(this).val())) {
+                $(this).val('');
+            }
+        })
+
+    };
+
+    if($('#name, #name1')) {
+        $('#name, #name1').blur(function(){
+            if ($.isNumeric($(this).val())) {
+                $(this).val('');
+            }
+        })
+
+    };
+
+
+
     /*auto-Slide*/
     function nSlide() {
         var currentSlide = $('.active-slider');

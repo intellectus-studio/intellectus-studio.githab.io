@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e82b12-8327-47e7-97e4-ce27a4444953" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/js/js.js" afterPath="$PROJECT_DIR$/one2dream/js/js.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/css/style.scss" afterPath="$PROJECT_DIR$/one2dream/css/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="intellectus-studio.githab.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/one2dream/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/one2dream/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6761745">
-              <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
+            <state vertical-scroll-proportion="-7.327273">
+              <caret line="475" column="0" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
               <folding>
                 <element signature="e#2093#2342#0" expanded="false" />
                 <element signature="e#2108#2229#0" expanded="false" />
@@ -36,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="js.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/one2dream/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5821813">
+              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -75,7 +90,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/one2dream/contact.html" />
-        <option value="$PROJECT_DIR$/one2dream/js/js.js" />
         <option value="$PROJECT_DIR$/one2dream/rentCar.html" />
         <option value="$PROJECT_DIR$/one2dream/package.html" />
         <option value="$PROJECT_DIR$/one2dream/doctors.html" />
@@ -86,6 +100,7 @@
         <option value="$PROJECT_DIR$/one2dream/visaAplication.html" />
         <option value="$PROJECT_DIR$/one2dream/index.html" />
         <option value="$PROJECT_DIR$/one2dream/css/style.scss" />
+        <option value="$PROJECT_DIR$/one2dream/js/js.js" />
       </list>
     </option>
   </component>
@@ -315,7 +330,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21860817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21860817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921174" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -376,8 +391,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18708#20547#0" expanded="false" />
-            <element signature="e#20607#23960#0" expanded="false" />
+            <element signature="e#18704#20543#0" expanded="false" />
+            <element signature="e#20603#23956#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -424,8 +439,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18708#20547#0" expanded="false" />
-            <element signature="e#20607#23960#0" expanded="false" />
+            <element signature="e#18704#20543#0" expanded="false" />
+            <element signature="e#20603#23956#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -469,8 +484,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18708#20547#0" expanded="false" />
-            <element signature="e#20607#23960#0" expanded="false" />
+            <element signature="e#18704#20543#0" expanded="false" />
+            <element signature="e#20603#23956#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -497,8 +512,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18708#20547#0" expanded="false" />
-            <element signature="e#20607#23960#0" expanded="false" />
+            <element signature="e#18704#20543#0" expanded="false" />
+            <element signature="e#20603#23956#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -510,8 +525,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18708#20547#0" expanded="false" />
-            <element signature="e#20607#23960#0" expanded="false" />
+            <element signature="e#18704#20543#0" expanded="false" />
+            <element signature="e#20603#23956#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,8 +545,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18708#20547#0" expanded="false" />
-            <element signature="e#20607#23960#0" expanded="false" />
+            <element signature="e#18704#20543#0" expanded="false" />
+            <element signature="e#20603#23956#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -626,17 +641,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/one2dream/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -645,22 +649,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/one2dream/js/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/one2dream/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6761745">
-          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
+        <state vertical-scroll-proportion="-7.327273">
+          <caret line="475" column="0" selection-start-line="475" selection-start-column="0" selection-end-line="475" selection-end-column="0" />
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="112" column="38" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one2dream/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5821813">
+          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
