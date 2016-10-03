@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2e82b12-8327-47e7-97e4-ce27a4444953" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/one2dream/css/style.scss" afterPath="$PROJECT_DIR$/one2dream/css/style.scss" />
     </list>
     <ignored path="intellectus-studio.githab.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,8 +26,8 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/one2dream/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30536914">
-              <caret line="462" column="24" selection-start-line="462" selection-start-column="24" selection-end-line="462" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.6761745">
+              <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
               <folding>
                 <element signature="e#2093#2342#0" expanded="false" />
                 <element signature="e#2108#2229#0" expanded="false" />
@@ -376,8 +376,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18703#20542#0" expanded="false" />
-            <element signature="e#20602#23955#0" expanded="false" />
+            <element signature="e#18708#20547#0" expanded="false" />
+            <element signature="e#20607#23960#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -424,8 +424,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18703#20542#0" expanded="false" />
-            <element signature="e#20602#23955#0" expanded="false" />
+            <element signature="e#18708#20547#0" expanded="false" />
+            <element signature="e#20607#23960#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -469,8 +469,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18703#20542#0" expanded="false" />
-            <element signature="e#20602#23955#0" expanded="false" />
+            <element signature="e#18708#20547#0" expanded="false" />
+            <element signature="e#20607#23960#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -497,8 +497,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18703#20542#0" expanded="false" />
-            <element signature="e#20602#23955#0" expanded="false" />
+            <element signature="e#18708#20547#0" expanded="false" />
+            <element signature="e#20607#23960#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -510,8 +510,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18703#20542#0" expanded="false" />
-            <element signature="e#20602#23955#0" expanded="false" />
+            <element signature="e#18708#20547#0" expanded="false" />
+            <element signature="e#20607#23960#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -530,8 +530,8 @@
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
-            <element signature="e#18703#20542#0" expanded="false" />
-            <element signature="e#20602#23955#0" expanded="false" />
+            <element signature="e#18708#20547#0" expanded="false" />
+            <element signature="e#20607#23960#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -655,8 +655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/one2dream/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30536914">
-          <caret line="462" column="24" selection-start-line="462" selection-start-column="24" selection-end-line="462" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.6761745">
+          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
           <folding>
             <element signature="e#2093#2342#0" expanded="false" />
             <element signature="e#2108#2229#0" expanded="false" />
