@@ -803,8 +803,701 @@ footer {
   .breadcrumbs a {
     font-weight: bold;
     font-size: 12px;
-    color: #3b3b3b;
+    color: #3b3b3b; }
+  .breadcrumbs .breads {
     float: right;
     margin-top: 23px; }
+    .breadcrumbs .breads span {
+      font-size: 12px;
+      font-weight: bold;
+      color: #888888; }
+
+.personal {
+  margin-bottom: 60px;
+  overflow: hidden; }
+
+.pAccount {
+  border: 1px solid #dcdcdc;
+  display: block;
+  float: left; }
+  .pAccount li {
+    border-bottom: 1px solid #dcdcdc;
+    height: 52px;
+    width: 233px;
+    box-sizing: border-box;
+    display: block;
+    line-height: 52px;
+    text-align: left;
+    padding-left: 20px; }
+  .pAccount li:last-child {
+    border-bottom: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all; }
+  .pAccount li:hover, .pAccount li.activePAccount {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    background: #3fac00;
+    border-bottom: 1px solid #3fac00; }
+    .pAccount li:hover a, .pAccount li.activePAccount a {
+      display: block;
+      width: 233px;
+      height: 52px;
+      color: white; }
+  .pAccount a {
+    color: #3d3d3d;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; }
+
+.f_l_m_name {
+  margin-top: 40px;
+  display: block;
+  float: left;
+  width: 765px;
+  text-align: center;
+  color: black;
+  font-size: 18px; }
+  .f_l_m_name h6 {
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .f_l_m_name span {
+    font-size: 36px; }
+
+.tovary {
+  width: 745px;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-top: -10px;
+  float: right; }
+  .tovary thead {
+    background: #f5f5f5; }
+    .tovary thead th {
+      height: 52px;
+      vertical-align: middle;
+      text-align: left; }
+  .tovary tbody img {
+    width: 65px;
+    height: 65px; }
+  .tovary tbody td {
+    vertical-align: middle; }
+
+.postForm {
+  float: left;
+  margin-left: 100px;
+  width: 510px; }
+  .postForm form label {
+    color: #3d3d3d;
+    font-size: 12px;
+    margin-bottom: 8px; }
+  .postForm form input[type="text"], .postForm form input[type="email"], .postForm form input[type='password'] {
+    width: 500px;
+    border: 1px solid #dcdcdc;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif; }
+  .postForm form input[type='submit'] {
+    width: 130px;
+    height: 40px;
+    background: #3fac00;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-size: 18px; }
+  .postForm form input[type='submit']:hover {
+    background: #7ec629; }
+
+.bDate {
+  padding-top: 50px;
+  height: 140px;
+  border-top: 1px dashed #dcdcdc;
+  border-bottom: 1px dashed #dcdcdc; }
+  .bDate input[type="text"] {
+    width: 85px !important; }
+
+/*news*/
+.newses {
+  padding: 20px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc; }
+  .newses img {
+    max-width: 150px;
+    max-height: 112px;
+    width: 150px;
+    height: 112px;
+    float: left; }
+
+.textNewses {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  float: left;
+  width: 830px; }
+  .textNewses span {
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold; }
+  .textNewses p {
+    color: #666666;
+    font-size: 13px;
+    margin-bottom: 15px; }
+  .textNewses a {
+    color: #3fac00;
+    font-size: 12px; }
+
+.textNewsesDate {
+  color: #666666;
+  font-size: 10px;
+  margin-bottom: 6px;
+  margin-top: 10px; }
+
+.showMore {
+  cursor: pointer;
+  margin: 40px auto 65px auto;
+  display: block;
+  width: 150px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  background: #888888;
+  line-height: 40px;
+  transition: 0.5s background;
+  -webkit-transition: 0.5s background;
+  -o-transition: 0.5s background;
+  -moz-transition: 0.5s background; }
+
+.showMore:hover {
+  transition: 0.5s background;
+  -webkit-transition: 0.5s background;
+  -o-transition: 0.5s background;
+  -moz-transition: 0.5s background;
+  background: #666666; }
+
+.lift {
+  font-size: 48px;
+  color: #3fac00;
+  display: none; }
+
+.contentCurrentNews {
+  width: 80%;
+  margin: 40px auto 125px auto;
+  font-size: 16px; }
+  .contentCurrentNews span {
+    font-size: 16px;
+    font-weight: bold; }
+
+.acceptOrdersForm {
+  overflow: hidden; }
+  .acceptOrdersForm form {
+    float: left;
+    width: 510px; }
+  .acceptOrdersForm .orders {
+    float: right;
+    width: 405px;
+    background: #f5f5f5;
+    border: 1px solid #dcdcdc; }
+    .acceptOrdersForm .orders > span {
+      display: block; }
+    .acceptOrdersForm .orders span {
+      font-size: 14px;
+      color: #3b3b3b;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      text-align: center;
+      padding: 12px 0 16px; }
+    .acceptOrdersForm .orders div.ordersFooter {
+      position: relative;
+      height: 134px; }
+      .acceptOrdersForm .orders div.ordersFooter a {
+        display: block;
+        font-size: 13px;
+        color: #3b3b3b;
+        background: #ffcc33;
+        width: 200px;
+        height: 40px;
+        margin: 0 auto;
+        line-height: 40px;
+        text-align: center;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -moz-transition: 0.5s all; }
+      .acceptOrdersForm .orders div.ordersFooter a:hover {
+        background: #fdff0f;
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -moz-transition: 0.5s all; }
+    .acceptOrdersForm .orders div.ordersFooter:after {
+      content: '';
+      height: 2px;
+      width: 100%;
+      background: repeating-linear-gradient(90deg, #f5f5f5, #f5f5f5 8px, transparent 2px, transparent 14px);
+      position: absolute;
+      top: -31px;
+      left: 0; }
+
+.currentClient a {
+  color: #3d3d3d;
+  font-size: 16px;
+  border-top: 1px solid #dcdcdc;
+  border-left: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+  height: 52px;
+  width: 235px;
+  box-sizing: border-box;
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  line-height: 52px;
+  text-align: center;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  cursor: pointer; }
+.currentClient a:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  color: #3fac00;
+  position: relative;
+  border: 1px solid #3fac00; }
+.currentClient a:hover:after {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background: white; }
+.currentClient a:first-child {
+  margin-left: 0; }
+.currentClient a.active-clients {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  border: 1px solid #3fac00;
+  border-bottom: none;
+  position: relative;
+  color: #3fac00;
+  font-size: 16px;
+  font-weight: bold; }
+.currentClient a.active-clients:after {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  background: white; }
+
+.client {
+  margin-bottom: 20px;
+  display: none; }
+  .client input[type='email'], .client input[type='password'] {
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #dcdcdc; }
+  .client p:first-child {
+    margin-top: 30px; }
+  .client label {
+    color: #3d3d3d;
+    font-size: 12px; }
+  .client input[type='submit'] {
+    width: 130px;
+    height: 40px;
+    background: #3fac00;
+    color: white;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-size: 18px; }
+
+.active-client {
+  display: block; }
+
+.clients {
+  border-top: 1px solid #3fac00; }
+
+a.moveWithOutRegistration {
+  transition: 0.5s color;
+  -webkit-transition: 0.5s color;
+  -o-transition: 0.5s color;
+  -moz-transition: 0.5s color;
+  color: #3fac00;
+  margin-bottom: 60px;
+  font-size: 12px;
+  display: inline-block;
+  border-bottom: 1px solid #3fac00; }
+
+a.moveWithOutRegistration:hover {
+  transition: 0.5s color;
+  -webkit-transition: 0.5s color;
+  -o-transition: 0.5s color;
+  -moz-transition: 0.5s color;
+  color: black; }
+
+.delivery {
+  cursor: pointer;
+  height: 40px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  color: #3fac00;
+  position: relative;
+  border: 1px solid #cdcdcd;
+  border-bottom: 0;
+  padding: 0 12px;
+  margin-left: 10px;
+  line-height: 40px;
+  color: #3d3d3d;
+  font-size: 14px;
+  float: right; }
+
+.deliverys span {
+  line-height: 40px;
+  margin-right: 12px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  float: left; }
+
+.deliverysType {
+  border-top: 1px solid #3fac00; }
+
+.deliveryType {
+  margin-top: 30px;
+  display: none; }
+  .deliveryType iframe, .deliveryType div {
+    float: left; }
+  .deliveryType div {
+    color: #888888;
+    margin-left: 25px;
+    width: 125px;
+    font-size: 11px;
+    text-align: left; }
+    .deliveryType div span {
+      color: black; }
+
+.active-delivery {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  border: 1px solid #3fac00;
+  border-bottom: none;
+  position: relative;
+  color: #3fac00;
+  font-weight: bold; }
+
+.active-delivery:after {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background: white; }
+
+.delivery:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  color: #3fac00;
+  position: relative;
+  border: 1px solid #3fac00;
+  border-bottom: 0; }
+
+.delivery:hover:after {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background: white; }
+
+.active-deliveryType {
+  display: block; }
+
+.payments {
+  margin-top: 60px; }
+  .payments span {
+    line-height: 40px;
+    margin-right: 12px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    float: left; }
+
+.paymentType {
+  border-top: 1px solid #3fac00; }
+  .paymentType div {
+    margin: 10px 0 30px 0;
+    font-size: 12px;
+    color: #b8b8b8; }
+    .paymentType div span {
+      color: #642bb1; }
+
+.payment {
+  cursor: pointer;
+  height: 40px;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  color: #3fac00;
+  position: relative;
+  border: 1px solid #cdcdcd;
+  border-bottom: 0;
+  padding: 0 20px;
+  margin-left: 10px;
+  line-height: 40px;
+  color: #3d3d3d;
+  font-size: 14px;
+  float: right; }
+
+.active-payment {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  border: 1px solid #3fac00;
+  border-bottom: none;
+  position: relative;
+  color: #3fac00;
+  font-weight: bold; }
+
+.active-payment:after {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background: white; }
+
+.payment:hover {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  color: #3fac00;
+  position: relative;
+  border: 1px solid #3fac00;
+  border-bottom: 0; }
+
+.payment:hover:after {
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  content: '';
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background: white; }
+
+.paymentType {
+  padding-top: 30px; }
+  .paymentType label {
+    color: #3d3d3d;
+    font-size: 12px; }
+    .paymentType label span {
+      color: #7f58bd; }
+  .paymentType input[type='text'] {
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #dcdcdc; }
+  .paymentType textarea {
+    margin-top: 8px;
+    border: 1px solid #dcdcdc;
+    width: 490px;
+    padding: 10px;
+    resize: none;
+    height: 160px; }
+
+.discount p {
+  overflow: hidden; }
+.discount input[type='text'] {
+  width: 225px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+  height: 40px;
+  padding-left: 10px;
+  border: 1px solid #dcdcdc;
+  box-sizing: border-box;
+  float: left; }
+.discount input[type='submit'] {
+  float: left;
+  width: 120px;
+  height: 40px;
+  color: #2d2d2d;
+  font-size: 12px;
+  background: #ffcc33;
+  border: none;
+  font-weight: bold;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-left: 20px; }
+.discount input[type='submit']:hover {
+  background: #fdff0f;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -moz-transition: 0.5s all; }
+.discount label {
+  color: #3d3d3d;
+  font-size: 12px;
+  display: block; }
+  .discount label span {
+    color: #7f58bd; }
+
+.amoung {
+  margin-bottom: 60px;
+  height: 168px;
+  width: 510px;
+  box-sizing: border-box;
+  padding-top: 2px;
+  background: #f5f5f5;
+  position: relative; }
+  .amoung span {
+    display: block;
+    margin-top: 28px;
+    text-align: center;
+    font-size: 20px;
+    color: #000000; }
+    .amoung span a {
+      font-size: 30px;
+      font-weight: bold; }
+  .amoung input[type='submit'] {
+    width: 90%;
+    margin: 15px auto 0;
+    display: block;
+    height: 60px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    background: #3fac00;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    cursor: pointer; }
+  .amoung input[type='submit']:hover {
+    opacity: .8;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -moz-transition: 0.5s all; }
+
+.amoung:after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: repeating-linear-gradient(90deg, #f5f5f5, #f5f5f5 8px, transparent 2px, transparent 14px);
+  position: absolute;
+  top: -2px;
+  left: 0; }
+
+/*1172*/
+.goodsTov {
+  background: #fff;
+  height: 110px;
+  padding-top: 20px;
+  border-bottom: 1px solid #f5f5f5; }
+
+.tovLeftPart div.removeTov {
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+  width: 60px;
+  font-size: 18px;
+  float: left; }
+  .tovLeftPart div.removeTov i {
+    cursor: pointer; }
+.tovLeftPart img {
+  float: left;
+  height: 90px;
+  width: 85px;
+  margin-right: 20px; }
+.tovLeftPart div.aboutTovText {
+  display: block;
+  margin-bottom: 20px; }
+  .tovLeftPart div.aboutTovText span {
+    display: block;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 10px; }
+  .tovLeftPart div.aboutTovText .pri {
+    display: block; }
+.tovLeftPart .numeric {
+  float: left;
+  width: 50px;
+  font-size: 12px;
+  color: #3b3b3b; }
+  .tovLeftPart .numeric span {
+    font-size: 24px; }
+.tovLeftPart .tovPrice {
+  float: right;
+  color: #3b3b3b;
+  font-size: 24px; }
+  .tovLeftPart .tovPrice span {
+    color: #3b3b3b;
+    font-size: 12px; }
+
+.total {
+  display: block;
+  margin-top: 28px;
+  text-align: center;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 20px; }
+  .total span {
+    font-size: 30px !important; }
 
 /*# sourceMappingURL=style.css.map */
