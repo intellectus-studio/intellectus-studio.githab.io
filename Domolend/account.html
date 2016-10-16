@@ -15,14 +15,17 @@
     <div class="menuTop">
         <div class="borderBottom">
             <div class="width1000">
+                <div class="corpBurger">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
                 <ul class="corpMenu">
-                    <li><a href="#">О компании</a></li>
-                    <li><a href="#">Доставка и оплата</a></li>
-                    <li><a href="#">Программа лояльности</a></li>
-                    <li><a href="#">Гарантия</a></li>
-                    <li><a href="#">Сотрудничество</a></li>
-                    <li><a href="#">Оптовикам</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="corp_menu.htmlcorp_menu.html">О компании</a></li>
+                    <li><a href="corp_menu.html">Доставка и оплата</a></li>
+                    <li><a href="corp_menu.html">Программа лояльности</a></li>
+                    <li><a href="corp_menu.html">Гарантия</a></li>
+                    <li><a href="corp_menu.html">Сотрудничество</a></li>
+                    <li><a href="corp_menu.html">Оптовикам</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
                 </ul>
                 <div class="login">
                     <a><i class="fa fa-user" aria-hidden="true"></i>Вход в личный кабинет</a>
@@ -30,106 +33,192 @@
             </div>
         </div>
         <div class="clearAll"></div>
-        <div class="mMenu">
-            <div class="width1000">
-                <div class="logo floatLeft"><img src="img/logo.png" alt="логотип" title="логотип"/></div>
+        <div class="fixedMenu">
+            <div class="mMenu">
+                <div class="width1000">
+                    <div class="logo floatLeft"><a href="index.html"><img src="img/logo.png" alt="логотип" title="логотип"/></a></div>
+                    <div class="floatLeft search-form">
+                        <form action="">
+                            <input type="text" placeholder="Поиск"/>
 
-                <div class="floatLeft search-form">
-                    <form action="">
-                        <input type="text" placeholder="Поиск"/>
-
-                        <div class="subm"><input type="submit" value=""><i class="fa fa-search" aria-hidden="true"></i>
+                            <div class="subm"><input type="submit" value=""><i class="fa fa-search" aria-hidden="true"></i>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="numbers floatLeft">
+                        (061)764-72-70
+                        <div class="numberHide">
+                            все телефоны <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                            <ul class="phones">
+                                <li>(063)636-63-63</li>
+                                <li>(098)900-90-90</li>
+                                <li>(099)999-99-99</li>
+                            </ul>
                         </div>
-                    </form>
-                </div>
-                <div class="numbers floatLeft">
-                    (061)764-72-70
-                    <div class="numberHide">
-                        все телефоны <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                        <ul class="phones">
-                            <li>(063)636-63-63</li>
-                            <li>(098)900-90-90</li>
-                            <li>(099)999-99-99</li>
-                        </ul>
+                        <span class="callback">ОБРАТНЫЙ ЗВОНОК</span>
                     </div>
-                    <span class="callback">ОБРАТНЫЙ ЗВОНОК</span>
-                </div>
+                    <div class="callBack1">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="burger">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
+                    <div class="multibucket floatRight">
+                        <div class="likeWatch">
+                            <span>1</span>
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                        </div>
+                        <div class="bucket" onClick="window.location='bucket.html'">
+                            <a>1</a>
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>КОРЗИНА</span>
 
-                <div class="multibucket floatRight">
-                    <div class="likeWatch">
-                        <a>1</a>
-                        <i class="fa fa-heart-o" aria-hidden="true"></i>
-                        <i class="fa fa-eye" aria-hidden="true"></i>
+                            <div class="orders" id="orders">
+                                <span>ВАШ ЗАКАЗ</span>
+
+                                <div class="goodsTov">
+                                    <div class="tovLeftPart">
+                                        <div class="removeTov">
+                                            <i class="fa fa-times remove" aria-hidden="true"></i>
+                                        </div>
+                                        <img src="img/chair.jpg" alt="стул">
+
+                                        <div class="aboutTov">
+                                            <div class="aboutTovText">
+                                                <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
+                                                Краткое описание
+                                            </div>
+                                            <div class="pri">
+                                                <div class="numeric">
+                                                    <span>2</span>шт
+                                                </div>
+                                                <div class="tovPrice">
+                                                    400 <span>грн.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="goodsTov">
+                                    <div class="tovLeftPart">
+                                        <div class="removeTov">
+                                            <i class="fa fa-times remove" aria-hidden="true"></i>
+                                        </div>
+                                        <img src="img/chair.jpg" alt="стул">
+
+                                        <div class="aboutTov">
+                                            <div class="aboutTovText">
+                                                <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
+                                                Краткое описание
+                                            </div>
+                                            <div class="pri">
+                                                <div class="numeric">
+                                                    <span>2</span>шт
+                                                </div>
+                                                <div class="tovPrice">
+                                                    400 <span>грн.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="goodsTov">
+                                    <div class="tovLeftPart">
+                                        <div class="removeTov">
+                                            <i class="fa fa-times remove" aria-hidden="true"></i>
+                                        </div>
+                                        <img src="img/chair.jpg" alt="стул">
+
+                                        <div class="aboutTov">
+                                            <div class="aboutTovText">
+                                                <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
+                                                Краткое описание
+                                            </div>
+                                            <div class="pri">
+                                                <div class="numeric">
+                                                    <span>2</span>шт
+                                                </div>
+                                                <div class="tovPrice">
+                                                    400 <span>грн.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ordersFooter">
+                                    <div class="total">ОБЩАЯ СУММА<span>1200</span> грн.</div>
+                                    <a href="bucket.html">
+                                        РЕДАКТИРОВАТЬ ЗАКАЗ
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="bucket">
-                        <a>1</a>
-                        <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>КОРЗИНА</span>
-                    </div>
+                </div>
+                <div class="clearAll"></div>
+            </div>
+            <div class="menu">
+                <div class="menu width1000">
+                    <ul>
+                        <li><img src="img/ball.png" alt="Нитки" title="Нитки"/><span>Текстиль</span>
+                            <ul class="subMenu">
+                                <li>Посуда 1</li>
+                                <li>Посуда 2</li>
+                                <li>Посуда 3</li>
+                                <li>Посуда 4</li>
+                                <li>Посуда 5</li>
+                                <li>Посуда 6</li>
+                                <li>Посуда 7</li>
+                                <li>Посуда 8</li>
+                                <li>Посуда 9</li>
+                            </ul>
+                        </li>
+                        <li><img src="img/cup.png" alt="Чашка" title="Чашка"/><span>Посуда</span>
+                            <ul class="subMenu">
+                                <li>Посуда 1</li>
+                                <li>Посуда 2</li>
+                                <li>Посуда 3</li>
+                                <li>Посуда 4</li>
+                                <li>Посуда 5</li>
+                                <li>Посуда 6</li>
+                                <li>Посуда 7</li>
+                                <li>Посуда 8</li>
+                                <li>Посуда 9</li>
+                            </ul>
+                        </li>
+                        <li><img src="img/train.png" alt="поезд" title="поезд"/><span>Детские товары</span>
+                            <ul class="subMenu">
+                                <li>Посуда 1</li>
+                                <li>Посуда 2</li>
+                                <li>Посуда 3</li>
+                                <li>Посуда 4</li>
+                                <li>Посуда 5</li>
+                                <li>Посуда 6</li>
+                                <li>Посуда 7</li>
+                                <li>Посуда 8</li>
+                                <li>Посуда 9</li>
+                            </ul>
+                        </li>
+                        <li><img src="img/sale.png" alt="разпродажа" title="разпродажа"/><span>Скидки и акции</span>
+                            <ul class="subMenu">
+                                <li>Посуда 1</li>
+                                <li>Посуда 2</li>
+                                <li>Посуда 3</li>
+                                <li>Посуда 4</li>
+                                <li>Посуда 5</li>
+                                <li>Посуда 6</li>
+                                <li>Посуда 7</li>
+                                <li>Посуда 8</li>
+                                <li>Посуда 9</li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="clearAll"></div>
         </div>
-
     </div>
 </header>
-<div class="menu">
-<div class="menu width1000">
-    <ul>
-        <li><img src="img/ball.png" alt="Нитки" title="Нитки"/><span>Текстиль</span>
-            <ul class="subMenu">
-                <li>Посуда 1</li>
-                <li>Посуда 2</li>
-                <li>Посуда 3</li>
-                <li>Посуда 4</li>
-                <li>Посуда 5</li>
-                <li>Посуда 6</li>
-                <li>Посуда 7</li>
-                <li>Посуда 8</li>
-                <li>Посуда 9</li>
-            </ul>
-        </li>
-        <li><img src="img/cup.png" alt="Чашка" title="Чашка"/><span>Посуда</span>
-            <ul class="subMenu">
-                <li>Посуда 1</li>
-                <li>Посуда 2</li>
-                <li>Посуда 3</li>
-                <li>Посуда 4</li>
-                <li>Посуда 5</li>
-                <li>Посуда 6</li>
-                <li>Посуда 7</li>
-                <li>Посуда 8</li>
-                <li>Посуда 9</li>
-            </ul>
-        </li>
-        <li><img src="img/train.png" alt="поезд" title="поезд"/><span>Детские товары</span>
-            <ul class="subMenu">
-                <li>Посуда 1</li>
-                <li>Посуда 2</li>
-                <li>Посуда 3</li>
-                <li>Посуда 4</li>
-                <li>Посуда 5</li>
-                <li>Посуда 6</li>
-                <li>Посуда 7</li>
-                <li>Посуда 8</li>
-                <li>Посуда 9</li>
-            </ul>
-        </li>
-        <li><img src="img/sale.png" alt="разпродажа" title="разпродажа"/><span>Скидки и акции</span>
-            <ul class="subMenu">
-                <li>Посуда 1</li>
-                <li>Посуда 2</li>
-                <li>Посуда 3</li>
-                <li>Посуда 4</li>
-                <li>Посуда 5</li>
-                <li>Посуда 6</li>
-                <li>Посуда 7</li>
-                <li>Посуда 8</li>
-                <li>Посуда 9</li>
-            </ul>
-        </li>
-    </ul>
-</div>
-</div>
+
 <div class="width1000 breadcrumbs">
     <h3>ЛИЧНЫЙ КАБИНЕТ</h3>
     <div class="breads">
@@ -139,7 +228,7 @@
 <div class="width1000 personal">
 
         <ul class="pAccount">
-            <li class="activePAccount"><a href="#">Личный кабинет</a></li>
+            <li class="activePAccount"><a>Личный кабинет</a></li>
             <li><a href="account1.html">История покупок</a></li>
             <li><a href="account2.html">Личная информация</a></li>
             <li><a href="#">Выход</a></li>
@@ -153,6 +242,42 @@
 </div>
 
 
+<div class="popPrivatRoom">
+    <form>
+        <div>
+            <div class="currentClientPopUp">
+                <a class="active-clientsPopUp clPopUp">ПОСТОЯННЫЙ КЛИЕНТ</a>
+                <a class=" clPopUp">НОВЫЙ КЛИЕНТ</a>
+            </div>
+            <div class="clearAll"></div>
+            <div class="clientsPopUp">
+                <div class="clientPopUp active-clientPopUp ">
+                    <p><label for="email1">Введите Ваше E-mail</label><input type="email" required id="email1"/></p>
+
+                    <p class="hide"><label for="pasword1">Введите Пароль</label><input type="password" required id="pasword1"/>
+                    </p>
+
+                    <p class="hide"><input type="submit" value="Войти"/> <span class="forget">забыл пароль?</span></p>
+                    <input type="submit" value="Востановить" class="show"/>
+
+                </div>
+                <div class="clientPopUp ">
+
+                    <p><label for="name">Введите Ваше Имя </label><input type="text" required id="name"/></p>
+
+                    <p><label for="email">Введите Ваше E-mail</label><input type="email" required id="email"/></p>
+
+                    <p><label for="pasword">Введите Пароль</label><input type="password" required id="pasword"/></p>
+
+                    <p><label for="repasword">Введите Пароль Повторно</label><input type="password" required id="repasword"/>
+                    </p>
+                    <input type="submit" value="Зарегестрировать"/>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div id="overlay"></div>
 <footer>
     <div class="width1000">
         <div class="footer_top">
@@ -172,13 +297,13 @@
             <div class="service">
                 <H6>СЕРВИСЫ</H6>
                 <ul>
-                    <li><a href="#">О компании</a></li>
-                    <li><a href="#">Оптовики</a></li>
-                    <li><a href="#">Программа лояоьности</a></li>
-                    <li><a href="#">Гарантия</a></li>
-                    <li><a href="#">Сотрудничество</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="corp_menu.html">О компании</a></li>
+                    <li><a href="corp_menu.html">Оптовики</a></li>
+                    <li><a href="corp_menu.html">Программа лояоьности</a></li>
+                    <li><a href="corp_menu.html">Гарантия</a></li>
+                    <li><a href="corp_menu.html">Сотрудничество</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                    <li><a href="corp_menu.html">Доставка и оплата</a></li>
                 </ul>
             </div>
             <div class="sender">
