@@ -604,12 +604,19 @@ jQuery(document).ready(function () {
         var callbackForm = $('.callbackForm');
 
         var mPlus;
-        if($(this).hasClass('callback') ){
-            mPlus = 36;
-        }else{
-            mPlus =60;
+        if ($(this).hasClass('callback')) {
+            if ($(window).scrollTop() <= 70) {
+                mPlus = 106;
+            } else {
+                mPlus = 36;
+            }
+        } else {
+            if ($(window).scrollTop() <= 70) {
+                mPlus = 130;
+            } else {
+                mPlus = 60;
+            }
         }
-
         if (callbackForm.css('display') == 'none') {
             callbackForm.css('top', $(this).position().top + mPlus);
             callbackForm.css('left', $(this).position().left);
@@ -618,62 +625,28 @@ jQuery(document).ready(function () {
             callbackForm.slideUp(300);
         }
     })
+    $(window).scroll(function () {
+        if ($(this).width() > 425) {
+            if ($(window).scrollTop() <= 70) {
+                $('.callbackForm').css('top', 182);
+            } else {
+                $('.callbackForm').css('top', 112);
+            }
+        } else {
+            if ($(window).scrollTop() <= 70) {
+                $('.callbackForm').css('top', 295);
 
+            } else {
+                $('.callbackForm').css('top', 210);
+            }
+        }
+    })
+
+    $(document).mouseup(function (e) {
+        var container = $(".callbackForm");
+        if (container.has(e.target).length === 0) {
+            container.slideUp(300);
+        }
+    });
 });
 
-/*
- jQuery.fn.sortElements = (function () {
-
- var sort = [].sort;
-
- return function (comparator, getSortable) {
-
- getSortable = getSortable ||
- function () {
- return this;
- };
-
- var placements = this.map(function () {
-
- var sortElement = getSortable.call(this),
- parentNode = sortElement.parentNode,
-
- // Since the element itself will change position, we have
- // to have some way of storing its original position in
- // the DOM. The easiest way is to have a 'flag' node:
- nextSibling = parentNode.insertBefore(
- document.createTextNode(''), sortElement.nextSibling);
-
- return function () {
-
- if (parentNode === this) {
- throw new Error("You can't sort elements if any one is a descendant of another.");
- }
-
- // Insert before flag:
- parentNode.insertBefore(this, nextSibling);
- // Remove flag:
- parentNode.removeChild(nextSibling);
-
- };
-
- });
-
- return sort.call(this, comparator).each(function (i) {
- placements[i].call(getSortable.call(this));
- });
-
- };
-
- })();*/
-
-/*
- $(document).mouseup(function (e) {
- var popup = $("#modal_form_recall");
- if (!$('.callBack').is(e.target) && !popup.is(e.target) && popup.has(e.target).length == 0) {
- popup.removeClass('recall_toggle');
- }
- ;
-
-
- })*/
