@@ -24,7 +24,7 @@ jQuery(document).ready(function () {
     });
 
     var timer = setInterval(nSlide, 5000);
-    if($(window).width()<=425){
+    if ($(window).width() <= 425) {
         clearInterval(timer);
     }
     $('#lArrow').click(function () {
@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
     });
 
 
-    $('.corpBurger').click(function(){
+    $('.corpBurger').click(function () {
         if ($('.corpMenu').css('display') == 'none') {
             $('.corpMenu').fadeIn(500);
         } else {
@@ -58,8 +58,9 @@ jQuery(document).ready(function () {
 
     /*mobile filter*/
     $('.bx-filter-parameters-box-title').click(function () {
-        if( $(this).next().css('display') == 'none'){
-        $(this).next().slideDown(300);}else{
+        if ($(this).next().css('display') == 'none') {
+            $(this).next().slideDown(300);
+        } else {
             $(this).next().slideUp(300);
         }
     })
@@ -259,11 +260,11 @@ jQuery(document).ready(function () {
 
     $(window).scroll(function () {
         if ($(document).scrollTop() > 1000) {
-            $('.lift').css({'opacity': '1', 'cursor': 'pointer','visibility': 'visible'});
+            $('.lift').css({'opacity': '1', 'cursor': 'pointer', 'visibility': 'visible'});
         }
 
         else {
-            $('.lift').css({'opacity': '0', 'cursor': 'default','visibility': 'hidden'});
+            $('.lift').css({'opacity': '0', 'cursor': 'default', 'visibility': 'hidden'});
         }
     });
 
@@ -519,7 +520,6 @@ jQuery(document).ready(function () {
         var width = 400;
 
 
-
         var count = 1;
         var carousel = $('.pop_up1_position')[0];
         var list = $('#popSlide')[0];
@@ -528,8 +528,8 @@ jQuery(document).ready(function () {
 
         $('.prevPopArrow')[0].onclick = function () {
             var wid = $(window).width();
-            if(wid<=425){
-                width=300;
+            if (wid <= 425) {
+                width = 300;
             }
             positionLeft = Math.min(positionLeft + width * count, 0);
             list.style.marginLeft = positionLeft + 'px';
@@ -537,8 +537,8 @@ jQuery(document).ready(function () {
 
         $('.nextPopArrow')[0].onclick = function () {
             var wid = $(window).width();
-            if(wid<=425){
-                width=300;
+            if (wid <= 425) {
+                width = 300;
             }
             positionLeft = Math.max(positionLeft - width * count, -width * (listItems.length - count));
             list.style.marginLeft = positionLeft + 'px';
@@ -550,15 +550,15 @@ jQuery(document).ready(function () {
     borderBottom = borderBottom.offsetHeight + parseInt(getComputedStyle(borderBottom).marginBottom);
 
     var topHeight = 297;
-    if($(window).width()== 768){
+    if ($(window).width() == 768) {
         topHeight = 367;
     }
 
-    $(window).resize(function(){
-        if($(window).width()== 768){
+    $(window).resize(function () {
+        if ($(window).width() == 768) {
             topHeight = 367;
         }
-        else if($(window).width()>= 1024){
+        else if ($(window).width() >= 1024) {
             topHeight = 297;
         }
     })
@@ -595,6 +595,27 @@ jQuery(document).ready(function () {
             $('.menu').fadeIn(500);
         } else {
             $('.menu').fadeOut(500);
+        }
+    })
+
+    /*callback*/
+
+    $('.callback, .callBack1').click(function () {
+        var callbackForm = $('.callbackForm');
+
+        var mPlus;
+        if($(this).hasClass('callback') ){
+            mPlus = 36;
+        }else{
+            mPlus =60;
+        }
+
+        if (callbackForm.css('display') == 'none') {
+            callbackForm.css('top', $(this).position().top + mPlus);
+            callbackForm.css('left', $(this).position().left);
+            callbackForm.slideDown(300);
+        } else {
+            callbackForm.slideUp(300);
         }
     })
 

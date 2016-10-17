@@ -3327,6 +3327,44 @@ hr {
   display: none;
 }
 
+.callbackForm {
+  display: none;
+  box-sizing: border-box;
+  padding-top:10px;
+  background: grey;
+  z-index: 1500;
+  text-align: center;
+  width: 200px;
+  height: 170px;
+  position: fixed;
+ /* -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+
+  input[type='text'], input[type='email'] {
+    height: 20px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #642bb1;
+    margin-top: 5px;
+  }
+
+  input[type='submit']{
+    margin-top:10px;
+  }
+
+  label {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  p {
+    margin-top: 5px;
+  }
+}
+
 @media screen and(min-width: 769px) and(max-width: 1024px) {
   .width1000 {
     width: 900px;
@@ -4210,33 +4248,33 @@ hr {
     box-sizing: border-box;
   }
 
-  .filterMenu{
-    margin-top:10px;
+  .filterMenu {
+    margin-top: 10px;
     width: 300px;
-    div.sort:nth-child(2){
+    div.sort:nth-child(2) {
       display: none;
     }
   }
 
-  .productsProduct{
-    img{
+  .productsProduct {
+    img {
       width: 135px;
       height: 180px;
     }
-    .head_prod{
+    .head_prod {
       width: 140px;
       margin-left: 5px;
     }
-    .btns{
-      a{
+    .btns {
+      a {
         margin-bottom: 5px;
       }
     }
   }
 
-  .listContent{
+  .listContent {
     width: 300px;
-    .products{
+    .products {
       float: none;
       margin: 0 auto 5px;
     }
@@ -4246,10 +4284,10 @@ hr {
     display: none;
   }
 
-  .pagesType{
-    a{
+  .pagesType {
+    a {
       margin-left: 0;
-      img{
+      img {
         max-width: 25px;
         max-height: 25px;
       }
@@ -4266,7 +4304,7 @@ hr {
     }
   }
 
-  .pNone{
+  .pNone {
     display: block;
   }
 
@@ -4302,7 +4340,7 @@ hr {
   }
 
   .productDescription {
-    margin-top:10px;
+    margin-top: 10px;
     width: 300px;
     margin-left: 0;
   }
@@ -4314,24 +4352,24 @@ hr {
     height: 200px;
   }
 
-  .pop_up1{
+  .pop_up1 {
     width: 300px;
     max-height: 320px;
   }
-  .productPriceBottom div span{
+  .productPriceBottom div span {
     background: url(../img/hryvna.png) no-repeat 10px 0;
-    padding-left:38px;
+    padding-left: 38px;
   }
 
-  .comments_submit{
-    margin-left:10px;
+  .comments_submit {
+    margin-left: 10px;
   }
 
   #popSlide img {
     float: left;
     max-width: 300px;
   }
-  .pop_up1_position{
+  .pop_up1_position {
     max-width: 300px;
   }
 
