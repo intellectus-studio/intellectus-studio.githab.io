@@ -255,11 +255,38 @@ ul, li {
   top: 70px;
   left: 0;
   background: #ffcc33;
-  z-index: 9000; }
+  z-index: 9000;
+  width: 350px; }
+  .subMenu ul {
+    display: block;
+    float: left;
+    margin-left: 5px; }
+  .subMenu img {
+    max-height: 200px;
+    max-width: 200px; }
   .subMenu li {
     display: block !important;
-    width: 240px !important;
+    width: 120px !important;
     padding: 5px 0 !important; }
+    .subMenu li a {
+      transition: 0.5s color;
+      -webkit-transition: 0.5s color;
+      -o-transition: 0.5s color;
+      -moz-transition: 0.5s color; }
+  .subMenu li:hover {
+    background: #CDDC39; }
+    .subMenu li:hover a {
+      transition: 0.5s color;
+      -webkit-transition: 0.5s color;
+      -o-transition: 0.5s color;
+      -moz-transition: 0.5s color;
+      color: #642bb1; }
+  .subMenu div {
+    max-width: 200px;
+    max-height: 200px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 30px; }
 
 .banner {
   position: relative;
@@ -1688,7 +1715,8 @@ a.moveWithOutRegistration:hover {
   float: left;
   width: 50px;
   font-size: 12px;
-  color: #3b3b3b; }
+  color: #3b3b3b;
+  margin-top: -6px; }
   .tovLeftPart .numeric span {
     font-size: 24px; }
 .tovLeftPart .tovPrice {
@@ -1698,7 +1726,8 @@ a.moveWithOutRegistration:hover {
   margin-right: 10px; }
   .tovLeftPart .tovPrice span {
     color: #3b3b3b;
-    font-size: 12px; }
+    font-size: 12px;
+    top: 0; }
 
 .total {
   display: block;
@@ -1708,7 +1737,8 @@ a.moveWithOutRegistration:hover {
   color: #000000;
   margin-bottom: 20px; }
   .total span {
-    font-size: 30px !important; }
+    font-size: 30px !important;
+    top: 0; }
 
 table.backet {
   width: 100%; }
@@ -2769,7 +2799,7 @@ hr {
   -o-transform-origin: 70% 0 0;
   -ms-transform-origin: 70% 0 0;
   transform-origin: 70% 0 0;
-  width: 405px;
+  width: 302px;
   -webkit-transition: all .4s ease;
   -moz-transition: all .4s ease;
   -o-transition: all .4s ease;
@@ -2993,6 +3023,15 @@ hr {
     width: 100%; }
     .subMenu li {
       width: 100% !important; }
+    .subMenu div {
+      max-width: 100px;
+      max-height: 200px;
+      float: right;
+      margin-right: 20px;
+      margin-top: 50px; }
+    .subMenu img {
+      max-height: 200px;
+      max-width: 100px; }
 
   .f_l_m_name {
     width: 665px; }
@@ -3121,9 +3160,14 @@ hr {
 
   .subMenu {
     position: static;
-    margin-top: 10px; }
+    margin-top: 10px;
+    width: 100%; }
+    .subMenu ul {
+      float: none; }
     .subMenu li {
       width: 100% !important; }
+    .subMenu div {
+      display: none; }
 
   .banner {
     width: 100%;
@@ -3457,9 +3501,16 @@ hr {
     .sender .butt {
       float: none; }
 
+  .check1 {
+    float: none; }
+
+  .check2 {
+    float: none;
+    text-align: left; }
+
   .we_check li {
-    display: block;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    margin-left: 20px; }
 
   .bSlider {
     overflow: hidden;
@@ -3499,7 +3550,12 @@ hr {
 
   .subMenu {
     position: static;
+    width: 100%;
     margin-top: 10px; }
+    .subMenu div {
+      display: none; }
+    .subMenu ul {
+      float: none; }
     .subMenu li {
       width: 100% !important; }
 
@@ -3691,5 +3747,11 @@ hr {
 
   .textNewses {
     width: 530px; } }
+@media screen and (width: 320px) {
+  .banner {
+    height: 150px !important; } }
+@media screen and (width: 375px) {
+  .banner {
+    height: 180px !important; } }
 
 /*# sourceMappingURL=style.css.map */
