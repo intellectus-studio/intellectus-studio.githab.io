@@ -74,12 +74,11 @@ body {
     margin-bottom: 120px; }
 
 .posLapTop {
-  position: relative;
   float: left;
-  width: 50%;
-  z-index: 1; }
-  .posLapTop div.nth2, .posLapTop #target {
+  width: 50%; }
+  .posLapTop #target {
     position: relative;
+    z-index: 1;
     zoom: 1;
     width: 366px;
     height: 300px;
@@ -88,22 +87,22 @@ body {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
-    behavior: url(/pie/PIE.htc); }
-    .posLapTop div.nth2 p, .posLapTop #target p {
+    behavior: url(css/PIE.htc); }
+    .posLapTop #target p {
       text-align: justify;
       width: 275px;
       margin: 0 auto; }
-    .posLapTop div.nth2 img, .posLapTop #target img {
+    .posLapTop #target img {
       display: block;
       margin: 0 auto; }
-    .posLapTop div.nth2 span, .posLapTop #target span {
+    .posLapTop #target span {
       margin: 17px 0 26px;
       text-align: center;
       display: block;
       font-size: 22px;
       color: #3c3c3b;
       font-family: roboto, sans-serif; }
-    .posLapTop div.nth2 div:first-child, .posLapTop #target div:first-child {
+    .posLapTop #target div:first-child {
       margin-bottom: 120px; }
 
 .mLeft {
