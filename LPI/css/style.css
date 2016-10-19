@@ -259,7 +259,7 @@ ul {
   line-height: 24px;
   color: #ffffff; }
 
-footer {
+footer, .footer {
   margin-top: 100px;
   background: #3b3b3b; }
 
