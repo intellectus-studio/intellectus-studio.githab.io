@@ -15,9 +15,7 @@
   <div class="menuTop">
     <div class="borderBottom">
       <div class="width1000">
-        <div class="corpBurger">
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </div>
+
         <ul class="corpMenu">
           <li><a href="corp_menu.html">О компании</a></li>
           <li><a href="corp_menu.html">Доставка и оплата</a></li>
@@ -36,8 +34,11 @@
     <div class="fixedMenu">
       <div class="mMenu">
         <div class="width1000">
-          <div class="logo floatLeft"><a href="index.html"><img src="img/logo.png" alt="логотип" title="логотип"/></a></div>
-
+          <div class="logo floatLeft"><a href="index.html"><img src="img/logo_domolend.svg" alt="логотип"
+                                                                title="логотип"/></a></div>
+          <div class="callBack1">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
           <div class="floatLeft search-form">
             <form action="">
               <input type="text" placeholder="Поиск"/>
@@ -51,29 +52,34 @@
             <div class="numberHide">
               все телефоны <i class="fa fa-chevron-down" aria-hidden="true"></i>
               <ul class="phones">
-                <li>(063)636-63-63</li>
-                <li>(098)900-90-90</li>
-                <li>(099)999-99-99</li>
+                <li><img src="img/lifecell.png" alt="лайф">(063)636-63-63</li>
+                <li><img src="img/kyivstar.png" alt="">(098)900-90-90</li>
+                <li><img src="img/vodafone.png" alt="">(099)999-99-99</li>
               </ul>
             </div>
             <span class="callback">ОБРАТНЫЙ ЗВОНОК</span>
           </div>
+          <div class="burgers">
+            Меню
+          </div>
+          <div class="corpBurger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
           <div class="burger">
             <i class="fa fa-bars" aria-hidden="true"></i>
           </div>
-          <div class="callBack1">
-            <i class="fa fa-phone" aria-hidden="true"></i>
-          </div>
+
+
           <div class="callbackForm">
             <form>
-              <p class="hide"><label for="textCallBack">Введите Ваше Имя</label><input type="text" required=""
-                                                                                       id="textCallBack">
+              <p class="hide"><input type="text" required="" id="textCallBack" placeholder="Введите Ваше Имя">
               </p>
 
-              <p><label for="emailCallBack">Введите Ваше E-mail</label><input type="email" required=""
-                                                                              id="emailCallBack"></p>
+              <p><input type="email" required="" id="emailCallBack" placeholder="Введите Ваше E-mail"></p>
 
-              <p class="hide"><input type="submit" class="butt3" value="Заказать Звонок"></p>
+              <p class="days">Пн-Пт, с 9.00 до 19.00 </p>
+
+              <p class="hide"><input type="submit" class="" value="Перезвоните мне"></p>
 
             </form>
           </div>
@@ -171,12 +177,14 @@
         </div>
         <div class="clearAll"></div>
       </div>
-      <div class="menu">
+      <div style="background: #ffcc33;">
         <div class="menu width1000">
-          <ul>
-            <li><img src="img/ball.png" alt="Нитки" title="Нитки"/><span>Текстиль</span>
+          <ul class="menuA menuToggle">
+            <li class="click"><img src="img/ball.png" alt="Нитки" title="Нитки"/><span>Текстиль</span>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+
               <div class="subMenu">
-                <ul >
+                <ul>
                   <li><a href="catalogue.html ">Посуда</a></li>
                   <li><a href="catalogue.html ">Посуда</a></li>
                   <li><a href="catalogue.html ">Посуда</a></li>
@@ -192,9 +200,11 @@
 
 
             </li>
-            <li><img src="img/cup.png" alt="Чашка" title="Чашка"/><span>Посуда</span>
+            <li class="click"><img src="img/cup.png" alt="Чашка" title="Чашка"/><span>Посуда</span>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+
               <div class="subMenu">
-                <ul >
+                <ul>
                   <li><a href="catalogue.html ">Посуда</a></li>
                   <li><a href="catalogue.html ">Посуда</a></li>
                   <li><a href="catalogue.html ">Посуда</a></li>
@@ -208,9 +218,11 @@
                 <div><img src="img/lamp.jpg" alt=""></div>
               </div>
             </li>
-            <li><img src="img/train.png" alt="поезд" title="поезд"/><span>Детские товары</span>
+            <li class="click"><img src="img/train.png" alt="поезд" title="поезд"/><span>Детские товары</span>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+
               <div class="subMenu">
-                <ul >
+                <ul>
                   <li><a href="catalogue.html ">Посуда</a></li>
                   <li><a href="catalogue.html ">Посуда</a></li>
                   <li><a href="catalogue.html ">Посуда</a></li>
@@ -224,9 +236,11 @@
                 <div><img src="img/lamp.jpg" alt=""></div>
               </div>
             </li>
-            <li><img src="img/sale.png" alt="разпродажа" title="разпродажа"/><span>Скидки и акции</span>
+            <li class="click"><img src="img/sale.png" alt="разпродажа" title="разпродажа"/><span>Скидки и акции</span>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+
               <div class="subMenu">
-                <ul >
+                <ul>
                   <li><a href="catalogue.html ">Посуда</a></li>
                   <li><a href="catalogue.html ">Посуда</a></li>
                   <li><a href="catalogue.html ">Посуда</a></li>
@@ -242,6 +256,17 @@
             </li>
           </ul>
         </div>
+      </div>
+      <div class="menu2">
+        <ul class="corpMenuA">
+          <li><a href="corp_menu.html">О компании</a></li>
+          <li><a href="corp_menu.html">Доставка и оплата</a></li>
+          <li><a href="corp_menu.html">Программа лояльности</a></li>
+          <li><a href="corp_menu.html">Гарантия</a></li>
+          <li><a href="corp_menu.html">Сотрудничество</a></li>
+          <li><a href="corp_menu.html">Оптовикам</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
       </div>
     </div>
   </div>

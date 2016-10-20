@@ -1,635 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Domoland</title>
-    <link type="text/css" rel="stylesheet" href="css/style.css"/>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
-          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Domoland</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css"/>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900i" rel="stylesheet">
 
 </head>
 <body>
 <header>
-    <div class="menuTop">
-        <div class="borderBottom">
-            <div class="width1000">
-                <div class="corpBurger">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                </div>
-                <ul class="corpMenu">
-                    <li><a href="corp_menu.html">О компании</a></li>
-                    <li><a href="corp_menu.html">Доставка и оплата</a></li>
-                    <li><a href="corp_menu.html">Программа лояльности</a></li>
-                    <li><a href="corp_menu.html">Гарантия</a></li>
-                    <li><a href="corp_menu.html">Сотрудничество</a></li>
-                    <li><a href="corp_menu.html">Оптовикам</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
-                </ul>
-                <div class="login">
-                    <a><i class="fa fa-user" aria-hidden="true"></i>Вход в личный кабинет</a>
-                </div>
+  <div class="menuTop">
+    <div class="borderBottom">
+      <div class="width1000">
+
+        <ul class="corpMenu">
+          <li><a href="corp_menu.html">О компании</a></li>
+          <li><a href="corp_menu.html">Доставка и оплата</a></li>
+          <li><a href="corp_menu.html">Программа лояльности</a></li>
+          <li><a href="corp_menu.html">Гарантия</a></li>
+          <li><a href="corp_menu.html">Сотрудничество</a></li>
+          <li><a href="corp_menu.html">Оптовикам</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+        <div class="login">
+          <a><i class="fa fa-user" aria-hidden="true"></i>Вход в личный кабинет</a>
+        </div>
+      </div>
+    </div>
+    <div class="clearAll"></div>
+    <div class="fixedMenu">
+      <div class="mMenu">
+        <div class="width1000">
+          <div class="logo floatLeft"><a href="index.html"><img src="img/logo_domolend.svg" alt="логотип"
+                                                                title="логотип"/></a></div>
+          <div class="callBack1">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </div>
+          <div class="floatLeft search-form">
+            <form action="">
+              <input type="text" placeholder="Поиск"/>
+
+              <div class="subm"><input type="submit" value=""><i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+            </form>
+          </div>
+          <div class="numbers floatLeft">
+            (061)764-72-70
+            <div class="numberHide">
+              все телефоны <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              <ul class="phones">
+                <li><img src="img/lifecell.png" alt="лайф">(063)636-63-63</li>
+                <li><img src="img/kyivstar.png" alt="">(098)900-90-90</li>
+                <li><img src="img/vodafone.png" alt="">(099)999-99-99</li>
+              </ul>
             </div>
+            <span class="callback">ОБРАТНЫЙ ЗВОНОК</span>
+          </div>
+          <div class="burgers">
+            Меню
+          </div>
+          <div class="corpBurger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+          <div class="burger">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+
+
+          <div class="callbackForm">
+            <form>
+              <p class="hide"><input type="text" required="" id="textCallBack" placeholder="Введите Ваше Имя">
+              </p>
+
+              <p><input type="email" required="" id="emailCallBack" placeholder="Введите Ваше E-mail"></p>
+
+              <p class="days">Пн-Пт, с 9.00 до 19.00 </p>
+
+              <p class="hide"><input type="submit" class="" value="Перезвоните мне"></p>
+
+            </form>
+          </div>
+          <div class="multibucket floatRight">
+            <div class="likeWatch">
+              <span>1</span>
+              <i class="fa fa-heart-o" aria-hidden="true" onClick="window.location='wishList.html'"></i>
+              <i class="fa fa-eye" aria-hidden="true" onClick="window.location='compare.html'"></i>
+            </div>
+            <div class="bucket" onClick="window.location='bucket.html'">
+              <a>1</a>
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>КОРЗИНА</span>
+
+              <div class="orders" id="orders">
+                <span>ВАШ ЗАКАЗ</span>
+
+                <div class="goodsTov">
+                  <div class="tovLeftPart">
+                    <div class="removeTov">
+                      <i class="fa fa-times remove" aria-hidden="true"></i>
+                    </div>
+                    <img src="img/chair.jpg" alt="стул">
+
+                    <div class="aboutTov">
+                      <div class="aboutTovText">
+                        <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
+                        Краткое описание
+                      </div>
+                      <div class="pri">
+                        <div class="numeric">
+                          <span>2</span>шт
+                        </div>
+                        <div class="tovPrice">
+                          400 <span>грн.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="goodsTov">
+                  <div class="tovLeftPart">
+                    <div class="removeTov">
+                      <i class="fa fa-times remove" aria-hidden="true"></i>
+                    </div>
+                    <img src="img/chair.jpg" alt="стул">
+
+                    <div class="aboutTov">
+                      <div class="aboutTovText">
+                        <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
+                        Краткое описание
+                      </div>
+                      <div class="pri">
+                        <div class="numeric">
+                          <span>2</span>шт
+                        </div>
+                        <div class="tovPrice">
+                          400 <span>грн.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="goodsTov">
+                  <div class="tovLeftPart">
+                    <div class="removeTov">
+                      <i class="fa fa-times remove" aria-hidden="true"></i>
+                    </div>
+                    <img src="img/chair.jpg" alt="стул">
+
+                    <div class="aboutTov">
+                      <div class="aboutTovText">
+                        <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
+                        Краткое описание
+                      </div>
+                      <div class="pri">
+                        <div class="numeric">
+                          <span>2</span>шт
+                        </div>
+                        <div class="tovPrice">
+                          400 <span>грн.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="ordersFooter">
+                  <div class="total">ОБЩАЯ СУММА<span>1200</span> грн.</div>
+                  <a href="bucket.html">
+                    РЕДАКТИРОВАТЬ ЗАКАЗ
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="clearAll"></div>
-        <div class="fixedMenu">
-            <div class="mMenu">
-                <div class="width1000">
-                    <div class="logo floatLeft"><a href="index.html"><img src="img/logo.png" alt="логотип" title="логотип"/></a></div>
+      </div>
+      <div style="background: #ffcc33;">
+        <div class="menu width1000">
+          <ul class="menuA menuToggle">
+            <li class="click"><img src="img/ball.png" alt="Нитки" title="Нитки"/><span>Текстиль</span>
+              <i class="fa fa-plus" aria-hidden="true"></i>
 
-                    <div class="floatLeft search-form">
-                        <form action="">
-                            <input type="text" placeholder="Поиск"/>
-
-                            <div class="subm"><input type="submit" value=""><i class="fa fa-search" aria-hidden="true"></i>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="numbers floatLeft">
-                        (061)764-72-70
-                        <div class="numberHide">
-                            все телефоны <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                            <ul class="phones">
-                                <li>(063)636-63-63</li>
-                                <li>(098)900-90-90</li>
-                                <li>(099)999-99-99</li>
-                            </ul>
-                        </div>
-                        <span class="callback">ОБРАТНЫЙ ЗВОНОК</span>
-                    </div>
-                    <div class="burger">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
-                    </div>
-                    <div class="callBack1">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                    </div>
-                    <div class="callbackForm">
-                        <form>
-                            <p class="hide"><label for="textCallBack">Введите Ваше Имя</label><input type="text" required=""
-                                                                                                     id="textCallBack">
-                            </p>
-
-                            <p><label for="emailCallBack">Введите Ваше E-mail</label><input type="email" required=""
-                                                                                            id="emailCallBack"></p>
-
-                            <p class="hide"><input type="submit" class="butt3" value="Заказать Звонок"></p>
-
-                        </form>
-                    </div>
-                    <div class="multibucket floatRight">
-                        <div class="likeWatch">
-                            <span>1</span>
-                            <i class="fa fa-heart-o" aria-hidden="true" onClick="window.location='wishList.html'"></i>
-                            <i class="fa fa-eye" aria-hidden="true" onClick="window.location='compare.html'"></i>
-                        </div>
-                        <div class="bucket" onClick="window.location='bucket.html'">
-                            <a>1</a>
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>КОРЗИНА</span>
-
-                            <div class="orders" id="orders">
-                                <span>ВАШ ЗАКАЗ</span>
-
-                                <div class="goodsTov">
-                                    <div class="tovLeftPart">
-                                        <div class="removeTov">
-                                            <i class="fa fa-times remove" aria-hidden="true"></i>
-                                        </div>
-                                        <img src="img/chair.jpg" alt="стул">
-
-                                        <div class="aboutTov">
-                                            <div class="aboutTovText">
-                                                <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
-                                                Краткое описание
-                                            </div>
-                                            <div class="pri">
-                                                <div class="numeric">
-                                                    <span>2</span>шт
-                                                </div>
-                                                <div class="tovPrice">
-                                                    400 <span>грн.</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="goodsTov">
-                                    <div class="tovLeftPart">
-                                        <div class="removeTov">
-                                            <i class="fa fa-times remove" aria-hidden="true"></i>
-                                        </div>
-                                        <img src="img/chair.jpg" alt="стул">
-
-                                        <div class="aboutTov">
-                                            <div class="aboutTovText">
-                                                <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
-                                                Краткое описание
-                                            </div>
-                                            <div class="pri">
-                                                <div class="numeric">
-                                                    <span>2</span>шт
-                                                </div>
-                                                <div class="tovPrice">
-                                                    400 <span>грн.</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="goodsTov">
-                                    <div class="tovLeftPart">
-                                        <div class="removeTov">
-                                            <i class="fa fa-times remove" aria-hidden="true"></i>
-                                        </div>
-                                        <img src="img/chair.jpg" alt="стул">
-
-                                        <div class="aboutTov">
-                                            <div class="aboutTovText">
-                                                <span>ЗАГОЛОВОК/МАРКИРОВКА</span>
-                                                Краткое описание
-                                            </div>
-                                            <div class="pri">
-                                                <div class="numeric">
-                                                    <span>2</span>шт
-                                                </div>
-                                                <div class="tovPrice">
-                                                    400 <span>грн.</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ordersFooter">
-                                    <div class="total">ОБЩАЯ СУММА<span>1200</span> грн.</div>
-                                    <a href="bucket.html">
-                                        РЕДАКТИРОВАТЬ ЗАКАЗ
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="clearAll"></div>
-            </div>
-            <div class="menu">
-                <div class="menu width1000">
-                    <ul>
-                        <li><img src="img/ball.png" alt="Нитки" title="Нитки"/><span>Текстиль</span>
-                            <div class="subMenu">
-                                <ul >
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                </ul>
-                                <div><img src="img/lamp.jpg" alt=""></div>
-                            </div>
+              <div class="subMenu">
+                <ul>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                </ul>
+                <div><img src="img/lamp.jpg" alt=""></div>
+              </div>
 
 
-                        </li>
-                        <li><img src="img/cup.png" alt="Чашка" title="Чашка"/><span>Посуда</span>
-                            <div class="subMenu">
-                                <ul >
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                </ul>
-                                <div><img src="img/lamp.jpg" alt=""></div>
-                            </div>
-                        </li>
-                        <li><img src="img/train.png" alt="поезд" title="поезд"/><span>Детские товары</span>
-                            <div class="subMenu">
-                                <ul >
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                </ul>
-                                <div><img src="img/lamp.jpg" alt=""></div>
-                            </div>
-                        </li>
-                        <li><img src="img/sale.png" alt="разпродажа" title="разпродажа"/><span>Скидки и акции</span>
-                            <div class="subMenu">
-                                <ul >
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                    <li><a href="catalogue.html ">Посуда</a></li>
-                                </ul>
-                                <div><img src="img/lamp.jpg" alt=""></div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            </li>
+            <li class="click"><img src="img/cup.png" alt="Чашка" title="Чашка"/><span>Посуда</span>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+
+              <div class="subMenu">
+                <ul>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                </ul>
+                <div><img src="img/lamp.jpg" alt=""></div>
+              </div>
+            </li>
+            <li class="click"><img src="img/train.png" alt="поезд" title="поезд"/><span>Детские товары</span>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+
+              <div class="subMenu">
+                <ul>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                </ul>
+                <div><img src="img/lamp.jpg" alt=""></div>
+              </div>
+            </li>
+            <li class="click"><img src="img/sale.png" alt="разпродажа" title="разпродажа"/><span>Скидки и акции</span>
+              <i class="fa fa-plus" aria-hidden="true"></i>
+
+              <div class="subMenu">
+                <ul>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                  <li><a href="catalogue.html ">Посуда</a></li>
+                </ul>
+                <div><img src="img/lamp.jpg" alt=""></div>
+              </div>
+            </li>
+          </ul>
         </div>
+      </div>
+      <div class="menu2">
+        <ul class="corpMenuA">
+          <li><a href="corp_menu.html">О компании</a></li>
+          <li><a href="corp_menu.html">Доставка и оплата</a></li>
+          <li><a href="corp_menu.html">Программа лояльности</a></li>
+          <li><a href="corp_menu.html">Гарантия</a></li>
+          <li><a href="corp_menu.html">Сотрудничество</a></li>
+          <li><a href="corp_menu.html">Оптовикам</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+        </ul>
+      </div>
     </div>
+  </div>
 </header>
 <!--слайдер-->
 
 <div class="banner">
-    <div class="sliders">
-        <div class="slide active-slide">
-            <img src="img/slider.png" alt="Слайдер"
-                 title="Покупать или нет? вот в чем вопрос, тебе подскажет зеленая кнопка"/>
-        </div>
-        <div class="slide">
-            <img src="img/slider.png" alt="Слайдер"
-                 title="Покупать или нет? вот в чем вопрос, тебе подскажет зеленая кнопка"/>
-        </div>
-        <div class="slide">
-            <img src="img/slider.png" alt="Слайдер"
-                 title="Покупать или нет? вот в чем вопрос, тебе подскажет зеленая кнопка"/>
-        </div>
+  <div class="sliders">
+    <div class="slide active-slide">
+      <img src="img/slider.png" alt="Слайдер"
+           title="Покупать или нет? вот в чем вопрос, тебе подскажет зеленая кнопка"/>
     </div>
-    <div class="navigation">
-        <div class="left_Arrow" id="lArrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
-        <div class="right_Arrow" id="rArrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+    <div class="slide">
+      <img src="img/slider.png" alt="Слайдер"
+           title="Покупать или нет? вот в чем вопрос, тебе подскажет зеленая кнопка"/>
     </div>
-    <div class="linear"></div>
+    <div class="slide">
+      <img src="img/slider.png" alt="Слайдер"
+           title="Покупать или нет? вот в чем вопрос, тебе подскажет зеленая кнопка"/>
+    </div>
+  </div>
+  <div class="navigation">
+    <div class="left_Arrow" id="lArrow"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+    <div class="right_Arrow" id="rArrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+  </div>
+  <div class="linear"></div>
 </div>
 
 <div class="width1000 tov">
-    <h5>ТОВАРЫ</h5>
+  <h5>ТОВАРЫ</h5>
 
-    <div class="width1000 all">
-        <div class="floatLeft Tov1">
-            <a class="TopSales">Хиты продаж</a>
-            <a class="Sales">Распродажа</a>
-            <a class="New">Новинки</a>
-        </div>
-        <div class="floatRight Tov2">
-            <div><a href="catalogue.html">Все хиты</a></div>
-            <div><a href="catalogue.html">Все распродажи</a></div>
-            <div><a href="catalogue.html">Все новинки</a></div>
-        </div>
-        <div class="clearAll"></div>
+  <div class="width1000 all">
+    <div class="floatLeft Tov1">
+      <a class="TopSales">Хиты продаж</a>
+      <a class="Sales">Распродажа</a>
+      <a class="New">Новинки</a>
     </div>
+    <div class="floatRight Tov2">
+      <div><a href="catalogue.html">Все хиты</a></div>
+      <div><a href="catalogue.html">Все распродажи</a></div>
+      <div><a href="catalogue.html">Все новинки</a></div>
+    </div>
+    <div class="clearAll"></div>
+  </div>
 
-    <div class="goods width1000">
-        <div class="left_Arrow" id="goodsLeft"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
-        <div class="right_Arrow" id="goodsRight"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+  <div class="goods width1000">
+    <div class="left_Arrow" id="goodsLeft"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+    <div class="right_Arrow" id="goodsRight"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
 
-        <div class="width1000 goods_sliders">
-            <div class="goods_float_left">
-                <div class="products" val="1">
-                    <a href="currentProduct.html"><img src="img/dog.jpg" alt="картинка" title=""/></a>
+    <div class="width1000 goods_sliders">
+      <div class="goods_float_left">
+        <div class="products" val="1">
+          <a href="currentProduct.html"><img src="img/dog.jpg" alt="картинка" title=""/></a>
 
 
-                    <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
+          <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
                         <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i></span>
-                        <span>Краткое описание</span>
+                            class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i></span>
+            <span>Краткое описание</span>
 
-                        <div class="price">100 <span>грн.</span></div>
-                        <div class="btns">
-                            <a class="buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
-                            <ul>
-                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="products" val="2">
-                    <a href="currentProduct.html"> <img src="img/chair.jpg" alt="картинка" title=""/></a>
-
-
-                    <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
-                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i></span>
-                        <span>Краткое описание</span>
-
-                        <div class="price">100 <span>грн.</span></div>
-                        <div class="btns">
-                            <a class="buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
-                            <ul>
-                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="products" val="3">
-                    <a href="currentProduct.html"><img src="img/time.jpg" alt="картинка" title=""/></a>
-
-
-                    <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
-                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i></span>
-                        <span>Краткое описание</span>
-
-                        <div class="price">100 <span>грн.</span></div>
-                        <div class="btns">
-                            <a class="buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
-                            <ul>
-                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="products" val="4">
-                    <a href="currentProduct.html"> <img src="img/lamp.jpg" alt="картинка" title=""/></a>
-
-
-                    <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
-                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i></span>
-                        <span>Краткое описание</span>
-
-                        <div class="price">100 <span>грн.</span></div>
-                        <div class="btns">
-                            <a class="buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
-                            <ul>
-                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="products" val="5">
-                    <a href="currentProduct.html"> <img src="img/dog.jpg" alt="картинка" title=""/></a>
-
-
-                    <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
-                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i></span>
-                        <span>Краткое описание</span>
-
-                        <div class="price">100 <span>грн.</span></div>
-                        <div class="btns">
-                            <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
-                            <ul>
-                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="products" val="6">
-                    <a href="currentProduct.html"><img src="img/time.jpg" alt="картинка" title=""/></a>
-
-
-                    <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
-                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
-                                class="fa fa-star" aria-hidden="true"></i></span>
-                        <span>Краткое описание</span>
-
-                        <div class="price">100 <span>грн.</span></div>
-                        <div class="btns">
-                            <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
-                            <ul>
-                                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
-                                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="price">100 <span>грн.</span></div>
+            <div class="btns">
+              <a class="buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
+              <ul>
+                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
+              </ul>
             </div>
+          </div>
         </div>
+        <div class="products" val="2">
+          <a href="currentProduct.html"> <img src="img/chair.jpg" alt="картинка" title=""/></a>
+
+
+          <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
+                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i></span>
+            <span>Краткое описание</span>
+
+            <div class="price">100 <span>грн.</span></div>
+            <div class="btns">
+              <a class="buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
+              <ul>
+                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="products" val="3">
+          <a href="currentProduct.html"><img src="img/time.jpg" alt="картинка" title=""/></a>
+
+
+          <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
+                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i></span>
+            <span>Краткое описание</span>
+
+            <div class="price">100 <span>грн.</span></div>
+            <div class="btns">
+              <a class="buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
+              <ul>
+                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="products" val="4">
+          <a href="currentProduct.html"> <img src="img/lamp.jpg" alt="картинка" title=""/></a>
+
+
+          <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
+                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i></span>
+            <span>Краткое описание</span>
+
+            <div class="price">100 <span>грн.</span></div>
+            <div class="btns">
+              <a class="buy"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
+              <ul>
+                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="products" val="5">
+          <a href="currentProduct.html"> <img src="img/dog.jpg" alt="картинка" title=""/></a>
+
+
+          <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
+                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i></span>
+            <span>Краткое описание</span>
+
+            <div class="price">100 <span>грн.</span></div>
+            <div class="btns">
+              <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
+              <ul>
+                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="products" val="6">
+          <a href="currentProduct.html"><img src="img/time.jpg" alt="картинка" title=""/></a>
+
+
+          <div class="head_prod">ЗАГОЛОВОК/МАРКИРОВКА
+                        <span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i
+                            class="fa fa-star" aria-hidden="true"></i></span>
+            <span>Краткое описание</span>
+
+            <div class="price">100 <span>грн.</span></div>
+            <div class="btns">
+              <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Купить</a>
+              <ul>
+                <li><i class="fa fa-heart-o" aria-hidden="true"></i></li>
+                <li><i class="fa fa-eye" aria-hidden="true"></i></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
+  </div>
 
 </div>
 
 <!--популярные товары-->
 <div class="bg">
-    <div class="pCategory width1000">
-        <h5>ПОПУЛЯРНЫЕ КАТЕГОРИИ</h5>
+  <div class="pCategory width1000">
+    <h5>ПОПУЛЯРНЫЕ КАТЕГОРИИ</h5>
 
-        <ul>
-            <li><img src="img/lamp.jpg" alt="лампа"/> название категории</li>
-            <li><img src="img/chair.jpg" alt="стул"/> название категории</li>
-            <li><img src="img/dog.jpg" alt="гав-гав"/> название категории</li>
-            <li><img src="img/time.jpg" alt="время"/> название категории</li>
-            <li><img src="img/lamp.jpg" alt="лампа"/> название категории</li>
-            <li><img src="img/chair.jpg" alt="стул"/> название категории</li>
-            <li><img src="img/dog.jpg" alt="гав-гав"/> название категории</li>
-            <li><img src="img/time.jpg" alt="время"/> название категории</li>
-        </ul>
+    <ul>
+      <li><img src="img/lamp.jpg" alt="лампа"/> название категории</li>
+      <li><img src="img/chair.jpg" alt="стул"/> название категории</li>
+      <li><img src="img/dog.jpg" alt="гав-гав"/> название категории</li>
+      <li><img src="img/time.jpg" alt="время"/> название категории</li>
+      <li><img src="img/lamp.jpg" alt="лампа"/> название категории</li>
+      <li><img src="img/chair.jpg" alt="стул"/> название категории</li>
+      <li><img src="img/dog.jpg" alt="гав-гав"/> название категории</li>
+      <li><img src="img/time.jpg" alt="время"/> название категории</li>
+    </ul>
 
-    </div>
+  </div>
 </div>
 
 <div class="newsesMain">
-    <h5>НОВОСТИ</h5>
+  <h5>НОВОСТИ</h5>
 
-    <div class="bg_news width1000">
-        <div class="news">
-            <div>
-                <a href="#"><img src="img/news1.jpg" alt="" title=""/></a>
-            </div>
-            <h4><a href="#">Название новости</a></h4>
-
-			<span>
-				Lorem ipsum dolor sit amet, consectetur
-				adipisicing elit, sed do eiusmod tempor
-			</span>
-
-            <div class="row">
-                27.01.16
-                <a href="#">Читать далее</a>
-            </div>
-        </div>
-
-        <div class="news">
-            <div>
-                <a href="#"><img src="img/news2.jpg" alt="" title=""/></a>
-            </div>
-            <h4><a href="#">Название новости</a></h4>
+  <div class="bg_news width1000">
+    <div class="news">
+      <div>
+        <a href="#"><img src="img/news1.jpg" alt="" title=""/></a>
+      </div>
+      <h4><a href="#">Название новости</a></h4>
 
 			<span>
 				Lorem ipsum dolor sit amet, consectetur
 				adipisicing elit, sed do eiusmod tempor
 			</span>
 
-            <div class="row">
-                27.01.16
-                <a href="#">Читать далее</a>
-            </div>
-        </div>
-
-        <div class="news">
-            <div>
-                <a href="#"><img src="img/news3.jpg" alt="" title=""/></a>
-            </div>
-            <h4><a href="#">Название новости</a></h4>
-
-			<span>
-				Lorem ipsum dolor sit amet, consectetur
-				adipisicing elit, sed do eiusmod tempor
-			</span>
-
-            <div class="row">
-                27.01.16
-                <a href="#">Читать далее</a>
-            </div>
-        </div>
-        <a href="News.html" class="butt texts">Все новости</a>
+      <div class="row">
+        27.01.16
+        <a href="#">Читать далее</a>
+      </div>
     </div>
+
+    <div class="news">
+      <div>
+        <a href="#"><img src="img/news2.jpg" alt="" title=""/></a>
+      </div>
+      <h4><a href="#">Название новости</a></h4>
+
+			<span>
+				Lorem ipsum dolor sit amet, consectetur
+				adipisicing elit, sed do eiusmod tempor
+			</span>
+
+      <div class="row">
+        27.01.16
+        <a href="#">Читать далее</a>
+      </div>
+    </div>
+
+    <div class="news">
+      <div>
+        <a href="#"><img src="img/news3.jpg" alt="" title=""/></a>
+      </div>
+      <h4><a href="#">Название новости</a></h4>
+
+			<span>
+				Lorem ipsum dolor sit amet, consectetur
+				adipisicing elit, sed do eiusmod tempor
+			</span>
+
+      <div class="row">
+        27.01.16
+        <a href="#">Читать далее</a>
+      </div>
+    </div>
+    <a href="News.html" class="butt texts">Все новости</a>
+  </div>
 </div>
 
 <h5 class="h5">Бренды</h5>
 
 <div class="brends">
-    <div class="width950">
-        <div class="left_Arrow" id="brendLeft"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
-        <div class="right_Arrow" id="brendRight"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+  <div class="width950">
+    <div class="left_Arrow" id="brendLeft"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+    <div class="right_Arrow" id="brendRight"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
 
-        <div class="bSlider">
-            <div class="brendFloatLeft">
-                <div class="logotype"><img src="img/ikea.png" alt="логитп" title="логотип"/></div>
-                <div class="logotype"><img src="img/osram.png" alt="логитп" title="логотип"/></div>
-                <div class="logotype"><img src="img/zepter.png" alt="логитп" title="логотип"/></div>
-                <div class="logotype"><img src="img/ikea.png" alt="логитп" title="логотип"/></div>
-                <div class="logotype"><img src="img/osram.png" alt="логитп" title="логотип"/></div>
-                <div class="logotype"><img src="img/zepter.png" alt="логитп" title="логотип"/></div>
-                <div class="logotype"><img src="img/ikea.png" alt="логитп" title="логотип"/></div>
-                <div class="logotype"><img src="img/zepter.png" alt="логитп" title="логотип"/></div>
-                <div class="logotype"><img src="img/osram.png" alt="логитп" title="логотип"/></div>
-            </div>
-        </div>
+    <div class="bSlider">
+      <div class="brendFloatLeft">
+        <div class="logotype"><img src="img/ikea.png" alt="логитп" title="логотип"/></div>
+        <div class="logotype"><img src="img/osram.png" alt="логитп" title="логотип"/></div>
+        <div class="logotype"><img src="img/zepter.png" alt="логитп" title="логотип"/></div>
+        <div class="logotype"><img src="img/ikea.png" alt="логитп" title="логотип"/></div>
+        <div class="logotype"><img src="img/osram.png" alt="логитп" title="логотип"/></div>
+        <div class="logotype"><img src="img/zepter.png" alt="логитп" title="логотип"/></div>
+        <div class="logotype"><img src="img/ikea.png" alt="логитп" title="логотип"/></div>
+        <div class="logotype"><img src="img/zepter.png" alt="логитп" title="логотип"/></div>
+        <div class="logotype"><img src="img/osram.png" alt="логитп" title="логотип"/></div>
+      </div>
     </div>
+  </div>
 </div>
 
 <div id="modal_form">
-    <span id="modal_close"><i class="fa fa-times" aria-hidden="true"></i></span>
-    <h3> Товар добавлен в корзину</h3>
-    <div><i class="fa fa-check-circle-o" aria-hidden="true"></i></div>
-    <a href="bucket.html" class="edit_order butt3" style="margin: 20px auto;">В корзину</a>
+  <span id="modal_close"><i class="fa fa-times" aria-hidden="true"></i></span>
+
+  <h3> Товар добавлен в корзину</h3>
+
+  <div><i class="fa fa-check-circle-o" aria-hidden="true"></i></div>
+  <a href="bucket.html" class="edit_order butt3" style="margin: 20px auto;">В корзину</a>
 </div>
 <div class="popPrivatRoom">
-    <form>
-        <div>
-            <div class="currentClientPopUp">
-                <a class="active-clientsPopUp clPopUp">ПОСТОЯННЫЙ КЛИЕНТ</a>
-                <a class=" clPopUp">НОВЫЙ КЛИЕНТ</a>
-            </div>
-            <div class="clearAll"></div>
-            <div class="clientsPopUp">
-                <div class="clientPopUp active-clientPopUp ">
-                    <p><label for="email1">Введите Ваше E-mail</label><input type="email" required id="email1"/></p>
+  <form>
+    <div>
+      <div class="currentClientPopUp">
+        <a class="active-clientsPopUp clPopUp">ПОСТОЯННЫЙ КЛИЕНТ</a>
+        <a class=" clPopUp">НОВЫЙ КЛИЕНТ</a>
+      </div>
+      <div class="clearAll"></div>
+      <div class="clientsPopUp">
+        <div class="clientPopUp active-clientPopUp ">
+          <p><label for="email1">Введите Ваше E-mail</label><input type="email" required id="email1"/></p>
 
-                    <p class="hide"><label for="pasword1">Введите Пароль</label><input type="password" required id="pasword1"/>
-                    </p>
+          <p class="hide"><label for="pasword1">Введите Пароль</label><input type="password" required id="pasword1"/>
+          </p>
 
-                    <p class="hide"><input type="submit" value="Войти"/> <span class="forget">забыл пароль?</span></p>
-                    <input type="submit" value="Востановить" class="show"/>
+          <p class="hide"><input type="submit" value="Войти"/> <span class="forget">забыл пароль?</span></p>
+          <input type="submit" value="Востановить" class="show"/>
 
-                </div>
-                <div class="clientPopUp ">
-
-                    <p><label for="name">Введите Ваше Имя </label><input type="text" required id="name"/></p>
-
-                    <p><label for="email">Введите Ваше E-mail</label><input type="email" required id="email"/></p>
-
-                    <p><label for="pasword">Введите Пароль</label><input type="password" required id="pasword"/></p>
-
-                    <p><label for="repasword">Введите Пароль Повторно</label><input type="password" required id="repasword"/>
-                    </p>
-                    <input type="submit" value="Зарегестрировать"/>
-                </div>
-            </div>
         </div>
-    </form>
+        <div class="clientPopUp ">
+
+          <p><label for="name">Введите Ваше Имя </label><input type="text" required id="name"/></p>
+
+          <p><label for="email">Введите Ваше E-mail</label><input type="email" required id="email"/></p>
+
+          <p><label for="pasword">Введите Пароль</label><input type="password" required id="pasword"/></p>
+
+          <p><label for="repasword">Введите Пароль Повторно</label><input type="password" required id="repasword"/>
+          </p>
+          <input type="submit" value="Зарегестрировать"/>
+        </div>
+      </div>
+    </div>
+  </form>
 </div>
 <div id="overlay"></div>
 <footer>
-    <div class="width1000">
-        <div class="footer_top">
-            <div class="workdays">
-                <H6>ГРАФИК РАБОТЫ</H6>
+  <div class="width1000">
+    <div class="footer_top">
+      <div class="workdays">
+        <H6>ГРАФИК РАБОТЫ</H6>
 
-                <div>
-                    пн-тп................9-18 <br/>
-                    сб,вс................выходной
-                </div>
-                <div>
-                    тел: (061)764-72-70 <br/>
-                    skype: domoland <br/>
-                    email: domoland@mail.ru
-                </div>
-            </div>
-            <div class="service">
-                <H6>СЕРВИСЫ</H6>
-                <ul>
-                    <li><a href="corp_menu.html">О компании</a></li>
-                    <li><a href="corp_menu.html">Оптовики</a></li>
-                    <li><a href="corp_menu.html">Программа лояоьности</a></li>
-                    <li><a href="corp_menu.html">Гарантия</a></li>
-                    <li><a href="corp_menu.html">Сотрудничество</a></li>
-                    <li><a href="contact.html">Контакты</a></li>
-                    <li><a href="corp_menu.html">Доставка и оплата</a></li>
-                </ul>
-            </div>
-            <div class="sender">
-                <H6>Подписка на рассылку публикаций</H6>
-
-                <form action="">
-                    <input class="fild" type="text" placeholder="Введите ваше имя"/>
-                    <input class="fild" type="email" placeholder="Введите ваш email"/>
-                    <input class="butt" type="submit" value="Подписаться"/>
-                </form>
-            </div>
+        <div>
+          пн-тп................9-18 <br/>
+          сб,вс................выходной
         </div>
-        <div class="we_check">
-            <div class="check1"><span>МЫ ПРИНИМАЕМ К ОПЛАТЕ</span>
-                <ul>
-                    <li><a href="#" target="_blank"><img src="img/domoland_hover.png" alt="Бонусная Система DOMOLAND"/></a>
-                    </li>
-                    <li><a href="#" target="_blank"><img src="img/visa.png" alt="виза, visa"/></a></li>
-                    <li><a href="#" target="_blank"><img src="img/maestro.png" alt="мастеркард, mastercard"/></a></li>
-                    <li><a href="#" target="_blank"><img src="img/privat.png" alt="приватбанк, privatbank"/></a></li>
-                    <li><a href="#" target="_blank"><img src="img/paypal.png" alt="пайпел, PayPal"/></a></li>
-                </ul>
-            </div>
-            <div class="check2"><span>ПРИСОЕДЕНЯЙТЕСЬ К НАМ</span>
-                <ul>
-                    <li><a href="https://vk.com" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-                    <li><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    </li>
-                    <li><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube-play"
-                                                                         aria-hidden="true"></i></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-
+        <div>
+          тел: (061)764-72-70 <br/>
+          skype: domoland <br/>
+          email: domoland@mail.ru
         </div>
+      </div>
+      <div class="service">
+        <H6>СЕРВИСЫ</H6>
+        <ul>
+          <li><a href="corp_menu.html">О компании</a></li>
+          <li><a href="corp_menu.html">Оптовики</a></li>
+          <li><a href="corp_menu.html">Программа лояоьности</a></li>
+          <li><a href="corp_menu.html">Гарантия</a></li>
+          <li><a href="corp_menu.html">Сотрудничество</a></li>
+          <li><a href="contact.html">Контакты</a></li>
+          <li><a href="corp_menu.html">Доставка и оплата</a></li>
+        </ul>
+      </div>
+      <div class="sender">
+        <H6>Подписка на рассылку публикаций</H6>
+
+        <form action="">
+          <input class="fild" type="text" placeholder="Введите ваше имя"/>
+          <input class="fild" type="email" placeholder="Введите ваш email"/>
+          <input class="butt" type="submit" value="Подписаться"/>
+        </form>
+      </div>
     </div>
-    <div class="clearAll"></div>
-    <div class="rights">
-        <div class="width1000 creaters">Создание и разработка сайта &copy; Intellectus-studio 2016</div>
+    <div class="we_check">
+      <div class="check1"><span>МЫ ПРИНИМАЕМ К ОПЛАТЕ</span>
+        <ul>
+          <li><a href="#" target="_blank"><img src="img/domoland_hover.png" alt="Бонусная Система DOMOLAND"/></a>
+          </li>
+          <li><a href="#" target="_blank"><img src="img/visa.png" alt="виза, visa"/></a></li>
+          <li><a href="#" target="_blank"><img src="img/maestro.png" alt="мастеркард, mastercard"/></a></li>
+          <li><a href="#" target="_blank"><img src="img/privat.png" alt="приватбанк, privatbank"/></a></li>
+          <li><a href="#" target="_blank"><img src="img/paypal.png" alt="пайпел, PayPal"/></a></li>
+        </ul>
+      </div>
+      <div class="check2"><span>ПРИСОЕДЕНЯЙТЕСЬ К НАМ</span>
+        <ul>
+          <li><a href="https://vk.com" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+          <li><a href="https://facebook.com" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="https://youtube.com" target="_blank"><i class="fa fa-youtube-play"
+                                                               aria-hidden="true"></i></a></li>
+          <li><a href="#" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+
     </div>
-    <a class="lift"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
+  </div>
+  <div class="clearAll"></div>
+  <div class="rights">
+    <div class="width1000 creaters">Создание и разработка сайта &copy; Intellectus-studio 2016</div>
+  </div>
+  <a class="lift"><i class="fa fa-arrow-circle-o-up" aria-hidden="true"></i></a>
 
 
 </footer>
