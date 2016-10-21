@@ -3511,6 +3511,10 @@ hr {
     font-weight: bold;
     font-family: roboto, sans-serif;
     display: block; }
+  
+  h5{
+    font-size: 24px;
+  }
 
   .ogrClass {
     overflow-x: auto; }
