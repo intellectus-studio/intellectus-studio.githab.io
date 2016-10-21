@@ -4081,6 +4081,10 @@ hr {
     width: 300px;
     max-height: 320px; }
 
+  .creaters {
+    font-size: 11px;
+    text-align: center; }
+
   .productPriceBottom div span {
     background: url(../img/hryvna.png) no-repeat 5px 0;
     padding-left: 35px; }
