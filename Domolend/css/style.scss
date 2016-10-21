@@ -3872,6 +3872,10 @@ hr {
 
   .numbers {
     margin-top: 10px;
+    span {
+      top: -21px;
+      left: 135px;
+    }
   }
 
   .multibucket {
@@ -4139,11 +4143,6 @@ hr {
     position: absolute;
     right: 40%;
     top: 185px;
-
-    span {
-      top: -21px;
-      left: 135px;
-    }
 
     .callback {
       display: none;

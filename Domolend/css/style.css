@@ -3357,6 +3357,9 @@ hr {
 
   .numbers {
     margin-top: 10px; }
+    .numbers span {
+      top: -21px;
+      left: 135px; }
 
   .multibucket {
     margin-top: 10px; }
@@ -3558,9 +3561,6 @@ hr {
     position: absolute;
     right: 40%;
     top: 185px; }
-    .numbers span {
-      top: -21px;
-      left: 135px; }
     .numbers .callback {
       display: none; }
 
