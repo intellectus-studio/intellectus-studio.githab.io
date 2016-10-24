@@ -2774,6 +2774,10 @@ table.backet {
   font-size: 14px;
   padding-left: 10px;
   box-sizing: border-box;
+
+  i {
+    margin-left: 5px;
+  }
 }
 
 .bx-filter-param-text {
@@ -2784,6 +2788,7 @@ table.backet {
 .bx-filter-block {
   box-sizing: border-box;
   padding: 20px 0 21px 9px;
+  display: none;
 
 }
 

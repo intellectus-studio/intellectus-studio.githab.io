@@ -2435,6 +2435,8 @@ table.backet {
   font-size: 14px;
   padding-left: 10px;
   box-sizing: border-box; }
+  .bx-filter-parameters-box-hint i {
+    margin-left: 5px; }
 
 .bx-filter-param-text {
   font-size: 14px;
@@ -2442,7 +2444,8 @@ table.backet {
 
 .bx-filter-block {
   box-sizing: border-box;
-  padding: 20px 0 21px 9px; }
+  padding: 20px 0 21px 9px;
+  display: none; }
 
 .bx-filter-input-checkbox input[type='checkbox'] {
   display: none; }
