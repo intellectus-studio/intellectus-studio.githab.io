@@ -218,11 +218,11 @@ jQuery(document).ready(function () {
         $('#submit1, #overlay').click(function () {
             $('#modal_form_recall1')
                 .animate({opacity: 0, top: '45%'}, 200,
-                    function () {
-                        $(this).css('display', 'none');
-                        $('#overlay').fadeOut(400);
-                    }
-                );
+                function () {
+                    $(this).css('display', 'none');
+                    $('#overlay').fadeOut(400);
+                }
+            );
         });
     });
 
@@ -361,11 +361,11 @@ jQuery(document).ready(function () {
     $('#overlay').click(function () {
         $('.popPrivatRoom')
             .animate({opacity: 0, top: '45%'}, 200,
-                function () {
-                    $('.popPrivatRoom').css('display', 'none');
-                    $('#overlay').css('display', 'none').fadeOut(400);
-                }
-            );
+            function () {
+                $('.popPrivatRoom').css('display', 'none');
+                $('#overlay').css('display', 'none').fadeOut(400);
+            }
+        );
     });
 
     $('.tellWhen').click(function () {
@@ -379,11 +379,11 @@ jQuery(document).ready(function () {
     $('#overlay').click(function () {
         $('.when')
             .animate({opacity: 0, top: '45%'}, 200,
-                function () {
-                    $('.when').css('display', 'none');
-                    $('#overlay').css('display', 'none').fadeOut(400);
-                }
-            );
+            function () {
+                $('.when').css('display', 'none');
+                $('#overlay').css('display', 'none').fadeOut(400);
+            }
+        );
     });
 
 
@@ -400,11 +400,11 @@ jQuery(document).ready(function () {
     $('#modal_close, #overlay').click(function () {
         $('#modal_form')
             .animate({opacity: 0, top: '45%'}, 200,
-                function () {
-                    $(this).css('display', 'none');
-                    $('#overlay').fadeOut(400);
-                }
-            );
+            function () {
+                $(this).css('display', 'none');
+                $('#overlay').fadeOut(400);
+            }
+        );
     });
 
 
@@ -556,12 +556,12 @@ jQuery(document).ready(function () {
     $('#overlay').click(function () {
         $('.pop_up1')
             .animate({opacity: 0, top: '45%'}, 200,
-                function () {
-                    $('#popSlide').css('margin-left', 0);
-                    $('.pop_up1').css('display', 'none');
-                    $('#overlay').css('display', 'none').fadeOut(400);
-                }
-            );
+            function () {
+                $('#popSlide').css('margin-left', 0);
+                $('.pop_up1').css('display', 'none');
+                $('#overlay').css('display', 'none').fadeOut(400);
+            }
+        );
     });
 
 
@@ -676,7 +676,7 @@ jQuery(document).ready(function () {
     var cur;
 
     if ($(window).width() > 425) {
-        return;
+        
     } else {
         $('.menuA>li').click(function () {
             var a = $(this).find('.subMenu');
@@ -703,24 +703,26 @@ jQuery(document).ready(function () {
     $('.bx-filter-parameters-box-title').click(function () {
         if ($(this).next().css('display') == 'none') {
             $(this).next().slideDown(300);
+            $(this).find('.fa-chevron-down').css('transform', 'rotate(-90deg)');
         } else {
             $(this).next().slideUp(300);
+            $(this).find('.fa-chevron-down').css('transform', 'rotate(0deg)');
         }
 
-        var filter = document.querySelector('.mobFilter i');
-        var tFilter = document.querySelectorAll('.bx-filter-block');
+        /* var filter = document.querySelector('.mobFilter i');
+         var tFilter = document.querySelectorAll('.bx-filter-block');
 
-        setTimeout(function(){
+         setTimeout(function(){
 
-            for (var x = 0; x < tFilter.length; x++) {
-                if (tFilter[x].style.display == 'block') {
-                    document.querySelector('.mobFilter i').style.transform = 'rotate(-90deg)';
-                    return;
-                } else {
-                    document.querySelector('.mobFilter i').style.transform = 'rotate(0deg)';
-                }
-            }
-        },310);
+         for (var x = 0; x < tFilter.length; x++) {
+         if (tFilter[x].style.display == 'block') {
+         document.querySelector('.mobFilter i').style.transform = 'rotate(-90deg)';
+         return;
+         } else {
+         document.querySelector('.mobFilter i').style.transform = 'rotate(0deg)';
+         }
+         }
+         },310);*/
     })
 });
 
