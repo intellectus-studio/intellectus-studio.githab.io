@@ -75,7 +75,8 @@ h4 {
 
 .slider {
   margin-bottom: 100px;
-  position: relative; }
+  position: relative;
+  height: 555px; }
 
 .sliderText {
   text-align: center;
@@ -1219,9 +1220,21 @@ footer, .footer {
   box-sizing: border-box;
   border-bottom: 1px solid #cdcdcd; }
 
+.slide {
+  position: absolute;
+  display: none;
+  left: 0;
+  top: 0; }
+
+.active-slide {
+  display: block; }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .width1100 {
     width: 900px; }
+
+  .slider {
+    height: 420px; }
 
   .newsCurrent {
     width: 425px; }
@@ -1278,6 +1291,10 @@ footer, .footer {
 @media screen and (width: 768px) {
   .width1100 {
     width: 650px; }
+
+  .slider {
+    height: 317px;
+    margin-bottom: 60px; }
 
   .nav, .call1 {
     float: right;
@@ -1476,13 +1493,17 @@ footer, .footer {
   .menuTopFixed {
     top: 0; }
 
-  .slider div {
-    overflow: hidden; }
-    .slider div img {
-      position: relative;
+  .slider {
+    height: 400px; }
+    .slider div {
       height: 400px;
-      left: -361px;
-      max-width: 1920px; }
+      width: 100%;
+      overflow: hidden; }
+      .slider div img {
+        position: relative;
+        height: 400px;
+        left: -361px;
+        max-width: 1920px; }
 
   .sliderText {
     width: 300px;

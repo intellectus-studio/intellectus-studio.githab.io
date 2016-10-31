@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Domoland</title>
+  <title>LPI</title>
   <link type="text/css" rel="stylesheet" href="css/style.css"/>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
         integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
@@ -17,32 +17,54 @@
     <div class="width1100 ">
       <i class="fa fa-phone-square" aria-hidden="true"></i>
       (044) 440-0-44
-      <a>Заказать звонок </a>
+      <a class="call">Заказать звонок </a>
       <i class="fa fa-home" aria-hidden="true"></i>
       Киев, ул. Название Улици, №25 офис 3
     </div>
   </div>
-  <div>
+  <div class="menuTopFixed">
     <div class="width1100 menuTop">
       <a href="index.html"><img src="img/logo.png" alt=""/></a>
+
+
+      <div class="nav">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </div>
+      <div class="call1"><i class="fa fa-phone" aria-hidden="true"></i></div>
       <ul>
-        <li><a href="#">Головна</a></li>
-        <li><a href="#">Про нас</a></li>
-        <li><a href="#">Про програму</a></li>
-        <li><a href="#">Demo версія</a></li>
-        <li><a href="#">Замовити</a></li>
-        <li><a href="#">Новини</a></li>
-        <li><a href="#">Контакти</a></li>
+        <li><a class="active" href="index.html">Головна</a></li>
+        <li><a href="AboutUs.html">Про нас</a></li>
+        <li><a href="AboutProgram.html">Про програму</a></li>
+        <li><a href="demo.html">Demo версія</a></li>
+        <li><a href="order.html">Замовити</a></li>
+        <li><a href="News.html">Новини</a></li>
+        <li><a href="contact.html">Контакти</a></li>
       </ul>
     </div>
   </div>
 </div>
 
 <div class="slider">
-  <div>
+  <div class="slide ">
     <img src="img/slide1.png" alt=""/>
+
+    <div class="sliderText">
+      <span>Програмне Забезпечення</span>
+
+      <p>Лабораторія Промислової Інформатики</p>
+      <a class="btns2" href="demo.html">СПРОБУВАТИ ДЕМО ВЕРСІЮ</a>
+    </div>
   </div>
-  <div></div>
+  <div class="slide active-slide">
+    <img src="img/slide1.png" alt=""/>
+
+    <div class="sliderText">
+      <span>Програмне Забезпечення</span>
+
+      <p>Лабораторія Промислової Інформатики</p>
+      <a class="btns2" href="demo.html">СПРОБУВАТИ ДЕМО ВЕРСІЮ</a>
+    </div>
+  </div>
 </div>
 <div class="width1100">
   <a class="btns">ПРО НАС</a>
@@ -103,7 +125,8 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
           et dolore magna.
         </p>
-      </div>    </div>
+      </div>
+    </div>
 
     <div class="width33">
       <div>
@@ -139,10 +162,10 @@
     <p>
       consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
-    <a href="#">ЧИТАТИ ДАЛІ</a>
+    <a href="News.html">ЧИТАТИ ДАЛІ</a>
   </div>
 
-  <div class="newsCurrent mL20">
+  <div class="newsCurrent mL20 mB50">
     <img src="img/news2.png" alt=""/>
     <span>НАЗВАНИЕ НОВОСТИ</span>
 
@@ -150,32 +173,46 @@
       consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     </p>
 
-    <a href="#">ЧИТАТИ ДАЛІ</a>
+    <a href="News.html">ЧИТАТИ ДАЛІ</a>
   </div>
 </div>
 <div class="clearAll"></div>
 
+<div class="callback">
+  <span>Зворотній дзвінок</span>
+
+  <div class="close">
+    <i class="fa fa-times" aria-hidden="true"></i>
+  </div>
+
+  <form method="post">
+    <input id="name" type="text" placeholder="Введіть Ваше ім'я*"/>
+    <input id="phone" type="text" placeholder="Введіть Ваш Телефон*"/>
+    <input type="submit" value="ВІДПРАВИТИ" class="btns3"/>
+  </form>
+</div>
+<div id="overflow"></div>
 <div class="footer">
   <div class="bg">
     <div class="width1100">
-      <a href="#"><img src="img/logo.png" alt=""/>
+      <a href="#"><img src="img/logo.png" alt="LPI"/>
 
       </a>
 
       <div class="bottomMenu">
         <ul>
-          <li><a href="">Головна</a></li>
-          <li><a href="">Про нас</a></li>
-          <li><a href="">Про програму</a></li>
-          <li><a href="">Demo версія</a></li>
-          <li><a href="">Замовити</a></li>
-          <li><a href="">Новини</a></li>
-          <li><a href="">Контакти</a></li>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="AboutUs.html">Про нас</a></li>
+          <li><a href="AboutProgram.html">Про програму</a></li>
+          <li><a href="demo.html">Demo версія</a></li>
+          <li><a href="order.html">Замовити</a></li>
+          <li><a href="News.html">Новини</a></li>
+          <li><a href="contact.html">Контакти</a></li>
         </ul>
         <div>
           <i class="fa fa-phone-square" aria-hidden="true"></i>
           (044) 440-0-44
-          <a>Заказать звонок </a>
+          <a class="call">Заказать звонок </a>
 
           <i class="fa fa-home" aria-hidden="true"></i>Киев, ул. Название Улици, №25 офис 3
         </div>
