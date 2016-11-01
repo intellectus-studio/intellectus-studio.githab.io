@@ -1552,8 +1552,11 @@ footer, .footer {
   display: none;
   left: 0;
   top: 0;
+  width: 100%;
+  overflow: hidden;
   img {
     height: 555px;
+    width: 100%;
   }
 }
 

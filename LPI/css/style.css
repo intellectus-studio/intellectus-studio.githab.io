@@ -1277,9 +1277,12 @@ footer, .footer {
   position: absolute;
   display: none;
   left: 0;
-  top: 0; }
+  top: 0;
+  width: 100%;
+  overflow: hidden; }
   .slide img {
-    height: 555px; }
+    height: 555px;
+    width: 100%; }
 
 .active-slide {
   display: block; }
