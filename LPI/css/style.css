@@ -1280,6 +1280,8 @@ footer, .footer {
   display: none;
   left: 0;
   top: 0; }
+  .slide img {
+    height: 555px; }
 
 .active-slide {
   display: block; }
@@ -1420,8 +1422,14 @@ footer, .footer {
       width: 440px; }
 
   .btns2 {
-    font-size: 16px; } }
+    font-size: 16px; }
+
+  .slide img {
+    height: 420px; } }
 @media screen and (width: 768px) {
+  .slide img {
+    height: 317px; }
+
   .mCenter:after {
     content: none !important; }
 

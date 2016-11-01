@@ -1553,6 +1553,9 @@ footer, .footer {
   display: none;
   left: 0;
   top: 0;
+  img {
+    height: 555px;
+  }
 }
 
 .active-slide {
@@ -1744,9 +1747,22 @@ footer, .footer {
     font-size: 16px;
   }
 
+  .slide {
+    img {
+      height: 420px;
+    }
+  }
+
 }
 
 @media screen and(width: 768px) {
+
+  .slide {
+    img {
+      height: 317px;
+    }
+  }
+
   .mCenter:after {
     content: none !important;
   }
