@@ -226,6 +226,29 @@ jQuery(document).ready(function () {
         })
     });
 
+    /*newsToggle*/
+
+
+    $('.toggle-button').click(function () {
+
+        var parent = $(this).parent();
+        var div = parent.find("div");
+        var p = parent.find("p").height();
+
+        if (div.height() == 72) {
+            div.animate({
+                'height': p
+            }, 500);
+            parent.find($('.toggle-button')).text('ЗГОРНУТИ');
+        } else {
+            div.animate({
+                'height': '72px'
+            }, 500);
+            parent.find($('.toggle-button')).text('ЧИТАТИ ДАЛІ');
+        }
+    })
+
+
     /*agreement*/
 
     $('.download').on('click', function (e) {

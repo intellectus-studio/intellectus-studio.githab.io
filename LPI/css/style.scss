@@ -755,7 +755,6 @@ footer, .footer {
 }
 
 .newsBg {
-  height: 820px;
   background: #f0f0f0;
   margin-bottom: 70px;
 }
@@ -779,6 +778,25 @@ footer, .footer {
     color: #000;
     line-height: 24px;
   }
+}
+
+.ph72 {
+  div {
+    height: 72px;
+    overflow: hidden;
+  }
+}
+
+.toggle-button {
+  cursor: pointer;
+  color: #003366;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.toggle-button:hover {
+  text-decoration: underline !important;
 }
 
 .demo {
@@ -1314,6 +1332,7 @@ footer, .footer {
   }
 
   textarea {
+    font-size: 16px;
     padding-left: 12px;
     color: #959595;
     padding-top: 12px;
@@ -2764,6 +2783,7 @@ footer, .footer {
         height: 400px;
         left: -361px;
         max-width: 1920px;
+        width: 970px;
       }
     }
   }
