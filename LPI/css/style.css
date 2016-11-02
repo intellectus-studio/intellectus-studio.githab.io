@@ -300,7 +300,7 @@ ul {
     color: #003366;
     font-size: 14px;
     margin-top: 20px;
-    display: block; }
+    display: inline-block; }
 
 .newsCurrent:after {
   content: '';
@@ -1041,6 +1041,7 @@ footer, .footer {
   width: 540px;
   float: left; }
   .lForm input, .lFormOrder input {
+    font-family: roboto, sans-serif;
     margin-top: 24px;
     width: 540px;
     height: 48px;
@@ -1094,6 +1095,7 @@ footer, .footer {
   float: right;
   margin-bottom: 45px; }
   .rFormOrder textarea {
+    font-family: roboto, sans-serif;
     resize: none;
     padding-left: 12px;
     color: #959595;
@@ -2597,6 +2599,8 @@ footer, .footer {
     filter: grayscale(0.2) sepia(1) contrast(0.1);
     -web-filter: grayscale(0.2) sepia(1) contrast(0.1); }
 
+  .newsCurrent a:hover {
+    text-decoration: underline !important; }
   .newsCurrent div {
     width: 535px;
     height: 263px;

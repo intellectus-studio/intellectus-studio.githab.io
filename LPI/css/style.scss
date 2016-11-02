@@ -364,7 +364,7 @@ ul {
     color: #003366;
     font-size: 14px;
     margin-top: 20px;
-    display: block;
+    display: inline-block;
   }
 }
 
@@ -1274,6 +1274,7 @@ footer, .footer {
   width: 540px;
   float: left;
   input {
+    font-family: roboto, sans-serif;
     margin-top: 24px;
     width: 540px;
     height: 48px;
@@ -1338,6 +1339,7 @@ footer, .footer {
   float: right;
   margin-bottom: 45px;
   textarea {
+    font-family: roboto, sans-serif;
     resize: none;
     padding-left: 12px;
     color: #959595;
@@ -3344,6 +3346,9 @@ footer, .footer {
   }
 
   .newsCurrent {
+    a:hover {
+      text-decoration: underline !important;
+    }
     div {
       width: 535px;
       height: 263px;
