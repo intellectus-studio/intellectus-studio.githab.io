@@ -2089,6 +2089,7 @@ footer, .footer {
   }
   .NewsContent {
     width: 625px;
+    top: -25px;
   }
 
   .partners1 {
@@ -2742,6 +2743,12 @@ footer, .footer {
   }
   .menuTopFixed {
     top: 0;
+  }
+
+  .toggle-button {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .sliderText {

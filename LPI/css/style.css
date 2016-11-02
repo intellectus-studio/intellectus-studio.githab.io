@@ -1654,7 +1654,8 @@ footer, .footer {
       margin-left: 15px; }
 
   .NewsContent {
-    width: 625px; }
+    width: 625px;
+    top: -25px; }
 
   .partners1 {
     width: 768px; }
@@ -2143,6 +2144,11 @@ footer, .footer {
 
   .menuTopFixed {
     top: 0; }
+
+  .toggle-button {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
   .sliderText {
     margin-left: -50%; }
