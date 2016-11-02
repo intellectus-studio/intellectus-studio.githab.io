@@ -97,7 +97,7 @@ jQuery(document).ready(function () {
 
     $('.call, .call1').click(function () {
         var callbackForm = $('.callback');
-
+           
         if (callbackForm.css('display') == 'none') {
             if ($(window).width() >= 1024) {
                 callbackForm.css('top', $(this).position().top + $(this).height() + 15);
@@ -113,9 +113,15 @@ jQuery(document).ready(function () {
                 callbackForm.css('left', '50%');
             }
             callbackForm.slideDown(300);
-        } else {
+        }        
+        else {
             callbackForm.slideUp(300);
         }
+    })
+    
+    $('.close').click(function(){
+    var callbackForm = $('.callback');
+     callbackForm.slideUp(300);
     })
 
     $(document).mouseup(function (e) {
