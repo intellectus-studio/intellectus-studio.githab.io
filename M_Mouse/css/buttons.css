@@ -553,7 +553,7 @@
     box-shadow: none;
 	-webkit-animation: anim-moema-1 0.3s forwards;
 	animation: anim-moema-1 0.3s forwards;
-	border-color:  rgb(250,28,247);
+	border-color:  #37474f;;
 
 }
 .button--moema.button--inverted:hover {
