@@ -2657,8 +2657,8 @@ label {
   position: relative;
   text-align: center;
   overflow: hidden;
-  background: url("../images/bg_add.png") center center no-repeat;
-  background-size: cover;
+  background: url("../images/bg_add.png") no-repeat center center;
+  /*background-size: cover;*/
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 30px;
@@ -5221,6 +5221,9 @@ label {
         padding-top: 10px !important;
         padding-bottom: 10px !important;
     }
+
+    .burger:hover {
+        border-radius: 40%; }
 }
 
 @media screen and (max-width: 870px) {
