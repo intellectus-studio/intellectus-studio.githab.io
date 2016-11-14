@@ -5242,6 +5242,11 @@ label {
 @media screen and (max-width: 830px) {
     .carousel_picture .hidden_price {
         font-size: 10px;
+        width: 60%;
+    }
+
+    .carousel_picture .price {
+        width: 40%;
     }
 }
 
