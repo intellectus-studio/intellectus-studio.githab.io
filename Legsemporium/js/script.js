@@ -57,9 +57,15 @@ jQuery(document).ready(function(){
         jQuery('.mobile_nav').removeClass('display_n').toggleClass('card_slide_left card_slide_right');
         jQuery('.mobile_shadow').fadeIn(300);
 
+        jQuery(window).scroll(function (){
+            jQuery('.mobile_nav').removeClass('card_slide_right').addClass('card_slide_left');
+            jQuery('.mobile_shadow').fadeOut(300);
+        });
+
         jQuery(document).mouseup(function (e) {
-            var popup_card = jQuery(".mobile_nav");
-            if (!popup_card.is(e.target) && popup_card.has(e.target).length == 0) {
+            var popup_card = jQuery('.mobile_nav');
+            var popup_burger = jQuery('.burger i');
+            if (!popup_burger.is(e.target) && !popup_card.is(e.target) && popup_card.has(e.target).length == 0) {
                 popup_card.removeClass('card_slide_right').addClass('card_slide_left');
                 jQuery('.mobile_shadow').fadeOut(300);
             }
@@ -815,8 +821,8 @@ backgroundChange();
 
     //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<hot/new>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    jQuery('.menu_item:nth-child(3) .hot').css('display','block');
-    jQuery('.menu_item:nth-child(4) .new').css('display','block');
+    // jQuery('.menu_item:nth-child(3) .hot').css('display','block');
+    // jQuery('.menu_item:nth-child(4) .new').css('display','block');
 
                                                                 //fixed menu
 

@@ -5239,6 +5239,12 @@ label {
     float: none;
     width: 100%; } }
 
+@media screen and (max-width: 830px) {
+    .carousel_picture .hidden_price {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .slick-prev, .slick-next {
         display: none;
@@ -5259,9 +5265,9 @@ label {
   .filter_block_col {
     text-align: center;
     padding: 0;
-    width: 50%; }
+    width: 100%; }
   .filter_block {
-    width: 100%;
+    width: 50%;
     padding: 30px 5px 0; }
   .kill_sale .sale {
     display: none; }
