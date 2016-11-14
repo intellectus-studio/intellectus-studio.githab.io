@@ -4137,7 +4137,7 @@ hr {
     border-bottom: 6px solid #FFC107;
 }
 
-@media screen and (width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
     .width1000 {
         width: 900px;
     }
