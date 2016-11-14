@@ -7,6 +7,13 @@ var prev = jQuery('.arrow_background_prev');
 
 jQuery(document).ready(function(){
 
+    // checkout
+
+    jQuery('.header_form').on('click', function(){
+        jQuery(this).next().find('.table_wrapper').slideToggle();
+        jQuery(this).toggleClass('header_form_active');
+    });
+
     var img = jQuery('.slide_img');
     var slider = jQuery('.slider');
     var slideContent = jQuery('.slide_content');
@@ -482,6 +489,7 @@ backgroundChange();
             {
                 breakpoint: 768,
                 settings: {
+                    arrows: false,
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     cssEase: 'ease-out',
@@ -491,6 +499,7 @@ backgroundChange();
             {
                 breakpoint: 480,
                 settings: {
+                    arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     cssEase: 'ease-out',
@@ -521,6 +530,7 @@ backgroundChange();
             {
                 breakpoint: 768,
                 settings: {
+                    arrows: false,
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     cssEase: 'ease-out',
@@ -530,6 +540,7 @@ backgroundChange();
             {
                 breakpoint: 480,
                 settings: {
+                    arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     cssEase: 'ease-out',
@@ -560,6 +571,7 @@ backgroundChange();
             {
                 breakpoint: 768,
                 settings: {
+                    arrows: false,
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     cssEase: 'ease-out',
@@ -569,6 +581,7 @@ backgroundChange();
             {
                 breakpoint: 480,
                 settings: {
+                    arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     cssEase: 'ease-out',
