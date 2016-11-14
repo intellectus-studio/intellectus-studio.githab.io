@@ -2657,7 +2657,7 @@ label {
   position: relative;
   text-align: center;
   overflow: hidden;
-  background: url("../images/bg_add.png") no-repeat center center;
+  background: url("../images/bg_add.png");
   /*background-size: cover;*/
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
