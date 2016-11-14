@@ -301,6 +301,14 @@ jQuery(document).ready(function () {
 
     })
 
+
+    //house close
+    $('.close i').click(function () {
+        $('.close i').parent().parent().animate({opacity: 0}, 500, function () {
+            $(this).remove()
+        });
+    })
+
     // go to top button
 
     if ($(document).scrollTop() > 1000) {
