@@ -539,10 +539,7 @@ table {
 .logo {
   top: 28px;
   position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  left: 32px;
   width: 64%;
   border-bottom: 1px solid #a5a5a5; }
   .logo img {
@@ -553,10 +550,7 @@ table {
 
 .contact_date {
   top: 180px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  left: 26px;
   width: 130px;
   position: absolute;
   font-family: "PTSans Regular", sans-serif;
@@ -567,10 +561,7 @@ table {
 
 .lang {
   top: 264px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  left: 26px;
   position: absolute;
   width: 130px;
   border: 1px solid #a5a5a5; }
@@ -595,10 +586,7 @@ table {
 .social {
   position: absolute;
   bottom: -320px;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  left: 50%;
+  left: 48px;
   width: 87px;
   margin: 0 auto;
   -webkit-transition: bottom .3s ease-in-out;
