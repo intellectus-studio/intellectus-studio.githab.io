@@ -1,5 +1,20 @@
 jQuery(document).ready(function(){
 
+    // scroll
+
+
+    var asideWidth = jQuery('aside').outerWidth();
+    var wrapperWidth = jQuery('aside .wrapper').outerWidth();
+    var scrollWidth = wrapperWidth-asideWidth;
+    console.log(scrollWidth);
+
+    if ( scrollWidth < 18) {
+       jQuery('aside .wrapper').css('padding-right', '0');
+       jQuery('.contact_date').css('margin-left', '-18px');
+        console.log('scroll');
+    }
+
+
     //jQuery(window).resize(function(){
     //    if (jQuery(window).width()<1024) {
     //        $('body *').unbind('mouseenter mouseleave');
