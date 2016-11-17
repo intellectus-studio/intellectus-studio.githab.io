@@ -3328,10 +3328,10 @@ footer {
     background-size: inherit; }
   .mobile_wrapper {
     display: block; }
-  aside {
-    -webkit-transform: translateX(-220px);
-        -ms-transform: translateX(-220px);
-            transform: translateX(-220px); }
+  /*aside {*/
+    /*-webkit-transform: translateX(-220px);*/
+        /*-ms-transform: translateX(-220px);*/
+            /*transform: translateX(-220px); }*/
   .index {
     margin-left: 0; } }
 
