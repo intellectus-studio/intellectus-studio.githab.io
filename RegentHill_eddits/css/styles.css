@@ -2462,7 +2462,9 @@ aside {
     width: 33.333333%; }
 
 .contacts-header_block {
-  background: url("../images/contacts_header.png") no-repeat center center; }
+  background: url("../images/contacts_header.png") no-repeat center center;
+background-size: cover;
+}
   .contacts-header_block .header-for-all {
     width: 100%; }
   .contacts-header_block .social {
@@ -2601,7 +2603,9 @@ aside {
     text-transform: none; }
 
 .news-header_block {
-  background: url("../images/news_header.png") no-repeat center center; }
+  background: url("../images/news_header.png") no-repeat center center;
+background-size: cover;
+}
 
 .gallery_bread_crumbs_block {
   float: left; }
@@ -2766,7 +2770,8 @@ aside {
               backface-visibility: hidden; }
 
 .service-header_block {
-  background: url("../images/service_header.jpg") no-repeat center center; }
+  background: url("../images/service_header.jpg") no-repeat center center;
+background-size: cover;}
 
 .service_for_one_block .one_item {
   float: none;
@@ -2918,7 +2923,9 @@ aside {
     margin-bottom: 24px; }
 
 .about-header_block {
-  background: url("../images/contacts_header.png") no-repeat center center; }
+  background: url("../images/contacts_header.png") no-repeat center center;
+  background-size: cover;
+}
 
 .build_way {
   margin-top: 96px;
@@ -3127,7 +3134,9 @@ aside {
   padding: 0 24px; }
 
 .event-header_block {
-  background: url("../images/event_header.png") no-repeat center center; }
+  background: url("../images/event_header.png") no-repeat center center;
+background-size: cover;
+}
 
 .wedding .header-for-all {
   margin-top: 90px;
@@ -3200,7 +3209,9 @@ aside {
     display: block; }
 
 .apartment-header_block {
-  background: url("../images/apartment_header.png") no-repeat center center; }
+  background: url("../images/apartment_header.png") no-repeat center center;
+  background-size: cover;
+}
 
 .apartment {
   margin-top: 72px; }
