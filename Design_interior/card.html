@@ -12,6 +12,7 @@
     <link href="css/bootstrap-grid.css" rel="stylesheet" />
     <!--<link href="css/jquery.jscrollpane.css" rel="stylesheet" />-->
     <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <link href="css/lightbox.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
 
 <body style="background: url('images/card_bg.jpg') no-repeat fixed center center;
@@ -225,7 +226,7 @@
                         </ul>
                     </li>
                     <li><a href="service.html">Услуги</a></li>
-                    <li><a href="about_design.html">О дизайне</a></li>
+                    <li><a href="news_all.html">О дизайне</a></li>
                     <li><a href="contacts.html">Контакты</a></li>
                 </ul>
             </menu>
@@ -246,8 +247,10 @@
                 <div class="clearfix"></div>
                 <div class="img_wrapper">
                     <div class="col-lg-4">
-                        <div class="img_container">
-                            <img src="images/card_img.jpg" alt="">
+                        <div class="img_container zoom">
+                            <a href="images/card_img.jpg" data-lightbox="image-1" data-title="My caption">
+                                <img src="images/card_img.jpg" alt="">
+                            </a>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -263,7 +266,7 @@
                                         </tr>
                                         <tr>
                                             <td>Материал:</td>
-                                            <td>Дерефо</td>
+                                            <td>Дерево</td>
                                         </tr>
                                         <tr>
                                             <td>Размер:</td>
@@ -356,6 +359,7 @@
     <!--<script src="js/jquery.mousewheel.js"></script>-->
     <!--<script src="js/jquery.jscrollpane.js"></script>-->
     <script src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="js/lightbox.js"></script>
     <script src="js/script.js"></script>
 
 </body>
