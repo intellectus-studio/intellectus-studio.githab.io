@@ -1068,7 +1068,7 @@
         </div>
     </div>
 
-    <form class="content_checkout">
+    <div class="content_checkout">
         <div class="new_container clearfix">
             <div class="left_checkout">
                 <div class="question">Returning customer?<span> Click here to login</span></div>
@@ -1089,7 +1089,7 @@
                         <input type="submit" class="button" value="LOGIN">
                         <div class="clearfix remember_bottom">
                         <input type="checkbox" name="remember" id="remember_question">
-                        <label for="remember_question">
+                        <label for="remember_question" >
                             Remember Me
                         </label>
                         </div>
@@ -1154,11 +1154,13 @@
                         </div>
                     </form>
                 </div>
-                <span>Email Address</span>
-                <input type="text" required>
             </div>
             <div class="right_checkout">
-                <div class="forminpast" action="">
+                <form class="forminpast" action="">
+                    <div class="add_in">
+                        <span class="add_inform">Email Address</span>
+                        <input class="add_inform" type="text" required>
+                    </div>
                     <div class="header_form">
                         your order
                     </div>
@@ -1229,10 +1231,10 @@
                       </div>
                     </div>
                     <input type="submit" value="CONTINUE TO PAYMENT" class="button">
-                </div>
+                </form>
             </div>
         </div>
-    </form>
+    </div>
 
 </main>
 

@@ -4679,6 +4679,39 @@ label {
   margin-top: 40px; }
 
 /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>CHECKOUT>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+span.add_inform  {
+    font-family: "Karla Regular", sans-serif;
+    font-size: 16px;
+    color: #888888;
+    margin-bottom: 5px;
+}
+
+.add_in {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+span.add_inform:after {
+    content: "*";
+    color: #D4364C;
+    font-size: 18px;
+}
+
+input.add_inform {
+    font-family: "Karla Regular", sans-serif;
+    font-size: 16px;
+    color: #000000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #d0d0d0;
+    width: 100%;
+    text-indent: 10px;
+    height: 40px;
+    padding: 0;
+}
+
 .checkout_table .close_animation_card, .wishlist_item .close_animation_card {
   position: absolute;
   top: 50%;
@@ -4788,7 +4821,7 @@ label {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
     .question_container form > div input {
-      -webkit-appearance: none;
+      /*-webkit-appearance: none;*/
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
       padding: 0;
@@ -4822,6 +4855,10 @@ label {
     .question_container form input[type=submit]:hover {
       background: #000000;
       color: #fff; }
+
+    #remember_question {
+        width: 15px;
+    }
 
 .content_checkout {
   margin-top: 50px;
@@ -4946,7 +4983,7 @@ label {
     background-repeat: no-repeat;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    padding: 30px 20px 30px 20px;
+    padding: 10px 20px 30px 20px;
     background-color: #f9f9f9; }
     .right_checkout .forminpast .button {
       line-height: 30px;
@@ -5163,6 +5200,10 @@ label {
   display: none; }
 
 @media screen and (max-width: 1120px) {
+
+    .right_checkout .forminpast {
+        padding: 10px 0;
+    }
   .discount_list_content .models {
     width: 33.33333%; }
   .logo {
@@ -5340,8 +5381,9 @@ label {
     margin: 0 10px; }
   .left_checkout, .right_checkout {
     padding: 0; }
-  .right_checkout .forminpast {
-    padding: 30px 5px 30px 5px; }
+    .right_checkout .forminpast {
+        padding: 10px 0;
+    }
   .right_checkout table {
     padding: 0 10px; }
   .content_checkout {

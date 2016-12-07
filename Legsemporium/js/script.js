@@ -628,7 +628,7 @@ backgroundChange();
     });
     //in checkout
     jQuery('.remember_bottom a').click(function(){
-        jQuery(this).parent().parent().next().slideToggle();
+        jQuery(this).parent().parent().parent().next().slideToggle();
         return false;
     });
 
