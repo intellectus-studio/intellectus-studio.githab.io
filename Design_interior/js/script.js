@@ -260,8 +260,8 @@ jQuery(document).ready(function(){
 
         windowWidth = jQuery(window).width();
         windowHeight = jQuery(window).height();
-        console.log(windowHeight);
-        console.log(windowWidth);
+        // console.log(windowHeight);
+        // console.log(windowWidth);
         blockHeight = block.height();
         blockLeftHeight = blockLeft.height();
         breadcrumbsHeight = breadcrumbs.height();
